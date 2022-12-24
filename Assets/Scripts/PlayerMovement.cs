@@ -2,7 +2,6 @@ using UnityEngine;
 
 namespace CraftsmanHero {
     public class PlayerMovement : MonoBehaviour {
-        private PlayerControl input;
         private Rigidbody2D rb2d;
         private Animator animator;
         private SpriteRenderer spriteRenderer;
@@ -19,13 +18,12 @@ namespace CraftsmanHero {
         public Transform bulletParent;
 
         private void Awake() {
-            input = new PlayerControl();
             rb2d = GetComponent<Rigidbody2D>();
             animator = GetComponentInChildren<Animator>();
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();
             _hand = Helper.getChildGameObject(gameObject, "hand");
 
-            input.Player.Fire.performed += callback => {
+            GameManager.Instance.input.Player.Fire.performed += callback => {
                 GameObject bullet = Instantiate(swordBullet, transform);
                 bullet.transform.SetParent(bulletParent);
                 bullet.GetComponent<SpriteRenderer>().flipY = isSecondHit;
@@ -34,7 +32,7 @@ namespace CraftsmanHero {
         }
 
         void Update() {
-            move = input.Player.Move.ReadValue<Vector2>();
+            move = GameManager.Instance.input.Player.Move.ReadValue<Vector2>();
 
             // Toggle sprite run if it is moving
             animator.SetBool("run", move != Vector2.zero);
@@ -46,7 +44,7 @@ namespace CraftsmanHero {
             }
 
             // rotate hand
-            Vector2 lookDelta = input.Player.Look.ReadValue<Vector2>();
+            Vector2 lookDelta = GameManager.Instance.input.Player.Look.ReadValue<Vector2>();
             if (lookDelta != Vector2.zero) {
                 //Debug.Log(lookDelta);
             }
@@ -54,14 +52,6 @@ namespace CraftsmanHero {
 
         private void FixedUpdate() {
             rb2d.velocity = move * MoveSpeed;
-        }
-
-        private void OnEnable() {
-            input.Enable();
-        }
-
-        private void OnDisable() {
-            input.Disable();
         }
     }
 }
