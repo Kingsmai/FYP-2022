@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Entity
   layers:
   - Default
   - TransparentFX
@@ -41,6 +42,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: OnTheGround
+  - name: Shadows
+    uniqueID: 1739566017
+    locked: 0
+  - name: Objects
     uniqueID: 1256621251
+    locked: 0
+  - name: Weapons
+    uniqueID: 3745280311
+    locked: 0
+  - name: Bullets
+    uniqueID: 799626055
     locked: 0

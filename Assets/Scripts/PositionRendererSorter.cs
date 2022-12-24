@@ -12,7 +12,7 @@ namespace CraftsmanHero {
 
         public Transform ParentTransform;
         private int _sortingOrderBase = 10;
-        public int offset = -10;
+        public int offset = -1;
         public bool refreshOnUpdate = false;
         private Renderer _renderer;
 
