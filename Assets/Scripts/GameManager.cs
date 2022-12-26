@@ -4,18 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : Singleton<GameManager> {
-    public PlayerControl input;
+    public GameObject CurrentPlayer;
 
-    protected override void Awake() {
-        base.Awake();
-        input = new PlayerControl();
-    }
-
-    private void OnEnable() {
-        input.Enable();
-    }
-
-    private void OnDisable() {
-        input.Disable();
+    public void SetCurrentPlayer(GameObject player) {
+        CurrentPlayer = player;
     }
 }

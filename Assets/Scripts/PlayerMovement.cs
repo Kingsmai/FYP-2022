@@ -23,16 +23,19 @@ namespace CraftsmanHero {
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();
             _hand = Helper.getChildGameObject(gameObject, "hand");
 
-            GameManager.Instance.input.Player.Fire.performed += callback => {
+            InputManager.Instance.Input.Player.Fire.performed += callback => {
                 GameObject bullet = Instantiate(swordBullet, transform);
                 bullet.transform.SetParent(bulletParent);
                 bullet.GetComponent<SpriteRenderer>().flipY = isSecondHit;
                 isSecondHit = !isSecondHit;
             };
+
+            // Register player to GameManager
+            GameManager.Instance.SetCurrentPlayer(gameObject);
         }
 
         void Update() {
-            move = GameManager.Instance.input.Player.Move.ReadValue<Vector2>();
+            move = InputManager.Instance.Input.Player.Move.ReadValue<Vector2>();
 
             // Toggle sprite run if it is moving
             animator.SetBool("run", move != Vector2.zero);
@@ -44,17 +47,7 @@ namespace CraftsmanHero {
             }
 
             // rotate hand
-            Vector2 mouseScreenPosition = GameManager.Instance.input.Player.Look.ReadValue<Vector2>();
-            Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(new Vector3(
-                mouseScreenPosition.x, mouseScreenPosition.y, Camera.main.nearClipPlane
-                ));
-            float distance = Vector3.Distance(transform.position, mouseWorldPosition);
-
-            Vector3 direction = (mouseWorldPosition - transform.position).normalized;
-
-            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
-            _hand.transform.rotation = Quaternion.Euler(0, 0, angle);
+            _hand.transform.rotation = Quaternion.Euler(0, 0, InputManager.Instance.Angle);
         }
 
         private void FixedUpdate() {
