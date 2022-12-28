@@ -18,7 +18,7 @@ namespace CraftsmanHero {
 
         private void Awake() {
             _renderer = GetComponent<Renderer>();
-            _parentTransform = transform.parent;
+            _parentTransform = transform.parent.transform.parent;
         }
 
         private void LateUpdate() {

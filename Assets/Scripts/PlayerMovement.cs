@@ -24,7 +24,6 @@ namespace CraftsmanHero {
             _hand = Helper.getChildGameObject(gameObject, "hand");
 
             InputManager.Instance.Input.Player.Fire.performed += callback => {
-                Debug.Log(InputManager.Instance.MouseDirection);
                 Vector3 bulletSpawnPosition = _hand.transform.position + new Vector3(
                     InputManager.Instance.MouseDirection.x, InputManager.Instance.MouseDirection.y, 0);
                 Quaternion bulletSpawnRotation = Quaternion.Euler(0, 0, InputManager.Instance.MouseAngle);
