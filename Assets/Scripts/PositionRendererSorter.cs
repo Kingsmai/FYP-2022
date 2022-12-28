@@ -7,7 +7,7 @@ namespace CraftsmanHero {
         // (if any, the game object that moves position)
         // to the ParentTransform variable.
 
-        public Transform ParentTransform;
+        private Transform _parentTransform;
         private int _sortingOrderBase = 10;
         public int offset = 0;
         public bool refreshOnUpdate = true;
@@ -18,6 +18,7 @@ namespace CraftsmanHero {
 
         private void Awake() {
             _renderer = GetComponent<Renderer>();
+            _parentTransform = transform.parent;
         }
 
         private void LateUpdate() {
@@ -25,8 +26,8 @@ namespace CraftsmanHero {
             if (_timer < 0) {
                 // Improve performance, refresh every 100 ms
                 _timer = _timerMax;
-                if (ParentTransform != null) {
-                    _renderer.sortingOrder = (int)(_sortingOrderBase - ParentTransform.position.y - offset);
+                if (_parentTransform != null) {
+                    _renderer.sortingOrder = (int)(_sortingOrderBase - _parentTransform.position.y - offset);
                 } else {
                     _renderer.sortingOrder = (int)(_sortingOrderBase - transform.position.y - offset);
                 }
