@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CraftsmanHero
-{
-    public class Bullets : MonoBehaviour
-    {
+namespace CraftsmanHero {
+    public class Bullets : MonoBehaviour {
         private SpriteRenderer _spriteRenderer;
 
         private float fadeDuration = 1;
@@ -13,7 +11,6 @@ namespace CraftsmanHero
 
         private void Awake() {
             _spriteRenderer = GetComponent<SpriteRenderer>();
-            
         }
 
         private void Update() {
@@ -25,10 +22,11 @@ namespace CraftsmanHero
             }
         }
 
-        private void OnTriggerEnter(Collider other) {
-            if (other.gameObject.CompareTag("Entity")) {
-                EntityStrobe strobeHelper = other.GetComponent<EntityStrobe>();
+        private void OnTriggerEnter2D(Collider2D collision) {
+            if (collision.gameObject.CompareTag("Entity")) {
+                EntityStrobe strobeHelper = collision.GetComponent<EntityStrobe>();
                 strobeHelper.StrobeColor(1, Color.white);
+                Debug.Log("Hit!");
             }
         }
     }
