@@ -24,7 +24,11 @@ namespace CraftsmanHero {
             _hand = Helper.getChildGameObject(gameObject, "hand");
 
             InputManager.Instance.Input.Player.Fire.performed += callback => {
-                GameObject bullet = Instantiate(swordBullet, transform);
+                Debug.Log(InputManager.Instance.MouseDirection);
+                Vector3 bulletSpawnPosition = _hand.transform.position + new Vector3(
+                    InputManager.Instance.MouseDirection.x, InputManager.Instance.MouseDirection.y, 0);
+                Quaternion bulletSpawnRotation = Quaternion.Euler(0, 0, InputManager.Instance.MouseAngle);
+                GameObject bullet = Instantiate(swordBullet, bulletSpawnPosition, bulletSpawnRotation);
                 bullet.transform.SetParent(bulletParent);
                 bullet.GetComponent<SpriteRenderer>().flipY = isSecondHit;
                 isSecondHit = !isSecondHit;
@@ -39,15 +43,11 @@ namespace CraftsmanHero {
 
             // Toggle sprite run if it is moving
             animator.SetBool("run", move != Vector2.zero);
-            if (move.x < 0) {
-                spriteRenderer.flipX = true;
-            }
-            if (move.x > 0) {
-                spriteRenderer.flipX = false;
-            }
+
+            spriteRenderer.flipX = (InputManager.Instance.MouseAngle > 90 || InputManager.Instance.MouseAngle < -90);
 
             // rotate hand
-            _hand.transform.rotation = Quaternion.Euler(0, 0, InputManager.Instance.Angle);
+            _hand.transform.rotation = Quaternion.Euler(0, 0, InputManager.Instance.MouseAngle);
         }
 
         private void FixedUpdate() {

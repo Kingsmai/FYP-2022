@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Threading;
 using UnityEngine;
 
 namespace CraftsmanHero {
@@ -12,8 +9,8 @@ namespace CraftsmanHero {
 
         public Transform ParentTransform;
         private int _sortingOrderBase = 10;
-        public int offset = -1;
-        public bool refreshOnUpdate = false;
+        public int offset = 0;
+        public bool refreshOnUpdate = true;
         private Renderer _renderer;
 
         private float _timer;

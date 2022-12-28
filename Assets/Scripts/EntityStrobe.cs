@@ -1,12 +1,8 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace CraftsmanHero
-{
-    public class EntityStrobe : MonoBehaviour
-    {
+namespace CraftsmanHero {
+    public class EntityStrobe : MonoBehaviour {
         private bool strobing = false;
 
         public void StrobeColor(int _strobeCount, Color _toStrobe) {

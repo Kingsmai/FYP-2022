@@ -26,7 +26,6 @@ namespace CraftsmanHero {
             if (collision.gameObject.CompareTag("Entity")) {
                 EntityStrobe strobeHelper = collision.GetComponent<EntityStrobe>();
                 strobeHelper.StrobeColor(1, Color.white);
-                Debug.Log("Hit!");
             }
         }
     }
