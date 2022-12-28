@@ -20,7 +20,7 @@ namespace CraftsmanHero {
         private void Awake() {
             rb2d = GetComponent<Rigidbody2D>();
             animator = GetComponentInChildren<Animator>();
-            spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+            spriteRenderer = Helper.getChildGameObject(gameObject, "body").GetComponent<SpriteRenderer>();
             _hand = Helper.getChildGameObject(gameObject, "hand");
 
             InputManager.Instance.Input.Player.Fire.performed += callback => {
