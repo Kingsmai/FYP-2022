@@ -43,10 +43,17 @@ namespace CraftsmanHero {
             // Toggle sprite run if it is moving
             animator.SetBool("run", move != Vector2.zero);
 
-            spriteRenderer.flipX = (InputManager.Instance.MouseAngle > 90 || InputManager.Instance.MouseAngle < -90);
+            DebugManager.Log(InputManager.Instance.MouseAngle);
 
-            // rotate hand
-            _hand.transform.rotation = Quaternion.Euler(0, 0, InputManager.Instance.MouseAngle);
+            float angle = InputManager.Instance.MouseAngle;
+
+            if (angle > -90 && angle < 90) {
+                transform.localScale = new Vector3(1, 1, 1);
+            } else {
+                transform.localScale = new Vector3(-1, 1, 1);
+                angle = angle > 90 ? angle % 90 - 90 : angle % 90 + 90;
+            }
+            _hand.transform.rotation = Quaternion.Euler(0, 0, angle);
         }
 
         private void FixedUpdate() {
