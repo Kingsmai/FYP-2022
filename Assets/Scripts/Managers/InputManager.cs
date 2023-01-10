@@ -15,7 +15,7 @@ namespace CraftsmanHero {
         }
 
         private void Update() {
-            SetMouseAngle();
+            MouseAngle = GetMouseAngle();
         }
 
         private void OnEnable() {
@@ -26,13 +26,17 @@ namespace CraftsmanHero {
             Input.Disable();
         }
 
-        public void SetMouseAngle() {
+        public float GetMouseAngle() {
             Vector3 mouseScreenDirection = Input.Player.Look.ReadValue<Vector2>();
             MouseDirection = new Vector3(
                mouseScreenDirection.x - Screen.width / 2,
                mouseScreenDirection.y - Screen.height / 2,
                0).normalized;
-            MouseAngle = Mathf.Atan2(MouseDirection.y, MouseDirection.x) * Mathf.Rad2Deg;
+            return Mathf.Atan2(MouseDirection.y, MouseDirection.x) * Mathf.Rad2Deg;
+        }
+
+        public Vector2 GetMovementDirection() {
+            return Input.Player.Move.ReadValue<Vector2>();
         }
     }
 }

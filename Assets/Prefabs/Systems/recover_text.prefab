@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2483284515503729524}
   - component: {fileID: 9144047807537684947}
   m_Layer: 0
-  m_Name: damage_text
+  m_Name: recover_text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 0, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -185,4 +185,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 600c199097cba824c9b9fdc806f623f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textColor: {r: 1, g: 0, b: 0, a: 255}
+  textColor: {r: 0, g: 1, b: 0, a: 255}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7869221835758394500}
   - component: {fileID: 7869221835758394501}
   - component: {fileID: 7869221835758394502}
-  - component: {fileID: -8341856823105417971}
+  - component: {fileID: 7281149551990212804}
   m_Layer: 0
   m_Name: sword_bullet
   m_TagString: Untagged
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 799626055
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -1208470879, guid: ddeadd25ad5ad3f44b834ecb40a66abe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -138,7 +138,7 @@ PolygonCollider2D:
       - {x: -1, y: -1.5}
       - {x: 0, y: -1.25}
       - {x: 1, y: -0.5}
---- !u!114 &-8341856823105417971
+--- !u!114 &7281149551990212804
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,6 +147,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7869221835758394503}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5794582e4b9abb6448d0daafae52ecae, type: 3}
+  m_Script: {fileID: 11500000, guid: 103727c434668a849ae0587aa9bcd77f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

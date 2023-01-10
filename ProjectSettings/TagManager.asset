@@ -39,11 +39,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
+  - name: Floor
+    uniqueID: 2461054943
     locked: 0
   - name: Shadows
     uniqueID: 1739566017
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: Characters
     uniqueID: 1256621251

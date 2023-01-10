@@ -17,6 +17,8 @@ namespace CraftsmanHero {
         private bool isSecondHit;
         public Transform bulletParent;
 
+        private bool _isFacingRight = true;
+
         private void Awake() {
             rb2d = GetComponent<Rigidbody2D>();
             animator = GetComponentInChildren<Animator>();
@@ -46,18 +48,33 @@ namespace CraftsmanHero {
             DebugManager.Log(InputManager.Instance.MouseAngle);
 
             float angle = InputManager.Instance.MouseAngle;
+            Vector3 scale = transform.localScale;
 
-            if (angle > -90 && angle < 90) {
-                transform.localScale = new Vector3(1, 1, 1);
-            } else {
-                transform.localScale = new Vector3(-1, 1, 1);
+            //if (angle >= -90 && angle <= 90 && !_isFacingRight) {
+            //    flip();
+            //} else if (((angle >= -180 && angle < -90) || (angle > 90 && angle <= 180)) && _isFacingRight) {
+            //    flip();
+            //    angle = angle > 90 ? angle % 90 - 90 : angle % 90 + 90;
+            //}
+
+            if (angle >= -90 && angle <= 90) {
+                scale.x = 1;
+            } else if ((angle >= -180 && angle < -90) || (angle > 90 && angle <= 180)) {
+                scale.x = -1;
                 angle = angle > 90 ? angle % 90 - 90 : angle % 90 + 90;
             }
+            transform.localScale = scale;
             _hand.transform.rotation = Quaternion.Euler(0, 0, angle);
         }
 
         private void FixedUpdate() {
             rb2d.velocity = move * MoveSpeed;
+        }
+
+        private void Flip() {
+            _isFacingRight = !_isFacingRight;
+
+            transform.Rotate(0f, 180f, 0f);
         }
     }
 }

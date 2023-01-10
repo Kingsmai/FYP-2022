@@ -7,19 +7,20 @@ namespace CraftsmanHero {
         Animator _anim;
         SpriteRenderer _spriteRenderer;
         private Transform _damageEffectParent;
-        DamageText _currentDamageText;
+        FloatingText _currentDamageText;
 
         private void Awake() {
             _anim = GetComponentInChildren<Animator>();
             _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-            _damageEffectParent = Helper.getChildGameObject(gameObject, "damage_effect").transform;
+            _damageEffectParent = new GameObject("damage").transform;
+            _damageEffectParent.parent = transform;
         }
 
         public void GetDamage(int damageAmount, Vector3 position) {
             _spriteRenderer.flipX = (position.x > transform.position.x);
             _anim.SetTrigger("Hit");
             if (_currentDamageText == null) {
-                _currentDamageText = Instantiate(FontsManager.Instance.damageText, _damageEffectParent).GetComponent<DamageText>();
+                _currentDamageText = Instantiate(TextsManager.Instance.damageText, _damageEffectParent).GetComponent<FloatingText>();
             }
             _currentDamageText.UpdateText(damageAmount);
         }

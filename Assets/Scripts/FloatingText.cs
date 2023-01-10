@@ -2,7 +2,9 @@ using TMPro;
 using UnityEngine;
 
 namespace CraftsmanHero {
-    public class DamageText : MonoBehaviour {
+    public class FloatingText : MonoBehaviour {
+        public Color textColor = new Color(255, 255, 255, 255);
+
         private enum DamageTextStatus {
             FadeIn,
             Hung,
@@ -30,10 +32,11 @@ namespace CraftsmanHero {
 
         private DamageTextStatus _status;
 
-        private void Start() {
+        private void Awake() {
             text = GetComponent<TextMeshPro>();
             _status = DamageTextStatus.FadeIn;
             text.text = _currentDamage.ToString();
+            text.color = textColor;
         }
 
         private void Update() {
@@ -64,10 +67,11 @@ namespace CraftsmanHero {
                 case DamageTextStatus.FadeOut:
                     if (_timeElapsed < STATUS_DURATION) {
                         // 往上升，字放大，淡出
-                        float alpha = Mathf.Lerp(1, 0, t);
+                        float alpha = Mathf.Lerp(1, .5f, t);
                         text.fontSize = Mathf.Lerp(HUNG_FONT_SIZE, END_FONT_SIZE, t);
                         transform.position = Vector3.Lerp(_hungPosition, _endPosition, t);
-                        text.color = new Color(255, 0, 0, alpha);
+                        textColor.a = alpha;
+                        text.color = textColor;
                     } else {
                         Destroy(gameObject);
                     }
