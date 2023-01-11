@@ -35,6 +35,7 @@ namespace CraftsmanHero {
             playerSpriteRenderer = body.AddComponent<SpriteRenderer>();
             playerAnimator = body.AddComponent<Animator>();
             movementCollider = body.AddComponent<BoxCollider2D>();
+            playerSpriteRenderer.sortingLayerName = SortingLayerConst.CHARACTER;
             ChangeSkin(skins[0].skinId);
             movementCollider.offset = new Vector2(0, 0.25f);
             movementCollider.size = new Vector2(1, 0.5f);
@@ -48,12 +49,5 @@ namespace CraftsmanHero {
             RuntimeAnimatorController controller = skins.Find(x => x.skinId == skinId).controller;
             playerAnimator.runtimeAnimatorController = controller;
         }
-    }
-
-    [System.Serializable]
-    public struct Skins {
-        public int skinId;
-        public string skinName;
-        public RuntimeAnimatorController controller;
     }
 }

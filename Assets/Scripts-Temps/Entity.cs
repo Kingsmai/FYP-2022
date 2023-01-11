@@ -7,6 +7,9 @@ namespace CraftsmanHero {
     public abstract class Entity : MonoBehaviour {
         [SerializeField] private Rigidbody2D rb2d;
 
+        public EntityType EntityType = EntityType.SmallEntity;
+        protected SpriteRenderer shadowLockRenderer;
+
         // 生命数值相关
         private GameObject healthEffectParent;
         private FloatingText currentDamageText;
@@ -26,10 +29,30 @@ namespace CraftsmanHero {
             rb2d = GetComponent<Rigidbody2D>();
             healthEffectParent = new GameObject("hpEffect");
             healthEffectParent.transform.parent = transform;
+
+            CreateShadow();
         }
 
         // 攻击
         public abstract void Attack();
+
+        // 创建影子
+        public void CreateShadow() {
+            GameObject shadow = new GameObject("shadow");
+            shadow.transform.parent = transform;
+            SpriteRenderer shadow_sr = shadow.AddComponent<SpriteRenderer>();
+            shadow_sr.sortingLayerName = SortingLayerConst.SHADOW;
+            
+            GameObject shadowLock = new GameObject("shadow_lock");
+            shadowLock.transform.parent = transform;
+            shadowLockRenderer = shadowLock.AddComponent<SpriteRenderer>();
+            shadowLockRenderer.sortingLayerName = SortingLayerConst.SHADOW;
+
+            if (EntityType == EntityType.SmallEntity) {
+                shadow_sr.sprite = SpriteManager.Instance.smallShadow;
+                shadowLockRenderer.sprite = SpriteManager.Instance.smallShadowLock;
+            }
+        }
 
         // 受伤
         public virtual void GetDamage(int damageAmount) {
