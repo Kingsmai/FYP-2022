@@ -1,10 +1,19 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 namespace CraftsmanHero {
+    public enum LogType {
+        DEFAULT,
+        INFO,
+        WARN,
+        ERROR,
+        SUCCESS
+    }
+
     public class DebugManager : Singleton<DebugManager> {
         public bool IS_DEBUG_MODE = false;
 
@@ -19,10 +28,29 @@ namespace CraftsmanHero {
 
         public TextMeshProUGUI OutputText;
 
-        public int SkinId = 101;
+        private string SkinId = "";
 
-        public static void Log(object msg) {
-            Instance.OutputText.text = msg.ToString();
+        public static void Log(object msg, LogType type = LogType.DEFAULT) {
+            string logText = "";
+            switch (type) {
+                case LogType.DEFAULT:
+                case LogType.INFO:
+                    logText += "INFO: ";
+                    break;
+                case LogType.WARN:
+                    logText += "WARNING: ";
+                    break;
+                case LogType.ERROR:
+                    logText += "ERROR: ";
+                    break;
+                case LogType.SUCCESS:
+                    logText += "SUCCESS: ";
+                    break;
+                default:
+                    break;
+            }
+            logText += msg.ToString();
+            Instance.OutputText.text = logText;
         }
 
         private void Start() {
@@ -34,18 +62,30 @@ namespace CraftsmanHero {
                 GameManager.Instance.CurrentPlayer.GetComponent<Player>().HealthRecover(10);
             }));
             debug_buttons.Add(new DebugButton("Change Skin", () => {
-                GameManager.Instance.CurrentPlayer.GetComponent<Player>().ChangeSkin(SkinId);
+                int skinId;
+                if (int.TryParse(SkinId, out skinId)) {
+                    GameManager.Instance.CurrentPlayer.GetComponent<Player>().ChangeSkin(skinId);
+                } else {
+                    Log("Skin id parse failed!", LogType.ERROR);
+                }
             }));
         }
 
         private void OnGUI() {
             if (IS_DEBUG_MODE) {
+                // Create Buttons
                 for (int i = 0; i < debug_buttons.Count; i++) {
                     DebugButton button = debug_buttons[i];
                     int posX = WINDOW_PADDING;
                     int posY = WINDOW_PADDING + BUTTON_PADDING * i + BUTTON_HEIGHT * i;
                     if (GUI.Button(new Rect(posX, posY, BUTTON_WIDTH, BUTTON_HEIGHT), button.ButtonText)) {
                         button.ClickEv();
+                    }
+
+                    if (button.ButtonText == "Change Skin") {
+                        // Create Skin id Textbox
+                        posX += BUTTON_WIDTH + BUTTON_PADDING;
+                        SkinId = GUI.TextField(new Rect(posX, posY, BUTTON_WIDTH, BUTTON_HEIGHT), SkinId);
                     }
                 }
             }

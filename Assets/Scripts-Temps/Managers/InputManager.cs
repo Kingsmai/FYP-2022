@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 namespace CraftsmanHero {
     public class InputManager : Singleton<InputManager> {
         public PlayerControl Input;
 
         public Vector3 MouseDirection { get; private set; } = Vector3.zero;
-        public float MouseAngle { get; private set; }
 
         protected override void Awake() {
             base.Awake();
@@ -15,7 +15,6 @@ namespace CraftsmanHero {
         }
 
         private void Update() {
-            MouseAngle = GetMouseAngle();
         }
 
         private void OnEnable() {
@@ -26,13 +25,13 @@ namespace CraftsmanHero {
             Input.Disable();
         }
 
-        public float GetMouseAngle() {
-            Vector3 mouseScreenDirection = Input.Player.Look.ReadValue<Vector2>();
-            MouseDirection = new Vector3(
-               mouseScreenDirection.x - Screen.width / 2,
-               mouseScreenDirection.y - Screen.height / 2,
-               0).normalized;
-            return Mathf.Atan2(MouseDirection.y, MouseDirection.x) * Mathf.Rad2Deg;
+        public float GetMouseAngle(Vector3 origin) {
+            origin.z = Camera.main.transform.position.z;
+            Vector2 mouseScreenPosition = Input.Player.Look.ReadValue<Vector2>();
+            Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(mouseScreenPosition);
+            Vector3 mouseDirection = (mouseWorldPosition - origin).normalized;
+            float angle = Mathf.Atan2(mouseDirection.y, mouseDirection.x) * Mathf.Rad2Deg;
+            return angle;
         }
 
         public Vector2 GetMovementDirection() {

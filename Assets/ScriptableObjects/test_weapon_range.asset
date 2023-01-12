@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc9bdaf3c1c8b343aa6285650dd260c, type: 3}
+  m_Name: test_weapon_range
+  m_EditorClassIdentifier: 
+  weaponId: test_weapon_range
+  weaponName_cn: "\u65B0\u6B66\u5668"
+  weaponPrefab: {fileID: 7701419015072296257, guid: e22abdfb5a8db9d418ae346c149fb7af, type: 3}
+  bulletPrefab: {fileID: 0}

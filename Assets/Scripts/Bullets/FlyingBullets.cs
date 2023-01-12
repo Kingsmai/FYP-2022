@@ -11,10 +11,7 @@ namespace CraftsmanHero
 
         private void Awake() {
             rb2d = GetComponent<Rigidbody2D>();
-        }
-
-        private void FixedUpdate() {
-            //rb2d.velocity = Vector3.right * _flyingSpeed;
+            rb2d.velocity = transform.right * _flyingSpeed;
         }
     }
 }
