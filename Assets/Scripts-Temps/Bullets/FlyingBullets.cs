@@ -7,11 +7,11 @@ namespace CraftsmanHero
     public class FlyingBullets : Bullets
     {
         private Rigidbody2D rb2d;
-        private float _flyingSpeed = 5f;
+        public float Speed = 5f;
 
         private void Awake() {
             rb2d = GetComponent<Rigidbody2D>();
-            rb2d.velocity = transform.right * _flyingSpeed;
+            rb2d.velocity = transform.right * Speed;
         }
     }
 }
