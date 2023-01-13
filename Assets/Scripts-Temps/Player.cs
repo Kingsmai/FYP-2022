@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace CraftsmanHero {
     public class Player : Entity {
-        [Header("Player Properties")]
+        [Header("Player Properties", order = 1)]
         public WeaponsSO CurrentWeapon;
 
         public List<Skins> skins;

@@ -5,10 +5,8 @@ using UnityEngine;
 
 namespace CraftsmanHero {
     public abstract class Entity : MonoBehaviour {
-        [SerializeField] private Rigidbody2D rb2d;
-
-        public EntityType EntityType = EntityType.SmallEntity;
-        protected SpriteRenderer shadowLockRenderer;
+        [Header("Entity Properties", order = 10)]
+        private Rigidbody2D rb2d;
 
         // 生命数值相关
         private GameObject healthEffectParent;
@@ -23,6 +21,10 @@ namespace CraftsmanHero {
         // 移速
         public float MoveSpeed = 10f;
 
+        public Sprite ShadowSprite;
+        public Sprite ShadowLockSprite;
+        protected SpriteRenderer shadowLockRenderer;
+        
         protected virtual void Awake() {
             health = MaxHealth;
 
@@ -42,16 +44,14 @@ namespace CraftsmanHero {
             shadow.transform.parent = transform;
             SpriteRenderer shadow_sr = shadow.AddComponent<SpriteRenderer>();
             shadow_sr.sortingLayerName = SortingLayerConst.SHADOW;
-            
+
             GameObject shadowLock = new GameObject("shadow_lock");
             shadowLock.transform.parent = transform;
             shadowLockRenderer = shadowLock.AddComponent<SpriteRenderer>();
             shadowLockRenderer.sortingLayerName = SortingLayerConst.SHADOW;
 
-            if (EntityType == EntityType.SmallEntity) {
-                shadow_sr.sprite = SpriteManager.Instance.smallShadow;
-                shadowLockRenderer.sprite = SpriteManager.Instance.smallShadowLock;
-            }
+            shadow_sr.sprite = ShadowSprite;
+            shadowLockRenderer.sprite = ShadowLockSprite;
         }
 
         // 受伤
