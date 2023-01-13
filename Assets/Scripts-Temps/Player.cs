@@ -13,9 +13,7 @@ namespace CraftsmanHero {
         BoxCollider2D movementCollider;
 
         Transform handTransform;
-        GameObject HeldWeapon;
-        [SerializeField]
-        Transform firePoint;
+        Weapons HeldWeapon;
 
         bool isFacingRight = true;
 
@@ -63,8 +61,7 @@ namespace CraftsmanHero {
             handTransform = hand.transform;
 
             // ´´½¨ Weapon ×Ó GameObject
-            HeldWeapon = Instantiate(CurrentWeapon.weaponPrefab, hand.transform);
-            firePoint = Helper.getChildGameObject(HeldWeapon, "firepoint").GetComponent<Transform>();
+            HeldWeapon = Instantiate(CurrentWeapon.weaponPrefab, hand.transform).GetComponent<Weapons>();
         }
 
         private void Aim(float angle) {
@@ -80,10 +77,6 @@ namespace CraftsmanHero {
             } else if ((angle > 90 || angle < -90) && isFacingRight) {
                 Flip();
             }
-            // -90 ~ 90 = right = false;
-            //bool flip = !(angle >= -90 && angle <= 90);
-            //playerSpriteRenderer.flipX = flip;
-            //weaponSpriteRenderer.flipY = flip;
         }
 
         private void Flip() {
@@ -93,7 +86,7 @@ namespace CraftsmanHero {
         }
 
         public override void Attack() {
-            Instantiate(CurrentWeapon.bulletPrefab, firePoint.position, firePoint.rotation);
+            HeldWeapon.Fire();
         }
 
         internal void ChangeSkin(int skinId) {

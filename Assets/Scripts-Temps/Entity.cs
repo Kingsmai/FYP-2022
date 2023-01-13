@@ -2,7 +2,6 @@ using UnityEngine;
 
 namespace CraftsmanHero {
     public abstract class Entity : MonoBehaviour {
-        [Header("Entity Properties", order = 10)]
         private Rigidbody2D rb2d;
 
         // 生命数值相关
@@ -10,14 +9,15 @@ namespace CraftsmanHero {
         private FloatingText currentDamageText;
         private FloatingText currentRecoverText;
 
-        // 生命值
+        [Header("生命值")]
         public int MaxHealth = 10;
         [SerializeField] private int health;
         public bool IsVulnerable;
 
-        // 移速
+        [Header("移动")]
         public float MoveSpeed = 10f;
 
+        [Header("影子")]
         public Sprite ShadowSprite;
         public Sprite ShadowLockSprite;
         protected SpriteRenderer shadowLockRenderer;
