@@ -6,29 +6,31 @@ namespace CraftsmanHero
 {
     public class Weapons : MonoBehaviour
     {
-        public GameObject bulletPrefab;
-        public Transform firepoint;
-
-        // Gun Only
+        public WeaponsSO weaponData;
+        
+        Transform firepoint;
         Animator anim;
 
-        public float cooldown;
+
         [SerializeField] private float _cooldownTimer;
 
         private void Awake() {
             anim = GetComponentInChildren<Animator>();
+            firepoint = new GameObject("firepoint").transform;
+            firepoint.SetParent(transform, false);
+            firepoint.localPosition = weaponData.weaponFirepoint;
         }
 
         public void Fire() {
             if (_cooldownTimer <= 0) {
-                if (bulletPrefab != null) {
-                    Instantiate(bulletPrefab, firepoint.position, firepoint.rotation);
+                if (weaponData.bulletPrefab != null) {
+                    Instantiate(weaponData.bulletPrefab, firepoint.position, firepoint.rotation);
                 } else {
                     Debug.LogError("Bullet is NULL!");
                 }
                 // Gun Only
                 anim.SetTrigger("fire");
-                _cooldownTimer = cooldown;
+                _cooldownTimer = weaponData.cooldown;
             }
         }
 
