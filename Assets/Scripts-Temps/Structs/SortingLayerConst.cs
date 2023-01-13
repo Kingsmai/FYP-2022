@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 namespace CraftsmanHero {
     public static class SortingLayerConst {
         public const string FLOOR = "Floor";

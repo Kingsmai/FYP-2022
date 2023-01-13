@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace CraftsmanHero {
@@ -24,7 +21,7 @@ namespace CraftsmanHero {
         public Sprite ShadowSprite;
         public Sprite ShadowLockSprite;
         protected SpriteRenderer shadowLockRenderer;
-        
+
         protected virtual void Awake() {
             health = MaxHealth;
 

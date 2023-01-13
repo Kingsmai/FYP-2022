@@ -1,10 +1,7 @@
-using JetBrains.Annotations;
-using System.Collections;
+using CraftsmanHero;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
-using CraftsmanHero;
 
 public enum LogType {
     DEFAULT,
