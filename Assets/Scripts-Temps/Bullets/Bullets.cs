@@ -2,6 +2,8 @@ using UnityEngine;
 
 namespace CraftsmanHero {
     public class Bullets : MonoBehaviour {
+        public int Damage;
+
         protected SpriteRenderer _spriteRenderer;
 
         private void Awake() {

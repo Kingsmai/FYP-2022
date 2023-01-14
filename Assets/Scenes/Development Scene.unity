@@ -1033,6 +1033,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1015322213}
   - component: {fileID: 1015322212}
+  - component: {fileID: 1015322215}
+  - component: {fileID: 1015322214}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1068,6 +1070,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1015322214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015322211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3c3934bb31ea04184634bb5a11044c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  root:
+    interestingValue: value
+    children: []
+--- !u!114 &1015322215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015322211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b44cac6c8590a54e86e2fa949505c38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedNodes:
+  - interestingValue: value
+    childCount: 0
+    indexOfFirstChild: 1
 --- !u!1 &1026673034
 GameObject:
   m_ObjectHideFlags: 0

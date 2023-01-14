@@ -12,13 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfc9bdaf3c1c8b343aa6285650dd260c, type: 3}
   m_Name: test_weapon_range
   m_EditorClassIdentifier: 
-  weaponId: test_weapon_range
-  weaponName_cn: "\u65B0\u6B66\u5668"
+  itemId: test_weapon_range
+  itemName: "\u6D4B\u8BD5\u8FDC\u7A0B\u6B66\u5668"
   weaponPrefab: {fileID: 7701419015072296257, guid: e22abdfb5a8db9d418ae346c149fb7af, type: 3}
   weaponFirepoint: {x: 0.7, y: 0}
   bulletPrefab: {fileID: 6111719509107381095, guid: 1defc372b0e10054f973fb2fa703a68d, type: 3}
   cooldown: 0.25
+  accuracy: 5
   damage:
     baseDamage: 2
     isRandomDamage: 1
     maximumDamage: 2
+  bulletSpeed: 20
+  isStaticBullet: 0

@@ -1,13 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace CraftsmanHero
-{
-    public class Weapons : MonoBehaviour
-    {
+namespace CraftsmanHero {
+    public class Weapons : MonoBehaviour {
         public WeaponsSO weaponData;
-        
+
         Transform firepoint;
         Animator anim;
 
@@ -24,7 +20,13 @@ namespace CraftsmanHero
         public void Fire() {
             if (_cooldownTimer <= 0) {
                 if (weaponData.bulletPrefab != null) {
-                    Instantiate(weaponData.bulletPrefab, firepoint.position, firepoint.rotation);
+                    Quaternion rotationOffset = Quaternion.Euler(0, 0, weaponData.GetAccuracy());
+                    Bullets bullet = Instantiate(weaponData.bulletPrefab, firepoint.position, firepoint.rotation * rotationOffset).GetComponent<Bullets>();
+                    bullet.Damage = weaponData.GetDamage();
+                    if (!weaponData.isStaticBullet) {
+                        FlyingBullets flyingBullets = (FlyingBullets)bullet;
+                        flyingBullets.SetSpeed(weaponData.bulletSpeed);
+                    }
                 } else {
                     Debug.LogError("Bullet is NULL!");
                 }

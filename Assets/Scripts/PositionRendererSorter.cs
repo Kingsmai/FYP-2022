@@ -11,7 +11,7 @@ namespace CraftsmanHero {
         }
 
         private void OnTriggerEnter2D(Collider2D collision) {
-            Debug.Log(collision.gameObject.name);
+            //Debug.Log(collision.gameObject.name);
         }
         //// Place this component on a game object that has
         //// a renderer component, and drag its parent object
