@@ -16,5 +16,12 @@ namespace CraftsmanHero {
             Speed = speed;
             rb2d.velocity = transform.right * Speed;
         }
+
+        protected override void OnTriggerEnter2D(Collider2D collision) {
+            base.OnTriggerEnter2D(collision);
+            if (collision.name.Equals("hpEffect") && !collision.CompareTag("Player")) {
+                Destroy(gameObject);
+            }
+        }
     }
 }

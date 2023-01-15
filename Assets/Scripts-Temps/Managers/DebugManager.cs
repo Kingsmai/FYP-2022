@@ -53,7 +53,7 @@ public class DebugManager : Singleton<DebugManager> {
     private void Start() {
         debug_buttons = new List<DebugButton>();
         debug_buttons.Add(new DebugButton("Get Damage", () => {
-            GameManager.Instance.CurrentPlayer.GetComponent<Player>().GetDamage(5);
+            GameManager.Instance.CurrentPlayer.GetComponent<Player>().GetDamage(5, Vector3.zero);
         }));
         debug_buttons.Add(new DebugButton("Regeneration", () => {
             GameManager.Instance.CurrentPlayer.GetComponent<Player>().HealthRecover(10);

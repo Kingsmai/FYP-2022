@@ -69,7 +69,6 @@ namespace CraftsmanHero {
         }
 
         private void Look(float angle) {
-            DebugManager.Log(angle);
             // -90 ~ 90 = right = false;
             // 鼠标在右侧，但是不是朝向右边
             if (angle >= -90 && angle <= 90 && !isFacingRight) {
@@ -82,6 +81,7 @@ namespace CraftsmanHero {
         private void Flip() {
             transform.Rotate(0, 180f, 0);
             HeldWeapon.transform.Rotate(180f, 0, 0);
+            healthEffectParent.transform.Rotate(0, 180f, 0);
             isFacingRight = !isFacingRight;
         }
 

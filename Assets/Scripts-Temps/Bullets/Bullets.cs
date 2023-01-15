@@ -10,12 +10,10 @@ namespace CraftsmanHero {
             _spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
-        private void OnTriggerEnter2D(Collider2D collision) {
-            if (collision.gameObject.CompareTag("Entity")) {
-                EntityStrobe strobeHelper = collision.GetComponentInChildren<EntityStrobe>();
-                strobeHelper.StrobeColor(1, Color.white);
-                EnemyAI ai = collision.GetComponent<EnemyAI>();
-                ai.GetDamage(10, GameManager.Instance.CurrentPlayer.transform.position);
+        protected virtual void OnTriggerEnter2D(Collider2D collision) {
+            if (collision.name.Equals("hpEffect") && !collision.CompareTag("Player")) {
+                Entity entity = collision.GetComponentInParent<Entity>();
+                entity.GetDamage(Damage, transform.position);
             }
         }
     }
