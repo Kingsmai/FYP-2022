@@ -10,18 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 00b1858a10d5a434e89220b7e9f98812, type: 3}
-  m_Name: knight_1
+  m_Name: knight_2
   m_EditorClassIdentifier: 
-  SkinID: knight_1
-  SkinName: "\u7CBE\u82F1\u9A91\u58EB"
-  SkinSprite: {fileID: 2800000, guid: fcaad56fc527214498e93fdc83cd814b, type: 3}
-  FrameSize: {x: 40, y: 40}
-  Pivot: {x: 0.52, y: 0}
-  sampleRate: 16
-  SkinsStatus:
-  - StatusID: DEAD
-    FrameLength: 1
-  - StatusID: WALK
-    FrameLength: 8
-  - StatusID: IDLE
-    FrameLength: 8
+  SkinID: knight_2
+  SkinName: "\u7194\u5CA9\u9A91\u58EB"
+  AnimatorController: {fileID: 22100000, guid: ab14d51e284d2374c98418c5106e25c8, type: 2}

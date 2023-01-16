@@ -868,107 +868,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75da5274794bbe442bd208ce98736533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &969517372
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 969517375}
-  - component: {fileID: 969517374}
-  - component: {fileID: 969517373}
-  m_Layer: 0
-  m_Name: SkinTester
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &969517373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969517372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 351b5a1c4cd92e1498d7dfcb9ef2e40d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Skins:
-  - {fileID: 11400000, guid: 3526f927c3e64d84e95ae33d68399e94, type: 2}
-  - {fileID: 11400000, guid: 1bae6786669ba7b4ea39b5f25091ba15, type: 2}
-  skin: {fileID: 0}
---- !u!212 &969517374
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969517372}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &969517375
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969517372}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1004939642
 GameObject:
   m_ObjectHideFlags: 0
@@ -1318,27 +1217,12 @@ MonoBehaviour:
   ShadowSprite: {fileID: 21300000, guid: 1f4f62259cdeab747a0efb5f1900c0d8, type: 3}
   ShadowLockSprite: {fileID: 21300000, guid: 5cc22e2d05cc2864abacf08360568040, type: 3}
   CurrentWeapon: {fileID: 11400000, guid: 6d2051a0241d76645af3691f5a9e6463, type: 2}
+  SkinAnimator: {fileID: 2124836436}
   Skins:
   - {fileID: 11400000, guid: 3526f927c3e64d84e95ae33d68399e94, type: 2}
   - {fileID: 11400000, guid: 1bae6786669ba7b4ea39b5f25091ba15, type: 2}
   - {fileID: 11400000, guid: 51bf5ab716f470e468e928693aaa2484, type: 2}
-  - {fileID: 11400000, guid: b31ef5e78717e8242a75962c8b34ee19, type: 2}
-  - {fileID: 11400000, guid: 66abeb858bea6dc47ba81950b889a039, type: 2}
-  - {fileID: 11400000, guid: 11be41251723cf34b8efadf6a2d0a0c2, type: 2}
-  - {fileID: 11400000, guid: 932aa302f824c684db98ae696fe7a8ae, type: 2}
-  - {fileID: 11400000, guid: 6cdf389ef7dca2f41935c208c85d3770, type: 2}
-  - {fileID: 11400000, guid: 3f7ba7c434e8e144fad374006ce00516, type: 2}
-  - {fileID: 11400000, guid: c469d0a54d9795a488d89c1a0e4b32b2, type: 2}
-  - {fileID: 11400000, guid: f30412c7a4ff3dc43b90b61077c99ee7, type: 2}
-  - {fileID: 11400000, guid: 83f7f4638d4d7ca4b927c7ec18031539, type: 2}
-  - {fileID: 11400000, guid: 423f61ec0ce85b04580781179ecf8211, type: 2}
-  - {fileID: 11400000, guid: c029eef3ef035344ab20b06de1f7e0b1, type: 2}
-  - {fileID: 11400000, guid: b9993cde7c76bed429b7d810c4ffbf39, type: 2}
-  - {fileID: 11400000, guid: abbc9946fc7fdf14fb6a37ff8c363f89, type: 2}
-  - {fileID: 11400000, guid: 71abeec371eaa594fa3de91e1812e8fd, type: 2}
-  - {fileID: 11400000, guid: 997c124c2ea850644b55556dcb711387, type: 2}
-  - {fileID: 11400000, guid: 852e5b4e2e73e304599c921dc179484b, type: 2}
-  currentSkinIndex: 0
+  currentSkin: 0
 --- !u!1 &1486729897
 GameObject:
   m_ObjectHideFlags: 0
@@ -1825,6 +1709,7 @@ GameObject:
   - component: {fileID: 2124836435}
   - component: {fileID: 2124836437}
   - component: {fileID: 2124836436}
+  - component: {fileID: 2124836438}
   m_Layer: 0
   m_Name: body
   m_TagString: Untagged
@@ -1905,8 +1790,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1256621251
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1919,3 +1804,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2124836438
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124836434}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.25}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.5}
+  m_EdgeRadius: 0
