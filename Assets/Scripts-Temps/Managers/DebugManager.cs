@@ -23,6 +23,8 @@ public class DebugManager : Singleton<DebugManager> {
 
     private List<DebugButton> debug_buttons;
 
+    Player currentPlayer;
+
     public TextMeshProUGUI OutputText;
 
     private string SkinId = "";
@@ -51,6 +53,8 @@ public class DebugManager : Singleton<DebugManager> {
     }
 
     private void Start() {
+        currentPlayer = GameManager.Instance.CurrentPlayer.GetComponent<Player>();
+
         debug_buttons = new List<DebugButton>();
         debug_buttons.Add(new DebugButton("Get Damage", () => {
             GameManager.Instance.CurrentPlayer.GetComponent<Player>().GetDamage(5, Vector3.zero);
@@ -59,17 +63,9 @@ public class DebugManager : Singleton<DebugManager> {
             GameManager.Instance.CurrentPlayer.GetComponent<Player>().HealthRecover(10);
         }));
         debug_buttons.Add(new DebugButton("Change Skin", () => {
-            if (int.TryParse(SkinId, out int skinId)) {
-                GameManager.Instance.CurrentPlayer.GetComponent<Player>().ChangeSkin(skinId);
-            } else {
-                //Log("Skin id parse failed!", LogType.ERROR);
-                GameManager.Instance.CurrentPlayer.GetComponent<Player>().ChangeSkin(SkinId);
-            }
         }));
         debug_buttons.Add(new DebugButton("Next Skin", () => {
-            Player currentPlayer = GameManager.Instance.CurrentPlayer.GetComponent<Player>();
-            currentPlayer.currentSkinIndex = (++currentPlayer.currentSkinIndex) % currentPlayer.Skins.Count;
-            currentPlayer.ChangeSkin(currentPlayer.currentSkinIndex);
+            currentPlayer.NextSkin();
         }));
     }
 
