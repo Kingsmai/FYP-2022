@@ -19,7 +19,8 @@ namespace CraftsmanHero {
         public float bulletSpeed = 20;
         public bool isStaticBullet;
 
-        private void OnValidate() {
+        protected override void OnValidate() {
+            base.OnValidate();
             if (damage.maximumDamage >= damage.baseDamage) {
                 damage.isRandomDamage = true;
             } else if (damage.maximumDamage <= damage.baseDamage) {

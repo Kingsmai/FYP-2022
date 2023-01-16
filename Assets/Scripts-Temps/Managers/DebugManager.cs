@@ -25,6 +25,8 @@ public class DebugManager : Singleton<DebugManager> {
 
     public TextMeshProUGUI OutputText;
 
+    public SkinController controller;
+
     private string SkinId = "";
 
     public static void Log(object msg, LogType type = LogType.DEFAULT) {
@@ -59,11 +61,11 @@ public class DebugManager : Singleton<DebugManager> {
             GameManager.Instance.CurrentPlayer.GetComponent<Player>().HealthRecover(10);
         }));
         debug_buttons.Add(new DebugButton("Change Skin", () => {
-            int skinId;
-            if (int.TryParse(SkinId, out skinId)) {
-                GameManager.Instance.CurrentPlayer.GetComponent<Player>().ChangeSkin(skinId);
+            if (int.TryParse(SkinId, out int skinId)) {
+                controller.ChangeSkin(skinId);
             } else {
-                Log("Skin id parse failed!", LogType.ERROR);
+                //Log("Skin id parse failed!", LogType.ERROR);
+                controller.ChangeSkin(SkinId);
             }
         }));
     }

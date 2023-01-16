@@ -1,12 +1,20 @@
 using System;
+using System.IO;
+using UnityEditor;
 using UnityEngine;
 
 namespace CraftsmanHero {
     [CreateAssetMenu(fileName = "New Recipe", menuName = "Recipe")]
     public class RecipeSO : ScriptableObject {
-        public Ingredient result;
+        public string RecipeID;
+        public Ingredient Result;
         [Space]
-        public Ingredient[] recipeIngredient;
+        public Ingredient[] RecipeIngredient;
+
+        private void OnValidate() {
+            string assetPath = AssetDatabase.GetAssetPath(GetInstanceID());
+            RecipeID = Path.GetFileNameWithoutExtension(assetPath);
+        }
     }
 
     [Serializable]
