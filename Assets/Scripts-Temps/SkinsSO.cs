@@ -12,8 +12,8 @@ namespace CraftsmanHero {
         public string SkinName;
         public Texture2D SkinSprite;
 
-        public Vector2 FrameSize;
-        public Vector2 Pivot;
+        public Vector2 FrameSize = new(40, 40);
+        public Vector2 Pivot = new(0.5f, 0);
         public int sampleRate = 16;
 
         public List<SkinsState> SkinsStatus;

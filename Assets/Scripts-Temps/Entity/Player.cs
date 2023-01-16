@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace CraftsmanHero {
@@ -6,10 +7,15 @@ namespace CraftsmanHero {
         [Header("Player Properties", order = 1)]
         public WeaponsSO CurrentWeapon;
 
-        public List<Skins> skins;
-
+        // 玩家动画相关
+        [Header("玩家图片相关")]
+        public List<SkinsSO> Skins;
+        SkinsSO currentSkin;
+        public int currentSkinIndex;
+        int currentSkinState;
+        int currentSkinFrame;
+        Sprite[,] skinSpriteCache;
         SpriteRenderer playerSpriteRenderer;
-        Animator playerAnimator;
         BoxCollider2D movementCollider;
 
         Transform handTransform;
@@ -37,7 +43,11 @@ namespace CraftsmanHero {
         private void FixedUpdate() {
             Vector2 moveDir = InputManager.Instance.GetMovementDirection();
             Move(moveDir);
-            playerAnimator.SetBool("run", moveDir != Vector2.zero);
+            if (moveDir != Vector2.zero) {
+                ChangeSkinState("WALK");
+            } else {
+                ChangeSkinState("IDLE");
+            }
         }
 
         private void CreateBodyAndHand() {
@@ -45,10 +55,10 @@ namespace CraftsmanHero {
             GameObject body = new GameObject("body");
             body.transform.SetParent(transform, false);
             playerSpriteRenderer = body.AddComponent<SpriteRenderer>();
-            playerAnimator = body.AddComponent<Animator>();
             movementCollider = body.AddComponent<BoxCollider2D>();
             playerSpriteRenderer.sortingLayerName = SortingLayerConst.CHARACTER;
-            ChangeSkin(skins[0].skinId);
+            ChangeSkin(0);
+            // 设置碰撞体
             movementCollider.offset = new Vector2(0, 0.25f);
             movementCollider.size = new Vector2(1, 0.5f);
 
@@ -89,9 +99,50 @@ namespace CraftsmanHero {
             HeldWeapon.Fire();
         }
 
-        internal void ChangeSkin(int skinId) {
-            RuntimeAnimatorController controller = skins.Find(x => x.skinId == skinId).controller;
-            playerAnimator.runtimeAnimatorController = controller;
+        // #REGION: 皮肤相关
+        // 加载皮肤切片到缓存，提升计算性能
+        public void LoadSkinFrameToCache() {
+            currentSkin = Skins[currentSkinIndex];
+            skinSpriteCache = new Sprite[currentSkin.SkinsStatus.Count, currentSkin.SkinsStatus.Max(state => state.FrameLength)];
+            for (int state = 0; state < currentSkin.SkinsStatus.Count; state++) {
+                for (int frame = 0; frame < currentSkin.SkinsStatus[state].FrameLength; frame++) {
+                    Rect rect = new(
+                        frame * currentSkin.FrameSize.x, // 修改 x 值改变帧数
+                        state * currentSkin.FrameSize.y, // 修改 y 值改变动作（从下往上）
+                        currentSkin.FrameSize.x,
+                        currentSkin.FrameSize.y);
+                    Sprite skinSprite = Sprite.Create(currentSkin.SkinSprite, rect, currentSkin.Pivot, 16f);
+                    skinSpriteCache[state, frame] = skinSprite;
+                }
+            }
         }
+
+        // 切换到下一帧
+        public void NextFrame() {
+            currentSkinFrame = (++currentSkinFrame) % currentSkin.SkinsStatus[currentSkinState].FrameLength;
+            playerSpriteRenderer.sprite = skinSpriteCache[currentSkinState, currentSkinFrame];
+        }
+
+        // 根据 ID 换肤
+        public void ChangeSkin(int skinIdx) {
+            CancelInvoke();
+            currentSkinIndex = skinIdx;
+            LoadSkinFrameToCache();
+            ChangeSkinState("IDLE");
+            InvokeRepeating(nameof(NextFrame), 0f, 1f / currentSkin.sampleRate);
+        }
+
+        public void ChangeSkin(string skinId) {
+            CancelInvoke();
+            currentSkinIndex = Skins.IndexOf(Skins.Find(x => x.SkinID.Equals(skinId)));
+            LoadSkinFrameToCache();
+            ChangeSkinState("IDLE");
+            InvokeRepeating(nameof(NextFrame), 0f, 1f / currentSkin.sampleRate);
+        }
+
+        public void ChangeSkinState(string stateName) {
+            currentSkinState = currentSkin.SkinsStatus.IndexOf(currentSkin.SkinsStatus.Find(state => state.StatusID.Equals(stateName)));
+        }
+        // #ENDREGION
     }
 }

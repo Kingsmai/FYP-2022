@@ -709,7 +709,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IS_DEBUG_MODE: 1
   OutputText: {fileID: 1619785326}
-  controller: {fileID: 969517373}
 --- !u!1 &850131901
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,7 +885,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &969517373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -901,7 +900,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Skins:
   - {fileID: 11400000, guid: 3526f927c3e64d84e95ae33d68399e94, type: 2}
-  currentState: 0
+  - {fileID: 11400000, guid: 1bae6786669ba7b4ea39b5f25091ba15, type: 2}
+  skin: {fileID: 0}
 --- !u!212 &969517374
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1317,13 +1317,26 @@ MonoBehaviour:
   ShadowSprite: {fileID: 21300000, guid: 1f4f62259cdeab747a0efb5f1900c0d8, type: 3}
   ShadowLockSprite: {fileID: 21300000, guid: 5cc22e2d05cc2864abacf08360568040, type: 3}
   CurrentWeapon: {fileID: 11400000, guid: 6d2051a0241d76645af3691f5a9e6463, type: 2}
-  skins:
-  - skinId: 101
-    skinName: "\u9A91\u58EB"
-    controller: {fileID: 9100000, guid: ce765cb721ee4db49af320740dc73d30, type: 2}
-  - skinId: 102
-    skinName: "\u9ED1\u6697\u9A91\u58EB"
-    controller: {fileID: 9100000, guid: c1e0b8e7aa1f6134e81ec4f774510430, type: 2}
+  Skins:
+  - {fileID: 11400000, guid: 3526f927c3e64d84e95ae33d68399e94, type: 2}
+  - {fileID: 11400000, guid: 1bae6786669ba7b4ea39b5f25091ba15, type: 2}
+  - {fileID: 11400000, guid: 51bf5ab716f470e468e928693aaa2484, type: 2}
+  - {fileID: 11400000, guid: b31ef5e78717e8242a75962c8b34ee19, type: 2}
+  - {fileID: 11400000, guid: 66abeb858bea6dc47ba81950b889a039, type: 2}
+  - {fileID: 11400000, guid: 11be41251723cf34b8efadf6a2d0a0c2, type: 2}
+  - {fileID: 11400000, guid: 932aa302f824c684db98ae696fe7a8ae, type: 2}
+  - {fileID: 11400000, guid: 6cdf389ef7dca2f41935c208c85d3770, type: 2}
+  - {fileID: 11400000, guid: 3f7ba7c434e8e144fad374006ce00516, type: 2}
+  - {fileID: 11400000, guid: c469d0a54d9795a488d89c1a0e4b32b2, type: 2}
+  - {fileID: 11400000, guid: f30412c7a4ff3dc43b90b61077c99ee7, type: 2}
+  - {fileID: 11400000, guid: 83f7f4638d4d7ca4b927c7ec18031539, type: 2}
+  - {fileID: 11400000, guid: 423f61ec0ce85b04580781179ecf8211, type: 2}
+  - {fileID: 11400000, guid: c029eef3ef035344ab20b06de1f7e0b1, type: 2}
+  - {fileID: 11400000, guid: b9993cde7c76bed429b7d810c4ffbf39, type: 2}
+  - {fileID: 11400000, guid: abbc9946fc7fdf14fb6a37ff8c363f89, type: 2}
+  - {fileID: 11400000, guid: 71abeec371eaa594fa3de91e1812e8fd, type: 2}
+  - {fileID: 11400000, guid: 997c124c2ea850644b55556dcb711387, type: 2}
+  - {fileID: 11400000, guid: 852e5b4e2e73e304599c921dc179484b, type: 2}
 --- !u!1 &1486729897
 GameObject:
   m_ObjectHideFlags: 0
