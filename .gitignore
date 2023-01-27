@@ -72,3 +72,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Assets/Fonts/zpix SDF.asset.meta
 Assets/Fonts/zpix SDF.asset
+Assets/Fonts/pixel_bold SDF.asset.meta
+Assets/Fonts/pixel_bold SDF.asset
