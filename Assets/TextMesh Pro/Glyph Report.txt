@@ -1,5 +1,5 @@
 Font: Edit Undo BRK  Style: Regular
-Point Size: 1480   SP/PD Ratio: 4.3%
+Point Size: 797   SP/PD Ratio: 2.0%
 
 Characters included: 97/99
 Missing characters: 2
