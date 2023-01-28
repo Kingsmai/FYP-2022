@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 namespace CraftsmanHero {
@@ -7,18 +6,18 @@ namespace CraftsmanHero {
         bool isFacingRight;
 
         public override void Attack() {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         public override void GetDamage(int damageAmount, Vector3 position) {
-
             if (position.x > transform.position.x && !isFacingRight) {
                 transform.Rotate(0, 180f, 0);
-                healthEffectParent.transform.Rotate(0, 180f, 0);
+                HealthEffectParent.transform.Rotate(0, 180f, 0);
                 isFacingRight = true;
-            } else if (position.x < transform.position.x && isFacingRight) {
+            }
+            else if (position.x < transform.position.x && isFacingRight) {
                 transform.Rotate(0, 180f, 0);
-                healthEffectParent.transform.Rotate(0, 180f, 0);
+                HealthEffectParent.transform.Rotate(0, 180f, 0);
                 isFacingRight = false;
             }
 

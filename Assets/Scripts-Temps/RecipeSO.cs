@@ -8,11 +8,11 @@ namespace CraftsmanHero {
     public class RecipeSO : ScriptableObject {
         public string RecipeID;
         public Ingredient Result;
-        [Space]
-        public Ingredient[] RecipeIngredient;
 
-        private void OnValidate() {
-            string assetPath = AssetDatabase.GetAssetPath(GetInstanceID());
+        [Space] public Ingredient[] RecipeIngredient;
+
+        void OnValidate() {
+            var assetPath = AssetDatabase.GetAssetPath(GetInstanceID());
             RecipeID = Path.GetFileNameWithoutExtension(assetPath);
         }
     }

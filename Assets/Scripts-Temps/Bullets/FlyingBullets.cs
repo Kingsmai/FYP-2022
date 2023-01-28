@@ -1,27 +1,29 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace CraftsmanHero {
     public class FlyingBullets : Bullets {
-        private Rigidbody2D rb2d;
-        public float Speed = 5f;
+        public float speed = 5f;
+        Rigidbody2D rb2d;
 
-        private void Awake() {
+        void Awake() {
             rb2d = gameObject.AddComponent<Rigidbody2D>();
             rb2d.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
             rb2d.freezeRotation = true;
-            rb2d.velocity = transform.right * Speed;
-        }
-
-        public void SetSpeed(float speed) {
-            Speed = speed;
-            rb2d.velocity = transform.right * Speed;
+            rb2d.velocity = transform.right * speed;
         }
 
         protected override void OnTriggerEnter2D(Collider2D collision) {
             base.OnTriggerEnter2D(collision);
+
             if (collision.name.Equals("hpEffect") && !collision.CompareTag("Player")) {
                 Destroy(gameObject);
             }
+        }
+
+        public void SetSpeed(float speed) {
+            this.speed = speed;
+            rb2d.velocity = transform.right * this.speed;
         }
     }
 }

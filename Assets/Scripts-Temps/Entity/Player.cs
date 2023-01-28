@@ -1,21 +1,21 @@
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace CraftsmanHero {
     public class Player : Entity {
         [Header("Player Properties", order = 1)]
-        public WeaponsSO CurrentWeapon;
+        public WeaponsSO currentWeapon;
 
-        // Íæ¼Ò¶¯»­Ïà¹Ø
-        [Header("Íæ¼ÒÍ¼Æ¬Ïà¹Ø")]
-        public Animator SkinAnimator;
-        public List<SkinsSO> Skins;
+        // ç©å®¶åŠ¨ç”»ç›¸å…³
+        [Header("ç©å®¶å›¾ç‰‡ç›¸å…³")] public Animator skinAnimator;
+
+        public List<SkinsSO> skins;
+        public int currentSkin;
         RuntimeAnimatorController defaultController;
-        public int currentSkin = 0;
 
         Transform handTransform;
-        Weapons HeldWeapon;
+        Weapons heldWeapon;
 
         bool isFacingRight = true;
 
@@ -24,74 +24,74 @@ namespace CraftsmanHero {
 
             CreateHand();
 
-            defaultController = SkinAnimator.runtimeAnimatorController;
+            defaultController = skinAnimator.runtimeAnimatorController;
 
-            // µã»÷Êó±ê£¬¹¥»÷
-            InputManager.Instance.Input.Player.Fire.performed += (ctx) => {
-                Attack();
-            };
+            // ç‚¹å‡»é¼ æ ‡ï¼Œæ”»å‡»
+            InputManager.Instance.Input.Player.Fire.performed += ctx => { Attack(); };
         }
 
-        private void Update() {
-            float angle = InputManager.Instance.GetMouseAngle(handTransform.position);
+        void Update() {
+            var angle = InputManager.Instance.GetMouseAngle(handTransform.position);
             Aim(angle);
             Look(angle);
         }
 
-        private void FixedUpdate() {
-            Vector2 moveDir = InputManager.Instance.GetMovementDirection();
+        void FixedUpdate() {
+            var moveDir = InputManager.Instance.GetMovementDirection();
             Move(moveDir);
-            SkinAnimator.SetBool("walk", moveDir != Vector2.zero);
+            skinAnimator.SetBool("walk", moveDir != Vector2.zero);
         }
 
-        private void CreateHand() {
-
-            // ´´½¨ Hand ×Ó GameObject
-            GameObject hand = new GameObject("hand");
+        void CreateHand() {
+            // åˆ›å»º Hand å­ GameObject
+            var hand = new GameObject("hand");
             hand.transform.SetParent(transform, false);
-            Vector3 handOffset = hand.transform.position;
+            var handOffset = hand.transform.position;
             handOffset.y = 0.5f;
             hand.transform.position = handOffset;
             handTransform = hand.transform;
 
-            // ´´½¨ Weapon ×Ó GameObject
-            HeldWeapon = Instantiate(CurrentWeapon.weaponPrefab, hand.transform).GetComponent<Weapons>();
+            // åˆ›å»º Weapon å­ GameObject
+            heldWeapon = Instantiate(currentWeapon.weaponPrefab, hand.transform).GetComponent<Weapons>();
         }
 
-        private void Aim(float angle) {
+        void Aim(float angle) {
             handTransform.rotation = Quaternion.Euler(0, 0, angle);
         }
 
-        private void Look(float angle) {
+        void Look(float angle) {
             // -90 ~ 90 = right = false;
-            // Êó±êÔÚÓÒ²à£¬µ«ÊÇ²»ÊÇ³¯ÏòÓÒ±ß
+            // é¼ æ ‡åœ¨å³ä¾§ï¼Œä½†æ˜¯ä¸æ˜¯æœå‘å³è¾¹
             if (angle >= -90 && angle <= 90 && !isFacingRight) {
                 Flip();
-            } else if ((angle > 90 || angle < -90) && isFacingRight) {
+            }
+            else if ((angle > 90 || angle < -90) && isFacingRight) {
                 Flip();
             }
         }
 
-        private void Flip() {
+        void Flip() {
             transform.Rotate(0, 180f, 0);
-            HeldWeapon.transform.Rotate(180f, 0, 0);
-            healthEffectParent.transform.Rotate(0, 180f, 0);
+            heldWeapon.transform.Rotate(180f, 0, 0);
+            HealthEffectParent.transform.Rotate(0, 180f, 0);
             isFacingRight = !isFacingRight;
         }
 
         public override void Attack() {
-            HeldWeapon.Fire();
+            heldWeapon.Fire();
         }
 
-        // #REGION: Æ¤·ôÏà¹Ø
-        // DEBUG ONLY ÇĞ»»ÏÂÒ»¸öÆ¤·ô
+        // #REGION: çš®è‚¤ç›¸å…³
+        // DEBUG ONLY åˆ‡æ¢ä¸‹ä¸€ä¸ªçš®è‚¤
         public void NextSkin() {
-            currentSkin = (++currentSkin) % Skins.Count;
-            RuntimeAnimatorController controller = Skins[currentSkin].AnimatorController;
+            currentSkin = ++currentSkin % skins.Count;
+            RuntimeAnimatorController controller = skins[currentSkin].AnimatorController;
+
             if (controller != null) {
-                SkinAnimator.runtimeAnimatorController = controller;
-            } else {
-                SkinAnimator.runtimeAnimatorController = defaultController;
+                skinAnimator.runtimeAnimatorController = controller;
+            }
+            else {
+                skinAnimator.runtimeAnimatorController = defaultController;
             }
         }
         // #ENDREGION
