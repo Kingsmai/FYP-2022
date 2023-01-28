@@ -4,45 +4,40 @@ namespace CraftsmanHero {
     public class Weapons : MonoBehaviour {
         public WeaponsSO weaponData;
 
-
-        [SerializeField] float _cooldownTimer;
+        Transform firepoint;
         Animator anim;
 
-        Transform firepoint;
 
-        void Awake() {
+        [SerializeField] private float _cooldownTimer;
+
+        private void Awake() {
             anim = GetComponentInChildren<Animator>();
             firepoint = new GameObject("firepoint").transform;
             firepoint.SetParent(transform, false);
             firepoint.localPosition = weaponData.weaponFirepoint;
         }
 
-        void Update() {
-            _cooldownTimer -= Time.deltaTime;
-        }
-
         public void Fire() {
             if (_cooldownTimer <= 0) {
                 if (weaponData.bulletPrefab != null) {
-                    var rotationOffset = Quaternion.Euler(0, 0, weaponData.GetAccuracy());
-                    var bullet =
-                        Instantiate(weaponData.bulletPrefab, firepoint.position, firepoint.rotation * rotationOffset)
-                            .GetComponent<Bullets>();
-                    bullet.damage = weaponData.GetDamage();
-
+                    Quaternion rotationOffset = Quaternion.Euler(0, 0, weaponData.GetAccuracy());
+                    Bullets bullet = Instantiate(weaponData.bulletPrefab, firepoint.position, firepoint.rotation * rotationOffset).GetComponent<Bullets>();
+                    bullet.Damage = weaponData.GetDamage();
                     if (!weaponData.isStaticBullet) {
-                        var flyingBullets = (FlyingBullets)bullet;
+                        FlyingBullets flyingBullets = (FlyingBullets)bullet;
                         flyingBullets.SetSpeed(weaponData.bulletSpeed);
                     }
-                }
-                else {
+                } else {
                     Debug.LogError("Bullet is NULL!");
                 }
-
                 // Gun Only
                 anim.SetTrigger("fire");
                 _cooldownTimer = weaponData.cooldown;
             }
+        }
+
+        private void Update() {
+            _cooldownTimer -= Time.deltaTime;
         }
     }
 }

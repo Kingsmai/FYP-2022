@@ -3,29 +3,30 @@ using UnityEngine;
 public class InputManager : Singleton<InputManager> {
     public PlayerControl Input;
 
-    public Vector3 MouseDirection { get; } = Vector3.zero;
+    public Vector3 MouseDirection { get; private set; } = Vector3.zero;
 
     protected override void Awake() {
         base.Awake();
         Input = new PlayerControl();
     }
 
-    void Update() { }
+    private void Update() {
+    }
 
-    void OnEnable() {
+    private void OnEnable() {
         Input.Enable();
     }
 
-    void OnDisable() {
+    private void OnDisable() {
         Input.Disable();
     }
 
     public float GetMouseAngle(Vector3 origin) {
         origin.z = Camera.main.transform.position.z;
-        var mouseScreenPosition = Input.Player.Look.ReadValue<Vector2>();
-        var mouseWorldPosition = Camera.main.ScreenToWorldPoint(mouseScreenPosition);
-        var mouseDirection = (mouseWorldPosition - origin).normalized;
-        var angle = Mathf.Atan2(mouseDirection.y, mouseDirection.x) * Mathf.Rad2Deg;
+        Vector2 mouseScreenPosition = Input.Player.Look.ReadValue<Vector2>();
+        Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(mouseScreenPosition);
+        Vector3 mouseDirection = (mouseWorldPosition - origin).normalized;
+        float angle = Mathf.Atan2(mouseDirection.y, mouseDirection.x) * Mathf.Rad2Deg;
         return angle;
     }
 

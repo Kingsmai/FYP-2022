@@ -6,8 +6,8 @@ namespace CraftsmanHero {
         public SpriteRenderer weaponRenderer;
 
         private void Awake() {
-            skinRenderer = Helper.GetChildGameObject(gameObject, "body")?.GetComponent<SpriteRenderer>();
-            weaponRenderer = Helper.GetChildGameObject(gameObject, "weapon")?.GetComponent<SpriteRenderer>();
+            skinRenderer = Helper.getChildGameObject(gameObject, "body")?.GetComponent<SpriteRenderer>();
+            weaponRenderer = Helper.getChildGameObject(gameObject, "weapon")?.GetComponent<SpriteRenderer>();
         }
 
         private void OnTriggerEnter2D(Collider2D collision) {

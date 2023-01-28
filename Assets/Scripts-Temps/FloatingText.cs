@@ -3,55 +3,59 @@ using UnityEngine;
 
 namespace CraftsmanHero {
     public class FloatingText : MonoBehaviour {
-        // FontSize Related
-        const float INIT_FONT_SIZE = 4f;
-        const float HUNG_FONT_SIZE = 8f;
-        const float END_FONT_SIZE = 10f;
+        public Color textColor = new Color(255, 255, 255, 255);
 
-        // Timer Related
-        const float STATUS_DURATION = .5f; // Duration for each status
-        public Color textColor = new(255, 255, 255, 255);
-        int _currentDamage;
-        Vector3 _endPosition;
-        Vector3 _hungPosition;
-        readonly float _moveDistance = 1f;
+        private enum DamageTextStatus {
+            FadeIn,
+            Hung,
+            FadeOut
+        }
+
+        private TextMeshPro text;
+        private int _currentDamage;
+
+        // FontSize Related
+        private const float INIT_FONT_SIZE = 4f;
+        private const float HUNG_FONT_SIZE = 8f;
+        private const float END_FONT_SIZE = 10f;
 
         // Font Position Related
-        Vector3 _startPosition;
+        private Vector3 _startPosition;
+        private Vector3 _hungPosition;
+        private Vector3 _endPosition;
+        private float _moveDistance = 1f;
+        private Vector3 offset = Vector3.up;
 
-        DamageTextStatus _status;
-        float _timeElapsed;
-        readonly Vector3 offset = Vector3.up;
+        // Timer Related
+        private const float STATUS_DURATION = .5f; // Duration for each status
+        private float _timeElapsed = 0;
 
-        TextMeshPro text;
+        private DamageTextStatus _status;
 
-        void Awake() {
+        private void Awake() {
             text = GetComponent<TextMeshPro>();
             _status = DamageTextStatus.FadeIn;
             text.text = _currentDamage.ToString();
             text.color = textColor;
         }
 
-        void Update() {
+        private void Update() {
             _timeElapsed += Time.deltaTime;
-            var t = _timeElapsed / STATUS_DURATION;
+            float t = _timeElapsed / STATUS_DURATION;
             _startPosition = transform.parent.parent.position + offset;
             _hungPosition = _startPosition + Vector3.up;
             _endPosition = _hungPosition + Vector3.up * 2;
-
             switch (_status) {
                 case DamageTextStatus.FadeIn:
                     if (_timeElapsed < STATUS_DURATION) {
-                        // ä»Žä¸­é—´å¾€ä¸Šå‡ï¼Œå­—æ…¢æ…¢æ”¾å¤§
+                        // ´ÓÖÐ¼äÍùÉÏÉý£¬×ÖÂýÂý·Å´ó
                         text.fontSize = Mathf.Lerp(INIT_FONT_SIZE, HUNG_FONT_SIZE, t);
                         transform.position = Vector3.Lerp(_startPosition, _hungPosition, t);
-                    }
-                    else {
+                    } else {
                         text.fontSize = HUNG_FONT_SIZE;
                         _timeElapsed = 0;
                         _status = DamageTextStatus.Hung;
                     }
-
                     break;
                 case DamageTextStatus.Hung:
                     if (_timeElapsed > STATUS_DURATION) {
@@ -59,39 +63,30 @@ namespace CraftsmanHero {
                         _endPosition = _hungPosition + Vector3.up * _moveDistance;
                         _status = DamageTextStatus.FadeOut;
                     }
-
                     break;
                 case DamageTextStatus.FadeOut:
                     if (_timeElapsed < STATUS_DURATION) {
-                        // å¾€ä¸Šå‡ï¼Œå­—æ”¾å¤§ï¼Œæ·¡å‡º
-                        var alpha = Mathf.Lerp(1, .5f, t);
+                        // ÍùÉÏÉý£¬×Ö·Å´ó£¬µ­³ö
+                        float alpha = Mathf.Lerp(1, .5f, t);
                         text.fontSize = Mathf.Lerp(HUNG_FONT_SIZE, END_FONT_SIZE, t);
                         transform.position = Vector3.Lerp(_hungPosition, _endPosition, t);
                         textColor.a = alpha;
                         text.color = textColor;
-                    }
-                    else {
+                    } else {
                         Destroy(gameObject);
                     }
-
+                    break;
+                default:
                     break;
             }
         }
 
         public void UpdateText(int damage) {
             _currentDamage += damage;
-
             if (_status == DamageTextStatus.Hung) {
                 _timeElapsed = 0;
             }
-
             text.text = _currentDamage.ToString();
-        }
-
-        enum DamageTextStatus {
-            FadeIn,
-            Hung,
-            FadeOut
         }
     }
 }

@@ -1,32 +1,40 @@
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace CraftsmanHero {
     public abstract class Entity : MonoBehaviour {
+        private Rigidbody2D rb2d;
+
         public string entityTag = "Untagged";
 
-        // ç”Ÿå‘½æ•°å€¼ç›¸å…³
-        [Header("ç”Ÿå‘½å€¼")] public int maxHealth = 10;
-        public bool isVulnerable;
-        public Vector2 damageColliderOffset = new(0, 0.75f);
-        public Vector2 damageColliderSize = new(1, 1.5f);
+        // ÉúÃüÊıÖµÏà¹Ø
+        [Header("ÉúÃüÖµ")]
+        public int MaxHealth = 10;
+        [SerializeField] private int health;
+        public bool IsVulnerable;
+        protected GameObject healthEffectParent;
+        private BoxCollider2D damageCollider;
+        private FloatingText currentDamageText;
+        private FloatingText currentRecoverText;
+        public Vector2 damageColliderOffset = new Vector2(0, 0.75f);
+        public Vector2 damageColliderSize = new Vector2(1, 1.5f);
 
-        [Header("ç§»åŠ¨")] public bool isStatic;
-        public float moveSpeed = 10f;
+        [Header("ÒÆ¶¯")]
+        public bool isStatic;
+        public float MoveSpeed = 10f;
 
-        [Header("å½±å­")] public Sprite shadowSprite;
-        public Sprite shadowLockSprite;
-        FloatingText currentDamageText;
-        FloatingText currentRecoverText;
-        BoxCollider2D damageCollider;
-        protected GameObject HealthEffectParent;
-        Rigidbody2D rb2d;
-        protected SpriteRenderer ShadowLockRenderer;
+        [Header("Ó°×Ó")]
+        public Sprite ShadowSprite;
+        public Sprite ShadowLockSprite;
+        protected SpriteRenderer shadowLockRenderer;
 
-        [SerializeField] int Health { get; set; }
+        private void OnValidate() {
+            if (isStatic) {
+                MoveSpeed = 0f;
+            }
+        }
 
         protected virtual void Awake() {
-            Health = maxHealth;
+            health = MaxHealth;
 
             rb2d = GetComponent<Rigidbody2D>();
 
@@ -34,81 +42,73 @@ namespace CraftsmanHero {
             CreateShadow();
         }
 
-        void OnValidate() {
-            if (isStatic) {
-                moveSpeed = 0f;
-            }
-        }
-
-        // æ”»å‡»
+        // ¹¥»÷
         public abstract void Attack();
 
-        // åˆ›å»ºä¼¤å®³ç¢°æ’ä½“
-        void CreateDamageCollider() {
-            HealthEffectParent = new GameObject("hpEffect");
-            HealthEffectParent.transform.SetParent(transform, false);
-            HealthEffectParent.tag = entityTag;
-            damageCollider = HealthEffectParent.AddComponent<BoxCollider2D>();
+        // ´´½¨ÉËº¦Åö×²Ìå
+        private void CreateDamageCollider() {
+            healthEffectParent = new GameObject("hpEffect");
+            healthEffectParent.transform.SetParent(transform, false);
+            healthEffectParent.tag = entityTag;
+            damageCollider = healthEffectParent.AddComponent<BoxCollider2D>();
             damageCollider.offset = damageColliderOffset;
             damageCollider.size = damageColliderSize;
             damageCollider.isTrigger = true;
         }
 
-        // åˆ›å»ºå½±å­
+        // ´´½¨Ó°×Ó
         public void CreateShadow() {
-            if (shadowSprite != null) {
-                var shadow = new GameObject("shadow");
+            if (ShadowSprite != null) {
+                GameObject shadow = new GameObject("shadow");
                 shadow.transform.SetParent(transform, false);
-                var shadow_sr = shadow.AddComponent<SpriteRenderer>();
+                SpriteRenderer shadow_sr = shadow.AddComponent<SpriteRenderer>();
                 shadow_sr.sortingLayerName = SortingLayerConst.SHADOW;
-                shadow_sr.sprite = shadowSprite;
+                shadow_sr.sprite = ShadowSprite;
             }
 
-            var shadowLock = new GameObject("shadow_lock");
+            GameObject shadowLock = new GameObject("shadow_lock");
             shadowLock.transform.SetParent(transform, false);
-            ShadowLockRenderer = shadowLock.AddComponent<SpriteRenderer>();
-            ShadowLockRenderer.sortingLayerName = SortingLayerConst.SHADOW;
-            ShadowLockRenderer.sprite = shadowLockSprite;
+            shadowLockRenderer = shadowLock.AddComponent<SpriteRenderer>();
+            shadowLockRenderer.sortingLayerName = SortingLayerConst.SHADOW;
+            shadowLockRenderer.sprite = ShadowLockSprite;
         }
 
-        // å—ä¼¤
+        // ÊÜÉË
         public virtual void GetDamage(int damageAmount, Vector3 position) {
-            // æ‰£é™¤ç”Ÿå‘½å€¼
-            if (!isVulnerable) {
-                Health -= damageAmount;
+
+            // ¿Û³ıÉúÃüÖµ
+            if (!IsVulnerable) {
+                health -= damageAmount;
             }
 
-            // æ˜¾ç¤ºä¼¤å®³æ•°å€¼
+            // ÏÔÊ¾ÉËº¦ÊıÖµ
             if (currentDamageText == null) {
-                currentDamageText = Instantiate(TextsManager.Instance.damageText, HealthEffectParent.transform)
-                    .GetComponent<FloatingText>();
+                currentDamageText = Instantiate(TextsManager.Instance.damageText, healthEffectParent.transform).GetComponent<FloatingText>();
             }
-
             currentDamageText.UpdateText(damageAmount);
 
-            // ä¼¤å®³ç‰¹æ•ˆ
-            if (Health < 0) {
-                // åˆ‡æ¢æ­»äº¡è´´å›¾
+            // ÉËº¦ÌØĞ§
+            if (health < 0) {
+                // ÇĞ»»ËÀÍöÌùÍ¼
+            } else {
+                // ÌùÍ¼ÉÁË¸
             }
-            // è´´å›¾é—ªçƒ
         }
 
-        // å›è¡€
+        // »ØÑª
         public virtual void HealthRecover(int recoverAmount) {
-            recoverAmount = Health + recoverAmount < maxHealth ? recoverAmount : Mathf.Abs(Health - recoverAmount);
-            Health += recoverAmount;
+            recoverAmount = health + recoverAmount < MaxHealth ? recoverAmount : Mathf.Abs(health - recoverAmount);
+            health += recoverAmount;
 
-            // æ˜¾ç¤ºå›å¤æ•°å€¼
+            // ÏÔÊ¾»Ø¸´ÊıÖµ
             if (currentRecoverText == null) {
-                currentRecoverText = Instantiate(TextsManager.Instance.recoverText, HealthEffectParent.transform)
-                    .GetComponent<FloatingText>();
+                currentRecoverText = Instantiate(TextsManager.Instance.recoverText, healthEffectParent.transform).GetComponent<FloatingText>();
             }
-
             currentRecoverText.UpdateText(recoverAmount);
         }
 
         public virtual void Move(Vector2 direction) {
-            rb2d.velocity = direction * moveSpeed;
+            rb2d.velocity = direction * MoveSpeed;
         }
     }
 }

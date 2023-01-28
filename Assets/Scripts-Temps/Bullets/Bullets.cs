@@ -1,20 +1,19 @@
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace CraftsmanHero {
     public class Bullets : MonoBehaviour {
-        public int damage;
+        public int Damage;
 
-        protected SpriteRenderer SpriteRenderer;
+        protected SpriteRenderer _spriteRenderer;
 
-        void Awake() {
-            SpriteRenderer = GetComponent<SpriteRenderer>();
+        private void Awake() {
+            _spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
         protected virtual void OnTriggerEnter2D(Collider2D collision) {
             if (collision.name.Equals("hpEffect") && !collision.CompareTag("Player")) {
-                var entity = collision.GetComponentInParent<Entity>();
-                entity.GetDamage(damage, transform.position);
+                Entity entity = collision.GetComponentInParent<Entity>();
+                entity.GetDamage(Damage, transform.position);
             }
         }
     }

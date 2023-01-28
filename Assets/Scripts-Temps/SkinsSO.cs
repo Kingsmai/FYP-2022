@@ -1,3 +1,6 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
@@ -9,8 +12,8 @@ namespace CraftsmanHero {
         public string SkinName;
         public AnimatorOverrideController AnimatorController;
 
-        void OnValidate() {
-            var assetPath = AssetDatabase.GetAssetPath(GetInstanceID());
+        private void OnValidate() {
+            string assetPath = AssetDatabase.GetAssetPath(GetInstanceID());
             SkinID = Path.GetFileNameWithoutExtension(assetPath);
         }
     }

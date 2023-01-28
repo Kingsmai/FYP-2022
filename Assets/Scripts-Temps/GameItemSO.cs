@@ -9,7 +9,7 @@ namespace CraftsmanHero {
         public string ItemName;
 
         protected virtual void OnValidate() {
-            var assetPath = AssetDatabase.GetAssetPath(GetInstanceID());
+            string assetPath = AssetDatabase.GetAssetPath(GetInstanceID());
             ItemID = Path.GetFileNameWithoutExtension(assetPath);
         }
     }
