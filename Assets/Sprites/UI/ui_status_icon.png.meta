@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c8ace1d5f61d65b45b01131d01ea2cb8
+guid: 7e864487b63e9bd46aa44527634dcd1f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ui_status_bar_0
+      name: ui_status_icon_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 7
-        height: 7
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a873cc4bcfd88504bbb31ba6f9d341c0
-      internalID: 218287014
+      spriteID: d8aed33561d6baf4f9a176b324756f89
+      internalID: 1080101630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_status_bar_1
+      name: ui_status_icon_1
       rect:
         serializedVersion: 2
-        x: 7
+        x: 10
         y: 0
-        width: 7
-        height: 7
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,29 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45f78e37790039a4aa24bf8ba3253799
-      internalID: 2003629891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui_status_bar_2
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 0
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d15e1c39244c2194fab029c0a5f55695
-      internalID: 1191815754
+      spriteID: adc58c01a7e5c4d43a4cb5e4a72bdb45
+      internalID: 1379442453
       vertices: []
       indices: 
       edges: []
@@ -178,9 +157,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ui_status_bar_2: 1191815754
-      ui_status_bar_0: 218287014
-      ui_status_bar_1: 2003629891
+      ui_status_icon_0: 1080101630
+      ui_status_icon_1: 1379442453
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c8ace1d5f61d65b45b01131d01ea2cb8
+guid: e632535e8dc6e7b4cb533e81c7fc582e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 4
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 1, y: 1, z: 1, w: 1}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ui_status_bar_0
+      name: ui_xp_background_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,47 +113,47 @@ TextureImporter:
         width: 7
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a873cc4bcfd88504bbb31ba6f9d341c0
-      internalID: 218287014
+      spriteID: 1dbb8e30fe338554daac9af4a2e42a39
+      internalID: 212967697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_status_bar_1
+      name: ui_xp_background_1
       rect:
         serializedVersion: 2
         x: 7
-        y: 0
+        y: 1
         width: 7
-        height: 7
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45f78e37790039a4aa24bf8ba3253799
-      internalID: 2003629891
+      spriteID: f5a767610c448f44b96f85db37bc6c01
+      internalID: 131218959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_status_bar_2
+      name: ui_bar_0
       rect:
         serializedVersion: 2
         x: 14
-        y: 0
+        y: 1
         width: 7
-        height: 7
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,8 +161,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d15e1c39244c2194fab029c0a5f55695
-      internalID: 1191815754
+      spriteID: 5bfc2aa0c8f25ba488199142aef81fa3
+      internalID: -234447177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_bar_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba6a128a39af15449604e7991575208
+      internalID: -1413057393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_bar_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c337fb45c998c804cab39f8a26859c37
+      internalID: -1164233298
       vertices: []
       indices: 
       edges: []
@@ -171,16 +213,18 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ui_status_bar_2: 1191815754
-      ui_status_bar_0: 218287014
-      ui_status_bar_1: 2003629891
+      ui_xp_background_1: 131218959
+      ui_bar_0: -234447177
+      ui_bar_2: -1164233298
+      ui_xp_background_0: 212967697
+      ui_bar_1: -1413057393
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
