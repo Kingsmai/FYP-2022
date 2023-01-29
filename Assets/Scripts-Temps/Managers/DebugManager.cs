@@ -53,14 +53,14 @@ public class DebugManager : Singleton<DebugManager> {
     }
 
     private void Start() {
-        currentPlayer = GameManager.Instance.CurrentPlayer.GetComponent<Player>();
+        currentPlayer = GameManager.Instance.CurrentPlayer;
 
         debug_buttons = new List<DebugButton>();
         debug_buttons.Add(new DebugButton("Get Damage", () => {
-            GameManager.Instance.CurrentPlayer.GetComponent<Player>().GetDamage(5, Vector3.zero);
+            currentPlayer.GetDamage(1, Vector3.zero);
         }));
         debug_buttons.Add(new DebugButton("Regeneration", () => {
-            GameManager.Instance.CurrentPlayer.GetComponent<Player>().HealthRecover(10);
+            currentPlayer.HealthRecover(2);
         }));
         debug_buttons.Add(new DebugButton("Change Skin", () => {
         }));
@@ -95,8 +95,8 @@ public class DebugManager : Singleton<DebugManager> {
         public event OnClickHandler OnClick;
 
         public DebugButton(string text, OnClickHandler clickEv) {
-            this.ButtonText = text;
-            this.OnClick = clickEv;
+            ButtonText = text;
+            OnClick = clickEv;
         }
 
         public void ClickEv() {

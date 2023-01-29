@@ -7,8 +7,8 @@ namespace CraftsmanHero {
         [Header("Player Properties", order = 1)]
         public WeaponsSO CurrentWeapon;
 
-        // Íæ¼Ò¶¯»­Ïà¹Ø
-        [Header("Íæ¼ÒÍ¼Æ¬Ïà¹Ø")]
+        // ç©å®¶åŠ¨ç”»ç›¸å…³
+        [Header("ç©å®¶å›¾ç‰‡ç›¸å…³")]
         public Animator SkinAnimator;
         public List<SkinsSO> Skins;
         RuntimeAnimatorController defaultController;
@@ -26,7 +26,7 @@ namespace CraftsmanHero {
 
             defaultController = SkinAnimator.runtimeAnimatorController;
 
-            // µã»÷Êó±ê£¬¹¥»÷
+            // ç‚¹å‡»é¼ æ ‡ï¼Œæ”»å‡»
             InputManager.Instance.Input.Player.Fire.performed += (ctx) => {
                 Attack();
             };
@@ -46,7 +46,7 @@ namespace CraftsmanHero {
 
         private void CreateHand() {
 
-            // ´´½¨ Hand ×Ó GameObject
+            // åˆ›å»º Hand å­ GameObject
             GameObject hand = new GameObject("hand");
             hand.transform.SetParent(transform, false);
             Vector3 handOffset = hand.transform.position;
@@ -54,7 +54,7 @@ namespace CraftsmanHero {
             hand.transform.position = handOffset;
             handTransform = hand.transform;
 
-            // ´´½¨ Weapon ×Ó GameObject
+            // åˆ›å»º Weapon å­ GameObject
             HeldWeapon = Instantiate(CurrentWeapon.weaponPrefab, hand.transform).GetComponent<Weapons>();
         }
 
@@ -64,7 +64,7 @@ namespace CraftsmanHero {
 
         private void Look(float angle) {
             // -90 ~ 90 = right = false;
-            // Êó±êÔÚÓÒ²à£¬µ«ÊÇ²»ÊÇ³¯ÏòÓÒ±ß
+            // é¼ æ ‡åœ¨å³ä¾§ï¼Œä½†æ˜¯ä¸æ˜¯æœå‘å³è¾¹
             if (angle >= -90 && angle <= 90 && !isFacingRight) {
                 Flip();
             } else if ((angle > 90 || angle < -90) && isFacingRight) {
@@ -83,8 +83,8 @@ namespace CraftsmanHero {
             HeldWeapon.Fire();
         }
 
-        // #REGION: Æ¤·ôÏà¹Ø
-        // DEBUG ONLY ÇĞ»»ÏÂÒ»¸öÆ¤·ô
+        // #REGION: çš®è‚¤ç›¸å…³
+        // DEBUG ONLY åˆ‡æ¢ä¸‹ä¸€ä¸ªçš®è‚¤
         public void NextSkin() {
             currentSkin = (++currentSkin) % Skins.Count;
             RuntimeAnimatorController controller = Skins[currentSkin].AnimatorController;

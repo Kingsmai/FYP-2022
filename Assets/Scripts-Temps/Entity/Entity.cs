@@ -6,10 +6,22 @@ namespace CraftsmanHero {
 
         public string entityTag = "Untagged";
 
-        // ÉúÃüÊıÖµÏà¹Ø
-        [Header("ÉúÃüÖµ")]
+        // ç”Ÿå‘½æ•°å€¼ç›¸å…³
+        [Header("ç”Ÿå‘½å€¼")]
         public int MaxHealth = 10;
         [SerializeField] private int health;
+
+        public delegate void EntityEventHandler();
+
+        public event EntityEventHandler OnHealthChanged;
+        
+        public int Health {
+            get { return health; }
+            set {
+                health = value;
+                OnHealthChanged?.Invoke();
+            }
+        }
         public bool IsVulnerable;
         protected GameObject healthEffectParent;
         private BoxCollider2D damageCollider;
@@ -18,11 +30,11 @@ namespace CraftsmanHero {
         public Vector2 damageColliderOffset = new Vector2(0, 0.75f);
         public Vector2 damageColliderSize = new Vector2(1, 1.5f);
 
-        [Header("ÒÆ¶¯")]
+        [Header("ç§»åŠ¨")]
         public bool isStatic;
         public float MoveSpeed = 10f;
 
-        [Header("Ó°×Ó")]
+        [Header("å½±å­")]
         public Sprite ShadowSprite;
         public Sprite ShadowLockSprite;
         protected SpriteRenderer shadowLockRenderer;
@@ -34,7 +46,7 @@ namespace CraftsmanHero {
         }
 
         protected virtual void Awake() {
-            health = MaxHealth;
+            Health = MaxHealth;
 
             rb2d = GetComponent<Rigidbody2D>();
 
@@ -42,10 +54,10 @@ namespace CraftsmanHero {
             CreateShadow();
         }
 
-        // ¹¥»÷
+        // æ”»å‡»
         public abstract void Attack();
 
-        // ´´½¨ÉËº¦Åö×²Ìå
+        // åˆ›å»ºä¼¤å®³ç¢°æ’ä½“
         private void CreateDamageCollider() {
             healthEffectParent = new GameObject("hpEffect");
             healthEffectParent.transform.SetParent(transform, false);
@@ -56,7 +68,7 @@ namespace CraftsmanHero {
             damageCollider.isTrigger = true;
         }
 
-        // ´´½¨Ó°×Ó
+        // åˆ›å»ºå½±å­
         public void CreateShadow() {
             if (ShadowSprite != null) {
                 GameObject shadow = new GameObject("shadow");
@@ -73,34 +85,34 @@ namespace CraftsmanHero {
             shadowLockRenderer.sprite = ShadowLockSprite;
         }
 
-        // ÊÜÉË
+        // å—ä¼¤
         public virtual void GetDamage(int damageAmount, Vector3 position) {
 
-            // ¿Û³ıÉúÃüÖµ
+            // æ‰£é™¤ç”Ÿå‘½å€¼
             if (!IsVulnerable) {
-                health -= damageAmount;
+                Health -= damageAmount;
             }
 
-            // ÏÔÊ¾ÉËº¦ÊıÖµ
+            // æ˜¾ç¤ºä¼¤å®³æ•°å€¼
             if (currentDamageText == null) {
                 currentDamageText = Instantiate(TextsManager.Instance.damageText, healthEffectParent.transform).GetComponent<FloatingText>();
             }
             currentDamageText.UpdateText(damageAmount);
 
-            // ÉËº¦ÌØĞ§
-            if (health < 0) {
-                // ÇĞ»»ËÀÍöÌùÍ¼
+            // ä¼¤å®³ç‰¹æ•ˆ
+            if (Health < 0) {
+                // åˆ‡æ¢æ­»äº¡è´´å›¾
             } else {
-                // ÌùÍ¼ÉÁË¸
+                // è´´å›¾é—ªçƒ
             }
         }
 
-        // »ØÑª
+        // å›è¡€
         public virtual void HealthRecover(int recoverAmount) {
             recoverAmount = health + recoverAmount < MaxHealth ? recoverAmount : Mathf.Abs(health - recoverAmount);
-            health += recoverAmount;
+            Health += recoverAmount;
 
-            // ÏÔÊ¾»Ø¸´ÊıÖµ
+            // æ˜¾ç¤ºå›å¤æ•°å€¼
             if (currentRecoverText == null) {
                 currentRecoverText = Instantiate(TextsManager.Instance.recoverText, healthEffectParent.transform).GetComponent<FloatingText>();
             }

@@ -110,11 +110,11 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 6
+        width: 68
         height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 1, y: 2, z: 1, w: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -129,13 +129,13 @@ TextureImporter:
       name: ui_status_bar_1
       rect:
         serializedVersion: 2
-        x: 6
+        x: 68
         y: 0
-        width: 6
+        width: 68
         height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 1, y: 2, z: 1, w: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -150,13 +150,13 @@ TextureImporter:
       name: ui_status_bar_2
       rect:
         serializedVersion: 2
-        x: 12
+        x: 136
         y: 0
-        width: 6
+        width: 68
         height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 1, y: 2, z: 1, w: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
