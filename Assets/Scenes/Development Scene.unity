@@ -2481,7 +2481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3512ff73b9c023e49a0c0ecc0c652aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IS_DEBUG_MODE: 0
+  IS_DEBUG_MODE: 1
   OutputText: {fileID: 1619785326}
 --- !u!1 &606853567
 GameObject:
@@ -3873,7 +3873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeb5ca7aa5b6874090d26fb936dbd3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentPlayer: {fileID: 0}
+  CurrentPlayer: {fileID: 1452971211}
 --- !u!4 &1015322213
 Transform:
   m_ObjectHideFlags: 0
@@ -5823,7 +5823,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1452971206
 Transform:
   m_ObjectHideFlags: 0
@@ -5889,6 +5889,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3526f927c3e64d84e95ae33d68399e94, type: 2}
   - {fileID: 11400000, guid: 1bae6786669ba7b4ea39b5f25091ba15, type: 2}
   - {fileID: 11400000, guid: 51bf5ab716f470e468e928693aaa2484, type: 2}
+  - {fileID: 11400000, guid: db744fbd1bc4c8c4aa263d11b5990247, type: 2}
   currentSkin: 0
 --- !u!1 &1457199581
 GameObject:

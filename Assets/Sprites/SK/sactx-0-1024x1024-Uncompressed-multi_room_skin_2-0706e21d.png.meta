@@ -1,0 +1,3041 @@
+fileFormatVersion: 2
+guid: b211df3a085be2f48b24889cf96e954f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: multi_room_skin_2_3_0
+  - first:
+      213: 21300002
+    second: multi_room_skin_2_3_1
+  - first:
+      213: 21300004
+    second: multi_room_skin_2_3_2
+  - first:
+      213: 21300006
+    second: multi_room_skin_2_3_3
+  - first:
+      213: 21300008
+    second: multi_room_skin_2_3_4
+  - first:
+      213: 21300010
+    second: multi_room_skin_2_3_5
+  - first:
+      213: 21300012
+    second: multi_room_skin_2_3_6
+  - first:
+      213: 21300014
+    second: multi_room_skin_2_4_3
+  - first:
+      213: 21300016
+    second: multi_room_skin_2_4_2
+  - first:
+      213: 21300018
+    second: multi_room_skin_2_4_1
+  - first:
+      213: 21300020
+    second: multi_room_skin_2_4_0
+  - first:
+      213: 21300022
+    second: multi_room_skin_2_4_6
+  - first:
+      213: 21300024
+    second: multi_room_skin_2_4_5
+  - first:
+      213: 21300026
+    second: multi_room_skin_2_4_4
+  - first:
+      213: 21300028
+    second: multi_room_skin_2_6_0
+  - first:
+      213: 21300030
+    second: multi_room_skin_2_8_3
+  - first:
+      213: 21300032
+    second: multi_room_skin_2_8_2
+  - first:
+      213: 21300034
+    second: multi_room_skin_2_8_1
+  - first:
+      213: 21300036
+    second: multi_room_skin_2_8_0
+  - first:
+      213: 21300038
+    second: multi_room_skin_2_1_0
+  - first:
+      213: 21300040
+    second: multi_room_skin_2_2_1
+  - first:
+      213: 21300042
+    second: multi_room_skin_2_2_0
+  - first:
+      213: 21300044
+    second: multi_room_skin_2_2_3
+  - first:
+      213: 21300046
+    second: multi_room_skin_2_2_2
+  - first:
+      213: 21300048
+    second: multi_room_skin_2_2_5
+  - first:
+      213: 21300050
+    second: multi_room_skin_2_2_4
+  - first:
+      213: 21300052
+    second: multi_room_skin_2_2_6
+  - first:
+      213: 21300054
+    second: multi_room_skin_2_5_2
+  - first:
+      213: 21300056
+    second: multi_room_skin_2_5_3
+  - first:
+      213: 21300058
+    second: multi_room_skin_2_5_0
+  - first:
+      213: 21300060
+    second: multi_room_skin_2_5_1
+  - first:
+      213: 21300062
+    second: multi_room_skin_2_5_6
+  - first:
+      213: 21300064
+    second: multi_room_skin_2_5_4
+  - first:
+      213: 21300066
+    second: multi_room_skin_2_5_5
+  - first:
+      213: 21300068
+    second: multi_room_skin_2_0_7
+  - first:
+      213: 21300070
+    second: multi_room_skin_2_0_6
+  - first:
+      213: 21300072
+    second: multi_room_skin_2_0_5
+  - first:
+      213: 21300074
+    second: multi_room_skin_2_0_4
+  - first:
+      213: 21300076
+    second: multi_room_skin_2_0_3
+  - first:
+      213: 21300078
+    second: multi_room_skin_2_0_2
+  - first:
+      213: 21300080
+    second: multi_room_skin_2_0_1
+  - first:
+      213: 21300082
+    second: multi_room_skin_2_0_0
+  - first:
+      213: 21300084
+    second: multi_room_skin_2_0_8
+  - first:
+      213: 21300086
+    second: multi_room_skin_2_7_4
+  - first:
+      213: 21300088
+    second: multi_room_skin_2_7_5
+  - first:
+      213: 21300090
+    second: multi_room_skin_2_7_6
+  - first:
+      213: 21300092
+    second: multi_room_skin_2_7_7
+  - first:
+      213: 21300094
+    second: multi_room_skin_2_7_0
+  - first:
+      213: 21300096
+    second: multi_room_skin_2_7_1
+  - first:
+      213: 21300098
+    second: multi_room_skin_2_7_2
+  - first:
+      213: 21300100
+    second: multi_room_skin_2_7_3
+  - first:
+      213: 21300102
+    second: multi_room_skin_2_7_8
+  - first:
+      213: 21300104
+    second: multi_room_skin_2_7_9
+  - first:
+      213: 21300106
+    second: multi_room_skin_2_7_12
+  - first:
+      213: 21300108
+    second: multi_room_skin_2_7_11
+  - first:
+      213: 21300110
+    second: multi_room_skin_2_7_10
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 0
+  flipbookColumns: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: multi_room_skin_2_3_0
+      rect:
+        serializedVersion: 2
+        x: 594.0761
+        y: 110.076126
+        width: 38.847763
+        height: 34.897133
+      alignment: 9
+      pivot: {x: -0.19698022, y: -1.1907064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.576122, y: -47.600807}
+        - {x: -47.576122, y: -47.600807}
+        - {x: -47.576122, y: -12.600803}
+        - {x: -8.576122, y: -12.600803}
+        - {x: -8.576122, y: -46.600807}
+      physicsShape:
+      - - {x: -42.576122, y: -15.600803}
+        - {x: -44.576122, y: -16.600803}
+        - {x: -44.576122, y: -43.600807}
+        - {x: -43.576122, y: -44.600807}
+        - {x: -11.576122, y: -44.600807}
+        - {x: -11.576122, y: -16.600803}
+        - {x: -13.576122, y: -15.600803}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283bd51bc9d341a2a86ee919307c2bf8
+      internalID: 21300000
+      vertices:
+      - {x: 37.92388, y: 63.848568}
+      - {x: 34.92388, y: 28.848566}
+      - {x: 37.92388, y: 29.848566}
+      - {x: -1.0761185, y: 63.848568}
+      - {x: -1.0761185, y: 28.848566}
+      indices: 040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_3_1
+      rect:
+        serializedVersion: 2
+        x: 496.0761
+        y: 397.0761
+        width: 47.847763
+        height: 41.897133
+      alignment: 9
+      pivot: {x: 0.049067352, y: -0.84856015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.92388153, y: -48.100807}
+        - {x: -47.07612, y: -48.100807}
+        - {x: -47.07612, y: -6.1008034}
+        - {x: 0.92388153, y: -6.1008034}
+      physicsShape:
+      - - {x: -13.076118, y: -9.100803}
+        - {x: -21.076118, y: -13.100803}
+        - {x: -29.076118, y: -9.100803}
+        - {x: -44.07612, y: -9.100803}
+        - {x: -44.07612, y: -38.100807}
+        - {x: -43.07612, y: -45.100807}
+        - {x: -3.0761185, y: -45.100807}
+        - {x: -2.0761185, y: -38.100807}
+        - {x: -2.0761185, y: -9.100803}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19f653c3c9a4ecfb5326a7e06723010
+      internalID: 21300002
+      vertices:
+      - {x: -1.5761185, y: 71.34857}
+      - {x: 46.42388, y: 29.348566}
+      - {x: 46.42388, y: 71.34857}
+      - {x: -1.5761185, y: 29.348566}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_3_2
+      rect:
+        serializedVersion: 2
+        x: 667.0761
+        y: 0.07612038
+        width: 58.847763
+        height: 47.897133
+      alignment: 9
+      pivot: {x: 0.20982528, y: -0.57523775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.423866, y: -47.100807}
+        - {x: -47.576134, y: -47.100807}
+        - {x: -47.576134, y: 0.8991966}
+        - {x: 11.423866, y: 0.8991966}
+      physicsShape:
+      - - {x: 8.423866, y: -38.100807}
+        - {x: 8.423866, y: -35.100807}
+        - {x: 4.4238663, y: -30.100805}
+        - {x: 6.4238663, y: -27.100805}
+        - {x: 8.423866, y: -23.100805}
+        - {x: 8.423866, y: -2.1008034}
+        - {x: -5.5761337, y: -2.1008034}
+        - {x: -6.5761337, y: -3.1008034}
+        - {x: -11.576134, y: -11.100803}
+        - {x: -29.576134, y: -2.1008034}
+        - {x: -44.576134, y: -2.1008034}
+        - {x: -44.576134, y: -24.100805}
+        - {x: -43.576134, y: -29.100805}
+        - {x: -44.576134, y: -43.100807}
+        - {x: -42.576134, y: -44.100807}
+        - {x: -32.576134, y: -44.100807}
+        - {x: -23.576134, y: -36.100807}
+        - {x: -0.5761337, y: -44.100807}
+        - {x: 7.4238663, y: -44.100807}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa40552666b8413fa521fde30150c0b1
+      internalID: 21300004
+      vertices:
+      - {x: -1.0761185, y: 76.34857}
+      - {x: 57.92388, y: 28.348566}
+      - {x: 57.92388, y: 76.34857}
+      - {x: -1.0761185, y: 28.348566}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_3_3
+      rect:
+        serializedVersion: 2
+        x: 496.0761
+        y: 201.07613
+        width: 72.84776
+        height: 50.897133
+      alignment: 9
+      pivot: {x: 0.36168274, y: -0.5413319}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.576103, y: -48.600807}
+        - {x: -47.576103, y: -48.600807}
+        - {x: -47.576103, y: 2.3991928}
+        - {x: 25.423897, y: 2.3991928}
+        - {x: 25.423897, y: -48.600807}
+        - {x: -13.576103, y: -48.600807}
+        - {x: -27.576103, y: -46.600807}
+      physicsShape:
+      - - {x: 22.423897, y: -1.6008072}
+        - {x: 21.423897, y: -0.6008072}
+        - {x: 7.423897, y: -0.6008072}
+        - {x: 1.4238968, y: -10.600807}
+        - {x: -30.576103, y: -2.6008072}
+        - {x: -42.576103, y: -0.6008072}
+        - {x: -44.576103, y: -1.6008072}
+        - {x: -44.576103, y: -19.600807}
+        - {x: -39.576103, y: -22.60081}
+        - {x: -36.576103, y: -22.60081}
+        - {x: -41.576103, y: -30.60081}
+        - {x: -44.576103, y: -37.600807}
+        - {x: -44.576103, y: -45.600807}
+        - {x: -32.576103, y: -45.600807}
+        - {x: -24.576103, y: -35.600807}
+        - {x: 5.423897, y: -45.600807}
+        - {x: 22.423897, y: -45.600807}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc61873226be48219b6bc5f4eb3606a5
+      internalID: 21300006
+      vertices:
+      - {x: 71.92388, y: 80.84857}
+      - {x: 32.92388, y: 29.848566}
+      - {x: 71.92388, y: 29.848566}
+      - {x: 18.923882, y: 31.848566}
+      - {x: 10.923882, y: 29.848566}
+      - {x: -1.0761185, y: 80.84857}
+      - {x: -1.0761185, y: 29.848566}
+      indices: 060000000500000004000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_3_4
+      rect:
+        serializedVersion: 2
+        x: 496.0761
+        y: 139.07613
+        width: 82.84776
+        height: 57.897133
+      alignment: 9
+      pivot: {x: 0.41458914, y: -0.30316252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.4239, y: -47.100807}
+        - {x: -48.5761, y: -47.100807}
+        - {x: -48.5761, y: 10.899193}
+        - {x: 34.4239, y: 10.899193}
+      physicsShape:
+      - - {x: 30.4239, y: -44.100807}
+        - {x: 31.4239, y: -37.100807}
+        - {x: 31.4239, y: -34.100807}
+        - {x: 29.4239, y: -28.10081}
+        - {x: 24.4239, y: -22.10081}
+        - {x: 31.4239, y: -11.100807}
+        - {x: 31.4239, y: 7.899193}
+        - {x: 17.4239, y: 7.899193}
+        - {x: 8.423901, y: 2.8991928}
+        - {x: -43.5761, y: 7.899193}
+        - {x: -45.5761, y: 7.899193}
+        - {x: -45.5761, y: -44.100807}
+        - {x: -34.5761, y: -44.100807}
+        - {x: -25.5761, y: -35.100807}
+        - {x: 11.423901, y: -35.100807}
+        - {x: 20.4239, y: -44.100807}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43d86b375364358b3e4a59067dfec27
+      internalID: 21300008
+      vertices:
+      - {x: -0.07611847, y: 86.34857}
+      - {x: 82.92388, y: 28.348566}
+      - {x: 82.92388, y: 86.34857}
+      - {x: -0.07611847, y: 28.348566}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_3_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 937.0761
+        width: 97
+        height: 64.89713
+      alignment: 9
+      pivot: {x: 0.5, y: -0.17800848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.5, y: -47.600807}
+        - {x: -48.5, y: -47.600807}
+        - {x: -48.5, y: -21.60081}
+        - {x: -44.5, y: -10.600807}
+        - {x: -48.5, y: -7.600807}
+        - {x: -48.5, y: 17.399193}
+        - {x: 48.5, y: 17.399193}
+      physicsShape:
+      - - {x: 46.5, y: -38.600807}
+        - {x: 46.5, y: -34.600807}
+        - {x: 43.5, y: -29.60081}
+        - {x: 46.5, y: -11.600807}
+        - {x: 46.5, y: 13.399193}
+        - {x: 44.5, y: 14.399193}
+        - {x: 35.5, y: 14.399193}
+        - {x: 31.5, y: 13.399193}
+        - {x: 24.5, y: 7.399193}
+        - {x: -34.5, y: 14.399193}
+        - {x: -46.5, y: 14.399193}
+        - {x: -46.5, y: -38.600807}
+        - {x: -45.5, y: -44.600807}
+        - {x: -36.5, y: -44.600807}
+        - {x: -32.5, y: -41.600807}
+        - {x: 11.5, y: -44.600807}
+        - {x: 45.5, y: -44.600807}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32002d8145e42bbad6323ec0852214d
+      internalID: 21300010
+      vertices:
+      - {x: 97, y: 93.84857}
+      - {x: 4, y: 65.84857}
+      - {x: 97, y: 28.848566}
+      - {x: 0, y: 93.84857}
+      - {x: 0, y: 68.84857}
+      - {x: 0, y: 54.848564}
+      - {x: 0, y: 28.848566}
+      indices: 060000000500000002000000010000000200000005000000040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_3_6
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 866.0761
+        width: 97
+        height: 66.89713
+      alignment: 9
+      pivot: {x: 0.5, y: -0.14278997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.5, y: -47.600807}
+        - {x: -48.5, y: -47.600807}
+        - {x: -48.5, y: -18.60081}
+        - {x: -45.5, y: -8.600807}
+        - {x: -48.5, y: -5.600807}
+        - {x: -48.5, y: 19.399193}
+        - {x: 48.5, y: 19.399193}
+      physicsShape:
+      - - {x: 47.5, y: -44.600807}
+        - {x: 47.5, y: 16.399193}
+        - {x: 30.5, y: 16.399193}
+        - {x: 27.5, y: 8.399193}
+        - {x: -32.5, y: 16.399193}
+        - {x: -47.5, y: 16.399193}
+        - {x: -47.5, y: -39.600807}
+        - {x: -45.5, y: -44.600807}
+        - {x: -35.5, y: -44.600807}
+        - {x: -26.5, y: -34.600807}
+        - {x: 24.5, y: -40.600807}
+        - {x: 32.5, y: -44.600807}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d28cd7aa3a4614a203ae73c562df84
+      internalID: 21300012
+      vertices:
+      - {x: 97, y: 95.84857}
+      - {x: 3, y: 67.84857}
+      - {x: 97, y: 28.848566}
+      - {x: 0, y: 95.84857}
+      - {x: 0, y: 70.84857}
+      - {x: 0, y: 57.848564}
+      - {x: 0, y: 28.848566}
+      indices: 060000000500000002000000010000000200000005000000040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_4_3
+      rect:
+        serializedVersion: 2
+        x: 496.0761
+        y: 256.0761
+        width: 72.84776
+        height: 50.897133
+      alignment: 9
+      pivot: {x: 0.36168274, y: -0.5413319}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.576103, y: -48.600807}
+        - {x: -47.576103, y: -48.600807}
+        - {x: -47.576103, y: 2.3991928}
+        - {x: 25.423897, y: 2.3991928}
+        - {x: 25.423897, y: -48.600807}
+        - {x: -13.576103, y: -48.600807}
+        - {x: -27.576103, y: -46.600807}
+      physicsShape:
+      - - {x: 22.423897, y: -1.6008072}
+        - {x: 21.423897, y: -0.6008072}
+        - {x: 7.423897, y: -0.6008072}
+        - {x: 1.4238968, y: -10.600807}
+        - {x: -30.576103, y: -2.6008072}
+        - {x: -42.576103, y: -0.6008072}
+        - {x: -44.576103, y: -1.6008072}
+        - {x: -44.576103, y: -19.600807}
+        - {x: -39.576103, y: -22.60081}
+        - {x: -36.576103, y: -22.60081}
+        - {x: -41.576103, y: -30.60081}
+        - {x: -44.576103, y: -37.600807}
+        - {x: -44.576103, y: -45.600807}
+        - {x: -32.576103, y: -45.600807}
+        - {x: -24.576103, y: -35.600807}
+        - {x: 5.423897, y: -45.600807}
+        - {x: 22.423897, y: -45.600807}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeca2be3b33e448ab75368400a3906b1
+      internalID: 21300014
+      vertices:
+      - {x: 71.92388, y: 80.84857}
+      - {x: 32.92388, y: 29.848566}
+      - {x: 71.92388, y: 29.848566}
+      - {x: 18.923882, y: 31.848566}
+      - {x: 10.923882, y: 29.848566}
+      - {x: -1.0761185, y: 80.84857}
+      - {x: -1.0761185, y: 29.848566}
+      indices: 060000000500000004000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_4_2
+      rect:
+        serializedVersion: 2
+        x: 496.0761
+        y: 311.0761
+        width: 58.847763
+        height: 47.897133
+      alignment: 9
+      pivot: {x: 0.20982528, y: -0.57523775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.423866, y: -47.100807}
+        - {x: -47.576134, y: -47.100807}
+        - {x: -47.576134, y: 0.8991966}
+        - {x: 11.423866, y: 0.8991966}
+      physicsShape:
+      - - {x: 8.423866, y: -38.100807}
+        - {x: 8.423866, y: -35.100807}
+        - {x: 4.4238663, y: -30.100805}
+        - {x: 6.4238663, y: -27.100805}
+        - {x: 8.423866, y: -23.100805}
+        - {x: 8.423866, y: -2.1008034}
+        - {x: -5.5761337, y: -2.1008034}
+        - {x: -6.5761337, y: -3.1008034}
+        - {x: -11.576134, y: -11.100803}
+        - {x: -29.576134, y: -2.1008034}
+        - {x: -44.576134, y: -2.1008034}
+        - {x: -44.576134, y: -24.100805}
+        - {x: -43.576134, y: -29.100805}
+        - {x: -44.576134, y: -43.100807}
+        - {x: -42.576134, y: -44.100807}
+        - {x: -32.576134, y: -44.100807}
+        - {x: -23.576134, y: -36.100807}
+        - {x: -0.5761337, y: -44.100807}
+        - {x: 7.4238663, y: -44.100807}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592a6ad628cc46b694c6efba118f9bfe
+      internalID: 21300016
+      vertices:
+      - {x: -1.0761185, y: 76.34857}
+      - {x: 57.92388, y: 28.348566}
+      - {x: 57.92388, y: 76.34857}
+      - {x: -1.0761185, y: 28.348566}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_4_1
+      rect:
+        serializedVersion: 2
+        x: 416.0761
+        y: 640.0761
+        width: 47.847763
+        height: 41.897133
+      alignment: 9
+      pivot: {x: 0.049067352, y: -0.84856015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.92388153, y: -48.100807}
+        - {x: -47.07612, y: -48.100807}
+        - {x: -47.07612, y: -6.1008034}
+        - {x: 0.92388153, y: -6.1008034}
+      physicsShape:
+      - - {x: -13.076118, y: -9.100803}
+        - {x: -21.076118, y: -13.100803}
+        - {x: -29.076118, y: -9.100803}
+        - {x: -44.07612, y: -9.100803}
+        - {x: -44.07612, y: -38.100807}
+        - {x: -43.07612, y: -45.100807}
+        - {x: -3.0761185, y: -45.100807}
+        - {x: -2.0761185, y: -38.100807}
+        - {x: -2.0761185, y: -9.100803}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8c0730034f48c6a10125da29b76fcc
+      internalID: 21300018
+      vertices:
+      - {x: -1.5761185, y: 71.34857}
+      - {x: 46.42388, y: 29.348566}
+      - {x: 46.42388, y: 71.34857}
+      - {x: -1.5761185, y: 29.348566}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_4_0
+      rect:
+        serializedVersion: 2
+        x: 413.0761
+        y: 686.0761
+        width: 38.847763
+        height: 34.897133
+      alignment: 9
+      pivot: {x: -0.19698022, y: -1.1907064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.576122, y: -47.600807}
+        - {x: -47.576122, y: -47.600807}
+        - {x: -47.576122, y: -12.600803}
+        - {x: -8.576122, y: -12.600803}
+        - {x: -8.576122, y: -46.600807}
+      physicsShape:
+      - - {x: -42.576122, y: -15.600803}
+        - {x: -44.576122, y: -16.600803}
+        - {x: -44.576122, y: -43.600807}
+        - {x: -43.576122, y: -44.600807}
+        - {x: -11.576122, y: -44.600807}
+        - {x: -11.576122, y: -16.600803}
+        - {x: -13.576122, y: -15.600803}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ce82888c464406b2d34e92814544da
+      internalID: 21300020
+      vertices:
+      - {x: 37.92388, y: 63.848568}
+      - {x: 34.92388, y: 28.848566}
+      - {x: 37.92388, y: 29.848566}
+      - {x: -1.0761185, y: 63.848568}
+      - {x: -1.0761185, y: 28.848566}
+      indices: 040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_4_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 918.0761
+        width: 97
+        height: 66.89713
+      alignment: 9
+      pivot: {x: 0.5, y: -0.14278997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.5, y: -47.600807}
+        - {x: -48.5, y: -47.600807}
+        - {x: -48.5, y: 19.399193}
+        - {x: 48.5, y: 19.399193}
+      physicsShape:
+      - - {x: 47.5, y: -44.600807}
+        - {x: 47.5, y: 16.399193}
+        - {x: 30.5, y: 16.399193}
+        - {x: 27.5, y: 8.399193}
+        - {x: -45.5, y: 16.399193}
+        - {x: -47.5, y: 15.399193}
+        - {x: -47.5, y: -2.6008072}
+        - {x: -43.5, y: -6.600807}
+        - {x: -47.5, y: -29.60081}
+        - {x: -47.5, y: -39.600807}
+        - {x: -45.5, y: -44.600807}
+        - {x: -37.5, y: -44.600807}
+        - {x: -33.5, y: -41.600807}
+        - {x: 25.5, y: -40.600807}
+        - {x: 34.5, y: -44.600807}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a12361bf3947668e521dd4b55c9407
+      internalID: 21300022
+      vertices:
+      - {x: 0, y: 95.84857}
+      - {x: 97, y: 28.848566}
+      - {x: 97, y: 95.84857}
+      - {x: 0, y: 28.848566}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_4_5
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 937.0761
+        width: 97
+        height: 64.89713
+      alignment: 9
+      pivot: {x: 0.5, y: -0.17800848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.5, y: -47.600807}
+        - {x: -48.5, y: -47.600807}
+        - {x: -48.5, y: -21.60081}
+        - {x: -44.5, y: -10.600807}
+        - {x: -48.5, y: -7.600807}
+        - {x: -48.5, y: 17.399193}
+        - {x: 48.5, y: 17.399193}
+      physicsShape:
+      - - {x: 46.5, y: -38.600807}
+        - {x: 46.5, y: -34.600807}
+        - {x: 43.5, y: -29.60081}
+        - {x: 46.5, y: -11.600807}
+        - {x: 46.5, y: 13.399193}
+        - {x: 44.5, y: 14.399193}
+        - {x: 35.5, y: 14.399193}
+        - {x: 31.5, y: 13.399193}
+        - {x: 24.5, y: 7.399193}
+        - {x: -34.5, y: 14.399193}
+        - {x: -46.5, y: 14.399193}
+        - {x: -46.5, y: -38.600807}
+        - {x: -45.5, y: -44.600807}
+        - {x: -36.5, y: -44.600807}
+        - {x: -32.5, y: -41.600807}
+        - {x: 11.5, y: -44.600807}
+        - {x: 45.5, y: -44.600807}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4221cf687284a46b99a3c74b78dca6d
+      internalID: 21300024
+      vertices:
+      - {x: 97, y: 93.84857}
+      - {x: 4, y: 65.84857}
+      - {x: 97, y: 28.848566}
+      - {x: 0, y: 93.84857}
+      - {x: 0, y: 68.84857}
+      - {x: 0, y: 54.848564}
+      - {x: 0, y: 28.848566}
+      indices: 060000000500000002000000010000000200000005000000040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_4_4
+      rect:
+        serializedVersion: 2
+        x: 416.0761
+        y: 578.0761
+        width: 82.84776
+        height: 57.897133
+      alignment: 9
+      pivot: {x: 0.41458914, y: -0.30316252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.4239, y: -47.100807}
+        - {x: -48.5761, y: -47.100807}
+        - {x: -48.5761, y: 10.899193}
+        - {x: 34.4239, y: 10.899193}
+      physicsShape:
+      - - {x: 30.4239, y: -44.100807}
+        - {x: 31.4239, y: -37.100807}
+        - {x: 31.4239, y: -34.100807}
+        - {x: 29.4239, y: -28.10081}
+        - {x: 24.4239, y: -22.10081}
+        - {x: 31.4239, y: -11.100807}
+        - {x: 31.4239, y: 7.899193}
+        - {x: 17.4239, y: 7.899193}
+        - {x: 8.423901, y: 2.8991928}
+        - {x: -43.5761, y: 7.899193}
+        - {x: -45.5761, y: 7.899193}
+        - {x: -45.5761, y: -44.100807}
+        - {x: -34.5761, y: -44.100807}
+        - {x: -25.5761, y: -35.100807}
+        - {x: 11.423901, y: -35.100807}
+        - {x: 20.4239, y: -44.100807}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e96203b9d84776b9cf92ca499111d9
+      internalID: 21300026
+      vertices:
+      - {x: -0.07611847, y: 86.34857}
+      - {x: 82.92388, y: 28.348566}
+      - {x: 82.92388, y: 86.34857}
+      - {x: -0.07611847, y: 28.348566}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_6_0
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 0
+        width: 73
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5, y: -0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -19}
+        - {x: -36.5, y: -19}
+        - {x: -36.5, y: 19}
+        - {x: 36.5, y: 19}
+      physicsShape:
+      - - {x: -36.5, y: 19}
+        - {x: -36.5, y: -19}
+        - {x: 36.5, y: -19}
+        - {x: 36.5, y: 19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3421917fd118486eb4129ad152e62ef3
+      internalID: 21300028
+      vertices:
+      - {x: 0, y: 68.78}
+      - {x: 73, y: 30.779999}
+      - {x: 73, y: 68.78}
+      - {x: 0, y: 30.779999}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_8_3
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 443
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -15}
+        - {x: -15, y: 15}
+        - {x: 15, y: 15}
+        - {x: 15, y: -15}
+      physicsShape:
+      - - {x: -1, y: -10}
+        - {x: 2, y: -9}
+        - {x: 2, y: -6}
+        - {x: -1, y: -5}
+        - {x: -3, y: -7}
+      - - {x: -6, y: -3}
+        - {x: -3, y: -2}
+        - {x: -3, y: 1}
+        - {x: -6, y: 2}
+        - {x: -8, y: 0}
+      - - {x: 4, y: -3}
+        - {x: 7, y: -2}
+        - {x: 7, y: 1}
+        - {x: 4, y: 2}
+        - {x: 2, y: 0}
+      - - {x: -1, y: 3}
+        - {x: 2, y: 4}
+        - {x: 2, y: 7}
+        - {x: -1, y: 8}
+        - {x: -3, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: da76a7ba8cf54c40bec99d6e37a50347
+      internalID: 21300030
+      vertices:
+      - {x: 0, y: 33}
+      - {x: 30, y: 33}
+      - {x: 0, y: 3}
+      - {x: 30, y: 3}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_8_2
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 477
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -15}
+        - {x: -15, y: 15}
+        - {x: 15, y: 15}
+        - {x: 15, y: -15}
+      physicsShape:
+      - - {x: -3, y: -8}
+        - {x: -1, y: -10}
+        - {x: 2, y: -9}
+        - {x: 2, y: -5}
+        - {x: 0, y: -3}
+        - {x: -3, y: -4}
+      - - {x: -8, y: 0}
+        - {x: -7, y: -3}
+        - {x: -4, y: -3}
+        - {x: -2, y: -1}
+        - {x: -3, y: 2}
+        - {x: -6, y: 2}
+      - - {x: 1, y: 0}
+        - {x: 2, y: -3}
+        - {x: 5, y: -3}
+        - {x: 7, y: -1}
+        - {x: 6, y: 2}
+        - {x: 3, y: 2}
+      - - {x: -3, y: 3}
+        - {x: -1, y: 1}
+        - {x: 2, y: 2}
+        - {x: 2, y: 6}
+        - {x: 0, y: 8}
+        - {x: -3, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc3b01c9d944bd6a40242ff9d4e8ae2
+      internalID: 21300032
+      vertices:
+      - {x: 0, y: 33}
+      - {x: 30, y: 33}
+      - {x: 0, y: 3}
+      - {x: 30, y: 3}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_8_1
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 511
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -15}
+        - {x: -15, y: 15}
+        - {x: 15, y: 15}
+        - {x: 15, y: -15}
+      physicsShape:
+      - - {x: -3, y: 6}
+        - {x: -6, y: -1}
+        - {x: -3, y: -6}
+        - {x: -1, y: -8}
+        - {x: 2, y: -7}
+        - {x: 5, y: 0}
+        - {x: 2, y: 5}
+        - {x: 0, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a09e620c7c426aab3e813668bc7da1
+      internalID: 21300034
+      vertices:
+      - {x: 0, y: 33}
+      - {x: 30, y: 33}
+      - {x: 0, y: 3}
+      - {x: 30, y: 3}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_8_0
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 425
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -15}
+        - {x: -15, y: 15}
+        - {x: 15, y: 15}
+        - {x: 15, y: -15}
+      physicsShape:
+      - - {x: -4, y: -1}
+        - {x: -1, y: -5}
+        - {x: 2, y: -4}
+        - {x: 3, y: 0}
+        - {x: 0, y: 4}
+        - {x: -3, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854c0108fd21492d8264cb5158cef823
+      internalID: 21300036
+      vertices:
+      - {x: 0, y: 33}
+      - {x: 30, y: 33}
+      - {x: 0, y: 3}
+      - {x: 30, y: 3}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 492
+        height: 574
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 246, y: -287}
+        - {x: -246, y: -287}
+        - {x: -246, y: 287}
+        - {x: 246, y: 287}
+      physicsShape:
+      - - {x: -246, y: 287}
+        - {x: -246, y: -287}
+        - {x: 246, y: -287}
+        - {x: 246, y: 287}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc919988ce904c2cb39bc73fddc31e61
+      internalID: 21300038
+      vertices:
+      - {x: 0, y: 574}
+      - {x: 492, y: 0}
+      - {x: 492, y: 574}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_2_1
+      rect:
+        serializedVersion: 2
+        x: 594.0761
+        y: 56.02675
+        width: 40.847763
+        height: 49.946503
+      alignment: 9
+      pivot: {x: -0.34168914, y: -0.78891414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.576126, y: -46.026756}
+        - {x: -48.576126, y: -39.026756}
+        - {x: -48.576126, y: -8.026756}
+        - {x: -25.576126, y: 2.9732437}
+        - {x: -8.576126, y: 2.9732437}
+        - {x: -7.576126, y: 1.9732437}
+        - {x: -7.576126, y: -42.026756}
+        - {x: -13.576126, y: -47.026756}
+        - {x: -46.576126, y: -47.026756}
+      physicsShape:
+      - - {x: -12.576126, y: -27.026756}
+        - {x: -10.576126, y: -4.0267563}
+        - {x: -10.576126, y: -2.0267563}
+        - {x: -15.576126, y: -0.026756287}
+        - {x: -21.576126, y: -0.026756287}
+        - {x: -26.576126, y: -4.0267563}
+        - {x: -45.576126, y: -10.026756}
+        - {x: -45.576126, y: -36.026756}
+        - {x: -44.576126, y: -43.026756}
+        - {x: -38.576126, y: -44.026756}
+        - {x: -32.576126, y: -44.026756}
+        - {x: -20.576126, y: -39.026756}
+        - {x: -10.576126, y: -36.026756}
+        - {x: -10.576126, y: -31.026756}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07142df306f49218481509b9d973758
+      internalID: 21300040
+      vertices:
+      - {x: 46.228874, y: 92.32325}
+      - {x: 47.228874, y: 47.32325}
+      - {x: 47.228874, y: 91.32325}
+      - {x: 41.228874, y: 42.32325}
+      - {x: 29.228874, y: 92.32325}
+      - {x: 8.228874, y: 42.32325}
+      - {x: 7.228874, y: 43.32325}
+      - {x: 6.228874, y: 81.32325}
+      - {x: 6.228874, y: 50.32325}
+      indices: 080000000700000006000000040000000600000007000000050000000600000004000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_2_0
+      rect:
+        serializedVersion: 2
+        x: 575.0761
+        y: 329.0761
+        width: 35.847763
+        height: 43.897133
+      alignment: 9
+      pivot: {x: -0.5009306, y: -1.0365653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.076122, y: -47.100807}
+        - {x: -48.076122, y: -47.100807}
+        - {x: -48.076122, y: -4.100807}
+        - {x: -41.076122, y: -3.1008072}
+        - {x: -12.076122, y: -3.1008072}
+        - {x: -12.076122, y: -39.100807}
+      physicsShape:
+      - - {x: -26.076122, y: -6.100807}
+        - {x: -45.076122, y: -16.100807}
+        - {x: -45.076122, y: -34.100807}
+        - {x: -44.076122, y: -42.100807}
+        - {x: -42.076122, y: -44.100807}
+        - {x: -32.076122, y: -44.100807}
+        - {x: -19.076122, y: -39.100807}
+        - {x: -15.076122, y: -37.100807}
+        - {x: -15.076122, y: -6.100807}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddeeda259b984a87955132c9414744f0
+      internalID: 21300042
+      vertices:
+      - {x: 41.72888, y: 86.29857}
+      - {x: 27.728882, y: 42.298565}
+      - {x: 41.72888, y: 50.298565}
+      - {x: 12.728882, y: 86.29857}
+      - {x: 5.728882, y: 85.29857}
+      - {x: 5.728882, y: 42.298565}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_2_3
+      rect:
+        serializedVersion: 2
+        x: 417.0761
+        y: 866.02673
+        width: 69.84776
+        height: 78.9465
+      alignment: 9
+      pivot: {x: 0.28694946, y: -0.14444594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.076111, y: -47.526756}
+        - {x: -46.07611, y: -47.526756}
+        - {x: -46.07611, y: 17.473244}
+        - {x: -6.076111, y: 31.473244}
+        - {x: 20.92389, y: 31.473244}
+        - {x: 23.92389, y: 30.473244}
+        - {x: 23.92389, y: -39.526756}
+      physicsShape:
+      - - {x: 20.92389, y: -13.526756}
+        - {x: 16.92389, y: -1.5267563}
+        - {x: 20.92389, y: 22.473244}
+        - {x: 20.92389, y: 27.473244}
+        - {x: 15.923889, y: 28.473244}
+        - {x: 9.923889, y: 28.473244}
+        - {x: 2.9238892, y: 21.473244}
+        - {x: -22.07611, y: 3.4732437}
+        - {x: -29.07611, y: 11.473244}
+        - {x: -43.07611, y: 6.4732437}
+        - {x: -43.07611, y: -23.526756}
+        - {x: -42.07611, y: -27.526756}
+        - {x: -42.07611, y: -42.526756}
+        - {x: -40.07611, y: -44.526756}
+        - {x: -31.07611, y: -44.526756}
+        - {x: -21.07611, y: -38.526756}
+        - {x: -20.07611, y: -28.526756}
+        - {x: 10.923889, y: -23.526756}
+        - {x: 20.92389, y: -20.526756}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f1a380d3a3446bb7ea78d7a13f000b
+      internalID: 21300044
+      vertices:
+      - {x: 70.728874, y: 121.82325}
+      - {x: 73.728874, y: 50.82325}
+      - {x: 73.728874, y: 120.82325}
+      - {x: 43.728874, y: 121.82325}
+      - {x: 41.728874, y: 42.82325}
+      - {x: 3.7288742, y: 107.82325}
+      - {x: 3.7288742, y: 42.82325}
+      indices: 060000000500000004000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_2_2
+      rect:
+        serializedVersion: 2
+        x: 573.0761
+        y: 201.02675
+        width: 49.847763
+        height: 59.946503
+      alignment: 9
+      pivot: {x: -0.11950892, y: -0.49049568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.07614, y: -46.026756}
+        - {x: -49.07614, y: -43.026756}
+        - {x: -49.07614, y: 2.9732437}
+        - {x: -25.076141, y: 12.973244}
+        - {x: 0.92385864, y: 12.973244}
+        - {x: 0.92385864, y: -35.026756}
+        - {x: -3.0761414, y: -36.026756}
+        - {x: -23.076141, y: -36.026756}
+        - {x: -24.076141, y: -39.026756}
+        - {x: -30.076141, y: -47.026756}
+        - {x: -42.07614, y: -47.026756}
+      physicsShape:
+      - - {x: -6.0761414, y: -14.026756}
+        - {x: -12.076141, y: -14.026756}
+        - {x: -13.076141, y: -15.026756}
+        - {x: -12.076141, y: -14.026756}
+        - {x: -8.076141, y: -14.026756}
+        - {x: -3.0761414, y: -11.026756}
+        - {x: -2.0761414, y: -4.0267563}
+        - {x: -2.0761414, y: 9.973244}
+        - {x: -21.076141, y: 9.973244}
+        - {x: -33.07614, y: 0.9732437}
+        - {x: -46.07614, y: -4.0267563}
+        - {x: -46.07614, y: -44.026756}
+        - {x: -31.076141, y: -44.026756}
+        - {x: -12.076141, y: -36.026756}
+        - {x: -2.0761414, y: -33.026756}
+        - {x: -2.0761414, y: -25.026756}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ac15cc7ed744c8a05ff85090689535
+      internalID: 21300046
+      vertices:
+      - {x: 56.728874, y: 102.32325}
+      - {x: 52.728874, y: 53.32325}
+      - {x: 56.728874, y: 54.32325}
+      - {x: 32.728874, y: 53.32325}
+      - {x: 30.728874, y: 102.32325}
+      - {x: 31.728874, y: 50.32325}
+      - {x: 25.728874, y: 42.32325}
+      - {x: 13.728874, y: 42.32325}
+      - {x: 7.728874, y: 43.32325}
+      - {x: 6.728874, y: 92.32325}
+      - {x: 6.728874, y: 46.32325}
+      indices: 0a0000000900000008000000040000000800000009000000070000000800000004000000060000000700000004000000050000000600000004000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_2_5
+      rect:
+        serializedVersion: 2
+        x: 203.07611
+        y: 788
+        width: 81.84776
+        height: 93
+      alignment: 9
+      pivot: {x: 0.415928, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.07611, y: -46.5}
+        - {x: -45.07611, y: -46.5}
+        - {x: -45.07611, y: 32.5}
+        - {x: -17.07611, y: 46.5}
+        - {x: 36.92389, y: 46.5}
+        - {x: 36.92389, y: -21.5}
+        - {x: 34.92389, y: -22.5}
+        - {x: -19.07611, y: -36.5}
+        - {x: -20.07611, y: -39.5}
+      physicsShape:
+      - - {x: 33.92389, y: -14.5}
+        - {x: 33.92389, y: -5.5}
+        - {x: 31.92389, y: 5.5}
+        - {x: 33.92389, y: 24.5}
+        - {x: 33.92389, y: 44.5}
+        - {x: 19.92389, y: 44.5}
+        - {x: 10.923889, y: 30.5}
+        - {x: -42.07611, y: 14.5}
+        - {x: -42.07611, y: -2.5}
+        - {x: -33.07611, y: -22.5}
+        - {x: -42.07611, y: -34.5}
+        - {x: -42.07611, y: -39.5}
+        - {x: -41.07611, y: -42.5}
+        - {x: -35.07611, y: -44.5}
+        - {x: -30.07611, y: -44.5}
+        - {x: -23.07611, y: -36.5}
+        - {x: 14.923889, y: -9.5}
+        - {x: 23.92389, y: -17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb6ea24e713480e9993e751ecb8c30a
+      internalID: 21300048
+      vertices:
+      - {x: 84.728874, y: 134.85}
+      - {x: 82.728874, y: 65.85}
+      - {x: 84.728874, y: 66.85}
+      - {x: 30.728874, y: 134.85}
+      - {x: 28.728874, y: 51.85}
+      - {x: 27.728874, y: 48.85}
+      - {x: 20.728874, y: 41.85}
+      - {x: 2.7288742, y: 120.85}
+      - {x: 2.7288742, y: 41.85}
+      indices: 080000000700000006000000030000000600000007000000050000000600000003000000040000000500000003000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_2_4
+      rect:
+        serializedVersion: 2
+        x: 294.0761
+        y: 772.02673
+        width: 76.84776
+        height: 89.9465
+      alignment: 9
+      pivot: {x: 0.3388879, y: 0.0066316975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.576113, y: -47.026756}
+        - {x: -46.57611, y: -47.026756}
+        - {x: -46.57611, y: 17.973244}
+        - {x: -0.57611275, y: 42.973244}
+        - {x: 23.423887, y: 42.973244}
+        - {x: 28.423887, y: 40.973244}
+        - {x: 30.423887, y: 28.973244}
+        - {x: 30.423887, y: -27.026756}
+      physicsShape:
+      - - {x: 27.423887, y: 39.973244}
+        - {x: 13.423887, y: 39.973244}
+        - {x: 4.4238873, y: 25.973244}
+        - {x: -34.57611, y: 15.973244}
+        - {x: -43.57611, y: 10.973244}
+        - {x: -43.57611, y: -4.0267563}
+        - {x: -36.57611, y: -9.026756}
+        - {x: -43.57611, y: -40.026756}
+        - {x: -43.57611, y: -43.026756}
+        - {x: -41.57611, y: -44.026756}
+        - {x: -28.576113, y: -44.026756}
+        - {x: -20.576113, y: -29.026756}
+        - {x: 17.423887, y: -19.026756}
+        - {x: 27.423887, y: -16.026756}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a885da4839164102be015b0f45b5e862
+      internalID: 21300050
+      vertices:
+      - {x: 79.228874, y: 130.32324}
+      - {x: 81.228874, y: 62.32325}
+      - {x: 81.228874, y: 118.32325}
+      - {x: 74.228874, y: 132.32324}
+      - {x: 50.228874, y: 132.32324}
+      - {x: 27.228874, y: 42.32325}
+      - {x: 4.228874, y: 107.32325}
+      - {x: 4.228874, y: 42.32325}
+      indices: 070000000600000005000000040000000500000006000000010000000500000004000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_2_6
+      rect:
+        serializedVersion: 2
+        x: 327.0761
+        y: 578
+        width: 84.84776
+        height: 93
+      alignment: 9
+      pivot: {x: 0.44836512, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.576111, y: -46.5}
+        - {x: -44.57611, y: -46.5}
+        - {x: -44.57611, y: 24.5}
+        - {x: 12.423889, y: 46.5}
+        - {x: 40.42389, y: 46.5}
+        - {x: 40.42389, y: -26.5}
+      physicsShape:
+      - - {x: 34.42389, y: -0.5}
+        - {x: 32.42389, y: 1.5}
+        - {x: 37.42389, y: 42.5}
+        - {x: 37.42389, y: 44.5}
+        - {x: 31.42389, y: 46.5}
+        - {x: 26.42389, y: 46.5}
+        - {x: 19.42389, y: 39.5}
+        - {x: -20.57611, y: 14.5}
+        - {x: -32.57611, y: 20.5}
+        - {x: -41.57611, y: 18.5}
+        - {x: -41.57611, y: -45.5}
+        - {x: -28.57611, y: -45.5}
+        - {x: -18.57611, y: -39.5}
+        - {x: 18.42389, y: -20.5}
+        - {x: 37.42389, y: -19.5}
+        - {x: 37.42389, y: -4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603a7c42a554406d92e90d9da4f37ee4
+      internalID: 21300052
+      vertices:
+      - {x: 59.228874, y: 134.85}
+      - {x: 87.228874, y: 61.85}
+      - {x: 87.228874, y: 134.85}
+      - {x: 37.228874, y: 41.85}
+      - {x: 2.2288742, y: 112.85}
+      - {x: 2.2288742, y: 41.85}
+      indices: 050000000400000003000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_5_2
+      rect:
+        serializedVersion: 2
+        x: 573.0761
+        y: 265.02676
+        width: 49.847763
+        height: 59.946503
+      alignment: 9
+      pivot: {x: -0.11950892, y: -0.49049568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.07614, y: -46.026756}
+        - {x: -49.07614, y: -43.026756}
+        - {x: -49.07614, y: 2.9732437}
+        - {x: -25.076141, y: 12.973244}
+        - {x: 0.92385864, y: 12.973244}
+        - {x: 0.92385864, y: -35.026756}
+        - {x: -3.0761414, y: -36.026756}
+        - {x: -23.076141, y: -36.026756}
+        - {x: -24.076141, y: -39.026756}
+        - {x: -30.076141, y: -47.026756}
+        - {x: -42.07614, y: -47.026756}
+      physicsShape:
+      - - {x: -12.076141, y: -14.026756}
+        - {x: -13.076141, y: -15.026756}
+        - {x: -12.076141, y: -14.026756}
+        - {x: -8.076141, y: -14.026756}
+        - {x: -3.0761414, y: -11.026756}
+        - {x: -2.0761414, y: 1.9732437}
+        - {x: -2.0761414, y: 7.9732437}
+        - {x: -6.0761414, y: 9.973244}
+        - {x: -15.076141, y: 9.973244}
+        - {x: -24.076141, y: -0.026756287}
+        - {x: -46.07614, y: -1.0267563}
+        - {x: -46.07614, y: -43.026756}
+        - {x: -43.07614, y: -44.026756}
+        - {x: -31.076141, y: -44.026756}
+        - {x: -2.0761414, y: -33.026756}
+        - {x: -2.0761414, y: -25.026756}
+        - {x: -6.0761414, y: -14.026756}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3550202b30ce4b819d41cea0a285a431
+      internalID: 21300054
+      vertices:
+      - {x: 56.728874, y: 102.32325}
+      - {x: 52.728874, y: 53.32325}
+      - {x: 56.728874, y: 54.32325}
+      - {x: 32.728874, y: 53.32325}
+      - {x: 30.728874, y: 102.32325}
+      - {x: 31.728874, y: 50.32325}
+      - {x: 25.728874, y: 42.32325}
+      - {x: 13.728874, y: 42.32325}
+      - {x: 7.728874, y: 43.32325}
+      - {x: 6.728874, y: 92.32325}
+      - {x: 6.728874, y: 46.32325}
+      indices: 0a0000000900000008000000040000000800000009000000070000000800000004000000060000000700000004000000050000000600000004000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_5_3
+      rect:
+        serializedVersion: 2
+        x: 496.0761
+        y: 0.026750565
+        width: 69.84776
+        height: 78.9465
+      alignment: 9
+      pivot: {x: 0.28694946, y: -0.14444594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.076111, y: -47.526756}
+        - {x: -46.07611, y: -47.526756}
+        - {x: -46.07611, y: 17.473244}
+        - {x: -6.076111, y: 31.473244}
+        - {x: 20.92389, y: 31.473244}
+        - {x: 23.92389, y: 30.473244}
+        - {x: 23.92389, y: -39.526756}
+      physicsShape:
+      - - {x: 14.923889, y: 28.473244}
+        - {x: 9.923889, y: 28.473244}
+        - {x: 2.9238892, y: 21.473244}
+        - {x: -22.07611, y: 9.473244}
+        - {x: -43.07611, y: 8.473244}
+        - {x: -43.07611, y: -11.526756}
+        - {x: -34.07611, y: -16.526756}
+        - {x: -41.07611, y: -37.526756}
+        - {x: -41.07611, y: -42.526756}
+        - {x: -39.07611, y: -44.526756}
+        - {x: -31.07611, y: -44.526756}
+        - {x: -21.07611, y: -38.526756}
+        - {x: -20.07611, y: -28.526756}
+        - {x: 20.92389, y: -23.526756}
+        - {x: 20.92389, y: 26.473244}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e122e1cff9f04b73812fd01492a2419e
+      internalID: 21300056
+      vertices:
+      - {x: 70.728874, y: 121.82325}
+      - {x: 73.728874, y: 50.82325}
+      - {x: 73.728874, y: 120.82325}
+      - {x: 43.728874, y: 121.82325}
+      - {x: 41.728874, y: 42.82325}
+      - {x: 3.7288742, y: 107.82325}
+      - {x: 3.7288742, y: 42.82325}
+      indices: 060000000500000004000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_5_0
+      rect:
+        serializedVersion: 2
+        x: 575.0761
+        y: 377.0761
+        width: 35.847763
+        height: 43.897133
+      alignment: 9
+      pivot: {x: -0.5009306, y: -1.0365653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.076122, y: -47.100807}
+        - {x: -48.076122, y: -47.100807}
+        - {x: -48.076122, y: -4.100807}
+        - {x: -41.076122, y: -3.1008072}
+        - {x: -12.076122, y: -3.1008072}
+        - {x: -12.076122, y: -39.100807}
+      physicsShape:
+      - - {x: -25.076122, y: -6.100807}
+        - {x: -30.076122, y: -10.100807}
+        - {x: -45.076122, y: -16.100807}
+        - {x: -45.076122, y: -36.100807}
+        - {x: -44.076122, y: -43.100807}
+        - {x: -38.076122, y: -44.100807}
+        - {x: -32.076122, y: -44.100807}
+        - {x: -15.076122, y: -37.100807}
+        - {x: -15.076122, y: -7.100807}
+        - {x: -20.076122, y: -6.100807}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2aad1c907147f2a1b772994592a39d
+      internalID: 21300058
+      vertices:
+      - {x: 41.72888, y: 86.29857}
+      - {x: 27.728882, y: 42.298565}
+      - {x: 41.72888, y: 50.298565}
+      - {x: 12.728882, y: 86.29857}
+      - {x: 5.728882, y: 85.29857}
+      - {x: 5.728882, y: 42.298565}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_5_1
+      rect:
+        serializedVersion: 2
+        x: 639.0761
+        y: 56.02675
+        width: 40.847763
+        height: 49.946503
+      alignment: 9
+      pivot: {x: -0.34168914, y: -0.78891414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.576126, y: -46.026756}
+        - {x: -48.576126, y: -39.026756}
+        - {x: -48.576126, y: -8.026756}
+        - {x: -25.576126, y: 2.9732437}
+        - {x: -8.576126, y: 2.9732437}
+        - {x: -7.576126, y: 1.9732437}
+        - {x: -7.576126, y: -42.026756}
+        - {x: -13.576126, y: -47.026756}
+        - {x: -46.576126, y: -47.026756}
+      physicsShape:
+      - - {x: -10.576126, y: -2.0267563}
+        - {x: -14.576126, y: -0.026756287}
+        - {x: -25.576126, y: -0.026756287}
+        - {x: -45.576126, y: -10.026756}
+        - {x: -45.576126, y: -37.026756}
+        - {x: -44.576126, y: -42.026756}
+        - {x: -38.576126, y: -44.026756}
+        - {x: -33.576126, y: -44.026756}
+        - {x: -20.576126, y: -39.026756}
+        - {x: -10.576126, y: -36.026756}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea0c336213b4f4c99875f83ba637440
+      internalID: 21300060
+      vertices:
+      - {x: 46.228874, y: 92.32325}
+      - {x: 47.228874, y: 47.32325}
+      - {x: 47.228874, y: 91.32325}
+      - {x: 41.228874, y: 42.32325}
+      - {x: 29.228874, y: 92.32325}
+      - {x: 8.228874, y: 42.32325}
+      - {x: 7.228874, y: 43.32325}
+      - {x: 6.228874, y: 81.32325}
+      - {x: 6.228874, y: 50.32325}
+      indices: 080000000700000006000000040000000600000007000000050000000600000004000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_5_6
+      rect:
+        serializedVersion: 2
+        x: 114.07611
+        y: 821
+        width: 84.84776
+        height: 93
+      alignment: 9
+      pivot: {x: 0.44836512, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.576111, y: -46.5}
+        - {x: -44.57611, y: -46.5}
+        - {x: -44.57611, y: 24.5}
+        - {x: 12.423889, y: 46.5}
+        - {x: 40.42389, y: 46.5}
+        - {x: 40.42389, y: -26.5}
+      physicsShape:
+      - - {x: 32.42389, y: 1.5}
+        - {x: 36.42389, y: 25.5}
+        - {x: 37.42389, y: 39.5}
+        - {x: 37.42389, y: 45.5}
+        - {x: 34.42389, y: 46.5}
+        - {x: 19.42389, y: 46.5}
+        - {x: -40.57611, y: 17.5}
+        - {x: -41.57611, y: 16.5}
+        - {x: -41.57611, y: -0.5}
+        - {x: -37.57611, y: -3.5}
+        - {x: -39.57611, y: -43.5}
+        - {x: -38.57611, y: -45.5}
+        - {x: -24.57611, y: -45.5}
+        - {x: -11.576111, y: -32.5}
+        - {x: 37.42389, y: -15.5}
+        - {x: 37.42389, y: -9.5}
+        - {x: 34.42389, y: -0.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09c4b852990457a83c3118920652a0d
+      internalID: 21300062
+      vertices:
+      - {x: 59.228874, y: 134.85}
+      - {x: 87.228874, y: 61.85}
+      - {x: 87.228874, y: 134.85}
+      - {x: 37.228874, y: 41.85}
+      - {x: 2.2288742, y: 112.85}
+      - {x: 2.2288742, y: 41.85}
+      indices: 050000000400000003000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_5_4
+      rect:
+        serializedVersion: 2
+        x: 375.0761
+        y: 772.02673
+        width: 76.84776
+        height: 89.9465
+      alignment: 9
+      pivot: {x: 0.3388879, y: 0.0066316975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.576113, y: -47.026756}
+        - {x: -46.57611, y: -47.026756}
+        - {x: -46.57611, y: 17.973244}
+        - {x: -0.57611275, y: 42.973244}
+        - {x: 23.423887, y: 42.973244}
+        - {x: 28.423887, y: 40.973244}
+        - {x: 30.423887, y: 28.973244}
+        - {x: 30.423887, y: -27.026756}
+      physicsShape:
+      - - {x: 27.423887, y: -5.0267563}
+        - {x: 25.423887, y: 4.9732437}
+        - {x: 27.423887, y: 22.973244}
+        - {x: 27.423887, y: 39.973244}
+        - {x: 13.423887, y: 39.973244}
+        - {x: 4.4238873, y: 25.973244}
+        - {x: -25.576113, y: 15.973244}
+        - {x: -43.57611, y: 12.973244}
+        - {x: -43.57611, y: -39.026756}
+        - {x: -41.57611, y: -44.026756}
+        - {x: -31.576113, y: -44.026756}
+        - {x: -22.576113, y: -38.026756}
+        - {x: -23.576113, y: -27.026756}
+        - {x: 17.423887, y: -19.026756}
+        - {x: 27.423887, y: -16.026756}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3af6c1da9642f2a0432560359eb01d
+      internalID: 21300064
+      vertices:
+      - {x: 79.228874, y: 130.32324}
+      - {x: 81.228874, y: 62.32325}
+      - {x: 81.228874, y: 118.32325}
+      - {x: 74.228874, y: 132.32324}
+      - {x: 50.228874, y: 132.32324}
+      - {x: 27.228874, y: 42.32325}
+      - {x: 4.228874, y: 107.32325}
+      - {x: 4.228874, y: 42.32325}
+      indices: 070000000600000005000000040000000500000006000000010000000500000004000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_5_5
+      rect:
+        serializedVersion: 2
+        x: 327.0761
+        y: 675
+        width: 81.84776
+        height: 93
+      alignment: 9
+      pivot: {x: 0.415928, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.07611, y: -46.5}
+        - {x: -45.07611, y: -46.5}
+        - {x: -45.07611, y: 32.5}
+        - {x: -17.07611, y: 46.5}
+        - {x: 36.92389, y: 46.5}
+        - {x: 36.92389, y: -21.5}
+        - {x: 34.92389, y: -22.5}
+        - {x: -19.07611, y: -36.5}
+        - {x: -20.07611, y: -39.5}
+      physicsShape:
+      - - {x: 26.92389, y: 8.5}
+        - {x: 31.92389, y: 23.5}
+        - {x: 32.92389, y: 43.5}
+        - {x: 29.92389, y: 44.5}
+        - {x: 19.92389, y: 44.5}
+        - {x: 10.923889, y: 30.5}
+        - {x: -41.07611, y: 16.5}
+        - {x: -42.07611, y: 14.5}
+        - {x: -42.07611, y: -1.5}
+        - {x: -33.07611, y: -22.5}
+        - {x: -42.07611, y: -34.5}
+        - {x: -42.07611, y: -39.5}
+        - {x: -41.07611, y: -42.5}
+        - {x: -35.07611, y: -44.5}
+        - {x: -29.07611, y: -44.5}
+        - {x: 14.923889, y: -16.5}
+        - {x: 33.92389, y: -19.5}
+        - {x: 33.92389, y: -0.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75e2bd32401488db424b2f412ca935c
+      internalID: 21300066
+      vertices:
+      - {x: 84.728874, y: 134.85}
+      - {x: 82.728874, y: 65.85}
+      - {x: 84.728874, y: 66.85}
+      - {x: 30.728874, y: 134.85}
+      - {x: 28.728874, y: 51.85}
+      - {x: 27.728874, y: 48.85}
+      - {x: 20.728874, y: 41.85}
+      - {x: 2.7288742, y: 120.85}
+      - {x: 2.7288742, y: 41.85}
+      indices: 080000000700000006000000030000000600000007000000050000000600000003000000040000000500000003000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_0_7
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 83
+        width: 94
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47, y: -26}
+        - {x: -47, y: -26}
+        - {x: -47, y: 26}
+        - {x: 47, y: 26}
+      physicsShape:
+      - - {x: 17, y: -20}
+        - {x: 33, y: -26}
+        - {x: 47, y: -26}
+        - {x: 47, y: 14}
+        - {x: 44, y: 19}
+        - {x: 17, y: 7}
+        - {x: 2, y: 26}
+        - {x: -7, y: 26}
+        - {x: -11, y: 18}
+        - {x: -9, y: 10}
+        - {x: -25, y: 5}
+        - {x: -40, y: 0}
+        - {x: -41, y: 12}
+        - {x: -46, y: 17}
+        - {x: -47, y: 17}
+        - {x: -47, y: -26}
+        - {x: -38, y: -26}
+        - {x: -22, y: -21}
+        - {x: -8, y: -18}
+        - {x: 11, y: -17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4653e3980d4d629543429b3738bdec
+      internalID: 21300068
+      vertices:
+      - {x: 0, y: 52}
+      - {x: 94, y: 0}
+      - {x: 94, y: 52}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_0_6
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 93
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: -26}
+        - {x: -46.5, y: -19}
+        - {x: -46.5, y: 24}
+        - {x: -44.5, y: 26}
+        - {x: 46.5, y: 26}
+        - {x: 46.5, y: -17}
+        - {x: 20.5, y: -26}
+      physicsShape:
+      - - {x: 46.5, y: 26}
+        - {x: 44.5, y: 26}
+        - {x: 41.5, y: 24}
+        - {x: 40.5, y: 11}
+        - {x: 9.5, y: 0}
+        - {x: 10.5, y: 13}
+        - {x: 0.5, y: 19}
+        - {x: -3.5, y: 12}
+        - {x: -22.5, y: 7}
+        - {x: -37.5, y: 26}
+        - {x: -44.5, y: 26}
+        - {x: -46.5, y: 24}
+        - {x: -46.5, y: -17}
+        - {x: -35.5, y: -17}
+        - {x: -15.5, y: -22}
+        - {x: -5.5, y: -26}
+        - {x: 10.5, y: -26}
+        - {x: 20.5, y: -21}
+        - {x: 27.5, y: -21}
+        - {x: 46.5, y: -17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4832d766dca43aea8dec10d771064b3
+      internalID: 21300070
+      vertices:
+      - {x: 93, y: 52}
+      - {x: 67, y: 0}
+      - {x: 93, y: 9}
+      - {x: 38, y: 0}
+      - {x: 2, y: 52}
+      - {x: 0, y: 50}
+      - {x: 0, y: 7}
+      indices: 060000000500000003000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_0_5
+      rect:
+        serializedVersion: 2
+        x: 583.05133
+        y: 149.02673
+        width: 46.872562
+        height: 24.946499
+      alignment: 9
+      pivot: {x: 0.701847, y: 0.47888494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.538912, y: -14.526747}
+        - {x: -25.538912, y: -12.526747}
+        - {x: -25.538912, y: 0.47325325}
+        - {x: -2.5389118, y: 10.473253}
+        - {x: 18.461088, y: 10.473253}
+        - {x: 21.461088, y: 2.4732533}
+        - {x: 21.461088, y: -10.526747}
+        - {x: 15.461088, y: -14.526747}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6618aa7c550429a83bc0ee12732b472
+      internalID: 21300072
+      vertices:
+      - {x: 32.43628, y: 23.47325}
+      - {x: 35.43628, y: 2.4732494}
+      - {x: 35.43628, y: 15.473249}
+      - {x: 29.436281, y: -1.5267506}
+      - {x: 11.436281, y: 23.47325}
+      - {x: -10.563719, y: -1.5267506}
+      - {x: -11.563719, y: 13.473249}
+      - {x: -11.563719, y: 0.47324944}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_0_4
+      rect:
+        serializedVersion: 2
+        x: 496.01904
+        y: 363
+        width: 74.90487
+        height: 29.97325
+      alignment: 9
+      pivot: {x: 0.53350306, y: 0.55049086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.49046, y: -14.986625}
+        - {x: -38.49046, y: -12.986625}
+        - {x: -38.49046, y: 15.013375}
+        - {x: 31.50954, y: 15.013375}
+        - {x: 36.50954, y: 8.013375}
+        - {x: 36.50954, y: -7.9866247}
+        - {x: 29.50954, y: -14.986625}
+      physicsShape:
+      - - {x: 14.509541, y: 12.013375}
+        - {x: 7.5095406, y: 6.0133753}
+        - {x: 7.5095406, y: 2.0133753}
+        - {x: 11.509541, y: -1.9866247}
+        - {x: 22.50954, y: -5.9866247}
+        - {x: 28.50954, y: -5.9866247}
+        - {x: 32.50954, y: -3.9866247}
+        - {x: 32.50954, y: 3.0133753}
+        - {x: 22.50954, y: 12.013375}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651cbdcfd3bd4c64a3399133d2e0db15
+      internalID: 21300074
+      vertices:
+      - {x: 66.45244, y: 28.486626}
+      - {x: 71.45244, y: 5.4866247}
+      - {x: 71.45244, y: 21.486626}
+      - {x: 64.45244, y: -1.5133753}
+      - {x: 0.45243454, y: -1.5133753}
+      - {x: -3.5475655, y: 28.486626}
+      - {x: -3.5475655, y: 0.48662472}
+      indices: 060000000500000004000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_0_3
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 42
+        width: 84
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: -16.5}
+        - {x: -42, y: -12.5}
+        - {x: -42, y: 8.5}
+        - {x: -17, y: 16.5}
+        - {x: 42, y: 16.5}
+        - {x: 42, y: -7.5}
+        - {x: 29, y: -16.5}
+      physicsShape:
+      - - {x: 18, y: 15.5}
+        - {x: 13, y: 14.5}
+        - {x: 12, y: 11.5}
+        - {x: 12, y: 1.5}
+        - {x: 25, y: -5.5}
+        - {x: 37, y: -5.5}
+        - {x: 40, y: -0.5}
+        - {x: 40, y: 3.5}
+        - {x: 27, y: 15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78286884b6d94cedb4958b62ec5b5934
+      internalID: 21300076
+      vertices:
+      - {x: 84, y: 33}
+      - {x: 71, y: 0}
+      - {x: 84, y: 9}
+      - {x: 25, y: 33}
+      - {x: 11, y: 0}
+      - {x: 0, y: 25}
+      - {x: 0, y: 4}
+      indices: 060000000500000004000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_0_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 714.02673
+        width: 147
+        height: 69.897125
+      alignment: 9
+      pivot: {x: 0.5, y: -0.3870478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: -67.00209}
+        - {x: 17.5, y: -62.00209}
+        - {x: 17.5, y: -51.00209}
+        - {x: -1.5, y: -71.00209}
+        - {x: -37.5, y: -71.00209}
+        - {x: -72.5, y: -52.00209}
+        - {x: -73.5, y: -50.00209}
+        - {x: -73.5, y: -28.00209}
+        - {x: -32.5, y: -1.0020905}
+        - {x: 6.5, y: -1.0020905}
+        - {x: 12.5, y: -3.0020905}
+        - {x: 18.5, y: -7.0020905}
+        - {x: 18.5, y: -43.00209}
+        - {x: 45.5, y: -23.00209}
+        - {x: 62.5, y: -23.00209}
+        - {x: 73.5, y: -29.00209}
+        - {x: 73.5, y: -48.00209}
+        - {x: 33.5, y: -68.00209}
+        - {x: 21.5, y: -68.00209}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ed9cef0cf6408a9a319da5754c11db
+      internalID: 21300078
+      vertices:
+      - {x: 91, y: 52.948563}
+      - {x: 92, y: 46.948563}
+      - {x: 92, y: 53.948563}
+      - {x: 91, y: 45.948563}
+      - {x: 92, y: 89.94856}
+      - {x: 86, y: 93.94856}
+      - {x: 80, y: 95.94856}
+      - {x: 72, y: 25.948563}
+      - {x: 41, y: 95.94856}
+      - {x: 36, y: 25.948563}
+      - {x: 1, y: 44.948563}
+      - {x: 0, y: 68.94856}
+      - {x: 0, y: 46.948563}
+      - {x: 136, y: 73.94856}
+      - {x: 147, y: 48.948563}
+      - {x: 147, y: 67.94856}
+      - {x: 119, y: 73.94856}
+      - {x: 107, y: 28.948563}
+      - {x: 95, y: 28.948563}
+      - {x: 92, y: 29.948563}
+      - {x: 91, y: 34.948563}
+      indices: 1400000003000000130000000100000013000000030000001200000013000000010000000200000012000000010000001000000012000000020000001100000012000000100000000e00000011000000100000000d0000000e000000100000000f0000000e0000000d0000000c0000000b0000000a000000080000000a0000000b000000090000000a00000008000000070000000900000008000000060000000700000008000000030000000700000006000000050000000300000006000000000000000300000005000000040000000000000005000000020000000000000004000000030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_0_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 714.0762
+        width: 139
+        height: 102.91097
+      alignment: 9
+      pivot: {x: 0.4964029, y: 0.6787204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 30.392292}
+        - {x: -18.5, y: 34.392292}
+        - {x: -18.5, y: 47.392292}
+        - {x: 15.5, y: 47.392292}
+        - {x: 17.5, y: 45.392292}
+        - {x: 17.5, y: 37.392292}
+        - {x: 14.5, y: 32.392292}
+        - {x: 3.5, y: 30.392292}
+      - - {x: 42.5, y: -28.607708}
+        - {x: 22.5, y: -11.607708}
+        - {x: 22.5, y: 9.392292}
+        - {x: 23.5, y: 12.392292}
+        - {x: 41.5, y: 12.392292}
+        - {x: 69.5, y: 0.39229202}
+        - {x: 69.5, y: -24.607708}
+        - {x: 60.5, y: -28.607708}
+      - - {x: -58.5, y: -30.607708}
+        - {x: -69.5, y: -17.607708}
+        - {x: -69.5, y: -3.607708}
+        - {x: -39.5, y: 12.392292}
+        - {x: -25.5, y: 12.392292}
+        - {x: -23.5, y: 11.392292}
+        - {x: -22.5, y: 3.392292}
+        - {x: -22.5, y: -9.607708}
+        - {x: -46.5, y: -29.607708}
+        - {x: -50.5, y: -30.607708}
+      - - {x: -12.5, y: -55.607708}
+        - {x: -18.5, y: -50.607708}
+        - {x: -18.5, y: -10.607708}
+        - {x: -17.5, y: -2.607708}
+        - {x: -5.5, y: 3.392292}
+        - {x: 12.5, y: 3.392292}
+        - {x: 18.5, y: 0.39229202}
+        - {x: 18.5, y: -55.607708}
+      physicsShape:
+      - - {x: 7.5, y: 1.392292}
+        - {x: 5.5, y: 3.392292}
+        - {x: -10.5, y: 3.392292}
+        - {x: -13.5, y: -3.607708}
+        - {x: -13.5, y: -16.607708}
+        - {x: -8.5, y: -20.607708}
+        - {x: -4.5, y: -21.607708}
+        - {x: 4.5, y: -21.607708}
+        - {x: 11.5, y: -15.607708}
+        - {x: 12.5, y: -12.607708}
+        - {x: 12.5, y: -4.607708}
+      - - {x: -28.5, y: 10.392292}
+        - {x: -36.5, y: 10.392292}
+        - {x: -39.5, y: 7.392292}
+        - {x: -39.5, y: -9.607708}
+        - {x: -34.5, y: -11.607708}
+        - {x: -26.5, y: -11.607708}
+        - {x: -23.5, y: -7.607708}
+        - {x: -23.5, y: 2.392292}
+        - {x: -24.5, y: 8.392292}
+      - - {x: 26.5, y: 10.392292}
+        - {x: 22.5, y: 7.392292}
+        - {x: 22.5, y: -8.607708}
+        - {x: 23.5, y: -11.607708}
+        - {x: 33.5, y: -11.607708}
+        - {x: 38.5, y: -7.607708}
+        - {x: 38.5, y: 3.392292}
+        - {x: 36.5, y: 10.392292}
+      - - {x: -4.5, y: 44.392292}
+        - {x: -7.5, y: 42.392292}
+        - {x: -7.5, y: 36.392292}
+        - {x: -6.5, y: 32.392292}
+        - {x: 3.5, y: 32.392292}
+        - {x: 6.5, y: 34.392292}
+        - {x: 6.5, y: 40.392292}
+        - {x: 5.5, y: 44.392292}
+      - - {x: -16.5, y: 46.392292}
+        - {x: -16.5, y: 37.392292}
+        - {x: -12.5, y: 35.392292}
+        - {x: -9.5, y: 35.392292}
+        - {x: -8.5, y: 36.392292}
+        - {x: -8.5, y: 44.392292}
+        - {x: -9.5, y: 46.392292}
+      - - {x: 10.5, y: 46.392292}
+        - {x: 7.5, y: 43.392292}
+        - {x: 7.5, y: 38.392292}
+        - {x: 10.5, y: 35.392292}
+        - {x: 11.5, y: 35.392292}
+        - {x: 15.5, y: 39.392292}
+        - {x: 15.5, y: 44.392292}
+        - {x: 13.5, y: 46.392292}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29dbf55c21145b79cae6681384ecce3
+      internalID: 21300080
+      vertices:
+      - {x: 82.5, y: 36.455486}
+      - {x: 88.5, y: -22.544514}
+      - {x: 88.5, y: 33.455486}
+      - {x: 64.5, y: 36.455486}
+      - {x: 57.5, y: -22.544514}
+      - {x: 52.5, y: 30.455486}
+      - {x: 51.5, y: 22.455486}
+      - {x: 51.5, y: -17.544514}
+      - {x: 46.5, y: 44.455486}
+      - {x: 47.5, y: 23.455486}
+      - {x: 47.5, y: 36.455486}
+      - {x: 44.5, y: 45.455486}
+      - {x: 30.5, y: 45.455486}
+      - {x: 23.5, y: 3.4554863}
+      - {x: 19.5, y: 2.4554863}
+      - {x: 11.5, y: 2.4554863}
+      - {x: 0.5, y: 29.455486}
+      - {x: 0.5, y: 15.455486}
+      - {x: 139.5, y: 33.455486}
+      - {x: 130.5, y: 4.4554863}
+      - {x: 139.5, y: 8.455486}
+      - {x: 112.5, y: 4.4554863}
+      - {x: 111.5, y: 45.455486}
+      - {x: 93.5, y: 45.455486}
+      - {x: 92.5, y: 42.455486}
+      - {x: 92.5, y: 21.455486}
+      - {x: 85.5, y: 80.45549}
+      - {x: 87.5, y: 70.45549}
+      - {x: 87.5, y: 78.45549}
+      - {x: 84.5, y: 65.45549}
+      - {x: 73.5, y: 63.455486}
+      - {x: 60.5, y: 63.455486}
+      - {x: 51.5, y: 80.45549}
+      - {x: 51.5, y: 67.45549}
+      indices: 21000000200000001f0000001a0000001f000000200000001e0000001f0000001a0000001d0000001e0000001a0000001b0000001d0000001a0000001c0000001b0000001a00000019000000180000001500000017000000150000001800000016000000150000001700000012000000150000001600000013000000150000001200000014000000130000001200000011000000100000000f0000000c0000000f000000100000000e0000000f0000000c0000000d0000000e0000000c000000090000000d0000000c0000000b000000090000000c00000008000000090000000b0000000a0000000900000008000000070000000600000004000000050000000400000006000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 821
+        width: 110
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -58}
+        - {x: -55, y: -48}
+        - {x: -55, y: 26}
+        - {x: -22, y: 58}
+        - {x: 16, y: 58}
+        - {x: 18, y: 57}
+        - {x: 55, y: 9}
+        - {x: 55, y: -23}
+        - {x: 54, y: -29}
+        - {x: 54, y: -38}
+        - {x: 23, y: -58}
+      physicsShape:
+      - - {x: 54, y: -29}
+        - {x: 55, y: -16}
+        - {x: 55, y: 6}
+        - {x: 54, y: 7}
+        - {x: 45, y: 8}
+        - {x: 35, y: 3}
+        - {x: 34, y: 20}
+        - {x: 20, y: 31}
+        - {x: 25, y: 36}
+        - {x: 26, y: 43}
+        - {x: 16, y: 52}
+        - {x: 9, y: 48}
+        - {x: 8, y: 58}
+        - {x: -6, y: 58}
+        - {x: -10, y: 51}
+        - {x: -26, y: 48}
+        - {x: -26, y: 35}
+        - {x: -24, y: 26}
+        - {x: -32, y: 24}
+        - {x: -36, y: 5}
+        - {x: -47, y: 9}
+        - {x: -55, y: 8}
+        - {x: -55, y: -8}
+        - {x: -54, y: -14}
+        - {x: -54, y: -37}
+        - {x: -37, y: -45}
+        - {x: -13, y: -48}
+        - {x: -6, y: -58}
+        - {x: 7, y: -58}
+        - {x: 20, y: -45}
+        - {x: 36, y: -45}
+        - {x: 54, y: -38}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9525e10b6ca4aff869c89131981ecbc
+      internalID: 21300082
+      vertices:
+      - {x: 110, y: 67}
+      - {x: 109, y: 29}
+      - {x: 110, y: 35}
+      - {x: 78, y: 0}
+      - {x: 109, y: 20}
+      - {x: 73, y: 115}
+      - {x: 71, y: 116}
+      - {x: 33, y: 116}
+      - {x: 32, y: 0}
+      - {x: 0, y: 84}
+      - {x: 0, y: 10}
+      indices: 0a0000000900000008000000070000000800000009000000030000000800000007000000060000000300000007000000050000000300000006000000000000000300000005000000010000000300000000000000040000000300000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_0_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 578
+        width: 323
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74.5, y: -66}
+        - {x: -161.5, y: 24}
+        - {x: -161.5, y: 66}
+        - {x: 161.5, y: 66}
+        - {x: 161.5, y: 18}
+        - {x: 73.5, y: -66}
+      physicsShape:
+      - - {x: 161.5, y: 19}
+        - {x: 161.5, y: 66}
+        - {x: 147.5, y: 66}
+        - {x: 146.5, y: 64}
+        - {x: 144.5, y: 43}
+        - {x: 69.5, y: -28}
+        - {x: 65.5, y: -21}
+        - {x: 54.5, y: -26}
+        - {x: 54.5, y: -44}
+        - {x: -54.5, y: -45}
+        - {x: -56.5, y: -27}
+        - {x: -61.5, y: -21}
+        - {x: -71.5, y: -27}
+        - {x: -145.5, y: 43}
+        - {x: -146.5, y: 64}
+        - {x: -148.5, y: 66}
+        - {x: -159.5, y: 66}
+        - {x: -161.5, y: 65}
+        - {x: -161.5, y: 25}
+        - {x: -155.5, y: 21}
+        - {x: -73.5, y: -66}
+        - {x: 72.5, y: -66}
+        - {x: 89.5, y: -43}
+        - {x: 142.5, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c239da8d784fea9058c8cf61ca80b6
+      internalID: 21300084
+      vertices:
+      - {x: 323, y: 132}
+      - {x: 235, y: 0}
+      - {x: 323, y: 84}
+      - {x: 87, y: 0}
+      - {x: 0, y: 132}
+      - {x: 0, y: 90}
+      indices: 050000000400000003000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_7_4
+      rect:
+        serializedVersion: 2
+        x: 684.0477
+        y: 87
+        width: 27.925545
+        height: 30.92388
+      alignment: 9
+      pivot: {x: 0.3546785, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.941818, y: -15.46194}
+        - {x: -17.058182, y: -15.46194}
+        - {x: -17.058182, y: 5.53806}
+        - {x: -13.058182, y: 15.53806}
+        - {x: 1.9418182, y: 15.53806}
+        - {x: 10.941818, y: 10.53806}
+        - {x: 10.941818, y: -12.46194}
+      physicsShape:
+      - - {x: -13.058182, y: 15.53806}
+        - {x: -17.058182, y: 5.53806}
+        - {x: -17.058182, y: -15.46194}
+        - {x: 9.941818, y: -15.46194}
+        - {x: 10.941818, y: -12.46194}
+        - {x: 10.941818, y: 10.53806}
+        - {x: 1.9418182, y: 15.53806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036e408516bd4a48932c24ba681c90f8
+      internalID: 21300086
+      vertices:
+      - {x: 28.962772, y: 41.46194}
+      - {x: 27.962772, y: 15.46194}
+      - {x: 28.962772, y: 18.46194}
+      - {x: 19.962772, y: 46.46194}
+      - {x: 4.9627724, y: 46.46194}
+      - {x: 0.96277237, y: 36.46194}
+      - {x: 0.96277237, y: 15.46194}
+      indices: 060000000500000001000000040000000100000005000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_7_5
+      rect:
+        serializedVersion: 2
+        x: 0.028465271
+        y: 941
+        width: 26.944782
+        height: 30.92388
+      alignment: 9
+      pivot: {x: 0.3690165, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.470678, y: -15.46194}
+        - {x: -16.529322, y: -15.46194}
+        - {x: -16.529322, y: 8.53806}
+        - {x: -15.529322, y: 15.53806}
+        - {x: 2.4706783, y: 15.53806}
+        - {x: 10.470678, y: 7.53806}
+      physicsShape:
+      - - {x: -11.529322, y: 15.53806}
+        - {x: -16.529322, y: 6.53806}
+        - {x: -16.529322, y: -15.46194}
+        - {x: 10.470678, y: -15.46194}
+        - {x: 10.470678, y: 7.53806}
+        - {x: 2.4706783, y: 15.53806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44032cd8b45549e9af375ab64523f40b
+      internalID: 21300088
+      vertices:
+      - {x: 19.472391, y: 46.46194}
+      - {x: 27.472391, y: 15.46194}
+      - {x: 27.472391, y: 38.46194}
+      - {x: 1.4723911, y: 46.46194}
+      - {x: 0.47239113, y: 39.46194}
+      - {x: 0.47239113, y: 15.46194}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_7_6
+      rect:
+        serializedVersion: 2
+        x: 627.02844
+        y: 184
+        width: 26.944782
+        height: 31.92388
+      alignment: 9
+      pivot: {x: 0.3690165, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.470678, y: -15.96194}
+        - {x: -16.529322, y: -15.96194}
+        - {x: -16.529322, y: 9.03806}
+        - {x: -11.529322, y: 16.03806}
+        - {x: 2.4706783, y: 16.03806}
+        - {x: 10.470678, y: 8.03806}
+      physicsShape:
+      - - {x: -11.529322, y: 16.03806}
+        - {x: -16.529322, y: 9.03806}
+        - {x: -16.529322, y: -15.96194}
+        - {x: 10.470678, y: -15.96194}
+        - {x: 10.470678, y: 8.03806}
+        - {x: 2.4706783, y: 16.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbefb1b430744ac0a811b1f2f25356ce
+      internalID: 21300090
+      vertices:
+      - {x: 19.472391, y: 47.96194}
+      - {x: 27.472391, y: 15.96194}
+      - {x: 27.472391, y: 39.96194}
+      - {x: 5.472391, y: 47.96194}
+      - {x: 0.47239113, y: 40.96194}
+      - {x: 0.47239113, y: 15.96194}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_7_7
+      rect:
+        serializedVersion: 2
+        x: 637.02844
+        y: 110
+        width: 27.944782
+        height: 31.92388
+      alignment: 9
+      pivot: {x: 0.3558113, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.970678, y: -15.96194}
+        - {x: -17.029322, y: -15.96194}
+        - {x: -17.029322, y: 9.03806}
+        - {x: -12.029322, y: 16.03806}
+        - {x: 1.9706783, y: 16.03806}
+        - {x: 10.970678, y: 10.03806}
+      physicsShape:
+      - - {x: -12.029322, y: 16.03806}
+        - {x: -17.029322, y: 9.03806}
+        - {x: -17.029322, y: -15.96194}
+        - {x: 10.970678, y: -15.96194}
+        - {x: 10.970678, y: 10.03806}
+        - {x: 1.9706783, y: 16.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84befb283f0449199ab458e53500b1e1
+      internalID: 21300092
+      vertices:
+      - {x: 19.972391, y: 47.96194}
+      - {x: 28.972391, y: 15.96194}
+      - {x: 28.972391, y: 41.96194}
+      - {x: 5.972391, y: 47.96194}
+      - {x: 0.9723911, y: 40.96194}
+      - {x: 0.9723911, y: 15.96194}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_7_0
+      rect:
+        serializedVersion: 2
+        x: 684.02673
+        y: 52
+        width: 27.946499
+        height: 30.92388
+      alignment: 9
+      pivot: {x: 0.28434682, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.9732485, y: -15.46194}
+        - {x: -18.026752, y: -15.46194}
+        - {x: -18.026752, y: 14.53806}
+        - {x: -14.0267515, y: 15.53806}
+        - {x: 2.9732485, y: 15.53806}
+        - {x: 8.9732485, y: 9.53806}
+        - {x: 9.9732485, y: 4.53806}
+        - {x: 9.9732485, y: -4.46194}
+      physicsShape:
+      - - {x: 2.9732485, y: 15.53806}
+        - {x: -14.0267515, y: 15.53806}
+        - {x: -18.026752, y: 14.53806}
+        - {x: -18.026752, y: -15.46194}
+        - {x: 5.9732485, y: -15.46194}
+        - {x: 9.9732485, y: -4.46194}
+        - {x: 9.9732485, y: 4.53806}
+        - {x: 8.9732485, y: 9.53806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c64f82ead394e0ca35bf23452d6acbf
+      internalID: 21300094
+      vertices:
+      - {x: 28.97325, y: 40.46194}
+      - {x: 29.97325, y: 26.46194}
+      - {x: 29.97325, y: 35.46194}
+      - {x: 25.97325, y: 15.46194}
+      - {x: 22.97325, y: 46.46194}
+      - {x: 5.9732494, y: 46.46194}
+      - {x: 1.9732494, y: 45.46194}
+      - {x: 1.9732494, y: 15.46194}
+      indices: 070000000600000003000000050000000300000006000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_7_1
+      rect:
+        serializedVersion: 2
+        x: 634.0429
+        y: 149
+        width: 27.930342
+        height: 30.92388
+      alignment: 9
+      pivot: {x: 0.3549611, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.9490137, y: -15.46194}
+        - {x: -17.050987, y: -15.46194}
+        - {x: -17.050987, y: -4.46194}
+        - {x: -15.050986, y: 12.53806}
+        - {x: -9.050986, y: 15.53806}
+        - {x: 3.9490137, y: 15.53806}
+        - {x: 10.949014, y: 8.53806}
+        - {x: 10.949014, y: -1.4619398}
+      physicsShape:
+      - - {x: -9.050986, y: 15.53806}
+        - {x: -15.050986, y: 12.53806}
+        - {x: -17.050987, y: -4.46194}
+        - {x: -17.050987, y: -15.46194}
+        - {x: 4.9490137, y: -15.46194}
+        - {x: 10.949014, y: -1.4619398}
+        - {x: 10.949014, y: 8.53806}
+        - {x: 3.9490137, y: 15.53806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64a0959704d40a4a32cb98f268ae196
+      internalID: 21300096
+      vertices:
+      - {x: 28.965172, y: 39.46194}
+      - {x: 22.965172, y: 15.46194}
+      - {x: 28.965172, y: 29.46194}
+      - {x: 21.965172, y: 46.46194}
+      - {x: 8.965171, y: 46.46194}
+      - {x: 2.9651709, y: 43.46194}
+      - {x: 0.96517086, y: 26.46194}
+      - {x: 0.96517086, y: 15.46194}
+      indices: 070000000600000001000000050000000100000006000000040000000100000005000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_7_2
+      rect:
+        serializedVersion: 2
+        x: 503.03625
+        y: 545
+        width: 26.936964
+        height: 31.92388
+      alignment: 9
+      pivot: {x: 0.29429558, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.458947, y: -15.96194}
+        - {x: -17.541054, y: -15.96194}
+        - {x: -17.541054, y: 9.03806}
+        - {x: -13.541053, y: 16.03806}
+        - {x: 1.4589472, y: 16.03806}
+        - {x: 9.458947, y: 7.03806}
+        - {x: 9.458947, y: -6.96194}
+      physicsShape:
+      - - {x: -13.541053, y: 16.03806}
+        - {x: -17.541054, y: 9.03806}
+        - {x: -17.541054, y: -15.96194}
+        - {x: 5.458947, y: -15.96194}
+        - {x: 9.458947, y: -6.96194}
+        - {x: 9.458947, y: 7.03806}
+        - {x: 1.4589472, y: 16.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcef656af7f4d98bb13fb29d2290bf6
+      internalID: 21300098
+      vertices:
+      - {x: 28.468483, y: 38.96194}
+      - {x: 24.468483, y: 15.96194}
+      - {x: 28.468483, y: 24.96194}
+      - {x: 20.468483, y: 47.96194}
+      - {x: 5.468482, y: 47.96194}
+      - {x: 1.468482, y: 40.96194}
+      - {x: 1.468482, y: 15.96194}
+      indices: 060000000500000001000000040000000100000005000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_7_3
+      rect:
+        serializedVersion: 2
+        x: 530.02673
+        y: 459
+        width: 27.946499
+        height: 31.92388
+      alignment: 9
+      pivot: {x: 0.284347, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.9732537, y: -15.96194}
+        - {x: -18.026747, y: -15.96194}
+        - {x: -18.026747, y: 12.03806}
+        - {x: -15.026747, y: 16.03806}
+        - {x: 1.9732537, y: 16.03806}
+        - {x: 9.973253, y: 11.03806}
+        - {x: 9.973253, y: -3.9619398}
+      physicsShape:
+      - - {x: 1.9732537, y: 16.03806}
+        - {x: -15.026747, y: 16.03806}
+        - {x: -18.026747, y: 12.03806}
+        - {x: -18.026747, y: -15.96194}
+        - {x: 1.9732537, y: -15.96194}
+        - {x: 5.9732537, y: -10.96194}
+        - {x: 9.973253, y: -0.9619398}
+        - {x: 9.973253, y: 8.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5601a6e74a6b4f9bb29a4a9460627ef3
+      internalID: 21300100
+      vertices:
+      - {x: 29.97325, y: 42.96194}
+      - {x: 23.97325, y: 15.96194}
+      - {x: 29.97325, y: 27.96194}
+      - {x: 21.97325, y: 47.96194}
+      - {x: 4.9732494, y: 47.96194}
+      - {x: 1.9732494, y: 43.96194}
+      - {x: 1.9732494, y: 15.96194}
+      indices: 060000000500000001000000040000000100000005000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_7_8
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 220
+        width: 32
+        height: 20.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -10.46194}
+        - {x: -16, y: -10.46194}
+        - {x: -16, y: 10.53806}
+        - {x: 16, y: 10.53806}
+        - {x: 16, y: -8.46194}
+      physicsShape:
+      - - {x: -16, y: 10.53806}
+        - {x: -16, y: -10.46194}
+        - {x: 12, y: -10.46194}
+        - {x: 16, y: -8.46194}
+        - {x: 16, y: 10.53806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893dfb23c03249eeb54acf366f804a98
+      internalID: 21300102
+      vertices:
+      - {x: 32, y: 31.46194}
+      - {x: 28, y: 10.46194}
+      - {x: 32, y: 12.46194}
+      - {x: 0, y: 31.46194}
+      - {x: 0, y: 10.46194}
+      indices: 040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_7_9
+      rect:
+        serializedVersion: 2
+        x: 627.0761
+        y: 245
+        width: 25.92388
+        height: 24.92388
+      alignment: 9
+      pivot: {x: 0.14842543, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.114178, y: -12.46194}
+        - {x: -19.114178, y: -7.46194}
+        - {x: -19.114178, y: 3.5380602}
+        - {x: -13.114177, y: 12.53806}
+        - {x: 2.8858232, y: 12.53806}
+        - {x: 6.8858232, y: 10.53806}
+        - {x: 6.8858232, y: -12.46194}
+      physicsShape:
+      - - {x: -13.114177, y: 12.53806}
+        - {x: -19.114178, y: 3.5380602}
+        - {x: -19.114178, y: -7.46194}
+        - {x: -18.114178, y: -12.46194}
+        - {x: 6.8858232, y: -12.46194}
+        - {x: 6.8858232, y: 10.53806}
+        - {x: 2.8858232, y: 12.53806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5aa85c9aa504a8cbb33bd3da7fdadce
+      internalID: 21300104
+      vertices:
+      - {x: 24.96194, y: 37.46194}
+      - {x: 28.96194, y: 12.46194}
+      - {x: 28.96194, y: 35.46194}
+      - {x: 8.96194, y: 37.46194}
+      - {x: 3.9619398, y: 12.46194}
+      - {x: 2.9619398, y: 28.46194}
+      - {x: 2.9619398, y: 17.46194}
+      indices: 060000000500000004000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_7_12
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 56.07612
+        width: 3.9238796
+        height: 3.9238796
+      alignment: 9
+      pivot: {x: 4.077597, y: -14.310389}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.9619398, y: -30.114182}
+        - {x: -1.9619398, y: -30.114182}
+        - {x: -1.9619398, y: -26.114182}
+        - {x: 2.0380602, y: -26.114182}
+        - {x: 2.0380602, y: -27.114182}
+      physicsShape:
+      - - {x: -1.9619398, y: -26.114182}
+        - {x: -1.9619398, y: -30.114182}
+        - {x: -0.9619398, y: -30.114182}
+        - {x: 2.0380602, y: -27.114182}
+        - {x: 2.0380602, y: -26.114182}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904a851d54cc4cfbbd6a6493a9bef257
+      internalID: 21300106
+      vertices:
+      - {x: -10.03806, y: 33.96194}
+      - {x: -13.03806, y: 29.96194}
+      - {x: -10.03806, y: 32.96194}
+      - {x: -14.03806, y: 33.96194}
+      - {x: -14.03806, y: 29.96194}
+      indices: 040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_7_11
+      rect:
+        serializedVersion: 2
+        x: 669.0761
+        y: 122.02675
+        width: 22.92388
+        height: 7.9732494
+      alignment: 9
+      pivot: {x: -0.09388624, y: -6.02684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.614177, y: -28.040127}
+        - {x: -20.614178, y: -23.040127}
+        - {x: -20.614178, y: -20.040127}
+        - {x: 2.3858232, y: -20.040127}
+        - {x: 2.3858232, y: -26.040127}
+        - {x: -3.6141768, y: -28.040127}
+      physicsShape:
+      - - {x: -20.614178, y: -20.040127}
+        - {x: -20.614178, y: -23.040127}
+        - {x: -14.614177, y: -28.040127}
+        - {x: -3.6141768, y: -28.040127}
+        - {x: 2.3858232, y: -26.040127}
+        - {x: 2.3858232, y: -20.040127}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eed3f5531fb48c5ae002f03d7357917
+      internalID: 21300108
+      vertices:
+      - {x: 27.46194, y: 35.986626}
+      - {x: 21.46194, y: 27.986626}
+      - {x: 27.46194, y: 29.986626}
+      - {x: 10.46194, y: 27.986626}
+      - {x: 4.46194, y: 35.986626}
+      - {x: 4.46194, y: 32.986626}
+      indices: 050000000400000003000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multi_room_skin_2_7_10
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 686
+        width: 6.9238796
+        height: 20.92388
+      alignment: 9
+      pivot: {x: 2.3108432, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5380602, y: -10.46194}
+        - {x: -3.4619398, y: -10.46194}
+        - {x: -3.4619398, y: 10.53806}
+        - {x: -2.4619398, y: 10.53806}
+        - {x: 1.5380602, y: 6.53806}
+        - {x: 3.5380602, y: 1.5380602}
+        - {x: 3.5380602, y: -5.46194}
+      physicsShape:
+      - - {x: -2.4619398, y: 10.53806}
+        - {x: -3.4619398, y: 10.53806}
+        - {x: -3.4619398, y: -10.46194}
+        - {x: 1.5380602, y: -10.46194}
+        - {x: 3.5380602, y: -5.46194}
+        - {x: 3.5380602, y: 1.5380602}
+        - {x: 1.5380602, y: 6.53806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e3496064c142279e4758c965a2868c
+      internalID: 21300110
+      vertices:
+      - {x: -7.53806, y: 27.46194}
+      - {x: -5.53806, y: 15.46194}
+      - {x: -5.53806, y: 22.46194}
+      - {x: -7.53806, y: 10.46194}
+      - {x: -11.53806, y: 31.46194}
+      - {x: -12.53806, y: 31.46194}
+      - {x: -12.53806, y: 10.46194}
+      indices: 060000000500000003000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      multi_room_skin_2_7_11: 21300108
+      multi_room_skin_2_5_5: 21300066
+      multi_room_skin_2_3_2: 21300004
+      multi_room_skin_2_8_1: 21300034
+      multi_room_skin_2_7_8: 21300102
+      multi_room_skin_2_3_3: 21300006
+      multi_room_skin_2_4_4: 21300026
+      multi_room_skin_2_7_12: 21300106
+      multi_room_skin_2_0_5: 21300072
+      multi_room_skin_2_2_0: 21300042
+      multi_room_skin_2_7_6: 21300090
+      multi_room_skin_2_0_6: 21300070
+      multi_room_skin_2_7_7: 21300092
+      multi_room_skin_2_2_4: 21300050
+      multi_room_skin_2_7_10: 21300110
+      multi_room_skin_2_8_0: 21300036
+      multi_room_skin_2_0_2: 21300078
+      multi_room_skin_2_2_2: 21300046
+      multi_room_skin_2_4_1: 21300018
+      multi_room_skin_2_5_4: 21300064
+      multi_room_skin_2_2_1: 21300040
+      multi_room_skin_2_3_1: 21300002
+      multi_room_skin_2_4_0: 21300020
+      multi_room_skin_2_2_3: 21300044
+      multi_room_skin_2_0_8: 21300084
+      multi_room_skin_2_5_3: 21300056
+      multi_room_skin_2_2_5: 21300048
+      multi_room_skin_2_7_1: 21300096
+      multi_room_skin_2_3_0: 21300000
+      multi_room_skin_2_4_5: 21300024
+      multi_room_skin_2_3_4: 21300008
+      multi_room_skin_2_5_6: 21300062
+      multi_room_skin_2_6_0: 21300028
+      multi_room_skin_2_8_2: 21300032
+      multi_room_skin_2_4_2: 21300016
+      multi_room_skin_2_0_1: 21300080
+      multi_room_skin_2_0_0: 21300082
+      multi_room_skin_2_4_6: 21300022
+      multi_room_skin_2_3_5: 21300010
+      multi_room_skin_2_1_0: 21300038
+      multi_room_skin_2_8_3: 21300030
+      multi_room_skin_2_5_2: 21300054
+      multi_room_skin_2_3_6: 21300012
+      multi_room_skin_2_0_7: 21300068
+      multi_room_skin_2_4_3: 21300014
+      multi_room_skin_2_0_3: 21300076
+      multi_room_skin_2_5_1: 21300060
+      multi_room_skin_2_5_0: 21300058
+      multi_room_skin_2_7_2: 21300098
+      multi_room_skin_2_7_4: 21300086
+      multi_room_skin_2_0_4: 21300074
+      multi_room_skin_2_2_6: 21300052
+      multi_room_skin_2_7_5: 21300088
+      multi_room_skin_2_7_3: 21300100
+      multi_room_skin_2_7_9: 21300104
+      multi_room_skin_2_7_0: 21300094
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

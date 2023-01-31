@@ -1,0 +1,4207 @@
+fileFormatVersion: 2
+guid: c6271aaadeaa3064c8ab6b4ed7839b75
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: boss26_r1_1
+  - first:
+      213: 21300002
+    second: boss26_r1_0
+  - first:
+      213: 21300004
+    second: boss26_r1_3
+  - first:
+      213: 21300006
+    second: boss26_r1_2
+  - first:
+      213: 21300008
+    second: lil_mashroom_man_3
+  - first:
+      213: 21300010
+    second: lil_mashroom_man_2
+  - first:
+      213: 21300012
+    second: lil_mashroom_man_1
+  - first:
+      213: 21300014
+    second: lil_mashroom_man_0
+  - first:
+      213: 21300016
+    second: lil_mashroom_man_7
+  - first:
+      213: 21300018
+    second: lil_mashroom_man_6
+  - first:
+      213: 21300020
+    second: lil_mashroom_man_5
+  - first:
+      213: 21300022
+    second: lil_mashroom_man_4
+  - first:
+      213: 21300024
+    second: lil_mashroom_man_9
+  - first:
+      213: 21300026
+    second: lil_mashroom_man_8
+  - first:
+      213: 21300028
+    second: boss26_l2_0
+  - first:
+      213: 21300030
+    second: boss26_l2_1
+  - first:
+      213: 21300032
+    second: boss26_l2_2
+  - first:
+      213: 21300034
+    second: boss26_l2_3
+  - first:
+      213: 21300036
+    second: swamp_tentacles_0_5
+  - first:
+      213: 21300038
+    second: swamp_tentacles_0_4
+  - first:
+      213: 21300040
+    second: swamp_tentacles_0_7
+  - first:
+      213: 21300042
+    second: swamp_tentacles_0_6
+  - first:
+      213: 21300044
+    second: swamp_tentacles_0_1
+  - first:
+      213: 21300046
+    second: swamp_tentacles_0_0
+  - first:
+      213: 21300048
+    second: swamp_tentacles_0_3
+  - first:
+      213: 21300050
+    second: swamp_tentacles_0_2
+  - first:
+      213: 21300052
+    second: swamp_tentacles_1_4
+  - first:
+      213: 21300054
+    second: swamp_tentacles_1_5
+  - first:
+      213: 21300056
+    second: swamp_tentacles_1_6
+  - first:
+      213: 21300058
+    second: swamp_tentacles_1_7
+  - first:
+      213: 21300060
+    second: swamp_tentacles_1_0
+  - first:
+      213: 21300062
+    second: swamp_tentacles_1_1
+  - first:
+      213: 21300064
+    second: swamp_tentacles_1_2
+  - first:
+      213: 21300066
+    second: swamp_tentacles_1_3
+  - first:
+      213: 21300068
+    second: boss26_r2_2
+  - first:
+      213: 21300070
+    second: boss26_r2_3
+  - first:
+      213: 21300072
+    second: boss26_r2_0
+  - first:
+      213: 21300074
+    second: boss26_r2_1
+  - first:
+      213: 21300076
+    second: rider_0
+  - first:
+      213: 21300078
+    second: rider_1
+  - first:
+      213: 21300080
+    second: rider_2
+  - first:
+      213: 21300082
+    second: rider_3
+  - first:
+      213: 21300084
+    second: rider_4
+  - first:
+      213: 21300086
+    second: rider_5
+  - first:
+      213: 21300088
+    second: rider_6
+  - first:
+      213: 21300090
+    second: rider_7
+  - first:
+      213: 21300092
+    second: boss26_ultimate_buff_5
+  - first:
+      213: 21300094
+    second: boss26_ultimate_buff_4
+  - first:
+      213: 21300096
+    second: boss26_ultimate_buff_3
+  - first:
+      213: 21300098
+    second: boss26_ultimate_buff_2
+  - first:
+      213: 21300100
+    second: boss26_ultimate_buff_1
+  - first:
+      213: 21300102
+    second: boss26_ultimate_buff_0
+  - first:
+      213: 21300104
+    second: boss26_1
+  - first:
+      213: 21300106
+    second: boss26_0
+  - first:
+      213: 21300108
+    second: boss26_3
+  - first:
+      213: 21300110
+    second: boss26_2
+  - first:
+      213: 21300112
+    second: boss26_5
+  - first:
+      213: 21300114
+    second: boss26_4
+  - first:
+      213: 21300116
+    second: boss26_7
+  - first:
+      213: 21300118
+    second: boss26_6
+  - first:
+      213: 21300120
+    second: boss26_9
+  - first:
+      213: 21300122
+    second: boss26_8
+  - first:
+      213: 21300124
+    second: boss26_10
+  - first:
+      213: 21300126
+    second: boss26_11
+  - first:
+      213: 21300128
+    second: boss26_hood_mask
+  - first:
+      213: 21300130
+    second: boss26_l1_3
+  - first:
+      213: 21300132
+    second: boss26_l1_2
+  - first:
+      213: 21300134
+    second: boss26_l1_1
+  - first:
+      213: 21300136
+    second: boss26_l1_0
+  - first:
+      213: 21300138
+    second: boss26_body
+  - first:
+      213: 21300140
+    second: boss_26
+  - first:
+      213: 21300142
+    second: tantacle
+  - first:
+      213: 21300144
+    second: mashroom_man_9
+  - first:
+      213: 21300146
+    second: mashroom_man_8
+  - first:
+      213: 21300148
+    second: mashroom_man_5
+  - first:
+      213: 21300150
+    second: mashroom_man_4
+  - first:
+      213: 21300152
+    second: mashroom_man_7
+  - first:
+      213: 21300154
+    second: mashroom_man_6
+  - first:
+      213: 21300156
+    second: mashroom_man_1
+  - first:
+      213: 21300158
+    second: mashroom_man_0
+  - first:
+      213: 21300160
+    second: mashroom_man_3
+  - first:
+      213: 21300162
+    second: mashroom_man_2
+  - first:
+      213: 21300164
+    second: boss26_face_5
+  - first:
+      213: 21300166
+    second: boss26_face_4
+  - first:
+      213: 21300168
+    second: boss26_face_7
+  - first:
+      213: 21300170
+    second: boss26_face_6
+  - first:
+      213: 21300172
+    second: boss26_face_1
+  - first:
+      213: 21300174
+    second: boss26_face_0
+  - first:
+      213: 21300176
+    second: boss26_face_3
+  - first:
+      213: 21300178
+    second: boss26_face_2
+  - first:
+      213: 21300180
+    second: boss26_face_8
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 0
+  flipbookColumns: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss26_r1_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 239
+        width: 34
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -12}
+        - {x: -17, y: 12}
+        - {x: 17, y: 12}
+        - {x: 17, y: -12}
+      physicsShape:
+      - - {x: 4, y: 10}
+        - {x: -4, y: 12}
+        - {x: -17, y: 12}
+        - {x: -17, y: 6}
+        - {x: -6, y: 0}
+        - {x: 2, y: -4}
+        - {x: 13, y: -4}
+        - {x: 15, y: -1}
+        - {x: 15, y: 7}
+        - {x: 10, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c9dbbd8ce64585a4e516b7f53865e3
+      internalID: 21300000
+      vertices:
+      - {x: 17, y: 12}
+      - {x: 51, y: 12}
+      - {x: 17, y: -12}
+      - {x: 51, y: -12}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_r1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 301
+        width: 34
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -12}
+        - {x: -17, y: 12}
+        - {x: 17, y: 12}
+        - {x: 17, y: -12}
+      physicsShape:
+      - - {x: -3, y: 12}
+        - {x: -17, y: 12}
+        - {x: -17, y: 3}
+        - {x: 2, y: -6}
+        - {x: 10, y: -6}
+        - {x: 15, y: -5}
+        - {x: 15, y: 3}
+        - {x: 6, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3dd45c9102244a59084df3278519b9b
+      internalID: 21300002
+      vertices:
+      - {x: 17, y: 12}
+      - {x: 51, y: 12}
+      - {x: 17, y: -12}
+      - {x: 51, y: -12}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_r1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 329
+        width: 34
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -12}
+        - {x: -17, y: 12}
+        - {x: 17, y: 12}
+        - {x: 17, y: -12}
+      physicsShape:
+      - - {x: -17, y: 12}
+        - {x: -17, y: 6}
+        - {x: -9, y: -3}
+        - {x: -1, y: -4}
+        - {x: 15, y: -4}
+        - {x: 17, y: -2}
+        - {x: 17, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ca546d5fc64419a8d290732e6df71e
+      internalID: 21300004
+      vertices:
+      - {x: 17, y: 12}
+      - {x: 51, y: 12}
+      - {x: 17, y: -12}
+      - {x: 51, y: -12}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_r1_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 267
+        width: 34
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -12}
+        - {x: -17, y: 12}
+        - {x: 17, y: 12}
+        - {x: 17, y: -12}
+      physicsShape:
+      - - {x: -17, y: 12}
+        - {x: -17, y: 2}
+        - {x: -8, y: -4}
+        - {x: 9, y: -4}
+        - {x: 15, y: -1}
+        - {x: 15, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be2cc739f0748fbbd11102f8d066a63
+      internalID: 21300006
+      vertices:
+      - {x: 17, y: 12}
+      - {x: 51, y: 12}
+      - {x: 17, y: -12}
+      - {x: 51, y: -12}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lil_mashroom_man_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 315
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: -0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: -9, y: 12}
+        - {x: -12, y: 6}
+        - {x: -12, y: -5}
+        - {x: -4, y: -12}
+        - {x: 6, y: -12}
+        - {x: 12, y: -3}
+        - {x: 12, y: 6}
+        - {x: 7, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf997286f17d450d89d5f7f019034dd0
+      internalID: 21300008
+      vertices:
+      - {x: 0, y: 37.68}
+      - {x: 24, y: 37.68}
+      - {x: 0, y: 13.68}
+      - {x: 24, y: 13.68}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lil_mashroom_man_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 449
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: -0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: -11, y: 12}
+        - {x: -12, y: 9}
+        - {x: -12, y: -5}
+        - {x: -4, y: -12}
+        - {x: 6, y: -12}
+        - {x: 12, y: -5}
+        - {x: 12, y: 10}
+        - {x: 7, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38d29a31bb34b2fbad59e10ef81d138
+      internalID: 21300010
+      vertices:
+      - {x: 0, y: 37.68}
+      - {x: 24, y: 37.68}
+      - {x: 0, y: 13.68}
+      - {x: 24, y: 13.68}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lil_mashroom_man_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 388
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: -0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: -11, y: 12}
+        - {x: -12, y: 9}
+        - {x: -12, y: -8}
+        - {x: -6, y: -12}
+        - {x: 8, y: -12}
+        - {x: 12, y: -8}
+        - {x: 12, y: 7}
+        - {x: 9, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4b19a0964a41cc9db4532ce7484ed5
+      internalID: 21300012
+      vertices:
+      - {x: 0, y: 37.68}
+      - {x: 24, y: 37.68}
+      - {x: 0, y: 13.68}
+      - {x: 24, y: 13.68}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lil_mashroom_man_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 344
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: -0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: 7, y: 11}
+        - {x: 5, y: 12}
+        - {x: -8, y: 12}
+        - {x: -12, y: 4}
+        - {x: -12, y: -3}
+        - {x: -5, y: -12}
+        - {x: 9, y: -12}
+        - {x: 12, y: -5}
+        - {x: 12, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99851347cbb4b1ea5f3803fa703ff2f
+      internalID: 21300014
+      vertices:
+      - {x: 0, y: 37.68}
+      - {x: 24, y: 37.68}
+      - {x: 0, y: 13.68}
+      - {x: 24, y: 13.68}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lil_mashroom_man_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 382
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: -0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: 7, y: 11}
+        - {x: 5, y: 12}
+        - {x: -8, y: 12}
+        - {x: -12, y: 8}
+        - {x: -12, y: -6}
+        - {x: -9, y: -12}
+        - {x: 7, y: -12}
+        - {x: 12, y: -5}
+        - {x: 12, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56b32094e28404eaf65a88fb51bcd58
+      internalID: 21300016
+      vertices:
+      - {x: 0, y: 37.68}
+      - {x: 24, y: 37.68}
+      - {x: 0, y: 13.68}
+      - {x: 24, y: 13.68}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lil_mashroom_man_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 343
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: -0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: -2, y: 12}
+        - {x: -12, y: 9}
+        - {x: -12, y: -3}
+        - {x: -6, y: -12}
+        - {x: 9, y: -12}
+        - {x: 12, y: -4}
+        - {x: 12, y: 4}
+        - {x: 5, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbd14db4a98418c9e2fb590688b6605
+      internalID: 21300018
+      vertices:
+      - {x: 0, y: 37.68}
+      - {x: 24, y: 37.68}
+      - {x: 0, y: 13.68}
+      - {x: 24, y: 13.68}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lil_mashroom_man_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 286
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: -0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: -11, y: 12}
+        - {x: -12, y: 11}
+        - {x: -12, y: -3}
+        - {x: -5, y: -12}
+        - {x: 10, y: -12}
+        - {x: 12, y: -5}
+        - {x: 12, y: 11}
+        - {x: 11, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ee7865b6cf4267ba655166a4a1ea3b
+      internalID: 21300020
+      vertices:
+      - {x: 0, y: 37.68}
+      - {x: 24, y: 37.68}
+      - {x: 0, y: 13.68}
+      - {x: 24, y: 13.68}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lil_mashroom_man_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 315
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: -0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: -11, y: 12}
+        - {x: -12, y: 11}
+        - {x: -12, y: -8}
+        - {x: -7, y: -12}
+        - {x: 9, y: -12}
+        - {x: 12, y: -8}
+        - {x: 12, y: 8}
+        - {x: 10, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2074305fcac4b4894d658b86fa9e6cf
+      internalID: 21300022
+      vertices:
+      - {x: 0, y: 37.68}
+      - {x: 24, y: 37.68}
+      - {x: 0, y: 13.68}
+      - {x: 24, y: 13.68}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lil_mashroom_man_9
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 382
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0133333355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: -3, y: 11}
+        - {x: -12, y: 5}
+        - {x: -12, y: -7}
+        - {x: -5, y: -11}
+        - {x: 10, y: -11}
+        - {x: 12, y: -6}
+        - {x: 12, y: 4}
+        - {x: 4, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12428f13ae1540c9a770591be3ab58bf
+      internalID: 21300024
+      vertices:
+      - {x: 0, y: 35.68}
+      - {x: 24, y: 35.68}
+      - {x: 0, y: 11.68}
+      - {x: 24, y: 11.68}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lil_mashroom_man_8
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 343
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: -0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: -8, y: 11}
+        - {x: -11, y: 10}
+        - {x: -12, y: 6}
+        - {x: -12, y: -6}
+        - {x: -4, y: -11}
+        - {x: 8, y: -11}
+        - {x: 12, y: -5}
+        - {x: 12, y: 6}
+        - {x: 4, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fd88a1464b4d25811c7201c5d8dba8
+      internalID: 21300026
+      vertices:
+      - {x: 0, y: 37.68}
+      - {x: 24, y: 37.68}
+      - {x: 0, y: 13.68}
+      - {x: 24, y: 13.68}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_l2_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: 3, y: 12}
+        - {x: -12, y: 3}
+        - {x: -12, y: -5}
+        - {x: -8, y: -8}
+        - {x: -4, y: -8}
+        - {x: 7, y: 1}
+        - {x: 12, y: 7}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b786b586bc0147339968922d79ad9049
+      internalID: 21300028
+      vertices:
+      - {x: -12, y: 12}
+      - {x: 12, y: 12}
+      - {x: -12, y: -12}
+      - {x: 12, y: -12}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_l2_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 410
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: 3, y: 12}
+        - {x: -6, y: 7}
+        - {x: -12, y: 2}
+        - {x: -12, y: -4}
+        - {x: -10, y: -6}
+        - {x: -4, y: -6}
+        - {x: 2, y: -4}
+        - {x: 12, y: 3}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535c1347fcda4876986d2ce33f3826ac
+      internalID: 21300030
+      vertices:
+      - {x: -12, y: 12}
+      - {x: 12, y: 12}
+      - {x: -12, y: -12}
+      - {x: 12, y: -12}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_l2_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 255
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: -4, y: 12}
+        - {x: -12, y: 8}
+        - {x: -12, y: -3}
+        - {x: -9, y: -5}
+        - {x: 3, y: -5}
+        - {x: 12, y: 6}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9368fff21146e38b8d553948e5d2e0
+      internalID: 21300032
+      vertices:
+      - {x: -12, y: 12}
+      - {x: 12, y: 12}
+      - {x: -12, y: -12}
+      - {x: 12, y: -12}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_l2_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 371
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: -5, y: 10}
+        - {x: -12, y: 2}
+        - {x: -12, y: -5}
+        - {x: -10, y: -6}
+        - {x: 0, y: -6}
+        - {x: 12, y: 3}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e99ac839d842179a8adb965813a5b5
+      internalID: 21300034
+      vertices:
+      - {x: -12, y: 12}
+      - {x: 12, y: 12}
+      - {x: -12, y: -12}
+      - {x: 12, y: -12}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_tentacles_0_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -5, y: 8}
+        - {x: -6, y: 7}
+        - {x: -6, y: -3}
+        - {x: -3, y: -8}
+        - {x: 6, y: -8}
+        - {x: 8, y: -5}
+        - {x: 8, y: 3}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea2aae257cf482680640bde738ed1fe
+      internalID: 21300036
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_tentacles_0_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 414
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -4, y: 8}
+        - {x: -7, y: 4}
+        - {x: -7, y: -5}
+        - {x: -3, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 0}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18390b110d554671bea4980dc8335fe5
+      internalID: 21300038
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_tentacles_0_7
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 371
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -1, y: 7}
+        - {x: -5, y: 7}
+        - {x: -7, y: 4}
+        - {x: -7, y: 0}
+        - {x: -1, y: -8}
+        - {x: 5, y: -8}
+        - {x: 8, y: -5}
+        - {x: 7, y: 1}
+        - {x: 4, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bb22439e9e460091b45a97f9a4b3aa
+      internalID: 21300040
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_tentacles_0_6
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 399
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -4, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 1}
+        - {x: 5, y: 8}
+        - {x: -5, y: 8}
+        - {x: -8, y: 6}
+        - {x: -8, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d7469863834b66a0bd673b8aae095d
+      internalID: 21300042
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_tentacles_0_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 427
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -3, y: 8}
+        - {x: -8, y: 2}
+        - {x: -8, y: -5}
+        - {x: -6, y: -8}
+        - {x: 5, y: -8}
+        - {x: 8, y: -6}
+        - {x: 8, y: 4}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff48fe637de24b89a4e720037fc3d55c
+      internalID: 21300044
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_tentacles_0_0
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 303
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: 2, y: 8}
+        - {x: -8, y: 8}
+        - {x: -8, y: -5}
+        - {x: -6, y: -8}
+        - {x: 1, y: -8}
+        - {x: 5, y: -3}
+        - {x: 5, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7720afea154a42acaa02aee46c39eb3a
+      internalID: 21300046
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_tentacles_0_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 447
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -6, y: 8}
+        - {x: -8, y: 6}
+        - {x: -8, y: -7}
+        - {x: -7, y: -8}
+        - {x: 2, y: -8}
+        - {x: 3, y: -6}
+        - {x: 3, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe31dc6c6fb493d82e73fef6c27fa4b
+      internalID: 21300048
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_tentacles_0_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 467
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -4, y: 6}
+        - {x: -7, y: 3}
+        - {x: -8, y: -2}
+        - {x: -8, y: -8}
+        - {x: 4, y: -8}
+        - {x: 8, y: -7}
+        - {x: 8, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543050f9255a451c857dd093f70ed991
+      internalID: 21300050
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_tentacles_1_4
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 150
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -6}
+        - {x: -6, y: 6}
+        - {x: 6, y: 6}
+        - {x: 6, y: -6}
+      physicsShape:
+      - - {x: 0, y: 5}
+        - {x: -5, y: 5}
+        - {x: -5, y: -1}
+        - {x: -3, y: -5}
+        - {x: 2, y: -5}
+        - {x: 5, y: -2}
+        - {x: 5, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db2433786844fa18ef3f8564c73e4b9
+      internalID: 21300052
+      vertices:
+      - {x: 0, y: 12}
+      - {x: 12, y: 12}
+      - {x: 0, y: 0}
+      - {x: 12, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_tentacles_1_5
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 427
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -6}
+        - {x: -6, y: 6}
+        - {x: 6, y: 6}
+        - {x: 6, y: -6}
+      physicsShape:
+      - - {x: -3, y: 4}
+        - {x: -5, y: 2}
+        - {x: -5, y: -1}
+        - {x: -1, y: -5}
+        - {x: 2, y: -5}
+        - {x: 5, y: -4}
+        - {x: 5, y: 1}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ca7b48e565422c93382c05553cf4a6
+      internalID: 21300054
+      vertices:
+      - {x: 0, y: 12}
+      - {x: 12, y: 12}
+      - {x: 0, y: 0}
+      - {x: 12, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_tentacles_1_6
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 84
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -6}
+        - {x: -6, y: 6}
+        - {x: 6, y: 6}
+        - {x: 6, y: -6}
+      physicsShape:
+      - - {x: 2, y: 4}
+        - {x: -2, y: 4}
+        - {x: -5, y: 0}
+        - {x: -5, y: -2}
+        - {x: -2, y: -5}
+        - {x: 2, y: -5}
+        - {x: 5, y: -2}
+        - {x: 5, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0e44875c414f2fb666e679edfc450f
+      internalID: 21300056
+      vertices:
+      - {x: 0, y: 12}
+      - {x: 12, y: 12}
+      - {x: 0, y: 0}
+      - {x: 12, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_tentacles_1_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 354
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -6}
+        - {x: -6, y: 6}
+        - {x: 6, y: 6}
+        - {x: 6, y: -6}
+      physicsShape:
+      - - {x: -5, y: 4}
+        - {x: -5, y: -3}
+        - {x: -3, y: -5}
+        - {x: 2, y: -5}
+        - {x: 5, y: -4}
+        - {x: 5, y: 3}
+        - {x: 2, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814f1b27e7084d2eaff57d3a16da7bf0
+      internalID: 21300058
+      vertices:
+      - {x: 0, y: 12}
+      - {x: 12, y: 12}
+      - {x: 0, y: 0}
+      - {x: 12, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_tentacles_1_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 447
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -6}
+        - {x: -6, y: 6}
+        - {x: 6, y: 6}
+        - {x: 6, y: -6}
+      physicsShape:
+      - - {x: 0, y: 6}
+        - {x: -5, y: 6}
+        - {x: -6, y: 5}
+        - {x: -6, y: -3}
+        - {x: -1, y: -6}
+        - {x: 5, y: -6}
+        - {x: 6, y: -4}
+        - {x: 6, y: 1}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd19585af944097a98744f29e1abed0
+      internalID: 21300060
+      vertices:
+      - {x: 0, y: 12}
+      - {x: 12, y: 12}
+      - {x: 0, y: 0}
+      - {x: 12, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_tentacles_1_1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 86
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -6}
+        - {x: -6, y: 6}
+        - {x: 6, y: 6}
+        - {x: 6, y: -6}
+      physicsShape:
+      - - {x: 1, y: 6}
+        - {x: -3, y: 6}
+        - {x: -6, y: 3}
+        - {x: -6, y: -1}
+        - {x: -1, y: -6}
+        - {x: 2, y: -6}
+        - {x: 5, y: -3}
+        - {x: 5, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fe4d91a4c74705a72bc6aaca526fd8
+      internalID: 21300062
+      vertices:
+      - {x: 0, y: 12}
+      - {x: 12, y: 12}
+      - {x: 0, y: 0}
+      - {x: 12, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_tentacles_1_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 283
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -6}
+        - {x: -6, y: 6}
+        - {x: 6, y: 6}
+        - {x: 6, y: -6}
+      physicsShape:
+      - - {x: -3, y: 6}
+        - {x: -6, y: 3}
+        - {x: -6, y: 0}
+        - {x: -5, y: -6}
+        - {x: 4, y: -6}
+        - {x: 4, y: 2}
+        - {x: 2, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbb2cb213324f6e894c729ab53439e9
+      internalID: 21300064
+      vertices:
+      - {x: 0, y: 12}
+      - {x: 12, y: 12}
+      - {x: 0, y: 0}
+      - {x: 12, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp_tentacles_1_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 102
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -6}
+        - {x: -6, y: 6}
+        - {x: 6, y: 6}
+        - {x: 6, y: -6}
+      physicsShape:
+      - - {x: -3, y: 6}
+        - {x: -6, y: 5}
+        - {x: -6, y: -3}
+        - {x: -2, y: -6}
+        - {x: 3, y: -6}
+        - {x: 5, y: -2}
+        - {x: 5, y: 2}
+        - {x: 3, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbed2e91f08340178fdafd9ba463fce6
+      internalID: 21300066
+      vertices:
+      - {x: 0, y: 12}
+      - {x: 12, y: 12}
+      - {x: 0, y: 0}
+      - {x: 12, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_r2_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 255
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: 1}
+        - {x: -6, y: -4}
+        - {x: 10, y: -4}
+        - {x: 10, y: 6}
+        - {x: 4, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b3bd128cd9419b986affff24fd678c
+      internalID: 21300068
+      vertices:
+      - {x: 12, y: 12}
+      - {x: 36, y: 12}
+      - {x: 12, y: -12}
+      - {x: 36, y: -12}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_r2_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 410
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: 3}
+        - {x: -11, y: -1}
+        - {x: -1, y: -5}
+        - {x: 10, y: -5}
+        - {x: 10, y: 3}
+        - {x: -7, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e82da232174e59b8c93e005a0982ae
+      internalID: 21300070
+      vertices:
+      - {x: 12, y: 12}
+      - {x: 36, y: 12}
+      - {x: 12, y: -12}
+      - {x: 36, y: -12}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_r2_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 449
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: -3, y: 12}
+        - {x: -12, y: 12}
+        - {x: -12, y: 4}
+        - {x: -10, y: 1}
+        - {x: 2, y: -7}
+        - {x: 6, y: -7}
+        - {x: 8, y: -4}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a6f2c94455456284ae501610d13547
+      internalID: 21300072
+      vertices:
+      - {x: 12, y: 12}
+      - {x: 36, y: 12}
+      - {x: 12, y: -12}
+      - {x: 36, y: -12}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_r2_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 371
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -12}
+        - {x: -12, y: 12}
+        - {x: 12, y: 12}
+        - {x: 12, y: -12}
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: 3}
+        - {x: -2, y: -6}
+        - {x: 6, y: -6}
+        - {x: 9, y: -4}
+        - {x: 9, y: 0}
+        - {x: 6, y: 7}
+        - {x: -3, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d3e22d1ed248bdbd2179067b442622
+      internalID: 21300074
+      vertices:
+      - {x: 12, y: 12}
+      - {x: 36, y: 12}
+      - {x: 12, y: -12}
+      - {x: 36, y: -12}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rider_0
+      rect:
+        serializedVersion: 2
+        x: 113.07612
+        y: 180.04291
+        width: 32.867508
+        height: 43.914185
+      alignment: 9
+      pivot: {x: 0.42132065, y: -0.001954162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.585995, y: -21.042908}
+        - {x: -21.585995, y: -6.0429077}
+        - {x: -21.585995, y: 14.957092}
+        - {x: -17.585995, y: 21.957092}
+        - {x: 1.4140053, y: 21.957092}
+        - {x: 11.414005, y: 15.957092}
+        - {x: 11.414005, y: -22.042908}
+        - {x: -14.585995, y: -22.042908}
+      physicsShape:
+      - - {x: 1.4140053, y: 19.957092}
+        - {x: -1.5859947, y: 21.957092}
+        - {x: -17.585995, y: 21.957092}
+        - {x: -21.585995, y: 14.957092}
+        - {x: -21.585995, y: -1.0429077}
+        - {x: -16.585995, y: -20.042908}
+        - {x: -15.585995, y: -22.042908}
+        - {x: 10.414005, y: -22.042908}
+        - {x: 11.414005, y: -14.042908}
+        - {x: 11.414005, y: -4.0429077}
+        - {x: 7.4140053, y: 12.957092}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21c847dd328487d8d89a528fabae76e
+      internalID: 21300076
+      vertices:
+      - {x: 20.433754, y: 65.95709}
+      - {x: 30.433754, y: 21.957092}
+      - {x: 30.433754, y: 59.957092}
+      - {x: 4.433754, y: 21.957092}
+      - {x: 1.433754, y: 65.95709}
+      - {x: -0.56624603, y: 22.957092}
+      - {x: -2.566246, y: 58.957092}
+      - {x: -2.566246, y: 37.957092}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rider_1
+      rect:
+        serializedVersion: 2
+        x: 150.07611
+        y: 150.02675
+        width: 32.867508
+        height: 42.93034
+      alignment: 9
+      pivot: {x: 0.42132074, y: -0.04783342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.58599, y: -21.518675}
+        - {x: -21.58599, y: 0.48132515}
+        - {x: -21.58599, y: 15.481325}
+        - {x: -12.585991, y: 20.481325}
+        - {x: 5.414009, y: 20.481325}
+        - {x: 11.414009, y: 3.4813251}
+        - {x: 11.414009, y: -20.518675}
+        - {x: 7.414009, y: -22.518675}
+        - {x: -13.585991, y: -22.518675}
+      physicsShape:
+      - - {x: 3.414009, y: 20.481325}
+        - {x: -12.585991, y: 20.481325}
+        - {x: -21.58599, y: 15.481325}
+        - {x: -21.58599, y: 1.4813251}
+        - {x: -15.585991, y: -19.518675}
+        - {x: -12.585991, y: -22.518675}
+        - {x: 5.414009, y: -22.518675}
+        - {x: 11.414009, y: -20.518675}
+        - {x: 11.414009, y: -1.5186749}
+        - {x: 10.414009, y: 6.481325}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca980bdd3db2478a97c9ebc0e1cdd886
+      internalID: 21300078
+      vertices:
+      - {x: 30.433754, y: 48.46517}
+      - {x: 26.433754, y: 22.46517}
+      - {x: 30.433754, y: 24.46517}
+      - {x: 24.433754, y: 65.46517}
+      - {x: 6.433754, y: 65.46517}
+      - {x: 5.433754, y: 22.46517}
+      - {x: 1.433754, y: 23.46517}
+      - {x: -2.566246, y: 60.46517}
+      - {x: -2.566246, y: 45.46517}
+      indices: 080000000700000006000000040000000600000007000000050000000600000004000000010000000500000004000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rider_2
+      rect:
+        serializedVersion: 2
+        x: 89.07611
+        y: 132.02675
+        width: 32.897125
+        height: 43.93034
+      alignment: 9
+      pivot: {x: 0.42094144, y: -0.092271194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.6008, y: -24.018675}
+        - {x: -21.6008, y: -3.0186749}
+        - {x: -21.6008, y: 15.981325}
+        - {x: -16.6008, y: 19.981325}
+        - {x: 3.3992004, y: 19.981325}
+        - {x: 11.3992, y: 7.981325}
+        - {x: 11.3992, y: -22.018675}
+        - {x: 9.3992, y: -24.018675}
+      physicsShape:
+      - - {x: 6.3992004, y: 13.981325}
+        - {x: -0.60079956, y: 19.981325}
+        - {x: -11.6008, y: 19.981325}
+        - {x: -21.6008, y: 15.981325}
+        - {x: -21.6008, y: -0.01867485}
+        - {x: -15.6008, y: -9.018675}
+        - {x: -14.6008, y: -20.018675}
+        - {x: -12.6008, y: -24.018675}
+        - {x: 4.3992004, y: -24.018675}
+        - {x: 10.3992, y: -18.018675}
+        - {x: 11.3992, y: -15.018675}
+        - {x: 11.3992, y: -6.018675}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b85c2dc26da43e9a9729e115e8fdfde
+      internalID: 21300080
+      vertices:
+      - {x: 30.448563, y: 55.96517}
+      - {x: 28.448563, y: 23.96517}
+      - {x: 30.448563, y: 25.96517}
+      - {x: 22.448563, y: 67.96517}
+      - {x: 5.4485626, y: 23.96517}
+      - {x: 2.4485626, y: 67.96517}
+      - {x: -2.5514374, y: 63.96517}
+      - {x: -2.5514374, y: 44.96517}
+      indices: 070000000600000004000000050000000400000006000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rider_3
+      rect:
+        serializedVersion: 2
+        x: 132.05972
+        y: 101.076126
+        width: 33.91352
+        height: 44.847755
+      alignment: 9
+      pivot: {x: 0.46826616, y: -0.047990017}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.076206, y: -23.576122}
+        - {x: -21.076206, y: -9.576122}
+        - {x: -21.076206, y: 14.423878}
+        - {x: -16.076206, y: 21.423878}
+        - {x: 5.923794, y: 21.423878}
+        - {x: 12.923794, y: 16.423878}
+        - {x: 12.923794, y: -22.576122}
+        - {x: 9.923794, y: -23.576122}
+      physicsShape:
+      - - {x: 9.923794, y: 12.423878}
+        - {x: 3.9237938, y: 19.423878}
+        - {x: -4.076206, y: 21.423878}
+        - {x: -11.076206, y: 21.423878}
+        - {x: -19.076206, y: 17.423878}
+        - {x: -21.076206, y: 10.423878}
+        - {x: -21.076206, y: 0.42387772}
+        - {x: -13.076206, y: -23.576122}
+        - {x: 4.923794, y: -23.576122}
+        - {x: 12.923794, y: -20.576122}
+        - {x: 12.923794, y: -2.5761223}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e122e884fb7f4a8ca68fb16dbfdb1015
+      internalID: 21300082
+      vertices:
+      - {x: 30.95676, y: 63.423878}
+      - {x: 27.95676, y: 23.423878}
+      - {x: 30.95676, y: 24.423878}
+      - {x: 23.95676, y: 68.423874}
+      - {x: 3.9567604, y: 23.423878}
+      - {x: 1.9567604, y: 68.423874}
+      - {x: -3.0432396, y: 61.423878}
+      - {x: -3.0432396, y: 37.423878}
+      indices: 070000000600000004000000050000000400000006000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rider_4
+      rect:
+        serializedVersion: 2
+        x: 113.02675
+        y: 228
+        width: 42.897125
+        height: 21.92388
+      alignment: 9
+      pivot: {x: 0.4649845, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.497936, y: -10.96194}
+        - {x: -23.502064, y: -10.96194}
+        - {x: -23.502064, y: 7.03806}
+        - {x: -21.502064, y: 11.03806}
+        - {x: 19.497936, y: 11.03806}
+        - {x: 19.497936, y: -9.96194}
+      physicsShape:
+      - - {x: 5.4979362, y: 11.03806}
+        - {x: -9.502064, y: 11.03806}
+        - {x: -17.502064, y: 7.03806}
+        - {x: -23.502064, y: 2.0380602}
+        - {x: -23.502064, y: -10.96194}
+        - {x: 18.497936, y: -10.96194}
+        - {x: 19.497936, y: -9.96194}
+        - {x: 19.497936, y: 1.0380602}
+        - {x: 16.497936, y: 8.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585e68deb0864d85b8ded0f5b7d0d29e
+      internalID: 21300084
+      vertices:
+      - {x: 42.448563, y: 32.96194}
+      - {x: 41.448563, y: 10.96194}
+      - {x: 42.448563, y: 11.96194}
+      - {x: 1.4485626, y: 32.96194}
+      - {x: -0.5514374, y: 28.96194}
+      - {x: -0.5514374, y: 10.96194}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rider_5
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 477
+        width: 32
+        height: 9
+      alignment: 9
+      pivot: {x: 0.203125, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -4.5}
+        - {x: -16, y: 4.5}
+        - {x: 16, y: 4.5}
+        - {x: 16, y: -4.5}
+      physicsShape:
+      - - {x: -16, y: 4.5}
+        - {x: -16, y: -3.5}
+        - {x: -11, y: -4.5}
+        - {x: 14, y: -4.5}
+        - {x: 16, y: -3.5}
+        - {x: 16, y: 4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22dbaf4afb545c3a6a7c16d80f219dc
+      internalID: 21300086
+      vertices:
+      - {x: 9.5, y: 9}
+      - {x: 41.5, y: 9}
+      - {x: 9.5, y: 0}
+      - {x: 41.5, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rider_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 470
+        width: 32
+        height: 9
+      alignment: 9
+      pivot: {x: 0.203125, y: 0.3888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -4.5}
+        - {x: -16, y: 4.5}
+        - {x: 16, y: 4.5}
+        - {x: 16, y: -4.5}
+      physicsShape:
+      - - {x: -16, y: 4.5}
+        - {x: -16, y: -4.5}
+        - {x: 15, y: -4.5}
+        - {x: 16, y: -3.5}
+        - {x: 16, y: 2.5}
+        - {x: 14, y: 4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758a78c36964426890900a5b4e630d4b
+      internalID: 21300088
+      vertices:
+      - {x: 9.5, y: 10}
+      - {x: 41.5, y: 10}
+      - {x: 9.5, y: 1}
+      - {x: 41.5, y: 1}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rider_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 414
+        width: 32
+        height: 9
+      alignment: 9
+      pivot: {x: 0.203125, y: 0.3888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -4.5}
+        - {x: -16, y: 4.5}
+        - {x: 16, y: 4.5}
+        - {x: 16, y: -4.5}
+      physicsShape:
+      - - {x: -11, y: 4.5}
+        - {x: -16, y: 3.5}
+        - {x: -16, y: -4.5}
+        - {x: 16, y: -4.5}
+        - {x: 16, y: 3.5}
+        - {x: 15, y: 4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7130dce6df894fdca6687775738626ff
+      internalID: 21300090
+      vertices:
+      - {x: 9.5, y: 10}
+      - {x: 41.5, y: 10}
+      - {x: 9.5, y: 1}
+      - {x: 41.5, y: 1}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_ultimate_buff_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 197
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.46875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -16}
+        - {x: -14, y: 16}
+        - {x: 14, y: 16}
+        - {x: 14, y: -16}
+      physicsShape:
+      - - {x: -9, y: 8}
+        - {x: -10, y: 5}
+        - {x: -10, y: -7}
+        - {x: -4, y: -10}
+        - {x: 7, y: -10}
+        - {x: 7, y: 7}
+        - {x: 6, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302743cf896845e5870f953e6620fd79
+      internalID: 21300092
+      vertices:
+      - {x: 1, y: 33}
+      - {x: 29, y: 33}
+      - {x: 1, y: 1}
+      - {x: 29, y: 1}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_ultimate_buff_4
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 50
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -16}
+        - {x: -14, y: 16}
+        - {x: 14, y: 16}
+        - {x: 14, y: -16}
+      physicsShape:
+      - - {x: 6, y: 10}
+        - {x: -2, y: 10}
+        - {x: -8, y: 3}
+        - {x: -8, y: -2}
+        - {x: -3, y: -10}
+        - {x: 7, y: -10}
+        - {x: 11, y: -8}
+        - {x: 11, y: 1}
+        - {x: 9, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b655047c1dd74a9faf65a73bec64f844
+      internalID: 21300094
+      vertices:
+      - {x: -2, y: 32}
+      - {x: 26, y: 32}
+      - {x: -2, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_ultimate_buff_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 183
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -16}
+        - {x: -14, y: 16}
+        - {x: 14, y: 16}
+        - {x: 14, y: -16}
+      physicsShape:
+      - - {x: -8, y: -5}
+        - {x: -3, y: -10}
+        - {x: 6, y: -10}
+        - {x: 13, y: -4}
+        - {x: 13, y: 6}
+        - {x: 12, y: 8}
+        - {x: 8, y: 11}
+        - {x: 0, y: 11}
+        - {x: -8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da39e7af4eb4b0da80d80c27503560e
+      internalID: 21300096
+      vertices:
+      - {x: -3, y: 32}
+      - {x: 25, y: 32}
+      - {x: -3, y: 0}
+      - {x: 25, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_ultimate_buff_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 219
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5357143, y: 0.46875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.999999, y: -16}
+        - {x: -13.999999, y: 16}
+        - {x: 14.000001, y: 16}
+        - {x: 14.000001, y: -16}
+      physicsShape:
+      - - {x: -9.999999, y: -12}
+        - {x: 5.000001, y: -12}
+        - {x: 8.000001, y: -11}
+        - {x: 8.000001, y: 6}
+        - {x: 7.000001, y: 7}
+        - {x: 3.000001, y: 10}
+        - {x: -1.999999, y: 10}
+        - {x: -9.999999, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373636f587984397adea575fb08923c2
+      internalID: 21300098
+      vertices:
+      - {x: -1, y: 33}
+      - {x: 27, y: 33}
+      - {x: -1, y: 1}
+      - {x: 27, y: 1}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_ultimate_buff_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 142
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -16}
+        - {x: -14, y: 16}
+        - {x: 14, y: 16}
+        - {x: 14, y: -16}
+      physicsShape:
+      - - {x: -4, y: 8}
+        - {x: -9, y: 5}
+        - {x: -12, y: -1}
+        - {x: -12, y: -8}
+        - {x: -7, y: -15}
+        - {x: 1, y: -15}
+        - {x: 8, y: -13}
+        - {x: 12, y: -8}
+        - {x: 12, y: 5}
+        - {x: 3, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8ddff502a2470bb6f82c32d53a1856
+      internalID: 21300100
+      vertices:
+      - {x: 0, y: 36}
+      - {x: 28, y: 36}
+      - {x: 0, y: 4}
+      - {x: 28, y: 4}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_ultimate_buff_0
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 178
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -16}
+        - {x: -14, y: 16}
+        - {x: 14, y: 16}
+        - {x: 14, y: -16}
+      physicsShape:
+      - - {x: -2, y: 8}
+        - {x: -3, y: 5}
+        - {x: -9, y: -8}
+        - {x: -9, y: -13}
+        - {x: 1, y: -13}
+        - {x: 11, y: -9}
+        - {x: 12, y: -6}
+        - {x: 12, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca1341970914825b81b2d5d90b525c3
+      internalID: 21300102
+      vertices:
+      - {x: -3, y: 34}
+      - {x: 25, y: 34}
+      - {x: -3, y: 2}
+      - {x: 25, y: 2}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_1
+      rect:
+        serializedVersion: 2
+        x: 0.026752472
+        y: 187.05972
+        width: 33.897125
+        height: 47.940273
+      alignment: 9
+      pivot: {x: 0.29343182, y: -0.0024915545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.9979324, y: -24.089582}
+        - {x: -24.002068, y: -24.089582}
+        - {x: -24.002068, y: 2.9104176}
+        - {x: -19.002068, y: 23.910418}
+        - {x: -4.0020676, y: 23.910418}
+        - {x: 6.9979324, y: 19.910418}
+        - {x: 9.997932, y: 3.9104176}
+        - {x: 9.997932, y: -22.089582}
+      physicsShape:
+      - - {x: 6.9979324, y: 19.910418}
+        - {x: -5.0020676, y: 23.910418}
+        - {x: -19.002068, y: 23.910418}
+        - {x: -24.002068, y: -1.0895824}
+        - {x: -24.002068, y: -17.089582}
+        - {x: -21.002068, y: -24.089582}
+        - {x: -0.002067566, y: -24.089582}
+        - {x: 5.9979324, y: -19.089582}
+        - {x: 9.997932, y: -2.0895824}
+        - {x: 9.997932, y: 3.9104176}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b159be27a35c4453a0bafd1679af0295
+      internalID: 21300104
+      vertices:
+      - {x: 30.948563, y: 67.97014}
+      - {x: 33.948563, y: 25.970137}
+      - {x: 33.948563, y: 51.97014}
+      - {x: 25.948563, y: 23.970137}
+      - {x: 19.948563, y: 71.97014}
+      - {x: 4.9485626, y: 71.97014}
+      - {x: -0.051437378, y: 50.97014}
+      - {x: -0.051437378, y: 23.970137}
+      indices: 070000000600000003000000050000000300000006000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_0
+      rect:
+        serializedVersion: 2
+        x: 76.07612
+        y: 187
+        width: 32.847755
+        height: 48
+      alignment: 9
+      pivot: {x: 0.2389131, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.576118, y: -21}
+        - {x: -24.576118, y: -18}
+        - {x: -24.576118, y: 24}
+        - {x: 8.423882, y: 24}
+        - {x: 8.423882, y: -22}
+        - {x: 4.4238815, y: -24}
+        - {x: -11.576118, y: -24}
+      physicsShape:
+      - - {x: 4.4238815, y: 21}
+        - {x: -0.57611847, y: 24}
+        - {x: -23.576118, y: 24}
+        - {x: -24.576118, y: 18}
+        - {x: -24.576118, y: -17}
+        - {x: -22.576118, y: -21}
+        - {x: -11.576118, y: -24}
+        - {x: 1.4238815, y: -24}
+        - {x: 6.4238815, y: -17}
+        - {x: 8.423882, y: -11}
+        - {x: 8.423882, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384c9688426f4472a518deb191d8a984
+      internalID: 21300106
+      vertices:
+      - {x: 33.423878, y: 72}
+      - {x: 29.423878, y: 24}
+      - {x: 33.423878, y: 26}
+      - {x: 13.423878, y: 24}
+      - {x: 2.4238777, y: 27}
+      - {x: 0.42387772, y: 72}
+      - {x: 0.42387772, y: 30}
+      indices: 060000000500000004000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_3
+      rect:
+        serializedVersion: 2
+        x: 132.05972
+        y: 0.026748657
+        width: 32.86415
+        height: 47.973248
+      alignment: 9
+      pivot: {x: 0.23979181, y: -0.0011151489}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.551521, y: -23.040121}
+        - {x: -24.551521, y: -16.040121}
+        - {x: -24.551521, y: 10.959879}
+        - {x: -20.551521, y: 23.959879}
+        - {x: 8.448479, y: 23.959879}
+        - {x: 8.448479, y: -24.040121}
+        - {x: -15.551521, y: -24.040121}
+      physicsShape:
+      - - {x: 4.4484787, y: 20.959879}
+        - {x: -4.5515213, y: 23.959879}
+        - {x: -20.551521, y: 23.959879}
+        - {x: -24.551521, y: 10.959879}
+        - {x: -24.551521, y: -16.040121}
+        - {x: -20.551521, y: -23.040121}
+        - {x: -15.551521, y: -24.040121}
+        - {x: -2.5515213, y: -24.040121}
+        - {x: 3.4484787, y: -20.040121}
+        - {x: 8.448479, y: -7.040121}
+        - {x: 8.448479, y: 4.959879}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacf93468fc5461a982b35c899d10350
+      internalID: 21300108
+      vertices:
+      - {x: 33.432076, y: 71.986626}
+      - {x: 9.4320755, y: 23.986624}
+      - {x: 33.432076, y: 23.986624}
+      - {x: 4.4320755, y: 71.986626}
+      - {x: 4.4320755, y: 24.986624}
+      - {x: 0.4320755, y: 58.986626}
+      - {x: 0.4320755, y: 31.986624}
+      indices: 060000000500000004000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_2
+      rect:
+        serializedVersion: 2
+        x: 38.07611
+        y: 187.01111
+        width: 33.847755
+        height: 47.988884
+      alignment: 9
+      pivot: {x: 0.29094288, y: -0.00046359308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.076115, y: -24.01669}
+        - {x: -24.076115, y: -20.01669}
+        - {x: -24.076115, y: 2.9833107}
+        - {x: -19.076115, y: 23.98331}
+        - {x: 4.9238853, y: 23.98331}
+        - {x: 9.923885, y: 17.98331}
+        - {x: 9.923885, y: -18.01669}
+        - {x: 1.9238853, y: -24.01669}
+      physicsShape:
+      - - {x: 5.9238853, y: 19.98331}
+        - {x: -2.0761147, y: 23.98331}
+        - {x: -19.076115, y: 23.98331}
+        - {x: -20.076115, y: 17.98331}
+        - {x: -24.076115, y: 0.9833107}
+        - {x: -24.076115, y: -20.01669}
+        - {x: -15.076115, y: -24.01669}
+        - {x: -0.076114655, y: -24.01669}
+        - {x: 6.9238853, y: -14.016689}
+        - {x: 9.923885, y: -7.0166893}
+        - {x: 9.923885, y: 5.9833107}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43c6597b0854f76b5805923d1d33a84
+      internalID: 21300110
+      vertices:
+      - {x: 28.923878, y: 71.994446}
+      - {x: 33.923878, y: 29.994442}
+      - {x: 33.923878, y: 65.994446}
+      - {x: 25.923878, y: 23.994442}
+      - {x: 4.9238777, y: 71.994446}
+      - {x: 4.9238777, y: 23.994442}
+      - {x: -0.076122284, y: 50.994442}
+      - {x: -0.076122284, y: 27.994442}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_5
+      rect:
+        serializedVersion: 2
+        x: 206.07611
+        y: 0.07611847
+        width: 32.847755
+        height: 45.92388
+      alignment: 9
+      pivot: {x: 0.23891322, y: -0.090415634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.576115, y: -24.114178}
+        - {x: -24.576115, y: -22.114178}
+        - {x: -24.576115, y: 20.885822}
+        - {x: 1.4238853, y: 20.885822}
+        - {x: 8.423885, y: 11.885822}
+        - {x: 8.423885, y: -22.114178}
+        - {x: 7.4238853, y: -25.114178}
+        - {x: -19.576115, y: -25.114178}
+      physicsShape:
+      - - {x: 2.4238853, y: 17.885822}
+        - {x: -0.57611465, y: 19.885822}
+        - {x: -6.5761147, y: 20.885822}
+        - {x: -20.576115, y: 20.885822}
+        - {x: -24.576115, y: 7.8858223}
+        - {x: -24.576115, y: -11.114178}
+        - {x: -20.576115, y: -21.114178}
+        - {x: -14.576115, y: -25.114178}
+        - {x: 1.4238853, y: -25.114178}
+        - {x: 5.4238853, y: -20.114178}
+        - {x: 8.423885, y: -8.114178}
+        - {x: 8.423885, y: 0.8858223}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62257076e0a8488788d67e920f423028
+      internalID: 21300112
+      vertices:
+      - {x: 33.423878, y: 61.96194}
+      - {x: 32.423878, y: 24.96194}
+      - {x: 33.423878, y: 27.96194}
+      - {x: 26.423878, y: 70.961945}
+      - {x: 5.4238777, y: 24.96194}
+      - {x: 1.4238777, y: 25.96194}
+      - {x: 0.42387772, y: 70.961945}
+      - {x: 0.42387772, y: 27.96194}
+      indices: 070000000600000005000000030000000500000006000000040000000500000003000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_4
+      rect:
+        serializedVersion: 2
+        x: 169.07613
+        y: 0.07611847
+        width: 32.847755
+        height: 47.923878
+      alignment: 9
+      pivot: {x: 0.2389131, y: -0.0031766407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.576118, y: -22.114176}
+        - {x: -24.576118, y: -20.114176}
+        - {x: -24.576118, y: 23.885824}
+        - {x: 0.42388153, y: 23.885824}
+        - {x: 5.4238815, y: 21.885824}
+        - {x: 8.423882, y: 7.885824}
+        - {x: 8.423882, y: -19.114176}
+        - {x: 4.4238815, y: -24.114176}
+        - {x: -10.576118, y: -24.114176}
+      physicsShape:
+      - - {x: -2.5761185, y: 23.885824}
+        - {x: -23.576118, y: 23.885824}
+        - {x: -23.576118, y: 7.885824}
+        - {x: -24.576118, y: 5.885824}
+        - {x: -24.576118, y: -3.1141758}
+        - {x: -22.576118, y: -9.114176}
+        - {x: -24.576118, y: -15.114176}
+        - {x: -24.576118, y: -17.114176}
+        - {x: -19.576118, y: -22.114176}
+        - {x: -10.576118, y: -24.114176}
+        - {x: 3.4238815, y: -24.114176}
+        - {x: 8.423882, y: -16.114176}
+        - {x: 8.423882, y: 4.885824}
+        - {x: 3.4238815, y: 19.885824}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4718ad77b8874c309c1965ab29c6bcd5
+      internalID: 21300114
+      vertices:
+      - {x: 30.423878, y: 69.96194}
+      - {x: 33.423878, y: 28.961939}
+      - {x: 33.423878, y: 55.961937}
+      - {x: 29.423878, y: 23.961939}
+      - {x: 25.423878, y: 71.96194}
+      - {x: 14.423878, y: 23.961939}
+      - {x: 5.4238777, y: 25.961939}
+      - {x: 0.42387772, y: 71.96194}
+      - {x: 0.42387772, y: 27.961939}
+      indices: 080000000700000006000000040000000600000007000000050000000600000004000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_7
+      rect:
+        serializedVersion: 2
+        x: 132.02673
+        y: 52.06212
+        width: 34.897125
+        height: 44.88657
+      alignment: 9
+      pivot: {x: 0.28502354, y: -0.047324557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.50206, y: -22.567522}
+        - {x: -24.50206, y: -17.567522}
+        - {x: -24.50206, y: 2.432478}
+        - {x: -22.50206, y: 21.432478}
+        - {x: 2.497939, y: 21.432478}
+        - {x: 10.497939, y: 11.432478}
+        - {x: 10.497939, y: -18.567522}
+        - {x: 7.497939, y: -23.567522}
+        - {x: -17.50206, y: -23.567522}
+      physicsShape:
+      - - {x: 4.497939, y: 16.432478}
+        - {x: -5.502061, y: 21.432478}
+        - {x: -18.50206, y: 21.432478}
+        - {x: -20.50206, y: 20.432478}
+        - {x: -23.50206, y: 5.432478}
+        - {x: -24.50206, y: -2.567522}
+        - {x: -24.50206, y: -17.567522}
+        - {x: -19.50206, y: -22.567522}
+        - {x: -14.502061, y: -23.567522}
+        - {x: 5.497939, y: -23.567522}
+        - {x: 10.497939, y: -17.567522}
+        - {x: 10.497939, y: -7.567522}
+        - {x: 9.497939, y: -2.567522}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64b31d16f95493fb03719c474e104ff
+      internalID: 21300116
+      vertices:
+      - {x: 35.448563, y: 58.443283}
+      - {x: 32.448563, y: 23.443285}
+      - {x: 35.448563, y: 28.443285}
+      - {x: 27.448563, y: 68.44328}
+      - {x: 7.4485626, y: 23.443285}
+      - {x: 5.4485626, y: 24.443285}
+      - {x: 2.4485626, y: 68.44328}
+      - {x: 0.44856262, y: 49.443283}
+      - {x: 0.44856262, y: 29.443285}
+      indices: 080000000700000005000000060000000500000007000000030000000500000006000000040000000500000003000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_6
+      rect:
+        serializedVersion: 2
+        x: 170.02673
+        y: 101.07611
+        width: 32.897125
+        height: 44.872566
+      alignment: 9
+      pivot: {x: 0.24155614, y: -0.13710463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.50206, y: -25.58852}
+        - {x: -24.50206, y: -21.58852}
+        - {x: -24.50206, y: 10.41148}
+        - {x: -23.50206, y: 19.41148}
+        - {x: -2.50206, y: 19.41148}
+        - {x: 5.49794, y: 16.41148}
+        - {x: 8.49794, y: 4.41148}
+        - {x: 8.49794, y: -22.58852}
+        - {x: 6.49794, y: -25.58852}
+      physicsShape:
+      - - {x: -3.50206, y: 19.41148}
+        - {x: -23.50206, y: 19.41148}
+        - {x: -24.50206, y: 3.41148}
+        - {x: -24.50206, y: -21.58852}
+        - {x: -18.50206, y: -25.58852}
+        - {x: 6.49794, y: -25.58852}
+        - {x: 8.49794, y: -20.58852}
+        - {x: 8.49794, y: 3.41148}
+        - {x: 3.49794, y: 14.41148}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2d91dbcaf6478f91e171f932c545ca
+      internalID: 21300118
+      vertices:
+      - {x: 33.448563, y: 55.436283}
+      - {x: 31.448563, y: 25.436283}
+      - {x: 33.448563, y: 28.436283}
+      - {x: 30.448563, y: 67.43628}
+      - {x: 22.448563, y: 70.43628}
+      - {x: 6.4485626, y: 25.436283}
+      - {x: 1.4485626, y: 70.43628}
+      - {x: 0.44856262, y: 61.436283}
+      - {x: 0.44856262, y: 29.436283}
+      indices: 080000000700000005000000060000000500000007000000040000000500000006000000010000000500000004000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 23
+        height: 14
+      alignment: 9
+      pivot: {x: 0.13043478, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -7}
+        - {x: -11.5, y: 7}
+        - {x: 11.5, y: 7}
+        - {x: 11.5, y: -7}
+      physicsShape:
+      - - {x: -11.5, y: 7}
+        - {x: -11.5, y: -7}
+        - {x: 11.5, y: -7}
+        - {x: 11.5, y: 6}
+        - {x: 10.5, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46adf2d32ea447890bc6016da1d72ab
+      internalID: 21300120
+      vertices:
+      - {x: 8.5, y: 14}
+      - {x: 31.5, y: 14}
+      - {x: 8.5, y: 0}
+      - {x: 31.5, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 477
+        width: 24
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -8.5}
+        - {x: -12, y: 8.5}
+        - {x: 12, y: 8.5}
+        - {x: 12, y: -8.5}
+      physicsShape:
+      - - {x: -10, y: 8.5}
+        - {x: -12, y: 6.5}
+        - {x: -12, y: -7.5}
+        - {x: -11, y: -8.5}
+        - {x: 12, y: -8.5}
+        - {x: 12, y: 7.5}
+        - {x: 9, y: 8.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8637c263836744c1877c919ef87a5e8d
+      internalID: 21300122
+      vertices:
+      - {x: 12, y: 17}
+      - {x: 36, y: 17}
+      - {x: 12, y: 0}
+      - {x: 36, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_10
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 399
+        width: 27
+        height: 11
+      alignment: 9
+      pivot: {x: 0.11111111, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: -5.5}
+        - {x: -13.5, y: 5.5}
+        - {x: 13.5, y: 5.5}
+        - {x: 13.5, y: -5.5}
+      physicsShape:
+      - - {x: -13.5, y: 5.5}
+        - {x: -13.5, y: -5.5}
+        - {x: 13.5, y: -5.5}
+        - {x: 13.5, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843e6aa4184342b1adcb1c32f44763b0
+      internalID: 21300124
+      vertices:
+      - {x: 10.5, y: 11}
+      - {x: 37.5, y: 11}
+      - {x: 10.5, y: 0}
+      - {x: 37.5, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_11
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 419
+        width: 21
+        height: 8
+      alignment: 9
+      pivot: {x: 0.0952381, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: -4}
+        - {x: -10.5, y: 4}
+        - {x: 10.5, y: 4}
+        - {x: 10.5, y: -4}
+      physicsShape:
+      - - {x: -10.5, y: 4}
+        - {x: -10.5, y: -4}
+        - {x: 8.5, y: -4}
+        - {x: 10.5, y: -2}
+        - {x: 10.5, y: 3}
+        - {x: 7.5, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2a69c6b4264c05a5d3061c2869a051
+      internalID: 21300126
+      vertices:
+      - {x: 8.5, y: 8}
+      - {x: 29.5, y: 8}
+      - {x: 8.5, y: 0}
+      - {x: 29.5, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_hood_mask
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: -64}
+        - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+      physicsShape:
+      - - {x: 64, y: 64}
+        - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: -22, y: -64}
+        - {x: 12, y: 0}
+        - {x: 22, y: -64}
+        - {x: 64, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f098e104eca4180941e701681af9db9
+      internalID: 21300128
+      vertices:
+      - {x: 0, y: 128}
+      - {x: 128, y: 0}
+      - {x: 128, y: 128}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_l1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 357
+        width: 34
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -12}
+        - {x: -17, y: 12}
+        - {x: 17, y: 12}
+        - {x: 17, y: -12}
+      physicsShape:
+      - - {x: -5, y: 12}
+        - {x: -17, y: 4}
+        - {x: -17, y: -3}
+        - {x: -15, y: -4}
+        - {x: 8, y: -4}
+        - {x: 13, y: -3}
+        - {x: 17, y: 4}
+        - {x: 17, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c170cf819bc4fa48d6a5cb7f2003196
+      internalID: 21300130
+      vertices:
+      - {x: -17, y: 12}
+      - {x: 17, y: 12}
+      - {x: -17, y: -12}
+      - {x: 17, y: -12}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_l1_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 295
+        width: 34
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -12}
+        - {x: -17, y: 12}
+        - {x: 17, y: 12}
+        - {x: 17, y: -12}
+      physicsShape:
+      - - {x: -15, y: 8}
+        - {x: -17, y: 6}
+        - {x: -17, y: 0}
+        - {x: -11, y: -4}
+        - {x: 1, y: -4}
+        - {x: 17, y: 5}
+        - {x: 17, y: 12}
+        - {x: -2, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fb5d1b3c57429aa0e17da09468ae11
+      internalID: 21300132
+      vertices:
+      - {x: -17, y: 12}
+      - {x: 17, y: 12}
+      - {x: -17, y: -12}
+      - {x: 17, y: -12}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_l1_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 239
+        width: 34
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -12}
+        - {x: -17, y: 12}
+        - {x: 17, y: 12}
+        - {x: 17, y: -12}
+      physicsShape:
+      - - {x: -13, y: 12}
+        - {x: -17, y: 7}
+        - {x: -17, y: -5}
+        - {x: 2, y: -5}
+        - {x: 17, y: 1}
+        - {x: 17, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a52f9d318e4cd89432950be5178700
+      internalID: 21300134
+      vertices:
+      - {x: -17, y: 12}
+      - {x: 17, y: 12}
+      - {x: -17, y: -12}
+      - {x: 17, y: -12}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_l1_0
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 254
+        width: 34
+        height: 24
+      alignment: 9
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -12}
+        - {x: -17, y: 12}
+        - {x: 17, y: 12}
+        - {x: 17, y: -12}
+      physicsShape:
+      - - {x: -9, y: 12}
+        - {x: -17, y: 3}
+        - {x: -17, y: -5}
+        - {x: -16, y: -6}
+        - {x: 0, y: -6}
+        - {x: 17, y: 2}
+        - {x: 17, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f40a51bd4ed49e18714fd3e23331398
+      internalID: 21300136
+      vertices:
+      - {x: -17, y: 12}
+      - {x: 17, y: 12}
+      - {x: -17, y: -12}
+      - {x: 17, y: -12}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_body
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 438
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: -12.5}
+        - {x: -9.5, y: 12.5}
+        - {x: 9.5, y: 12.5}
+        - {x: 9.5, y: -12.5}
+      physicsShape:
+      - - {x: -9.5, y: 12.5}
+        - {x: -9.5, y: -7.5}
+        - {x: -8.5, y: -12.5}
+        - {x: 9.5, y: -12.5}
+        - {x: 9.5, y: 12.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114bb4836ca6492d911d5b1da1ee58ed
+      internalID: 21300138
+      vertices:
+      - {x: 0, y: 25}
+      - {x: 19, y: 25}
+      - {x: 0, y: 0}
+      - {x: 19, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 85
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: -25.5}
+        - {x: -42.5, y: -20.5}
+        - {x: -42.5, y: -0.5}
+        - {x: -14.5, y: 25.5}
+        - {x: 24.5, y: 25.5}
+        - {x: 42.5, y: -9.5}
+        - {x: 42.5, y: -18.5}
+        - {x: 38.5, y: -20.5}
+        - {x: 33.5, y: -20.5}
+        - {x: 27.5, y: -19.5}
+        - {x: 27.5, y: -22.5}
+        - {x: 25.5, y: -25.5}
+      physicsShape:
+      - - {x: 27.5, y: -22.5}
+        - {x: 27.5, y: -19.5}
+        - {x: 33.5, y: -20.5}
+        - {x: 38.5, y: -20.5}
+        - {x: 42.5, y: -18.5}
+        - {x: 42.5, y: -10.5}
+        - {x: 36.5, y: -4.5}
+        - {x: 26.5, y: 6.5}
+        - {x: 28.5, y: 18.5}
+        - {x: 22.5, y: 22.5}
+        - {x: 9.5, y: 25.5}
+        - {x: -12.5, y: 25.5}
+        - {x: -18.5, y: -0.5}
+        - {x: -32.5, y: -0.5}
+        - {x: -42.5, y: -7.5}
+        - {x: -42.5, y: -20.5}
+        - {x: -28.5, y: -25.5}
+        - {x: -11.5, y: -25.5}
+        - {x: -3.5, y: -24.5}
+        - {x: 9.5, y: -25.5}
+        - {x: 25.5, y: -25.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663ad4fef43d4577909e6b4206693b74
+      internalID: 21300140
+      vertices:
+      - {x: 85, y: 16}
+      - {x: 81, y: 5}
+      - {x: 85, y: 7}
+      - {x: 76, y: 5}
+      - {x: 70, y: 6}
+      - {x: 68, y: 0}
+      - {x: 70, y: 3}
+      - {x: 67, y: 51}
+      - {x: 28, y: 51}
+      - {x: 8, y: 0}
+      - {x: 0, y: 25}
+      - {x: 0, y: 5}
+      indices: 0b0000000a0000000900000008000000090000000a000000050000000900000008000000070000000500000008000000040000000500000007000000000000000400000007000000060000000500000004000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tantacle
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 50
+        width: 16
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -44}
+        - {x: -8, y: 44}
+        - {x: 8, y: 44}
+        - {x: 8, y: -44}
+      physicsShape:
+      - - {x: 4, y: 38}
+        - {x: 1, y: 43}
+        - {x: -2, y: 42}
+        - {x: -5, y: 34}
+        - {x: -7, y: 19}
+        - {x: -8, y: 7}
+        - {x: -8, y: -42}
+        - {x: -6, y: -44}
+        - {x: 8, y: -44}
+        - {x: 8, y: 17}
+        - {x: 7, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7080fbfec2d428283c8317d67a8c2a0
+      internalID: 21300142
+      vertices:
+      - {x: 0, y: 88}
+      - {x: 16, y: 88}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mashroom_man_9
+      rect:
+        serializedVersion: 2
+        x: 140.02675
+        y: 286.02676
+        width: 27.946499
+        height: 24.89713
+      alignment: 9
+      pivot: {x: 0.42747733, y: -0.040707704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.026754, y: -10.50207}
+        - {x: -16.026754, y: -6.5020704}
+        - {x: -16.026754, y: 6.4979296}
+        - {x: -9.026754, y: 12.49793}
+        - {x: 3.9732456, y: 12.49793}
+        - {x: 11.973246, y: 5.4979296}
+        - {x: 11.973246, y: -0.5020704}
+        - {x: 9.973246, y: -8.50207}
+        - {x: 5.9732456, y: -12.50207}
+        - {x: -7.0267544, y: -12.50207}
+      physicsShape:
+      - - {x: 3.9732456, y: 12.49793}
+        - {x: -9.026754, y: 12.49793}
+        - {x: -16.026754, y: 6.4979296}
+        - {x: -16.026754, y: -6.5020704}
+        - {x: -15.026754, y: -10.50207}
+        - {x: -7.0267544, y: -12.50207}
+        - {x: 5.9732456, y: -12.50207}
+        - {x: 9.973246, y: -8.50207}
+        - {x: 11.973246, y: -0.5020704}
+        - {x: 11.973246, y: 5.4979296}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ce6eb86c6d41b6a0b01f2e9373a5a1
+      internalID: 21300144
+      vertices:
+      - {x: 27.97325, y: 31.408564}
+      - {x: 25.97325, y: 17.408564}
+      - {x: 27.97325, y: 25.408564}
+      - {x: 21.97325, y: 13.408564}
+      - {x: 19.97325, y: 38.40856}
+      - {x: 8.973249, y: 13.408564}
+      - {x: 6.9732494, y: 38.40856}
+      - {x: 0.97324944, y: 15.408564}
+      - {x: -0.026750565, y: 32.40856}
+      - {x: -0.026750565, y: 19.408564}
+      indices: 090000000800000007000000060000000700000008000000050000000700000006000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mashroom_man_8
+      rect:
+        serializedVersion: 2
+        x: 70.07612
+        y: 354.0429
+        width: 29.84776
+        height: 23.930342
+      alignment: 9
+      pivot: {x: 0.39693967, y: -0.043702487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.07612, y: -12.050987}
+        - {x: -17.07612, y: -11.050987}
+        - {x: -17.07612, y: 1.9490128}
+        - {x: -12.07612, y: 11.949013}
+        - {x: 5.9238796, y: 11.949013}
+        - {x: 12.92388, y: 3.9490128}
+        - {x: 12.92388, y: -5.0509872}
+        - {x: 7.9238796, y: -10.050987}
+        - {x: 0.9238796, y: -12.050987}
+      physicsShape:
+      - - {x: -12.07612, y: 11.949013}
+        - {x: -17.07612, y: 1.9490128}
+        - {x: -17.07612, y: -11.050987}
+        - {x: -13.07612, y: -12.050987}
+        - {x: 0.9238796, y: -12.050987}
+        - {x: 7.9238796, y: -10.050987}
+        - {x: 12.92388, y: -5.0509872}
+        - {x: 12.92388, y: 3.9490128}
+        - {x: 5.9238796, y: 11.949013}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727790dbdfa3465b999a9db59af7d66e
+      internalID: 21300146
+      vertices:
+      - {x: 30.92388, y: 28.92517}
+      - {x: 25.92388, y: 14.92517}
+      - {x: 30.92388, y: 19.92517}
+      - {x: 23.92388, y: 36.92517}
+      - {x: 18.92388, y: 12.92517}
+      - {x: 5.9238796, y: 36.92517}
+      - {x: 4.9238796, y: 12.92517}
+      - {x: 0.9238796, y: 26.92517}
+      - {x: 0.9238796, y: 13.92517}
+      indices: 080000000700000006000000050000000600000007000000040000000600000005000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mashroom_man_5
+      rect:
+        serializedVersion: 2
+        x: 150.06981
+        y: 254.07611
+        width: 27.878878
+        height: 27.901611
+      alignment: 9
+      pivot: {x: 0.42542565, y: -0.039862823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.079049, y: -14.103044}
+        - {x: -16.079048, y: -7.1030436}
+        - {x: -16.079048, y: 12.896956}
+        - {x: -12.079049, y: 13.896956}
+        - {x: 8.920951, y: 13.896956}
+        - {x: 11.920951, y: 9.896956}
+        - {x: 11.920951, y: 0.89695644}
+        - {x: 6.920951, y: -13.103044}
+        - {x: 6.920951, y: -14.103044}
+      physicsShape:
+      - - {x: 8.920951, y: 13.896956}
+        - {x: -12.079049, y: 13.896956}
+        - {x: -16.079048, y: 12.896956}
+        - {x: -16.079048, y: -7.1030436}
+        - {x: -8.079049, y: -14.103044}
+        - {x: 6.920951, y: -14.103044}
+        - {x: 6.920951, y: -13.103044}
+        - {x: 11.920951, y: 0.89695644}
+        - {x: 11.920951, y: 9.896956}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af8f0ea43484175b6e48db162e82cdd
+      internalID: 21300148
+      vertices:
+      - {x: 24.939438, y: 42.910805}
+      - {x: 27.939438, y: 29.910805}
+      - {x: 27.939438, y: 38.910805}
+      - {x: 22.939438, y: 15.910805}
+      - {x: 7.939439, y: 14.910805}
+      - {x: 22.939438, y: 14.910805}
+      - {x: 3.9394388, y: 42.910805}
+      - {x: -0.06056118, y: 41.910805}
+      - {x: -0.06056118, y: 21.910805}
+      indices: 080000000700000004000000060000000400000007000000000000000400000006000000030000000400000000000000050000000400000003000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mashroom_man_4
+      rect:
+        serializedVersion: 2
+        x: 76.051315
+        y: 267.0477
+        width: 27.872562
+        height: 28.909388
+      alignment: 9
+      pivot: {x: 0.42684865, y: -0.03650763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.038916, y: -14.550108}
+        - {x: -16.038916, y: -0.55010796}
+        - {x: -16.038916, y: 12.449892}
+        - {x: -11.038916, y: 14.449892}
+        - {x: 8.961084, y: 14.449892}
+        - {x: 11.961084, y: 9.449892}
+        - {x: 11.961084, y: -7.550108}
+        - {x: 4.9610844, y: -14.550108}
+      physicsShape:
+      - - {x: -11.038916, y: 14.449892}
+        - {x: -16.038916, y: 12.449892}
+        - {x: -16.038916, y: -0.55010796}
+        - {x: -8.038916, y: -14.550108}
+        - {x: 4.9610844, y: -14.550108}
+        - {x: 11.961084, y: -7.550108}
+        - {x: 11.961084, y: 9.449892}
+        - {x: 8.961084, y: 14.449892}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7905f321b24b9c8c3b4a6a94328ce6
+      internalID: 21300150
+      vertices:
+      - {x: 24.936281, y: 44.414692}
+      - {x: 27.936281, y: 22.414692}
+      - {x: 27.936281, y: 39.414692}
+      - {x: 20.936281, y: 15.414693}
+      - {x: 7.936281, y: 15.414693}
+      - {x: 4.936281, y: 44.414692}
+      - {x: -0.063718796, y: 42.414692}
+      - {x: -0.063718796, y: 29.414692}
+      indices: 070000000600000004000000050000000400000006000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mashroom_man_7
+      rect:
+        serializedVersion: 2
+        x: 38.051315
+        y: 356.0761
+        width: 27.921932
+        height: 27.84776
+      alignment: 9
+      pivot: {x: 0.42609406, y: -0.03993991}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.063597, y: -14.0761175}
+        - {x: -16.063597, y: -1.0761175}
+        - {x: -16.063597, y: 11.9238825}
+        - {x: -9.063597, y: 13.9238825}
+        - {x: 6.9364033, y: 13.9238825}
+        - {x: 10.936403, y: 8.9238825}
+        - {x: 11.936403, y: 6.9238825}
+        - {x: 11.936403, y: -2.0761175}
+        - {x: 3.9364033, y: -14.0761175}
+      physicsShape:
+      - - {x: 6.9364033, y: 13.9238825}
+        - {x: -9.063597, y: 13.9238825}
+        - {x: -16.063597, y: 11.9238825}
+        - {x: -16.063597, y: -1.0761175}
+        - {x: -8.063597, y: -14.0761175}
+        - {x: 3.9364033, y: -14.0761175}
+        - {x: 11.936403, y: -2.0761175}
+        - {x: 11.936403, y: 6.9238825}
+        - {x: 10.936403, y: 8.9238825}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ffdcceb533491b803461386093d153
+      internalID: 21300152
+      vertices:
+      - {x: 26.960966, y: 37.88388}
+      - {x: 27.960966, y: 26.883879}
+      - {x: 27.960966, y: 35.88388}
+      - {x: 22.960966, y: 42.88388}
+      - {x: 19.960966, y: 14.883879}
+      - {x: 7.960966, y: 14.883879}
+      - {x: 6.960966, y: 42.88388}
+      - {x: -0.03903389, y: 40.88388}
+      - {x: -0.03903389, y: 27.883879}
+      indices: 080000000700000005000000060000000500000007000000030000000500000006000000040000000500000003000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mashroom_man_6
+      rect:
+        serializedVersion: 2
+        x: 108.02675
+        y: 282.07172
+        width: 27.946499
+        height: 26.852146
+      alignment: 9
+      pivot: {x: 0.42747763, y: -0.04109404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.026747, y: -13.569537}
+        - {x: -16.026747, y: -2.5695372}
+        - {x: -16.026747, y: 7.430463}
+        - {x: -9.026747, y: 13.430463}
+        - {x: 6.9732533, y: 13.430463}
+        - {x: 11.973253, y: 6.430463}
+        - {x: 11.973253, y: -7.569537}
+        - {x: 9.973253, y: -11.569537}
+        - {x: 2.9732533, y: -13.569537}
+      physicsShape:
+      - - {x: -9.026747, y: 13.430463}
+        - {x: -16.026747, y: 7.430463}
+        - {x: -16.026747, y: -2.5695372}
+        - {x: -11.026747, y: -13.569537}
+        - {x: 2.9732533, y: -13.569537}
+        - {x: 9.973253, y: -11.569537}
+        - {x: 11.973253, y: -7.569537}
+        - {x: 11.973253, y: 6.430463}
+        - {x: 6.9732533, y: 13.430463}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21c3177f10545eebf527edce11a0e1c
+      internalID: 21300154
+      vertices:
+      - {x: 27.97325, y: 34.38607}
+      - {x: 25.97325, y: 16.386072}
+      - {x: 27.97325, y: 20.386072}
+      - {x: 22.97325, y: 41.38607}
+      - {x: 18.97325, y: 14.386072}
+      - {x: 6.9732494, y: 41.38607}
+      - {x: 4.9732494, y: 14.386072}
+      - {x: -0.026750565, y: 35.38607}
+      - {x: -0.026750565, y: 25.386072}
+      indices: 080000000700000006000000050000000600000007000000040000000600000005000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mashroom_man_1
+      rect:
+        serializedVersion: 2
+        x: 104.02675
+        y: 313.0761
+        width: 27.946499
+        height: 26.84776
+      alignment: 9
+      pivot: {x: 0.42747733, y: -0.041427553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.026754, y: -13.5761175}
+        - {x: -16.026754, y: -10.5761175}
+        - {x: -16.026754, y: 6.4238825}
+        - {x: -9.026754, y: 13.4238825}
+        - {x: 3.9732456, y: 13.4238825}
+        - {x: 11.973246, y: 7.4238825}
+        - {x: 11.973246, y: -1.5761175}
+        - {x: 8.973246, y: -13.5761175}
+      physicsShape:
+      - - {x: -9.026754, y: 13.4238825}
+        - {x: -16.026754, y: 6.4238825}
+        - {x: -16.026754, y: -10.5761175}
+        - {x: -12.026754, y: -13.5761175}
+        - {x: 8.973246, y: -13.5761175}
+        - {x: 11.973246, y: -1.5761175}
+        - {x: 11.973246, y: 7.4238825}
+        - {x: 3.9732456, y: 13.4238825}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c913c2605f4604a42e0a9c50feee90
+      internalID: 21300156
+      vertices:
+      - {x: 27.97325, y: 35.38388}
+      - {x: 24.97325, y: 14.383879}
+      - {x: 27.97325, y: 26.383879}
+      - {x: 19.97325, y: 41.38388}
+      - {x: 6.9732494, y: 41.38388}
+      - {x: 3.9732494, y: 14.383879}
+      - {x: -0.026750565, y: 34.38388}
+      - {x: -0.026750565, y: 17.383879}
+      indices: 070000000600000005000000040000000500000006000000010000000500000004000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mashroom_man_0
+      rect:
+        serializedVersion: 2
+        x: 0.06980467
+        y: 385.0761
+        width: 27.903444
+        height: 27.901611
+      alignment: 9
+      pivot: {x: 0.4250511, y: -0.039862823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.091332, y: -14.103044}
+        - {x: -16.091331, y: -0.103043556}
+        - {x: -16.091331, y: 11.896956}
+        - {x: -11.091332, y: 13.896956}
+        - {x: 8.908668, y: 13.896956}
+        - {x: 11.908668, y: 9.896956}
+        - {x: 11.908668, y: -2.1030436}
+        - {x: 9.908668, y: -12.103044}
+        - {x: 6.9086676, y: -14.103044}
+      physicsShape:
+      - - {x: 8.908668, y: 13.896956}
+        - {x: -11.091332, y: 13.896956}
+        - {x: -16.091331, y: 11.896956}
+        - {x: -16.091331, y: -0.103043556}
+        - {x: -10.091332, y: -14.103044}
+        - {x: 6.9086676, y: -14.103044}
+        - {x: 9.908668, y: -12.103044}
+        - {x: 11.908668, y: -2.1030436}
+        - {x: 11.908668, y: 9.896956}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d6529aaeec429f8551b1bbeac46999
+      internalID: 21300158
+      vertices:
+      - {x: 27.951721, y: 38.910805}
+      - {x: 25.951721, y: 16.910805}
+      - {x: 27.951721, y: 26.910805}
+      - {x: 24.951721, y: 42.910805}
+      - {x: 22.951721, y: 14.910805}
+      - {x: 5.951722, y: 14.910805}
+      - {x: 4.951722, y: 42.910805}
+      - {x: -0.048277855, y: 40.910805}
+      - {x: -0.048277855, y: 28.910805}
+      indices: 080000000700000005000000060000000500000007000000030000000500000006000000040000000500000003000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mashroom_man_3
+      rect:
+        serializedVersion: 2
+        x: 38.051315
+        y: 323.0761
+        width: 27.872562
+        height: 28.880972
+      alignment: 9
+      pivot: {x: 0.4268488, y: -0.038511064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.038912, y: -14.592724}
+        - {x: -16.038912, y: -0.59272385}
+        - {x: -16.038912, y: 12.407276}
+        - {x: -12.038912, y: 14.407276}
+        - {x: 9.961088, y: 14.407276}
+        - {x: 11.961088, y: 9.407276}
+        - {x: 11.961088, y: -6.592724}
+        - {x: 4.961088, y: -14.592724}
+      physicsShape:
+      - - {x: -12.038912, y: 14.407276}
+        - {x: -16.038912, y: 12.407276}
+        - {x: -16.038912, y: -0.59272385}
+        - {x: -8.038912, y: -14.592724}
+        - {x: 4.961088, y: -14.592724}
+        - {x: 11.961088, y: -6.592724}
+        - {x: 11.961088, y: 9.407276}
+        - {x: 9.961088, y: 14.407276}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b1f0a11a304773926fc50db5b309b6
+      internalID: 21300160
+      vertices:
+      - {x: 25.936281, y: 44.400486}
+      - {x: 27.936281, y: 23.400486}
+      - {x: 27.936281, y: 39.400486}
+      - {x: 20.936281, y: 15.400485}
+      - {x: 7.936281, y: 15.400485}
+      - {x: 3.9362812, y: 44.400486}
+      - {x: -0.063718796, y: 42.400486}
+      - {x: -0.063718796, y: 29.400486}
+      indices: 070000000600000004000000050000000400000006000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mashroom_man_2
+      rect:
+        serializedVersion: 2
+        x: 0.051315308
+        y: 417.0761
+        width: 27.921932
+        height: 27.84776
+      alignment: 9
+      pivot: {x: 0.42609406, y: -0.03993991}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.0635967, y: -13.0761175}
+        - {x: -16.063597, y: -1.0761175}
+        - {x: -16.063597, y: 11.9238825}
+        - {x: -9.063597, y: 13.9238825}
+        - {x: 6.9364033, y: 13.9238825}
+        - {x: 10.936403, y: 8.9238825}
+        - {x: 11.936403, y: 6.9238825}
+        - {x: 11.936403, y: -2.0761175}
+        - {x: 3.9364033, y: -14.0761175}
+        - {x: -3.0635967, y: -14.0761175}
+      physicsShape:
+      - - {x: 6.9364033, y: 13.9238825}
+        - {x: -9.063597, y: 13.9238825}
+        - {x: -16.063597, y: 11.9238825}
+        - {x: -16.063597, y: -1.0761175}
+        - {x: -7.0635967, y: -13.0761175}
+        - {x: -3.0635967, y: -14.0761175}
+        - {x: 3.9364033, y: -14.0761175}
+        - {x: 11.936403, y: -2.0761175}
+        - {x: 11.936403, y: 6.9238825}
+        - {x: 10.936403, y: 8.9238825}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb22fbcd1334badb572bab6b362b892
+      internalID: 21300162
+      vertices:
+      - {x: 26.960966, y: 37.88388}
+      - {x: 27.960966, y: 26.883879}
+      - {x: 27.960966, y: 35.88388}
+      - {x: 22.960966, y: 42.88388}
+      - {x: 19.960966, y: 14.883879}
+      - {x: 12.960966, y: 14.883879}
+      - {x: 8.960966, y: 15.883879}
+      - {x: 6.960966, y: 42.88388}
+      - {x: -0.03903389, y: 40.88388}
+      - {x: -0.03903389, y: 27.883879}
+      indices: 090000000800000006000000070000000600000008000000030000000600000007000000050000000600000003000000040000000500000003000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_face_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 150.07611
+        width: 32
+        height: 28.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.34137014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -17.576117}
+        - {x: -16, y: -17.576117}
+        - {x: -16, y: 7.4238834}
+        - {x: -14, y: 11.423883}
+        - {x: 16, y: 11.423883}
+        - {x: 16, y: -9.576117}
+      physicsShape:
+      - - {x: -14, y: 11.423883}
+        - {x: -16, y: 3.4238834}
+        - {x: -16, y: -17.576117}
+        - {x: 4, y: -17.576117}
+        - {x: 16, y: -9.576117}
+        - {x: 16, y: 10.423883}
+        - {x: 14, y: 11.423883}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a120965bb2420589d11ea827c63afb
+      internalID: 21300164
+      vertices:
+      - {x: 32, y: 30.42388}
+      - {x: 20, y: 1.4238796}
+      - {x: 32, y: 9.42388}
+      - {x: 2, y: 30.42388}
+      - {x: 0, y: 26.42388}
+      - {x: 0, y: 1.4238796}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_face_4
+      rect:
+        serializedVersion: 2
+        x: 224.02675
+        y: 214.07611
+        width: 30.97325
+        height: 27.89713
+      alignment: 9
+      pivot: {x: 0.4502756, y: 0.28131077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.459874, y: -13.100801}
+        - {x: 9.459874, y: -15.100801}
+        - {x: 5.459874, y: -16.100801}
+        - {x: 4.459874, y: -18.100801}
+        - {x: -15.540126, y: -18.100801}
+        - {x: -16.540127, y: -15.100801}
+        - {x: -16.540127, y: 7.899198}
+        - {x: -14.540126, y: 9.899199}
+        - {x: 13.459874, y: 9.899199}
+        - {x: 14.459874, y: 8.899199}
+        - {x: 14.459874, y: -2.100802}
+        - {x: 11.459874, y: -4.100802}
+        - {x: 14.459874, y: -8.100801}
+      physicsShape:
+      - - {x: 14.459874, y: -8.100801}
+        - {x: 11.459874, y: -4.100802}
+        - {x: 14.459874, y: -2.100802}
+        - {x: 14.459874, y: 8.899199}
+        - {x: 13.459874, y: 9.899199}
+        - {x: -14.540126, y: 9.899199}
+        - {x: -16.540127, y: 7.899198}
+        - {x: -16.540127, y: -15.100801}
+        - {x: -15.540126, y: -18.100801}
+        - {x: 4.459874, y: -18.100801}
+        - {x: 5.459874, y: -16.100801}
+        - {x: 9.459874, y: -15.100801}
+        - {x: 14.459874, y: -13.100801}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1551bec85cbf4e418d5f0a6fb650962c
+      internalID: 21300166
+      vertices:
+      - {x: 30.486626, y: 29.948565}
+      - {x: 31.486626, y: 17.948565}
+      - {x: 31.486626, y: 28.948565}
+      - {x: 28.486626, y: 15.948565}
+      - {x: 26.486626, y: 4.9485645}
+      - {x: 22.486626, y: 3.9485645}
+      - {x: 21.486626, y: 1.9485645}
+      - {x: 2.4866247, y: 29.948565}
+      - {x: 1.4866247, y: 1.9485645}
+      - {x: 0.48662472, y: 27.948565}
+      - {x: 0.48662472, y: 4.9485645}
+      - {x: 31.486626, y: 6.9485645}
+      - {x: 31.486626, y: 11.948565}
+      indices: 04000000030000000b0000000c0000000b000000030000000a0000000900000008000000070000000800000009000000060000000800000007000000000000000600000007000000050000000600000000000000040000000500000000000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_face_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270.02676
+        width: 31.92388
+        height: 26.946499
+      alignment: 9
+      pivot: {x: 0.5011922, y: 0.36912012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.96194, y: -16.526754}
+        - {x: -15.96194, y: -15.526754}
+        - {x: -15.96194, y: 9.473246}
+        - {x: -12.96194, y: 10.473246}
+        - {x: 15.03806, y: 10.473246}
+        - {x: 16.03806, y: 8.473246}
+        - {x: 16.03806, y: -13.526754}
+        - {x: 6.03806, y: -16.526754}
+      physicsShape:
+      - - {x: -12.96194, y: 10.473246}
+        - {x: -15.96194, y: 9.473246}
+        - {x: -15.96194, y: -15.526754}
+        - {x: -14.96194, y: -16.526754}
+        - {x: 6.03806, y: -16.526754}
+        - {x: 16.03806, y: -13.526754}
+        - {x: 16.03806, y: 8.473246}
+        - {x: 15.03806, y: 10.473246}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27169fda8e8b4784884cfab76c81afa5
+      internalID: 21300168
+      vertices:
+      - {x: 30.96194, y: 27.47325}
+      - {x: 31.96194, y: 3.4732494}
+      - {x: 31.96194, y: 25.47325}
+      - {x: 21.96194, y: 0.47324944}
+      - {x: 2.9619398, y: 27.47325}
+      - {x: 0.9619398, y: 0.47324944}
+      - {x: -0.03806019, y: 26.47325}
+      - {x: -0.03806019, y: 1.4732494}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_face_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239.02676
+        width: 32
+        height: 26.89713
+      alignment: 9
+      pivot: {x: 0.5, y: 0.36979765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -16.50207}
+        - {x: -16, y: -13.502069}
+        - {x: -16, y: 8.497931}
+        - {x: -12, y: 10.497931}
+        - {x: 0, y: 10.497931}
+        - {x: 16, y: 6.4979305}
+        - {x: 16, y: -4.5020695}
+        - {x: 13, y: -14.502069}
+        - {x: 12, y: -16.50207}
+      physicsShape:
+      - - {x: 0, y: 10.497931}
+        - {x: -12, y: 10.497931}
+        - {x: -16, y: 8.497931}
+        - {x: -16, y: -13.502069}
+        - {x: -15, y: -16.50207}
+        - {x: 12, y: -16.50207}
+        - {x: 13, y: -14.502069}
+        - {x: 16, y: -4.5020695}
+        - {x: 16, y: 6.4979305}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c37808b2904243ac92ef839562d0a1
+      internalID: 21300170
+      vertices:
+      - {x: 32, y: 23.448565}
+      - {x: 29, y: 2.4485645}
+      - {x: 32, y: 12.448565}
+      - {x: 28, y: 0.44856453}
+      - {x: 16, y: 27.448565}
+      - {x: 4, y: 27.448565}
+      - {x: 1, y: 0.44856453}
+      - {x: 0, y: 25.448565}
+      - {x: 0, y: 3.4485645}
+      indices: 080000000700000006000000050000000600000007000000030000000600000005000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_face_1
+      rect:
+        serializedVersion: 2
+        x: 192.07611
+        y: 314.0761
+        width: 18.84776
+        height: 17.84776
+      alignment: 9
+      pivot: {x: 0.41637644, y: 0.10352913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5761166, y: -16.076117}
+        - {x: -13.576117, y: -14.076117}
+        - {x: -13.576117, y: -3.0761166}
+        - {x: -12.576117, y: 0.92388344}
+        - {x: -10.576117, y: 1.9238834}
+        - {x: 1.4238834, y: 1.9238834}
+        - {x: 5.4238834, y: 0.92388344}
+        - {x: 5.4238834, y: -12.076117}
+        - {x: 1.4238834, y: -16.076117}
+      physicsShape:
+      - - {x: -10.576117, y: 1.9238834}
+        - {x: -12.576117, y: 0.92388344}
+        - {x: -13.576117, y: -3.0761166}
+        - {x: -13.576117, y: -14.076117}
+        - {x: -6.5761166, y: -16.076117}
+        - {x: 1.4238834, y: -16.076117}
+        - {x: 5.4238834, y: -12.076117}
+        - {x: 5.4238834, y: 0.92388344}
+        - {x: 1.4238834, y: 1.9238834}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcedb5b42621460b9c18cea11ab0f17e
+      internalID: 21300172
+      vertices:
+      - {x: 12.42388, y: 17.92388}
+      - {x: 16.42388, y: 3.9238796}
+      - {x: 16.42388, y: 16.92388}
+      - {x: 12.42388, y: -0.07612038}
+      - {x: 4.4238796, y: -0.07612038}
+      - {x: 0.42387962, y: 17.92388}
+      - {x: -1.5761204, y: 16.92388}
+      - {x: -2.5761204, y: 12.92388}
+      - {x: -2.5761204, y: 1.9238796}
+      indices: 080000000700000004000000060000000400000007000000050000000400000006000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_face_0
+      rect:
+        serializedVersion: 2
+        x: 160.05412
+        y: 233.07611
+        width: 13.863462
+        height: 13.847759
+      alignment: 9
+      pivot: {x: 0.28071967, y: -0.15542135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.039985, y: -16.076117}
+        - {x: -13.039985, y: -14.076117}
+        - {x: -13.039985, y: -3.0761166}
+        - {x: -10.039985, y: -2.0761166}
+        - {x: -1.0399847, y: -2.0761166}
+        - {x: 0.9600153, y: -8.076117}
+        - {x: 0.9600153, y: -13.076117}
+        - {x: -1.0399847, y: -16.076117}
+      physicsShape:
+      - - {x: -10.039985, y: -2.0761166}
+        - {x: -13.039985, y: -3.0761166}
+        - {x: -13.039985, y: -14.076117}
+        - {x: -8.039985, y: -16.076117}
+        - {x: -1.0399847, y: -16.076117}
+        - {x: 0.9600153, y: -13.076117}
+        - {x: 0.9600153, y: -8.076117}
+        - {x: -1.0399847, y: -2.0761166}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b934a80aba44b481ce5451ba8c6d23
+      internalID: 21300174
+      vertices:
+      - {x: 8.931731, y: 13.92388}
+      - {x: 10.931731, y: 2.9238796}
+      - {x: 10.931731, y: 7.9238796}
+      - {x: 8.931731, y: -0.07612038}
+      - {x: 1.9317312, y: -0.07612038}
+      - {x: -0.068268776, y: 13.92388}
+      - {x: -3.0682688, y: 12.92388}
+      - {x: -3.0682688, y: 1.9238796}
+      indices: 070000000600000004000000050000000400000006000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_face_3
+      rect:
+        serializedVersion: 2
+        x: 70.02675
+        y: 323.0761
+        width: 29.89713
+        height: 26.84776
+      alignment: 9
+      pivot: {x: 0.46648297, y: 0.29230607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.0020628, y: -17.576117}
+        - {x: -16.002064, y: -17.576117}
+        - {x: -16.002064, y: -1.5761166}
+        - {x: -15.002063, y: 9.423883}
+        - {x: 13.997937, y: 9.423883}
+        - {x: 13.997937, y: -11.576117}
+      physicsShape:
+      - - {x: -15.002063, y: 9.423883}
+        - {x: -16.002064, y: -1.5761166}
+        - {x: -16.002064, y: -17.576117}
+        - {x: -2.0020628, y: -17.576117}
+        - {x: 13.997937, y: -11.576117}
+        - {x: 13.997937, y: 9.423883}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301cbf81dc11490fb3786d7b0a92d58f
+      internalID: 21300176
+      vertices:
+      - {x: 29.948565, y: 28.42388}
+      - {x: 13.948565, y: 1.4238796}
+      - {x: 29.948565, y: 7.4238796}
+      - {x: 0.9485645, y: 28.42388}
+      - {x: -0.05143547, y: 17.42388}
+      - {x: -0.05143547, y: 1.4238796}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_face_2
+      rect:
+        serializedVersion: 2
+        x: 56.07612
+        y: 444.02673
+        width: 22.872562
+        height: 21.89713
+      alignment: 9
+      pivot: {x: 0.5179902, y: 0.18022923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.588519, y: -16.002062}
+        - {x: -13.588519, y: -14.002062}
+        - {x: -13.588519, y: -3.0020618}
+        - {x: -8.588519, y: 4.997938}
+        - {x: 9.411481, y: 4.997938}
+        - {x: 9.411481, y: -14.002062}
+        - {x: 4.411481, y: -17.002062}
+        - {x: -4.588519, y: -17.002062}
+      physicsShape:
+      - - {x: -8.588519, y: 4.997938}
+        - {x: -13.588519, y: -3.0020618}
+        - {x: -13.588519, y: -14.002062}
+        - {x: -12.588519, y: -16.002062}
+        - {x: -4.588519, y: -17.002062}
+        - {x: 4.411481, y: -17.002062}
+        - {x: 9.411481, y: -14.002062}
+        - {x: 9.411481, y: 4.997938}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d19b8ff618948e691b530e978276494
+      internalID: 21300178
+      vertices:
+      - {x: 20.436281, y: 22.948565}
+      - {x: 15.436281, y: 0.9485645}
+      - {x: 20.436281, y: 3.9485645}
+      - {x: 6.436281, y: 0.9485645}
+      - {x: 2.4362812, y: 22.948565}
+      - {x: -1.5637188, y: 1.9485645}
+      - {x: -2.5637188, y: 14.948565}
+      - {x: -2.5637188, y: 3.9485645}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss26_face_8
+      rect:
+        serializedVersion: 2
+        x: 171.02673
+        y: 52.07612
+        width: 30.97325
+        height: 27.89713
+      alignment: 9
+      pivot: {x: 0.45027575, y: 0.28131077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.459878, y: -13.100801}
+        - {x: 9.459878, y: -15.100801}
+        - {x: 5.459878, y: -16.100801}
+        - {x: 4.459878, y: -18.100801}
+        - {x: -15.540122, y: -18.100801}
+        - {x: -16.540123, y: -15.100801}
+        - {x: -16.540123, y: 7.899198}
+        - {x: -14.540122, y: 9.899199}
+        - {x: 13.459878, y: 9.899199}
+        - {x: 14.459878, y: 8.899199}
+        - {x: 14.459878, y: -2.100802}
+        - {x: 11.459878, y: -4.100802}
+        - {x: 14.459878, y: -8.100801}
+      physicsShape:
+      - - {x: 14.459878, y: -8.100801}
+        - {x: 11.459878, y: -4.100802}
+        - {x: 14.459878, y: -2.100802}
+        - {x: 14.459878, y: 8.899199}
+        - {x: 13.459878, y: 9.899199}
+        - {x: -14.540122, y: 9.899199}
+        - {x: -16.540123, y: 7.899198}
+        - {x: -16.540123, y: -15.100801}
+        - {x: -15.540122, y: -18.100801}
+        - {x: 4.459878, y: -18.100801}
+        - {x: 5.459878, y: -16.100801}
+        - {x: 9.459878, y: -15.100801}
+        - {x: 14.459878, y: -13.100801}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f747d9cc5e0427990a791a4b27612a4
+      internalID: 21300180
+      vertices:
+      - {x: 30.486626, y: 29.948565}
+      - {x: 31.486626, y: 17.948565}
+      - {x: 31.486626, y: 28.948565}
+      - {x: 28.486626, y: 15.948565}
+      - {x: 26.486626, y: 4.9485645}
+      - {x: 22.486626, y: 3.9485645}
+      - {x: 21.486626, y: 1.9485645}
+      - {x: 2.4866247, y: 29.948565}
+      - {x: 1.4866247, y: 1.9485645}
+      - {x: 0.48662472, y: 27.948565}
+      - {x: 0.48662472, y: 4.9485645}
+      - {x: 31.486626, y: 6.9485645}
+      - {x: 31.486626, y: 11.948565}
+      indices: 04000000030000000b0000000c0000000b000000030000000a0000000900000008000000070000000800000009000000060000000800000007000000000000000600000007000000050000000600000000000000040000000500000000000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      boss26_r2_3: 21300070
+      boss26_l2_2: 21300032
+      mashroom_man_4: 21300150
+      boss26_l1_0: 21300136
+      boss26_8: 21300122
+      swamp_tentacles_1_6: 21300056
+      swamp_tentacles_1_3: 21300066
+      lil_mashroom_man_6: 21300018
+      boss26_3: 21300108
+      mashroom_man_1: 21300156
+      rider_1: 21300078
+      mashroom_man_3: 21300160
+      boss26_r1_0: 21300002
+      boss26_r1_2: 21300006
+      boss26_4: 21300114
+      rider_3: 21300082
+      swamp_tentacles_0_4: 21300038
+      boss26_face_2: 21300178
+      boss26_face_8: 21300180
+      boss26_5: 21300112
+      boss26_1: 21300104
+      boss26_10: 21300124
+      rider_6: 21300088
+      boss26_hood_mask: 21300128
+      swamp_tentacles_0_2: 21300050
+      mashroom_man_2: 21300162
+      boss26_face_5: 21300164
+      boss26_l1_1: 21300134
+      swamp_tentacles_1_5: 21300054
+      boss26_ultimate_buff_4: 21300094
+      lil_mashroom_man_4: 21300022
+      lil_mashroom_man_5: 21300020
+      tantacle: 21300142
+      mashroom_man_6: 21300154
+      mashroom_man_7: 21300152
+      boss26_face_3: 21300176
+      boss26_r1_1: 21300000
+      boss26_11: 21300126
+      lil_mashroom_man_3: 21300008
+      boss26_r1_3: 21300004
+      boss26_face_0: 21300174
+      boss26_0: 21300106
+      lil_mashroom_man_8: 21300026
+      swamp_tentacles_1_4: 21300052
+      boss26_face_6: 21300170
+      boss26_ultimate_buff_3: 21300096
+      boss26_face_1: 21300172
+      mashroom_man_5: 21300148
+      swamp_tentacles_1_2: 21300064
+      swamp_tentacles_0_6: 21300042
+      lil_mashroom_man_0: 21300014
+      boss26_6: 21300118
+      swamp_tentacles_1_7: 21300058
+      lil_mashroom_man_9: 21300024
+      boss26_l2_0: 21300028
+      rider_5: 21300086
+      swamp_tentacles_1_0: 21300060
+      boss26_ultimate_buff_0: 21300102
+      lil_mashroom_man_7: 21300016
+      boss26_body: 21300138
+      lil_mashroom_man_2: 21300010
+      boss26_2: 21300110
+      mashroom_man_0: 21300158
+      boss26_ultimate_buff_1: 21300100
+      rider_4: 21300084
+      swamp_tentacles_0_0: 21300046
+      mashroom_man_8: 21300146
+      swamp_tentacles_0_3: 21300048
+      swamp_tentacles_0_7: 21300040
+      boss26_l2_1: 21300030
+      rider_2: 21300080
+      swamp_tentacles_1_1: 21300062
+      rider_0: 21300076
+      boss26_r2_1: 21300074
+      boss26_7: 21300116
+      boss26_face_4: 21300166
+      swamp_tentacles_0_1: 21300044
+      rider_7: 21300090
+      boss26_ultimate_buff_2: 21300098
+      mashroom_man_9: 21300144
+      boss26_l2_3: 21300034
+      lil_mashroom_man_1: 21300012
+      boss_26: 21300140
+      boss26_9: 21300120
+      boss26_r2_2: 21300068
+      boss26_r2_0: 21300072
+      boss26_face_7: 21300168
+      boss26_l1_2: 21300132
+      boss26_ultimate_buff_5: 21300092
+      swamp_tentacles_0_5: 21300036
+      boss26_l1_3: 21300130
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,5 +7,11 @@ AnimatorOverrideController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: special_pixiu
-  m_Controller: {fileID: 0}
-  m_Clips: []
+  m_Controller: {fileID: 9100000, guid: 69a569f9c821c734e94d42793a6be23f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ad25dbb25d4f60e42beef6e0fd48138c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f5860199e406ea04fa4f597a87dd3c41, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 86a64114840ad06409292035281c76f6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: de9a8c07ffc060948901e1bc1b0da3a7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d7884db8e60b1974e859367ca8ce91d7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 56cec86ab0ea3e14ab5af9d681e9aa1c, type: 2}

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkinID: special_pixiu
   SkinName: "\u8C94\u8C85"
-  AnimatorController: {fileID: 0}
+  AnimatorController: {fileID: 22100000, guid: f77844c1db02a3a4ab7295fd91e05684, type: 2}
