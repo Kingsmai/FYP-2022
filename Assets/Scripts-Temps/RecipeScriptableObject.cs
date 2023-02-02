@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace CraftsmanHero {
     [CreateAssetMenu(fileName = "New Recipe", menuName = "Recipe")]
-    public class RecipeSO : ScriptableObject {
+    public class RecipeScriptableObject : ScriptableObject {
         public string RecipeID;
         public Ingredient Result;
         [Space]
@@ -19,7 +19,7 @@ namespace CraftsmanHero {
 
     [Serializable]
     public class Ingredient {
-        public GameItemSO gameItem;
+        public GameItemScriptableObject gameItem;
         public int amount = 1;
     }
 }

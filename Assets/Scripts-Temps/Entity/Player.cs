@@ -5,12 +5,12 @@ using UnityEngine;
 namespace CraftsmanHero {
     public class Player : Entity {
         [Header("Player Properties", order = 1)]
-        public WeaponsSO CurrentWeapon;
+        public WeaponsScriptableObject CurrentWeapon;
 
         // 玩家动画相关
         [Header("玩家图片相关")]
         public Animator SkinAnimator;
-        public List<SkinsSO> Skins;
+        public List<SkinsScriptableObject> Skins;
         RuntimeAnimatorController defaultController;
         public int currentSkin = 0;
 

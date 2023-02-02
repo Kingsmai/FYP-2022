@@ -48,7 +48,7 @@ namespace CraftsmanHero {
             switch (_status) {
                 case DamageTextStatus.FadeIn:
                     if (_timeElapsed < STATUS_DURATION) {
-                        // ´ÓÖÐ¼äÍùÉÏÉý£¬×ÖÂýÂý·Å´ó
+                        // ä»Žä¸­é—´å¾€ä¸Šå‡ï¼Œå­—æ…¢æ…¢æ”¾å¤§
                         text.fontSize = Mathf.Lerp(INIT_FONT_SIZE, HUNG_FONT_SIZE, t);
                         transform.position = Vector3.Lerp(_startPosition, _hungPosition, t);
                     } else {
@@ -66,7 +66,7 @@ namespace CraftsmanHero {
                     break;
                 case DamageTextStatus.FadeOut:
                     if (_timeElapsed < STATUS_DURATION) {
-                        // ÍùÉÏÉý£¬×Ö·Å´ó£¬µ­³ö
+                        // å¾€ä¸Šå‡ï¼Œå­—æ”¾å¤§ï¼Œæ·¡å‡º
                         float alpha = Mathf.Lerp(1, .5f, t);
                         text.fontSize = Mathf.Lerp(HUNG_FONT_SIZE, END_FONT_SIZE, t);
                         transform.position = Vector3.Lerp(_hungPosition, _endPosition, t);

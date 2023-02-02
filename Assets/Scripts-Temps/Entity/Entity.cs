@@ -9,7 +9,7 @@ namespace CraftsmanHero {
         // 生命数值相关
         [Header("生命值")]
         public int MaxHealth = 10;
-        [SerializeField] private int health;
+        int health;
 
         public delegate void EntityEventHandler();
 
@@ -17,7 +17,7 @@ namespace CraftsmanHero {
         
         public int Health {
             get { return health; }
-            set {
+            private set {
                 health = value;
                 OnHealthChanged?.Invoke();
             }

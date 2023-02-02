@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace CraftsmanHero {
     [CreateAssetMenu(fileName = "New Skin", menuName = "Skins")]
-    public class SkinsSO : ScriptableObject {
+    public class SkinsScriptableObject : ScriptableObject {
         public string SkinID;
         public string SkinName;
         public AnimatorOverrideController AnimatorController;

@@ -3,18 +3,18 @@ using UnityEngine;
 
 namespace CraftsmanHero {
     [CreateAssetMenu(fileName = "New Weapon", menuName = "Game Item/Weapon", order = 1)]
-    public class WeaponsSO : GameItemSO {
+    public class WeaponsScriptableObject : GameItemScriptableObject {
         public GameObject weaponPrefab;
 
         public Vector2 weaponFirepoint;
 
         public GameObject bulletPrefab;
 
-        [Header("性能相关")]
+        [Header("鎬ц兘鐩稿叧")]
         public float cooldown;
-        public float accuracy = 5f; // 0 为最精准
+        public float accuracy = 5f; // 0 涓烘渶绮惧噯
 
-        [Header("子弹相关")]
+        [Header("瀛愬脊鐩稿叧")]
         public DamageRange damage;
         public float bulletSpeed = 20;
         public bool isStaticBullet;

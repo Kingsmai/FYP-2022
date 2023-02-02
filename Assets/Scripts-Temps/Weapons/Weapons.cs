@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace CraftsmanHero {
     public class Weapons : MonoBehaviour {
-        public WeaponsSO weaponData;
+        public WeaponsScriptableObject weaponData;
 
         Transform firepoint;
         Animator anim;
