@@ -2,13 +2,14 @@ using UnityEngine;
 
 namespace CraftsmanHero {
     public abstract class Entity : MonoBehaviour {
-        private Rigidbody2D rb2d;
+        Rigidbody2D rb2d;
 
         public string entityTag = "Untagged";
 
         // 生命数值相关
         [Header("生命值")]
         public int MaxHealth = 10;
+        [SerializeField]
         int health;
 
         public delegate void EntityEventHandler();

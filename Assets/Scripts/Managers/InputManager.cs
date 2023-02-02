@@ -3,14 +3,28 @@ using UnityEngine;
 public class InputManager : Singleton<InputManager> {
     public PlayerControl Input;
 
-    public Vector3 MouseDirection { get; private set; } = Vector3.zero;
+    public delegate void InputEventHandler(bool isScrollingDown);
+
+    public event InputEventHandler OnScroll;
+
+    float scroll;
+
+    public float Scroll {
+        get { return scroll; }
+        set {
+            scroll = value;
+            bool isScrollingDown = value < 0;
+            OnScroll?.Invoke(isScrollingDown);
+        }
+    }
 
     protected override void Awake() {
         base.Awake();
         Input = new PlayerControl();
-    }
 
-    private void Update() {
+        Input.Player.Scroll.performed += context => {
+            Scroll = context.ReadValue<float>();
+        };
     }
 
     private void OnEnable() {

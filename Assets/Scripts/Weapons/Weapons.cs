@@ -14,7 +14,7 @@ namespace CraftsmanHero {
             anim = GetComponentInChildren<Animator>();
             firepoint = new GameObject("firepoint").transform;
             firepoint.SetParent(transform, false);
-            firepoint.localPosition = weaponData.weaponFirepoint;
+            firepoint.localPosition = weaponData.weaponFirePoint;
         }
 
         public void Fire() {

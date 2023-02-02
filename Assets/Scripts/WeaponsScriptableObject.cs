@@ -1,12 +1,13 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace CraftsmanHero {
     [CreateAssetMenu(fileName = "New Weapon", menuName = "Game Item/Weapon", order = 1)]
     public class WeaponsScriptableObject : GameItemScriptableObject {
         public GameObject weaponPrefab;
 
-        public Vector2 weaponFirepoint;
+        public Vector2 weaponFirePoint;
 
         public GameObject bulletPrefab;
 
