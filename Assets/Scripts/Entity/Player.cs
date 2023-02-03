@@ -13,6 +13,7 @@ namespace CraftsmanHero {
         public List<SkinsScriptableObject> Skins;
         RuntimeAnimatorController defaultController;
         public int currentSkin = 0;
+        public ParticleSystem dustParticle;
 
         Transform handTransform;
         Weapons HeldWeapon;
@@ -58,6 +59,10 @@ namespace CraftsmanHero {
             HeldWeapon = Instantiate(CurrentWeapon.weaponPrefab, hand.transform).GetComponent<Weapons>();
         }
 
+        void CreateDust() {
+            dustParticle.Play();
+        }
+
         private void Aim(float angle) {
             handTransform.rotation = Quaternion.Euler(0, 0, angle);
         }
@@ -77,6 +82,7 @@ namespace CraftsmanHero {
             HeldWeapon.transform.Rotate(180f, 0, 0);
             healthEffectParent.transform.Rotate(0, 180f, 0);
             isFacingRight = !isFacingRight;
+            CreateDust();
         }
 
         public override void Attack() {
