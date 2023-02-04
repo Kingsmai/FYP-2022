@@ -105,106 +105,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ui_xp_background_0
+      name: ui_bar_border
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 7
+        y: 9
+        width: 9
         height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 1, z: 1, w: 1}
+      border: {x: 2, y: 2, z: 2, w: 3}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 1dbb8e30fe338554daac9af4a2e42a39
       internalID: 212967697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui_xp_background_1
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 1
-        width: 7
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5a767610c448f44b96f85db37bc6c01
-      internalID: 131218959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui_bar_0
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 1
-        width: 7
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5bfc2aa0c8f25ba488199142aef81fa3
-      internalID: -234447177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui_bar_1
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 1
-        width: 7
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ba6a128a39af15449604e7991575208
-      internalID: -1413057393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui_bar_2
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 1
-        width: 7
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c337fb45c998c804cab39f8a26859c37
-      internalID: -1164233298
       vertices: []
       indices: 
       edges: []
@@ -221,10 +137,10 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       ui_xp_background_1: 131218959
-      ui_bar_0: -234447177
       ui_bar_2: -1164233298
-      ui_xp_background_0: 212967697
+      ui_bar_background: -234447177
       ui_bar_1: -1413057393
+      ui_bar_border: 212967697
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

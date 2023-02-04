@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 namespace CraftsmanHero {
     public class UIManager : Singleton<UIManager> {
-        [Header("生命值相关")] public Image HealthBar;
+        [Header("生命值相关")] public Slider HealthBar;
         public TextMeshProUGUI HealthAmount;
 
         [Header("游戏货币相关")] public TextMeshProUGUI GoldAmount;
@@ -26,11 +26,18 @@ namespace CraftsmanHero {
             var inputManager = GameObject.Find("InputManager").GetComponent<InputManager>();
 
             inventorySlotsImages = InventorySlots.GetComponentsInChildren<Image>();
+
+            currentPlayer.OnMaxHealthChanged += () => {
+                HealthBar.maxValue = currentPlayer.MaxHealth;
+            };
+            
+            HealthBar.maxValue = currentPlayer.MaxHealth;
             
             currentPlayer.OnHealthChanged += () => {
                 HealthAmount.text = currentPlayer.Health.ToString();
-                HealthBar.fillAmount = (float)currentPlayer.Health / currentPlayer.MaxHealth;
+                HealthBar.value = currentPlayer.Health;
             };
+            
 
             gameManager.OnGoldChange += () => { GoldAmount.text = gameManager.GoldAmount.ToString(); };
             

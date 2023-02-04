@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using CraftsmanHero.Interfaces;
 using UnityEngine;
 
 namespace CraftsmanHero {
-    public class Mobs : Entity {
+    public class Mobs : Entity, IAttackable {
         bool isFacingRight;
 
-        public override void Attack() {
+        public void Attack() {
             throw new System.NotImplementedException();
         }
 

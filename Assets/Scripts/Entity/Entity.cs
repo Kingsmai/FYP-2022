@@ -1,21 +1,27 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace CraftsmanHero {
-    public abstract class Entity : MonoBehaviour {
+    public class Entity : MonoBehaviour {
+        public delegate void EntityEventHandler();
+        
         Rigidbody2D rb2d;
 
         public string entityTag = "Untagged";
 
         // 生命数值相关
-        [Header("生命值")]
-        public int MaxHealth = 10;
+        [Header("生命值")] int maxHealth = 10;
+        public event EntityEventHandler OnMaxHealthChanged;
+        public int MaxHealth {
+            get { return maxHealth; }
+            set {
+                maxHealth = value;
+                OnMaxHealthChanged?.Invoke();
+            }
+        }
         [SerializeField]
         int health;
-
-        public delegate void EntityEventHandler();
-
         public event EntityEventHandler OnHealthChanged;
-        
         public int Health {
             get { return health; }
             private set {
@@ -25,9 +31,9 @@ namespace CraftsmanHero {
         }
         public bool IsVulnerable;
         protected GameObject healthEffectParent;
-        private BoxCollider2D damageCollider;
-        private FloatingText currentDamageText;
-        private FloatingText currentRecoverText;
+        BoxCollider2D damageCollider;
+        FloatingText currentDamageText;
+        FloatingText currentRecoverText;
         public Vector2 damageColliderOffset = new Vector2(0, 0.75f);
         public Vector2 damageColliderSize = new Vector2(1, 1.5f);
 
@@ -54,9 +60,6 @@ namespace CraftsmanHero {
             CreateDamageCollider();
             CreateShadow();
         }
-
-        // 攻击
-        public abstract void Attack();
 
         // 创建伤害碰撞体
         private void CreateDamageCollider() {
@@ -101,15 +104,16 @@ namespace CraftsmanHero {
             currentDamageText.UpdateText(damageAmount);
 
             // 伤害特效
-            if (Health < 0) {
+            if (Health <= 0) {
                 // 切换死亡贴图
+                Death();
             } else {
                 // 贴图闪烁
             }
         }
 
         // 回血
-        public virtual void HealthRecover(int recoverAmount) {
+        public void HealthRecover(int recoverAmount) {
             recoverAmount = health + recoverAmount < MaxHealth ? recoverAmount : Mathf.Abs(health - recoverAmount);
             Health += recoverAmount;
 
@@ -120,8 +124,15 @@ namespace CraftsmanHero {
             currentRecoverText.UpdateText(recoverAmount);
         }
 
-        public virtual void Move(Vector2 direction) {
+        public void Move(Vector2 direction) {
             rb2d.velocity = direction * MoveSpeed;
+        }
+        
+        // 死亡操作
+        void Death() {
+            damageCollider.gameObject.SetActive(false);
+            // Player Get Money
+            // Drop Items
         }
     }
 }
