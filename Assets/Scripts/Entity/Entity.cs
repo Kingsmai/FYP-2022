@@ -130,7 +130,7 @@ namespace CraftsmanHero {
         
         // 死亡操作
         void Death() {
-            damageCollider.gameObject.SetActive(false);
+            Destroy(damageCollider);
             // Player Get Money
             // Drop Items
         }
