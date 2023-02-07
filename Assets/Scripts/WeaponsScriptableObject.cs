@@ -6,9 +6,7 @@ namespace CraftsmanHero {
     [CreateAssetMenu(fileName = "New Weapon", menuName = "Game Item/Weapon", order = 1)]
     public class WeaponsScriptableObject : GameItemScriptableObject {
         public GameObject weaponPrefab;
-
         public Vector2 weaponFirePoint;
-
         public GameObject bulletPrefab;
 
         [Header("性能相关")]
@@ -22,7 +20,7 @@ namespace CraftsmanHero {
 
         protected override void OnValidate() {
             base.OnValidate();
-            if (damage.maximumDamage >= damage.baseDamage) {
+            if (damage.maximumDamage > damage.baseDamage) {
                 damage.isRandomDamage = true;
             } else if (damage.maximumDamage <= damage.baseDamage) {
                 damage.isRandomDamage = false;

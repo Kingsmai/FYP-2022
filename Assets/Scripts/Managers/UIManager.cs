@@ -39,7 +39,7 @@ namespace CraftsmanHero {
             };
             
 
-            gameManager.OnGoldChange += () => { GoldAmount.text = gameManager.GoldAmount.ToString(); };
+            gameManager.OnGoldChange += () => { GoldAmount.text = gameManager.Gold.ToString(); };
             
             inputManager.OnScroll += isScrollingDown => {
                 inventorySlotsImages[currentSelectedInventorySlot].sprite = slotImageNormal;

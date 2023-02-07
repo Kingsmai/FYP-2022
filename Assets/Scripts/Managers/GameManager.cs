@@ -2,20 +2,30 @@ using CraftsmanHero;
 using UnityEngine;
 
 public class GameManager : Singleton<GameManager> {
+    public delegate void GameManagerEventHandler();
+    public event GameManagerEventHandler OnGoldChange;
+    public event GameManagerEventHandler OnExperienceChange;
+    
     public Player CurrentPlayer;
 
-    public delegate void GameManagerEventHandler();
+    int experience;
 
-    public event GameManagerEventHandler OnGoldChange;
+    public int Experience {
+        get { return experience; }
+        set {
+            experience = value;
+            OnExperienceChange?.Invoke();
+        }
+    }
 
-    int goldAmount;
+    int gold;
 
-    public int GoldAmount {
+    public int Gold {
         get {
-            return goldAmount;
+            return gold;
         }
         set {
-            goldAmount = value;
+            gold = value;
             OnGoldChange?.Invoke();
         }
     }
@@ -24,10 +34,18 @@ public class GameManager : Singleton<GameManager> {
         base.Awake();
         
         // TODO: 加载存档
-        GoldAmount = 0;
+        Gold = 0;
     }
 
     public void SetCurrentPlayer(GameObject player) {
         CurrentPlayer = player.GetComponent<Player>();
+    }
+
+    public void AddExperience(int expAmount) {
+        Experience += expAmount;
+    }
+
+    public void ObtainGold(int goldAmount) {
+        Gold += goldAmount;
     }
 }

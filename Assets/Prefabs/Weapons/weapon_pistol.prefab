@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 7701419015072296259}
   - component: {fileID: 7682961059443105804}
   m_Layer: 0
-  m_Name: test_weapon_range
+  m_Name: weapon_pistol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

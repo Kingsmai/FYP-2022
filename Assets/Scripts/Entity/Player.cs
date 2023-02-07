@@ -96,5 +96,10 @@ namespace CraftsmanHero {
             }
         }
         // #ENDREGION
+
+        protected override void Death() {
+            // 重写角色死亡操作
+            SkinAnimator.SetTrigger("dead");
+        }
     }
 }

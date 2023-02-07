@@ -4,6 +4,8 @@ using UnityEngine.Serialization;
 namespace CraftsmanHero {
     public class Entity : MonoBehaviour {
         public delegate void EntityEventHandler();
+        public event EntityEventHandler OnMaxHealthChanged;
+        public event EntityEventHandler OnHealthChanged;
         
         Rigidbody2D rb2d;
 
@@ -11,7 +13,6 @@ namespace CraftsmanHero {
 
         // 生命数值相关
         [Header("生命值")] int maxHealth = 10;
-        public event EntityEventHandler OnMaxHealthChanged;
         public int MaxHealth {
             get { return maxHealth; }
             set {
@@ -19,9 +20,7 @@ namespace CraftsmanHero {
                 OnMaxHealthChanged?.Invoke();
             }
         }
-        [SerializeField]
         int health;
-        public event EntityEventHandler OnHealthChanged;
         public int Health {
             get { return health; }
             private set {
@@ -36,6 +35,10 @@ namespace CraftsmanHero {
         FloatingText currentRecoverText;
         public Vector2 damageColliderOffset = new Vector2(0, 0.75f);
         public Vector2 damageColliderSize = new Vector2(1, 1.5f);
+
+        [Header("掉落物")]
+        // 最多可以掉落多少金币
+        public int maximumGoldDrop;
 
         [Header("移动")]
         public bool isStatic;
@@ -129,9 +132,11 @@ namespace CraftsmanHero {
         }
         
         // 死亡操作
-        void Death() {
+        protected virtual void Death() {
             Destroy(damageCollider);
             // Player Get Money
+            var gold = Random.Range(0, maximumGoldDrop);
+            GameManager.Instance.ObtainGold(gold);
             // Drop Items
         }
     }
