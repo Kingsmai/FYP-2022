@@ -1,19 +1,15 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 namespace CraftsmanHero {
     public class GameItemDisplay : MonoBehaviour {
         public SpriteRenderer iconSpriteRenderer;
         [SerializeField] GameItemScriptableObject gameItemToDisplay;
-        Rigidbody2D rb2d;
         Animator anim;
         CircleCollider2D col;
+        Rigidbody2D rb2d;
 
         public GameItemScriptableObject GameItemToDisplay {
-            get { return gameItemToDisplay; }
+            get => gameItemToDisplay;
             set {
                 gameItemToDisplay = value;
                 Setup();
@@ -26,7 +22,7 @@ namespace CraftsmanHero {
             anim = GetComponent<Animator>();
             col = GetComponent<CircleCollider2D>();
             // 随机向某个方向滑动
-            Vector2 randomDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
+            var randomDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
             randomDirection = randomDirection.normalized;
             Debug.Log(randomDirection);
             rb2d.AddForce(randomDirection.normalized * 100);

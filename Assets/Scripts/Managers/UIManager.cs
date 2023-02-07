@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace CraftsmanHero {
@@ -13,12 +10,12 @@ namespace CraftsmanHero {
         [Header("游戏货币相关")] public TextMeshProUGUI GoldAmount;
 
         [Header("背包和物品栏相关")] public GameObject hotbarSlots;
-        Image[] hotbarSlotsImages;
-        [SerializeField] int currentSelectedHotbarSlot = 0;
+        [SerializeField] int currentSelectedHotbarSlot;
         public Sprite slotImageNormal;
         public Sprite slotImageSelected;
 
         [Header("设置界面相关")] public GameObject settingPanel;
+        Image[] hotbarSlotsImages;
         bool isSettingIsOpen;
 
         protected override void Awake() {

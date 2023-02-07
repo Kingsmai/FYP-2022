@@ -2,13 +2,14 @@ using UnityEngine;
 
 namespace CraftsmanHero {
     public class SwordBullets : Bullets {
-        private float fadeDuration = 1;
-        private float _elapsedTime = 0;
+        float _elapsedTime;
+        readonly float fadeDuration = 1;
 
-        private void Update() {
+        void Update() {
             _elapsedTime += Time.deltaTime;
-            float alpha = Mathf.Lerp(1, 0, _elapsedTime / fadeDuration);
-            base._spriteRenderer.color = new Color(255, 255, 255, alpha);
+            var alpha = Mathf.Lerp(1, 0, _elapsedTime / fadeDuration);
+            _spriteRenderer.color = new Color(255, 255, 255, alpha);
+
             if (_elapsedTime >= fadeDuration) {
                 Destroy(gameObject);
             }

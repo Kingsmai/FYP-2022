@@ -1,71 +1,22 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace CraftsmanHero {
     public class Entity : MonoBehaviour {
         public delegate void EntityEventHandler();
 
-        public event EntityEventHandler OnMaxHealthChanged;
-        public event EntityEventHandler OnHealthChanged;
-        public event EntityEventHandler OnGoldChanged;
-        public event EntityEventHandler OnExperienceChanged;
-
-        Rigidbody2D rb2d;
-
         public string entityTag = "Untagged";
 
-        // 生命数值相关
-        [Header("生命值")] int maxHealth = 10;
-
-        public int MaxHealth {
-            get { return maxHealth; }
-            set {
-                maxHealth = value;
-                OnMaxHealthChanged?.Invoke();
-            }
-        }
-
-        int health;
-
-        public int Health {
-            get { return health; }
-            private set {
-                health = value;
-                OnHealthChanged?.Invoke();
-            }
-        }
-
         public bool IsVulnerable;
-        protected GameObject healthEffectParent;
-        BoxCollider2D damageCollider;
-        FloatingText currentDamageText;
-        FloatingText currentRecoverText;
-        public Vector2 damageColliderOffset = new Vector2(0, 0.75f);
-        public Vector2 damageColliderSize = new Vector2(1, 1.5f);
+        public Vector2 damageColliderOffset = new(0, 0.75f);
+        public Vector2 damageColliderSize = new(1, 1.5f);
 
         [Header("掉落物")]
         // 最多可以掉落多少金币
         [SerializeField]
         int gold;
 
-        public int Gold {
-            get { return gold; }
-            set {
-                gold = value;
-                OnGoldChanged?.Invoke();
-            }
-        }
-
         [SerializeField] int experience;
-
-        public int Experience {
-            get { return experience; }
-            set {
-                experience = value;
-                OnExperienceChanged?.Invoke();
-            }
-        }
 
         public List<InventoryItemInfo> inventory;
 
@@ -74,11 +25,48 @@ namespace CraftsmanHero {
 
         [Header("影子")] public Sprite ShadowSprite;
         public Sprite ShadowLockSprite;
+        FloatingText currentDamageText;
+        FloatingText currentRecoverText;
+        BoxCollider2D damageCollider;
+
+        int health;
+        protected GameObject healthEffectParent;
+
+        // 生命数值相关
+        [Header("生命值")] int maxHealth = 10;
+
+        Rigidbody2D rb2d;
         protected SpriteRenderer shadowLockRenderer;
 
-        private void OnValidate() {
-            if (isStatic) {
-                MoveSpeed = 0f;
+        public int MaxHealth {
+            get => maxHealth;
+            set {
+                maxHealth = value;
+                OnMaxHealthChanged?.Invoke();
+            }
+        }
+
+        public int Health {
+            get => health;
+            private set {
+                health = value;
+                OnHealthChanged?.Invoke();
+            }
+        }
+
+        public int Gold {
+            get => gold;
+            set {
+                gold = value;
+                OnGoldChanged?.Invoke();
+            }
+        }
+
+        public int Experience {
+            get => experience;
+            set {
+                experience = value;
+                OnExperienceChanged?.Invoke();
             }
         }
 
@@ -91,8 +79,19 @@ namespace CraftsmanHero {
             CreateShadow();
         }
 
+        void OnValidate() {
+            if (isStatic) {
+                MoveSpeed = 0f;
+            }
+        }
+
+        public event EntityEventHandler OnMaxHealthChanged;
+        public event EntityEventHandler OnHealthChanged;
+        public event EntityEventHandler OnGoldChanged;
+        public event EntityEventHandler OnExperienceChanged;
+
         // 创建伤害碰撞体
-        private void CreateDamageCollider() {
+        void CreateDamageCollider() {
             healthEffectParent = new GameObject("hpEffect");
             healthEffectParent.transform.SetParent(transform, false);
             healthEffectParent.tag = entityTag;
@@ -105,14 +104,14 @@ namespace CraftsmanHero {
         // 创建影子
         public void CreateShadow() {
             if (ShadowSprite != null) {
-                GameObject shadow = new GameObject("shadow");
+                var shadow = new GameObject("shadow");
                 shadow.transform.SetParent(transform, false);
-                SpriteRenderer shadow_sr = shadow.AddComponent<SpriteRenderer>();
+                var shadow_sr = shadow.AddComponent<SpriteRenderer>();
                 shadow_sr.sortingLayerName = SortingLayerConst.SHADOW;
                 shadow_sr.sprite = ShadowSprite;
             }
 
-            GameObject shadowLock = new GameObject("shadow_lock");
+            var shadowLock = new GameObject("shadow_lock");
             shadowLock.transform.SetParent(transform, false);
             shadowLockRenderer = shadowLock.AddComponent<SpriteRenderer>();
             shadowLockRenderer.sortingLayerName = SortingLayerConst.SHADOW;
@@ -139,9 +138,7 @@ namespace CraftsmanHero {
                 // 切换死亡贴图
                 Death();
             }
-            else {
-                // 贴图闪烁
-            }
+            // 贴图闪烁
         }
 
         // 回血

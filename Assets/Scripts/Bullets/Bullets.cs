@@ -1,16 +1,16 @@
-using System;
 using UnityEngine;
 
 namespace CraftsmanHero {
     public class Bullets : MonoBehaviour {
         public int destroyDuration = 3;
-        [Space]
-        public int Damage;
+
+        [Space] public int Damage;
+
         float _elapsedTime;
-        
+
         protected SpriteRenderer _spriteRenderer;
 
-        private void Awake() {
+        void Awake() {
             _spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
@@ -25,7 +25,7 @@ namespace CraftsmanHero {
 
         protected virtual void OnTriggerEnter2D(Collider2D collision) {
             if (collision.name.Equals("hpEffect") && !collision.CompareTag("Player")) {
-                Entity entity = collision.GetComponentInParent<Entity>();
+                var entity = collision.GetComponentInParent<Entity>();
                 entity.GetDamage(Damage, transform.position);
             }
         }

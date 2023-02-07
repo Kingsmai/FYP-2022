@@ -4,40 +4,45 @@ namespace CraftsmanHero {
     public class Weapons : MonoBehaviour {
         public WeaponsScriptableObject weaponData;
 
-        Transform firepoint;
+
+        [SerializeField] float _cooldownTimer;
         Animator anim;
 
+        Transform firepoint;
 
-        [SerializeField] private float _cooldownTimer;
-
-        private void Awake() {
+        void Awake() {
             anim = GetComponentInChildren<Animator>();
             firepoint = new GameObject("firepoint").transform;
             firepoint.SetParent(transform, false);
             firepoint.localPosition = weaponData.weaponFirePoint;
         }
 
+        void Update() {
+            _cooldownTimer -= Time.deltaTime;
+        }
+
         public void Fire() {
             if (_cooldownTimer <= 0) {
                 if (weaponData.bulletPrefab != null) {
-                    Quaternion rotationOffset = Quaternion.Euler(0, 0, weaponData.GetAccuracy());
-                    Bullets bullet = Instantiate(weaponData.bulletPrefab, firepoint.position, firepoint.rotation * rotationOffset).GetComponent<Bullets>();
+                    var rotationOffset = Quaternion.Euler(0, 0, weaponData.GetAccuracy());
+                    var bullet =
+                        Instantiate(weaponData.bulletPrefab, firepoint.position, firepoint.rotation * rotationOffset)
+                            .GetComponent<Bullets>();
                     bullet.Damage = weaponData.GetDamage();
+
                     if (!weaponData.isStaticBullet) {
-                        FlyingBullets flyingBullets = (FlyingBullets)bullet;
+                        var flyingBullets = (FlyingBullets)bullet;
                         flyingBullets.SetSpeed(weaponData.bulletSpeed);
                     }
-                } else {
+                }
+                else {
                     Debug.LogError("Bullet is NULL!");
                 }
+
                 // Gun Only
                 anim.SetTrigger("fire");
                 _cooldownTimer = weaponData.cooldown;
             }
-        }
-
-        private void Update() {
-            _cooldownTimer -= Time.deltaTime;
         }
     }
 }

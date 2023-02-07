@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace CraftsmanHero {
@@ -8,20 +6,20 @@ namespace CraftsmanHero {
     public class InventoryItemInfo {
         public delegate void InventoryItemInfoEventHandler();
 
-        public event InventoryItemInfoEventHandler OnItemAmountChanged;
-
         public GameItemScriptableObject gameItem;
 
         [SerializeField] int amount;
 
+        public bool randomDrop;
+
         public int Amount {
-            get { return amount; }
+            get => amount;
             set {
                 amount = value;
                 OnItemAmountChanged?.Invoke();
             }
         }
 
-        public bool randomDrop;
+        public event InventoryItemInfoEventHandler OnItemAmountChanged;
     }
 }

@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-using UnityEngine.Serialization;
+using Random = UnityEngine.Random;
 
 namespace CraftsmanHero {
     [CreateAssetMenu(fileName = "New Weapon", menuName = "Game Item/Weapon", order = 1)]
@@ -9,20 +9,22 @@ namespace CraftsmanHero {
         public Vector2 weaponFirePoint;
         public GameObject bulletPrefab;
 
-        [Header("性能相关")]
-        public float cooldown;
+        [Header("性能相关")] public float cooldown;
+
         public float accuracy = 5f; // 0 为最精准
 
-        [Header("子弹相关")]
-        public DamageRange damage;
+        [Header("子弹相关")] public DamageRange damage;
+
         public float bulletSpeed = 20;
         public bool isStaticBullet;
 
         protected override void OnValidate() {
             base.OnValidate();
+
             if (damage.maximumDamage > damage.baseDamage) {
                 damage.isRandomDamage = true;
-            } else if (damage.maximumDamage <= damage.baseDamage) {
+            }
+            else if (damage.maximumDamage <= damage.baseDamage) {
                 damage.isRandomDamage = false;
                 damage.maximumDamage = damage.baseDamage;
             }
@@ -34,18 +36,18 @@ namespace CraftsmanHero {
 
         public int GetDamage() {
             if (damage.isRandomDamage) {
-                return UnityEngine.Random.Range(damage.baseDamage, damage.maximumDamage);
-            } else {
-                return damage.baseDamage;
+                return Random.Range(damage.baseDamage, damage.maximumDamage);
             }
+
+            return damage.baseDamage;
         }
 
         public float GetAccuracy() {
             if (accuracy != 0f) {
-                return UnityEngine.Random.Range(-accuracy, accuracy);
-            } else {
-                return 0;
+                return Random.Range(-accuracy, accuracy);
             }
+
+            return 0;
         }
     }
 

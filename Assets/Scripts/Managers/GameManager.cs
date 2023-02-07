@@ -11,7 +11,7 @@ public class GameManager : Singleton<GameManager> {
 
     protected override void Awake() {
         base.Awake();
-        
+
         // TODO: 读取存档
         CurrentPlayer.Gold = 0;
     }
