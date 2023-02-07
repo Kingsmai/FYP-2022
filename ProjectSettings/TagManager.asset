@@ -57,6 +57,9 @@ TagManager:
   - name: Bullets
     uniqueID: 799626055
     locked: 0
+  - name: Icons
+    uniqueID: 1560533515
+    locked: 0
   - name: Text
     uniqueID: 1567965359
     locked: 0

@@ -1,18 +1,23 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
 namespace CraftsmanHero {
     public class Entity : MonoBehaviour {
         public delegate void EntityEventHandler();
+
         public event EntityEventHandler OnMaxHealthChanged;
         public event EntityEventHandler OnHealthChanged;
-        
+        public event EntityEventHandler OnGoldChanged;
+        public event EntityEventHandler OnExperienceChanged;
+
         Rigidbody2D rb2d;
 
         public string entityTag = "Untagged";
 
         // 生命数值相关
         [Header("生命值")] int maxHealth = 10;
+
         public int MaxHealth {
             get { return maxHealth; }
             set {
@@ -20,7 +25,9 @@ namespace CraftsmanHero {
                 OnMaxHealthChanged?.Invoke();
             }
         }
+
         int health;
+
         public int Health {
             get { return health; }
             private set {
@@ -28,6 +35,7 @@ namespace CraftsmanHero {
                 OnHealthChanged?.Invoke();
             }
         }
+
         public bool IsVulnerable;
         protected GameObject healthEffectParent;
         BoxCollider2D damageCollider;
@@ -38,14 +46,33 @@ namespace CraftsmanHero {
 
         [Header("掉落物")]
         // 最多可以掉落多少金币
-        public int maximumGoldDrop;
+        [SerializeField]
+        int gold;
 
-        [Header("移动")]
-        public bool isStatic;
+        public int Gold {
+            get { return gold; }
+            set {
+                gold = value;
+                OnGoldChanged?.Invoke();
+            }
+        }
+
+        [SerializeField] int experience;
+
+        public int Experience {
+            get { return experience; }
+            set {
+                experience = value;
+                OnExperienceChanged?.Invoke();
+            }
+        }
+
+        public List<InventoryItemInfo> inventory;
+
+        [Header("移动")] public bool isStatic;
         public float MoveSpeed = 10f;
 
-        [Header("影子")]
-        public Sprite ShadowSprite;
+        [Header("影子")] public Sprite ShadowSprite;
         public Sprite ShadowLockSprite;
         protected SpriteRenderer shadowLockRenderer;
 
@@ -94,7 +121,6 @@ namespace CraftsmanHero {
 
         // 受伤
         public virtual void GetDamage(int damageAmount, Vector3 position) {
-
             // 扣除生命值
             if (!IsVulnerable) {
                 Health -= damageAmount;
@@ -102,15 +128,18 @@ namespace CraftsmanHero {
 
             // 显示伤害数值
             if (currentDamageText == null) {
-                currentDamageText = Instantiate(TextsManager.Instance.damageText, healthEffectParent.transform).GetComponent<FloatingText>();
+                currentDamageText = Instantiate(GameManager.Instance.damageTextPrefab, healthEffectParent.transform)
+                    .GetComponent<FloatingText>();
             }
+
             currentDamageText.UpdateText(damageAmount);
 
             // 伤害特效
             if (Health <= 0) {
                 // 切换死亡贴图
                 Death();
-            } else {
+            }
+            else {
                 // 贴图闪烁
             }
         }
@@ -122,22 +151,49 @@ namespace CraftsmanHero {
 
             // 显示回复数值
             if (currentRecoverText == null) {
-                currentRecoverText = Instantiate(TextsManager.Instance.recoverText, healthEffectParent.transform).GetComponent<FloatingText>();
+                currentRecoverText = Instantiate(GameManager.Instance.recoverTextPrefab, healthEffectParent.transform)
+                    .GetComponent<FloatingText>();
             }
+
             currentRecoverText.UpdateText(recoverAmount);
         }
 
         public void Move(Vector2 direction) {
             rb2d.velocity = direction * MoveSpeed;
         }
-        
-        // 死亡操作
+
+        // 获得金币
+        public void AddExperience(int expAmount) {
+            Experience += expAmount;
+        }
+
+        // 获得经验值
+        public void ObtainGold(int goldAmount) {
+            Gold += goldAmount;
+        }
+
+        // 死亡处理
         protected virtual void Death() {
             Destroy(damageCollider);
             // Player Get Money
-            var gold = Random.Range(0, maximumGoldDrop);
-            GameManager.Instance.ObtainGold(gold);
+            var dropGold = Random.Range(0, Gold);
+            GameManager.Instance.CurrentPlayer.ObtainGold(dropGold);
+
             // Drop Items
+            foreach (var inventoryItemInfo in inventory) {
+                var dropAmount = inventoryItemInfo.Amount;
+
+                if (inventoryItemInfo.randomDrop) {
+                    dropAmount = Random.Range(0, inventoryItemInfo.Amount);
+                }
+
+                for (var i = 0; i < dropAmount; i++) {
+                    var item = Instantiate(GameManager.Instance.gameItemPrefab);
+                    item.transform.position = transform.position;
+                    var itemDisplay = item.GetComponent<GameItemDisplay>();
+                    itemDisplay.GameItemToDisplay = inventoryItemInfo.gameItem;
+                }
+            }
         }
     }
 }

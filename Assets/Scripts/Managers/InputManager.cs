@@ -3,9 +3,11 @@ using UnityEngine;
 public class InputManager : Singleton<InputManager> {
     public PlayerControl Input;
 
-    public delegate void InputEventHandler(bool isScrollingDown);
+    public delegate void InputEventHandler();
+    public delegate void InputScrollEventHandler(bool isScrollingDown);
 
-    public event InputEventHandler OnScroll;
+    public event InputScrollEventHandler OnScroll;
+    public event InputEventHandler OnCancelPressed;
 
     float scroll;
 
@@ -24,6 +26,10 @@ public class InputManager : Singleton<InputManager> {
 
         Input.Player.Scroll.performed += context => {
             Scroll = context.ReadValue<float>();
+        };
+
+        Input.UI.Cancel.performed += context => {
+            OnCancelPressed?.Invoke();
         };
     }
 

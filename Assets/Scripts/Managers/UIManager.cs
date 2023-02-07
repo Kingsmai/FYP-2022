@@ -12,12 +12,14 @@ namespace CraftsmanHero {
 
         [Header("游戏货币相关")] public TextMeshProUGUI GoldAmount;
 
-        [Header("背包和物品栏相关")] public GameObject InventorySlots;
-        Image[] inventorySlotsImages;
-        [SerializeField]
-        int currentSelectedInventorySlot = 0;
+        [Header("背包和物品栏相关")] public GameObject hotbarSlots;
+        Image[] hotbarSlotsImages;
+        [SerializeField] int currentSelectedHotbarSlot = 0;
         public Sprite slotImageNormal;
         public Sprite slotImageSelected;
+
+        [Header("设置界面相关")] public GameObject settingPanel;
+        bool isSettingIsOpen;
 
         protected override void Awake() {
             base.Awake();
@@ -25,35 +27,49 @@ namespace CraftsmanHero {
             var gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
             var inputManager = GameObject.Find("InputManager").GetComponent<InputManager>();
 
-            inventorySlotsImages = InventorySlots.GetComponentsInChildren<Image>();
+            hotbarSlotsImages = hotbarSlots.GetComponentsInChildren<Image>();
 
-            currentPlayer.OnMaxHealthChanged += () => {
-                HealthBar.maxValue = currentPlayer.MaxHealth;
-            };
-            
+            currentPlayer.OnMaxHealthChanged += () => { HealthBar.maxValue = currentPlayer.MaxHealth; };
+
             HealthBar.maxValue = currentPlayer.MaxHealth;
-            
+
             currentPlayer.OnHealthChanged += () => {
                 HealthAmount.text = currentPlayer.Health.ToString();
                 HealthBar.value = currentPlayer.Health;
             };
-            
 
-            gameManager.OnGoldChange += () => { GoldAmount.text = gameManager.Gold.ToString(); };
-            
+
+            currentPlayer.OnGoldChanged += () => { GoldAmount.text = currentPlayer.Gold.ToString(); };
+
+            currentPlayer.OnExperienceChanged += () => { };
+
             inputManager.OnScroll += isScrollingDown => {
-                inventorySlotsImages[currentSelectedInventorySlot].sprite = slotImageNormal;
+                hotbarSlotsImages[currentSelectedHotbarSlot].sprite = slotImageNormal;
+
                 if (isScrollingDown) {
-                    currentSelectedInventorySlot = ++currentSelectedInventorySlot % inventorySlotsImages.Length;
+                    currentSelectedHotbarSlot = ++currentSelectedHotbarSlot % hotbarSlotsImages.Length;
                 }
                 else {
-                    currentSelectedInventorySlot = --currentSelectedInventorySlot;
+                    currentSelectedHotbarSlot = --currentSelectedHotbarSlot;
 
-                    if (currentSelectedInventorySlot == -1) {
-                        currentSelectedInventorySlot = inventorySlotsImages.Length - 1;
+                    if (currentSelectedHotbarSlot == -1) {
+                        currentSelectedHotbarSlot = hotbarSlotsImages.Length - 1;
                     }
                 }
-                inventorySlotsImages[currentSelectedInventorySlot].sprite = slotImageSelected;
+
+                hotbarSlotsImages[currentSelectedHotbarSlot].sprite = slotImageSelected;
+            };
+
+            inputManager.OnCancelPressed += () => {
+                // If menu is not open, open the menu. Else; close the menu.
+                if (isSettingIsOpen) {
+                    settingPanel.SetActive(false);
+                    isSettingIsOpen = false;
+                }
+                else {
+                    settingPanel.SetActive(true);
+                    isSettingIsOpen = true;
+                }
             };
         }
     }
