@@ -21,5 +21,10 @@ namespace CraftsmanHero {
         }
 
         public event InventoryItemInfoEventHandler OnItemAmountChanged;
+
+        public InventoryItemInfo(GameItemScriptableObject gameItem, int amount) {
+            this.gameItem = gameItem;
+            Amount = amount;
+        }
     }
 }

@@ -24,8 +24,8 @@ namespace CraftsmanHero {
             // 随机向某个方向滑动
             var randomDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
             randomDirection = randomDirection.normalized;
-            Debug.Log(randomDirection);
             rb2d.AddForce(randomDirection.normalized * 100);
+            gameObject.tag = "GameItem";
         }
 
         void Update() {

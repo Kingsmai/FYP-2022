@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using CraftsmanHero.Interfaces;
 using UnityEngine;
@@ -6,6 +7,8 @@ namespace CraftsmanHero {
     public class Player : Entity, IAttackable {
         [Header("Player Properties", order = 1)]
         public WeaponsScriptableObject CurrentWeapon;
+
+        [Range(0.1f, 10f)] public float pickupRadius = 1;
 
         // 玩家动画相关
         [Header("玩家图片相关")] public Animator SkinAnimator;
@@ -18,6 +21,9 @@ namespace CraftsmanHero {
         Weapons HeldWeapon;
 
         bool isFacingRight = true;
+
+        // Clock
+        float _elapsedTime;
 
         protected override void Awake() {
             base.Awake();
@@ -34,6 +40,14 @@ namespace CraftsmanHero {
             var angle = InputManager.Instance.GetMouseAngle(handTransform.position);
             Aim(angle);
             Look(angle);
+
+            // Detect game item on ground
+            if (_elapsedTime >= 0.1f) {
+                DetectItemOnGround();
+                _elapsedTime = 0;
+            }
+
+            _elapsedTime += Time.deltaTime;
         }
 
         void FixedUpdate() {
@@ -96,9 +110,45 @@ namespace CraftsmanHero {
         }
         // #ENDREGION
 
+        void DetectItemOnGround() {
+            // TODO: 把 game Items 放在一个 game Manager 的数组 / 对象池里，加速访问。
+            GameObject[] gameItems = GameObject.FindGameObjectsWithTag("GameItem");
+            foreach (var gameItem in gameItems) {
+                if (Vector3.Distance(gameItem.transform.position, transform.position) < pickupRadius) {
+                    // Fly towards player
+                    GameItemScriptableObject itemData = gameItem.GetComponent<GameItemDisplay>().GameItemToDisplay;
+                    PickupGameItem(itemData);
+                    Destroy(gameItem);
+                }
+            }
+        }
+        void PickupGameItem(GameItemScriptableObject gameItem) {
+            InventoryItemInfo inventoryItem = null;
+
+            foreach (var item in inventory) {
+                if (item.gameItem == gameItem && item.Amount < 99) {
+                    inventoryItem = item;
+                    break;
+                }
+            }
+
+            if (inventoryItem == null) {
+                inventoryItem = new InventoryItemInfo(gameItem, 1);
+                inventory.Add(inventoryItem);
+            }
+            else {
+                inventoryItem.Amount++;
+            }
+        }
+
         protected override void Death() {
             // 重写角色死亡操作
             SkinAnimator.SetTrigger("dead");
+        }
+
+        void OnDrawGizmos() {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position + Vector3.up, pickupRadius);
         }
     }
 }
