@@ -1,9 +1,15 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 
 namespace CraftsmanHero {
     public class UIManager : Singleton<UIManager> {
+        Player currentPlayer;
+        GameManager gameManager;
+        InputManager inputManager;
+
         [Header("生命值相关")] public Slider HealthBar;
         public TextMeshProUGUI HealthAmount;
 
@@ -13,6 +19,9 @@ namespace CraftsmanHero {
         [SerializeField] int currentSelectedHotbarSlot;
         public Sprite slotImageNormal;
         public Sprite slotImageSelected;
+        [Space] public GameObject backpackSlots;
+        public GameObject inventorySlotPrefab;
+        [SerializeField] List<InventorySlotDisplay> inventorySlots;
 
         [Header("设置界面相关")] public GameObject settingPanel;
         Image[] hotbarSlotsImages;
@@ -20,9 +29,9 @@ namespace CraftsmanHero {
 
         protected override void Awake() {
             base.Awake();
-            var currentPlayer = GameObject.FindWithTag("Player").GetComponent<Player>();
-            var gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
-            var inputManager = GameObject.Find("InputManager").GetComponent<InputManager>();
+            currentPlayer = GameObject.FindWithTag("Player").GetComponent<Player>();
+            gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+            inputManager = GameObject.Find("InputManager").GetComponent<InputManager>();
 
             hotbarSlotsImages = hotbarSlots.GetComponentsInChildren<Image>();
 
@@ -68,6 +77,34 @@ namespace CraftsmanHero {
                     isSettingIsOpen = true;
                 }
             };
+
+            currentPlayer.OnInventoryItemChange += idx => {
+                inventorySlots[idx].GameItemToDisplay = currentPlayer.inventory[idx].gameItem;
+                inventorySlots[idx].Count = currentPlayer.inventory[idx].Amount;
+                inventorySlots[idx].Enable();
+            };
+
+            inventorySlots = new List<InventorySlotDisplay>();
+
+            CreateInventorySlots();
+        }
+
+        void CreateInventorySlots() {
+            for (var i = 0; i < currentPlayer.inventory.Count; i++) {
+                var currentInventoryItem = currentPlayer.inventory[i];
+                InventorySlotDisplay slot = Instantiate(inventorySlotPrefab, backpackSlots.transform)
+                    .GetComponent<InventorySlotDisplay>();
+                inventorySlots.Add(slot);
+
+                if (currentInventoryItem.gameItem == null) {
+                    slot.Disable();
+                }
+                else {
+                    slot.Enable();
+                    slot.GameItemToDisplay = currentInventoryItem.gameItem;
+                    slot.Count = currentInventoryItem.Amount;
+                }
+            }
         }
     }
 }

@@ -5,6 +5,10 @@ using UnityEngine;
 
 namespace CraftsmanHero {
     public class Player : Entity, IAttackable {
+        public delegate void InventoryItemChangeHandler(int slotIdx);
+
+        public event InventoryItemChangeHandler OnInventoryItemChange;
+
         [Header("Player Properties", order = 1)]
         public WeaponsScriptableObject CurrentWeapon;
 
@@ -113,6 +117,7 @@ namespace CraftsmanHero {
         void DetectItemOnGround() {
             // TODO: 把 game Items 放在一个 game Manager 的数组 / 对象池里，加速访问。
             GameObject[] gameItems = GameObject.FindGameObjectsWithTag("GameItem");
+
             foreach (var gameItem in gameItems) {
                 if (Vector3.Distance(gameItem.transform.position, transform.position) < pickupRadius) {
                     // Fly towards player
@@ -122,23 +127,29 @@ namespace CraftsmanHero {
                 }
             }
         }
-        void PickupGameItem(GameItemScriptableObject gameItem) {
-            InventoryItemInfo inventoryItem = null;
 
-            foreach (var item in inventory) {
-                if (item.gameItem == gameItem && item.Amount < 99) {
-                    inventoryItem = item;
+        void PickupGameItem(GameItemScriptableObject gameItem) {
+            int index = -1;
+            int firstEmptySlotIndex = inventory.Count;
+            for (var i = 0; i < inventory.Count; i++) {
+                // 尝试找找背包里有没有这玩意
+                if (inventory[i].gameItem == gameItem && inventory[i].Amount < 99) {
+                    index = i;
                     break;
                 }
+                // 标记空的背包 index
+                if (inventory[i].gameItem == null && firstEmptySlotIndex == inventory.Count) {
+                    firstEmptySlotIndex = i;
+                }
             }
-
-            if (inventoryItem == null) {
-                inventoryItem = new InventoryItemInfo(gameItem, 1);
-                inventory.Add(inventoryItem);
+            // 如果找不到，index = -1，那么就插入再 first Empty Slot Index
+            if (index == -1 && firstEmptySlotIndex != inventory.Count) {
+                index = firstEmptySlotIndex;
             }
-            else {
-                inventoryItem.Amount++;
-            }
+            // 放入背包操作
+            inventory[index].gameItem = gameItem;
+            inventory[index].Amount += 1;
+            OnInventoryItemChange?.Invoke(index);
         }
 
         protected override void Death() {
