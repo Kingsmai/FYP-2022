@@ -3,6 +3,7 @@ using UnityEngine;
 public class CursorManager : Singleton<CursorManager> {
     [SerializeField] Texture2D normalCursor;
     [SerializeField] Texture2D aimCursor;
+    [SerializeField] Texture2D selectCursor;
 
     void Start() {
         AimCursor();
@@ -16,5 +17,10 @@ public class CursorManager : Singleton<CursorManager> {
     public void NormalCursor() {
         var cursorHotspot = Vector2.zero;
         Cursor.SetCursor(aimCursor, cursorHotspot, CursorMode.Auto);
+    }
+
+    public void SelectCursor() {
+        var cursorHotspot = Vector2.zero;
+        Cursor.SetCursor(selectCursor, cursorHotspot, CursorMode.Auto);
     }
 }

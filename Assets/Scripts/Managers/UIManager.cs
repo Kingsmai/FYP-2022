@@ -1,13 +1,11 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 
 namespace CraftsmanHero {
     public class UIManager : Singleton<UIManager> {
         Player currentPlayer;
-        GameManager gameManager;
         InputManager inputManager;
 
         [Header("生命值相关")] public Slider HealthBar;
@@ -16,21 +14,21 @@ namespace CraftsmanHero {
         [Header("游戏货币相关")] public TextMeshProUGUI GoldAmount;
 
         [Header("背包和物品栏相关")] public GameObject hotbarSlots;
+        Image[] hotbarSlotsImages;
         [SerializeField] int currentSelectedHotbarSlot;
         public Sprite slotImageNormal;
         public Sprite slotImageSelected;
         [Space] public GameObject backpackSlots;
         public GameObject inventorySlotPrefab;
-        [SerializeField] List<InventorySlotDisplay> inventorySlots;
+        List<InventorySlotDisplay> inventorySlots;
 
-        [Header("设置界面相关")] public GameObject settingPanel;
-        Image[] hotbarSlotsImages;
-        bool isSettingIsOpen;
+        [Header("界面开关相关")] public GameObject settingPanel;
+        public GameObject inventoryPanel;
+        Stack<GameObject> currentOpenedPanel;
 
         protected override void Awake() {
             base.Awake();
             currentPlayer = GameObject.FindWithTag("Player").GetComponent<Player>();
-            gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
             inputManager = GameObject.Find("InputManager").GetComponent<InputManager>();
 
             hotbarSlotsImages = hotbarSlots.GetComponentsInChildren<Image>();
@@ -68,13 +66,33 @@ namespace CraftsmanHero {
 
             inputManager.OnCancelPressed += () => {
                 // If menu is not open, open the menu. Else; close the menu.
-                if (isSettingIsOpen) {
-                    settingPanel.SetActive(false);
-                    isSettingIsOpen = false;
+                if (currentOpenedPanel.Count != 0) {
+                    currentOpenedPanel.Peek().SetActive(false);
+                    currentOpenedPanel.Pop();
                 }
-                else {
+                else if (!currentOpenedPanel.Contains(settingPanel)) {
                     settingPanel.SetActive(true);
-                    isSettingIsOpen = true;
+                    currentOpenedPanel.Push(settingPanel);
+                }
+
+                if (currentOpenedPanel.Count == 0) {
+                    CursorManager.Instance.AimCursor();
+                }
+            };
+
+            inputManager.OnInventoryPressed += () => {
+                if (!currentOpenedPanel.Contains(inventoryPanel)) {
+                    inventoryPanel.SetActive(true);
+                    currentOpenedPanel.Push(inventoryPanel);
+                    CursorManager.Instance.SelectCursor();
+                }
+                else if (currentOpenedPanel.Peek() == inventoryPanel) {
+                    inventoryPanel.SetActive(false);
+                    currentOpenedPanel.Pop();
+                }
+
+                if (currentOpenedPanel.Count == 0) {
+                    CursorManager.Instance.AimCursor();
                 }
             };
 
@@ -85,6 +103,7 @@ namespace CraftsmanHero {
             };
 
             inventorySlots = new List<InventorySlotDisplay>();
+            currentOpenedPanel = new Stack<GameObject>();
 
             CreateInventorySlots();
         }

@@ -2,8 +2,12 @@ using UnityEngine;
 
 public class InputManager : Singleton<InputManager> {
     public delegate void InputEventHandler();
+    public event InputEventHandler OnCancelPressed;
+    public event InputEventHandler OnInventoryPressed;
 
     public delegate void InputScrollEventHandler(bool isScrollingDown);
+
+    public event InputScrollEventHandler OnScroll;
 
     public PlayerControl Input;
 
@@ -25,6 +29,8 @@ public class InputManager : Singleton<InputManager> {
         Input.Player.Scroll.performed += context => { Scroll = context.ReadValue<float>(); };
 
         Input.UI.Cancel.performed += context => { OnCancelPressed?.Invoke(); };
+
+        Input.UI.OpenInventory.performed += context => { OnInventoryPressed?.Invoke(); };
     }
 
     void OnEnable() {
@@ -34,9 +40,6 @@ public class InputManager : Singleton<InputManager> {
     void OnDisable() {
         Input.Disable();
     }
-
-    public event InputScrollEventHandler OnScroll;
-    public event InputEventHandler OnCancelPressed;
 
     public float GetMouseAngle(Vector3 origin) {
         origin.z = Camera.main.transform.position.z;
