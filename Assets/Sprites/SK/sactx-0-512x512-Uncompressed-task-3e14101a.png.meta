@@ -1,0 +1,1485 @@
+fileFormatVersion: 2
+guid: 3c9c4b13c8ac4a54f8cf32af7a0c190d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: career_task_icons_304
+  - first:
+      213: 21300002
+    second: career_task_icons_105
+  - first:
+      213: 21300004
+    second: career_task_icons_303
+  - first:
+      213: 21300006
+    second: career_task_icons_100
+  - first:
+      213: 21300008
+    second: career_task_icons_203
+  - first:
+      213: 21300010
+    second: career_task_icons_204
+  - first:
+      213: 21300012
+    second: ui_task_new_18
+  - first:
+      213: 21300014
+    second: ui_task_new_10
+  - first:
+      213: 21300016
+    second: ui_task_new_11
+  - first:
+      213: 21300018
+    second: ui_task_new_12
+  - first:
+      213: 21300020
+    second: ui_task_new_13
+  - first:
+      213: 21300022
+    second: ui_task_new_14
+  - first:
+      213: 21300024
+    second: ui_task_new_15
+  - first:
+      213: 21300026
+    second: ui_task_new_16
+  - first:
+      213: 21300028
+    second: ui_task_new_17
+  - first:
+      213: 21300030
+    second: ui_task_new_9
+  - first:
+      213: 21300032
+    second: ui_task_new_8
+  - first:
+      213: 21300034
+    second: ui_task_new_1
+  - first:
+      213: 21300036
+    second: ui_task_new_0
+  - first:
+      213: 21300038
+    second: ui_task_new_3
+  - first:
+      213: 21300040
+    second: ui_task_new_2
+  - first:
+      213: 21300042
+    second: ui_task_new_5
+  - first:
+      213: 21300044
+    second: ui_task_new_4
+  - first:
+      213: 21300046
+    second: ui_task_new_7
+  - first:
+      213: 21300048
+    second: ui_task_new_6
+  - first:
+      213: 21300050
+    second: career_task_icons_202
+  - first:
+      213: 21300052
+    second: career_task_icons_default
+  - first:
+      213: 21300054
+    second: career_task_icons_101
+  - first:
+      213: 21300056
+    second: career_task_icons_300
+  - first:
+      213: 21300058
+    second: career_task_icons_302
+  - first:
+      213: 21300060
+    second: career_task_icons_305
+  - first:
+      213: 21300062
+    second: career_task_icons_201
+  - first:
+      213: 21300064
+    second: career_task_icons_102
+  - first:
+      213: 21300066
+    second: career_task_icons_301
+  - first:
+      213: 21300068
+    second: career_task_icons_103
+  - first:
+      213: 21300070
+    second: career_task_icons_200
+  - first:
+      213: 21300072
+    second: career_task_icons_104
+  - first:
+      213: 21300074
+    second: career_task_icons_205
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 0
+  flipbookColumns: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: career_task_icons_304
+      rect:
+        serializedVersion: 2
+        x: 207.02675
+        y: 406.0761
+        width: 30.939749
+        height: 30.89713
+      alignment: 9
+      pivot: {x: 0.45076317, y: 0.51292014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5233755, y: -15.600804}
+        - {x: -16.523376, y: -14.600804}
+        - {x: -16.523376, y: 9.399196}
+        - {x: -12.5233755, y: 15.399196}
+        - {x: 7.4766245, y: 15.399196}
+        - {x: 13.4766245, y: 10.399196}
+        - {x: 14.4766245, y: 10.399196}
+        - {x: 14.4766245, y: -10.600804}
+        - {x: 12.4766245, y: -15.600804}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6a6da8b74e4b929b940447a003e749
+      internalID: 21300000
+      vertices:
+      - {x: 30.469875, y: 25.448565}
+      - {x: 31.469875, y: 4.4485645}
+      - {x: 31.469875, y: 25.448565}
+      - {x: 29.469875, y: -0.5514355}
+      - {x: 24.469875, y: 30.448565}
+      - {x: 6.4698744, y: -0.5514355}
+      - {x: 4.4698744, y: 30.448565}
+      - {x: 0.46987438, y: 24.448565}
+      - {x: 0.46987438, y: 0.44856453}
+      indices: 080000000700000005000000060000000500000007000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_105
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 474
+        width: 32
+        height: 27.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5729863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -13.96194}
+        - {x: -16, y: -13.96194}
+        - {x: -16, y: 8.03806}
+        - {x: -12, y: 14.03806}
+        - {x: 7, y: 14.03806}
+        - {x: 16, y: 7.03806}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a1ff8453e7480ebc5732ba01dee29f
+      internalID: 21300002
+      vertices:
+      - {x: 23, y: 25.96194}
+      - {x: 32, y: -2.0380602}
+      - {x: 32, y: 18.96194}
+      - {x: 4, y: 25.96194}
+      - {x: 0, y: 19.96194}
+      - {x: 0, y: -2.0380602}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_303
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 120
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: 1}
+        - {x: 11, y: -3}
+        - {x: 14, y: -2}
+        - {x: 16, y: -5}
+        - {x: 16, y: -16}
+        - {x: -16, y: -16}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716d1773ff0b41b7b5d4408e2e64a2b1
+      internalID: 21300004
+      vertices:
+      - {x: 30, y: 14}
+      - {x: 32, y: 0}
+      - {x: 32, y: 11}
+      - {x: 27, y: 13}
+      - {x: 0, y: 32}
+      - {x: 0, y: 0}
+      - {x: 32, y: 32}
+      - {x: 32, y: 17}
+      indices: 040000000600000003000000070000000300000006000000050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 182
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 91, y: -62.5}
+        - {x: -91, y: -62.5}
+        - {x: -91, y: 62.5}
+        - {x: 91, y: 62.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f221ebd0ef447c924161f6fcdde8ff
+      internalID: 21300006
+      vertices:
+      - {x: 0, y: 125}
+      - {x: 182, y: 0}
+      - {x: 182, y: 125}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_203
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 372
+        width: 32
+        height: 29.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53469}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -14.96194}
+        - {x: -16, y: -8.96194}
+        - {x: -16, y: 6.03806}
+        - {x: -7, y: 15.03806}
+        - {x: 8, y: 15.03806}
+        - {x: 16, y: 10.03806}
+        - {x: 16, y: -1.9619398}
+        - {x: 13, y: -14.96194}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7d9abb102c4159b2277076a7dc9f91
+      internalID: 21300008
+      vertices:
+      - {x: 32, y: 23.96194}
+      - {x: 29, y: -1.0380602}
+      - {x: 32, y: 11.96194}
+      - {x: 24, y: 28.96194}
+      - {x: 9, y: 28.96194}
+      - {x: 2, y: -1.0380602}
+      - {x: 0, y: 19.96194}
+      - {x: 0, y: 4.96194}
+      indices: 070000000600000005000000040000000500000006000000010000000500000004000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_204
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 441
+        width: 32
+        height: 28.97325
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5522335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -14.486626}
+        - {x: -16, y: -11.486626}
+        - {x: -16, y: 11.513374}
+        - {x: -8, y: 14.513374}
+        - {x: 15, y: 14.513374}
+        - {x: 16, y: 13.513374}
+        - {x: 16, y: -11.486626}
+        - {x: 14, y: -14.486626}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bfdee3a76e4b6680f78692789f7e6c
+      internalID: 21300010
+      vertices:
+      - {x: 31, y: 27.486626}
+      - {x: 32, y: 1.4866247}
+      - {x: 32, y: 26.486626}
+      - {x: 30, y: -1.5133753}
+      - {x: 8, y: 27.486626}
+      - {x: 3, y: -1.5133753}
+      - {x: 0, y: 24.486626}
+      - {x: 0, y: 1.4866247}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_18
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 459
+        width: 47
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -10.5}
+        - {x: -23.5, y: 10.5}
+        - {x: 23.5, y: 10.5}
+        - {x: 23.5, y: -10.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08041f9186d343ac9d453c9190c999ec
+      internalID: 21300012
+      vertices:
+      - {x: 0, y: 21}
+      - {x: 47, y: 21}
+      - {x: 0, y: 0}
+      - {x: 47, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_10
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 40
+        width: 22
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 6, z: 2, w: 2}
+      outline:
+      - - {x: -11, y: -11.5}
+        - {x: -11, y: 11.5}
+        - {x: 11, y: 11.5}
+        - {x: 11, y: -11.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99bec6fe1ba462db151ed612a2276e5
+      internalID: 21300014
+      vertices:
+      - {x: 0, y: 23}
+      - {x: 22, y: 23}
+      - {x: 0, y: 0}
+      - {x: 22, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_11
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 18
+        width: 32
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -2}
+        - {x: -16, y: 2}
+        - {x: 16, y: 2}
+        - {x: 16, y: -2}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9183564340e94474bac7ae1988a6e395
+      internalID: 21300016
+      vertices:
+      - {x: 16, y: 4}
+      - {x: 48, y: 4}
+      - {x: 16, y: 0}
+      - {x: 48, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_12
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e03e21f303a456fa5c3b8837f5cfd90
+      internalID: 21300018
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 469
+        width: 168
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -84, y: -7}
+        - {x: -84, y: 7}
+        - {x: 84, y: 7}
+        - {x: 84, y: -7}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36793cff4bc54217baaa367fc3c4184b
+      internalID: 21300020
+      vertices:
+      - {x: 0, y: 14}
+      - {x: 168, y: 14}
+      - {x: 0, y: 0}
+      - {x: 168, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_14
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 92
+        width: 20
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10.5}
+        - {x: -10, y: 10.5}
+        - {x: 10, y: 10.5}
+        - {x: 10, y: -10.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd542d65e244ed8b3e29ada484ba46b
+      internalID: 21300022
+      vertices:
+      - {x: 0, y: 21}
+      - {x: 20, y: 21}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_15
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 0
+        width: 60
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -18}
+        - {x: -30, y: -18}
+        - {x: -30, y: 18}
+        - {x: 30, y: 18}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47577980e22243679d55e76354872208
+      internalID: 21300024
+      vertices:
+      - {x: 0, y: 36}
+      - {x: 60, y: 0}
+      - {x: 60, y: 36}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 487
+        width: 168
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 2, z: 3, w: 3}
+      outline:
+      - - {x: -84, y: -4.5}
+        - {x: -84, y: 4.5}
+        - {x: 84, y: 4.5}
+        - {x: 84, y: -4.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3424946eb91e4c38ab20b75ce1ea658f
+      internalID: 21300026
+      vertices:
+      - {x: 0, y: 9}
+      - {x: 168, y: 9}
+      - {x: 0, y: 0}
+      - {x: 168, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_17
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 138
+        width: 1
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: -2}
+        - {x: -0.5, y: 2}
+        - {x: 0.5, y: 2}
+        - {x: 0.5, y: -2}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262f3b02e6464f5b8525196fdd53fc12
+      internalID: 21300028
+      vertices:
+      - {x: 0, y: 4}
+      - {x: 1, y: 4}
+      - {x: 0, y: 0}
+      - {x: 1, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_9
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 67
+        width: 22
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -10.5}
+        - {x: -11, y: 10.5}
+        - {x: 11, y: 10.5}
+        - {x: 11, y: -10.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6728a4c2085d47659a200416e0ea7815
+      internalID: 21300030
+      vertices:
+      - {x: 0, y: 21}
+      - {x: 22, y: 21}
+      - {x: 0, y: 0}
+      - {x: 22, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_8
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 117
+        width: 23
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 1}
+      outline:
+      - - {x: -11.5, y: -8.5}
+        - {x: -11.5, y: 8.5}
+        - {x: 11.5, y: 8.5}
+        - {x: 11.5, y: -8.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548ab314242e4811b44c76f07c921d40
+      internalID: 21300032
+      vertices:
+      - {x: 0, y: 17}
+      - {x: 23, y: 17}
+      - {x: 0, y: 0}
+      - {x: 23, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 429
+        width: 131
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 2, z: 6, w: 5}
+      outline:
+      - - {x: 65.5, y: -18}
+        - {x: -65.5, y: -18}
+        - {x: -65.5, y: 16}
+        - {x: -63.5, y: 18}
+        - {x: 63.5, y: 18}
+        - {x: 65.5, y: 16}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe40d424b6444e63bfdb7e7d3c44c056
+      internalID: 21300034
+      vertices:
+      - {x: 129, y: 36}
+      - {x: 131, y: 0}
+      - {x: 131, y: 34}
+      - {x: 2, y: 36}
+      - {x: 0, y: 34}
+      - {x: 0, y: 0}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387
+        width: 131
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 2, z: 6, w: 5}
+      outline:
+      - - {x: 65.5, y: -19}
+        - {x: -65.5, y: -19}
+        - {x: -65.5, y: 17}
+        - {x: -63.5, y: 19}
+        - {x: 63.5, y: 19}
+        - {x: 65.5, y: 17}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b03cec1e5504427a562b57703a7a267
+      internalID: 21300036
+      vertices:
+      - {x: 129, y: 38}
+      - {x: 131, y: 0}
+      - {x: 131, y: 36}
+      - {x: 2, y: 38}
+      - {x: 0, y: 36}
+      - {x: 0, y: 0}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 40
+        width: 31
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline:
+      - - {x: -15.5, y: -18}
+        - {x: -15.5, y: 18}
+        - {x: 15.5, y: 18}
+        - {x: 15.5, y: -18}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a6e32c763441058ea4c1b403a784ae
+      internalID: 21300038
+      vertices:
+      - {x: 0, y: 36}
+      - {x: 31, y: 36}
+      - {x: 0, y: 0}
+      - {x: 31, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_2
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 80
+        width: 31
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline:
+      - - {x: -15.5, y: -18}
+        - {x: -15.5, y: 18}
+        - {x: 15.5, y: 18}
+        - {x: 15.5, y: -18}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998cdad209f04220a4c3ea1e3f504bd8
+      internalID: 21300040
+      vertices:
+      - {x: 0, y: 36}
+      - {x: 31, y: 36}
+      - {x: 0, y: 0}
+      - {x: 31, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 21
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: -7}
+        - {x: -10.5, y: 7}
+        - {x: 10.5, y: 7}
+        - {x: 10.5, y: -7}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183954be57764c5f8efb40b078e48010
+      internalID: 21300042
+      vertices:
+      - {x: 0, y: 10.5}
+      - {x: 21, y: 10.5}
+      - {x: 0, y: -3.5}
+      - {x: 21, y: -3.5}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 21
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: -7}
+        - {x: -10.5, y: 7}
+        - {x: 10.5, y: 7}
+        - {x: 10.5, y: -7}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c10012f3aed42eda76f5c083b050f55
+      internalID: 21300044
+      vertices:
+      - {x: 0, y: 10.5}
+      - {x: 21, y: 10.5}
+      - {x: 0, y: -3.5}
+      - {x: 21, y: -3.5}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 484
+        width: 47
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -10.5}
+        - {x: -23.5, y: 10.5}
+        - {x: 23.5, y: 10.5}
+        - {x: 23.5, y: -10.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cb39bd2bfa4871a637956cb71a5d26
+      internalID: 21300046
+      vertices:
+      - {x: 0, y: 21}
+      - {x: 47, y: 21}
+      - {x: 0, y: 0}
+      - {x: 47, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_task_new_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 26
+        width: 8
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -4.5}
+        - {x: -4, y: 4.5}
+        - {x: 4, y: 4.5}
+        - {x: 4, y: -4.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c3bbabb4194c8fbbc6d7f6bfb9f5aa
+      internalID: 21300048
+      vertices:
+      - {x: 0, y: 9}
+      - {x: 8, y: 9}
+      - {x: 0, y: 0}
+      - {x: 8, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_202
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 156
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -16}
+        - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824402f1be6044149c49b5611a0ed41f
+      internalID: 21300050
+      vertices:
+      - {x: 0, y: 32}
+      - {x: 32, y: 0}
+      - {x: 32, y: 32}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_default
+      rect:
+        serializedVersion: 2
+        x: 247.07611
+        y: 40.07612
+        width: 11.847759
+        height: 21.84776
+      alignment: 9
+      pivot: {x: -0.35046634, y: 0.35920203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.07612, y: -14.07612}
+        - {x: -16.07612, y: -11.07612}
+        - {x: -16.07612, y: 5.9238796}
+        - {x: -13.07612, y: 6.9238796}
+        - {x: -5.0761204, y: 6.9238796}
+        - {x: -4.0761204, y: 5.9238796}
+        - {x: -4.0761204, y: -15.07612}
+        - {x: -12.07612, y: -15.07612}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a87280a49149df813856caf272ae27
+      internalID: 21300052
+      vertices:
+      - {x: 10.92388, y: 20.92388}
+      - {x: 11.92388, y: -1.0761204}
+      - {x: 11.92388, y: 19.92388}
+      - {x: 3.9238796, y: -1.0761204}
+      - {x: 2.9238796, y: 20.92388}
+      - {x: 0.9238796, y: -0.07612038}
+      - {x: -0.07612038, y: 19.92388}
+      - {x: -0.07612038, y: 2.9238796}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_101
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 192
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -14}
+        - {x: -16, y: -9}
+        - {x: -16, y: 3}
+        - {x: -9, y: 16}
+        - {x: 5, y: 16}
+        - {x: 13, y: 10}
+        - {x: 16, y: 3}
+        - {x: 16, y: -16}
+        - {x: -3, y: -16}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f822ebf1959c44859ebec975f4e31cc1
+      internalID: 21300054
+      vertices:
+      - {x: 29, y: 26}
+      - {x: 32, y: 0}
+      - {x: 32, y: 19}
+      - {x: 21, y: 32}
+      - {x: 13, y: 0}
+      - {x: 8, y: 2}
+      - {x: 7, y: 32}
+      - {x: 0, y: 19}
+      - {x: 0, y: 7}
+      indices: 080000000700000005000000060000000500000007000000030000000500000006000000040000000500000003000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_300
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 182
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 91, y: -62.5}
+        - {x: -91, y: -62.5}
+        - {x: -91, y: 62.5}
+        - {x: 91, y: 62.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b7fc105c7440d08d45ca76e34016af
+      internalID: 21300056
+      vertices:
+      - {x: 0, y: 125}
+      - {x: 182, y: 0}
+      - {x: 182, y: 125}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_302
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 387.0761
+        width: 32
+        height: 31.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49642336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -16.114182}
+        - {x: -16, y: -6.1141806}
+        - {x: -16, y: 12.885819}
+        - {x: -9, y: 15.885819}
+        - {x: 16, y: 15.885819}
+        - {x: 16, y: -9.114181}
+        - {x: 11, y: -15.114181}
+        - {x: 10, y: -16.114182}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46ee547e6624bc5af46f3a18d73f008
+      internalID: 21300058
+      vertices:
+      - {x: 32, y: 31.96194}
+      - {x: 27, y: 0.9619398}
+      - {x: 32, y: 6.96194}
+      - {x: 26, y: -0.03806019}
+      - {x: 7, y: 31.96194}
+      - {x: 4, y: -0.03806019}
+      - {x: 0, y: 28.96194}
+      - {x: 0, y: 9.96194}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_305
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 423.0761
+        width: 32
+        height: 31.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49642336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -12.114181}
+        - {x: -16, y: -8.114181}
+        - {x: -16, y: 3.8858194}
+        - {x: -7, y: 15.885819}
+        - {x: 8, y: 15.885819}
+        - {x: 16, y: 5.8858194}
+        - {x: 16, y: -9.114181}
+        - {x: 10, y: -16.114182}
+        - {x: -8, y: -16.114182}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef54c3bd392d48edbd6ac976b2191e88
+      internalID: 21300060
+      vertices:
+      - {x: 32, y: 21.96194}
+      - {x: 26, y: -0.03806019}
+      - {x: 32, y: 6.96194}
+      - {x: 24, y: 31.96194}
+      - {x: 9, y: 31.96194}
+      - {x: 8, y: -0.03806019}
+      - {x: 1, y: 3.9619398}
+      - {x: 0, y: 19.96194}
+      - {x: 0, y: 7.96194}
+      indices: 080000000700000006000000040000000600000007000000050000000600000004000000010000000500000004000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_201
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 228
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -16}
+        - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: -2, y: 16}
+        - {x: 16, y: 2}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628c640caaa2420590076222e6400c8e
+      internalID: 21300062
+      vertices:
+      - {x: 14, y: 32}
+      - {x: 32, y: 0}
+      - {x: 32, y: 18}
+      - {x: 0, y: 32}
+      - {x: 0, y: 0}
+      indices: 040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_102
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 264
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -15}
+        - {x: -16, y: -14}
+        - {x: -16, y: 0}
+        - {x: -12, y: 14}
+        - {x: -2, y: 16}
+        - {x: 15, y: 16}
+        - {x: 16, y: 15}
+        - {x: 16, y: -9}
+        - {x: 12, y: -16}
+        - {x: -6, y: -16}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877ccb2213c24928b1e71e6c4727f288
+      internalID: 21300064
+      vertices:
+      - {x: 31, y: 32}
+      - {x: 32, y: 7}
+      - {x: 32, y: 31}
+      - {x: 28, y: 0}
+      - {x: 14, y: 32}
+      - {x: 10, y: 0}
+      - {x: 6, y: 1}
+      - {x: 4, y: 30}
+      - {x: 0, y: 16}
+      - {x: 0, y: 2}
+      indices: 090000000800000006000000070000000600000008000000040000000600000007000000050000000600000004000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_301
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 423
+        width: 32
+        height: 31.957092
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5006713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -15.978546}
+        - {x: -16, y: -15.978546}
+        - {x: -16, y: 16.021454}
+        - {x: 14, y: 16.021454}
+        - {x: 16, y: 9.021454}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e783035ce8f94367a086c02249d8d8ed
+      internalID: 21300066
+      vertices:
+      - {x: 30, y: 31.978546}
+      - {x: 32, y: -0.021453857}
+      - {x: 32, y: 24.978546}
+      - {x: 0, y: 31.978546}
+      - {x: 0, y: -0.021453857}
+      indices: 040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_103
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 387
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -16}
+        - {x: -16, y: -7}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -12}
+        - {x: 11, y: -16}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8586ae3a90b04c74be06e0cd96b6d01f
+      internalID: 21300068
+      vertices:
+      - {x: 32, y: 32}
+      - {x: 27, y: 0}
+      - {x: 32, y: 4}
+      - {x: 5, y: 0}
+      - {x: 0, y: 32}
+      - {x: 0, y: 9}
+      indices: 050000000400000003000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 182
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 91, y: -62.5}
+        - {x: -91, y: -62.5}
+        - {x: -91, y: 62.5}
+        - {x: 91, y: 62.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dae1053c0194a79a05d5380833db65c
+      internalID: 21300070
+      vertices:
+      - {x: 0, y: 125}
+      - {x: 182, y: 0}
+      - {x: 182, y: 125}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_104
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 300
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -16}
+        - {x: -16, y: -16}
+        - {x: -16, y: 11}
+        - {x: -7, y: 16}
+        - {x: 13, y: 16}
+        - {x: 16, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e50ee665e5406dbd800b26b524bf45
+      internalID: 21300072
+      vertices:
+      - {x: 29, y: 32}
+      - {x: 32, y: 0}
+      - {x: 32, y: 29}
+      - {x: 9, y: 32}
+      - {x: 0, y: 27}
+      - {x: 0, y: 0}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: career_task_icons_205
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 336
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -16}
+        - {x: -16, y: -16}
+        - {x: -16, y: 13}
+        - {x: -15, y: 16}
+        - {x: 16, y: 16}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc44e990e0ff446cbdffefe601aeafcb
+      internalID: 21300074
+      vertices:
+      - {x: 1, y: 32}
+      - {x: 32, y: 0}
+      - {x: 32, y: 32}
+      - {x: 0, y: 29}
+      - {x: 0, y: 0}
+      indices: 040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      career_task_icons_102: 21300064
+      ui_task_new_11: 21300016
+      ui_task_new_7: 21300046
+      career_task_icons_105: 21300002
+      career_task_icons_204: 21300010
+      ui_task_new_15: 21300024
+      ui_task_new_14: 21300022
+      career_task_icons_101: 21300054
+      career_task_icons_302: 21300058
+      career_task_icons_304: 21300000
+      ui_task_new_9: 21300030
+      ui_task_new_8: 21300032
+      ui_task_new_1: 21300034
+      career_task_icons_305: 21300060
+      career_task_icons_103: 21300068
+      ui_task_new_4: 21300044
+      career_task_icons_200: 21300070
+      career_task_icons_202: 21300050
+      ui_task_new_3: 21300038
+      ui_task_new_2: 21300040
+      ui_task_new_17: 21300028
+      ui_task_new_18: 21300012
+      ui_task_new_6: 21300048
+      ui_task_new_10: 21300014
+      career_task_icons_203: 21300008
+      ui_task_new_13: 21300020
+      career_task_icons_303: 21300004
+      career_task_icons_205: 21300074
+      ui_task_new_0: 21300036
+      career_task_icons_300: 21300056
+      career_task_icons_301: 21300066
+      career_task_icons_100: 21300006
+      ui_task_new_16: 21300026
+      ui_task_new_5: 21300042
+      career_task_icons_201: 21300062
+      career_task_icons_default: 21300052
+      ui_task_new_12: 21300018
+      career_task_icons_104: 21300072
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

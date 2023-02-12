@@ -1,0 +1,670 @@
+fileFormatVersion: 2
+guid: f022a62d811018944a900b30cde73849
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: hire_board09
+  - first:
+      213: 21300002
+    second: hire_board10
+  - first:
+      213: 21300004
+    second: hire_board02
+  - first:
+      213: 21300006
+    second: hire_board04
+  - first:
+      213: 21300008
+    second: hire_board11
+  - first:
+      213: 21300010
+    second: hire_board07
+  - first:
+      213: 21300012
+    second: hire_board01
+  - first:
+      213: 21300014
+    second: hire_board03
+  - first:
+      213: 21300016
+    second: hire_board05
+  - first:
+      213: 21300018
+    second: hire_board08
+  - first:
+      213: 21300020
+    second: hire_board13
+  - first:
+      213: 21300022
+    second: hire_board06
+  - first:
+      213: 21300024
+    second: hire_board12
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 0
+  flipbookColumns: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hire_board09
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0.29289323
+        width: 58
+        height: 47.707108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4907909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -18.439339}
+        - {x: -29, y: -18.439339}
+        - {x: -29, y: 23.560661}
+        - {x: 29, y: 23.560661}
+      - - {x: 29, y: -24.439339}
+        - {x: -29, y: -24.439339}
+        - {x: -29, y: -19.439339}
+        - {x: 29, y: -19.439339}
+      physicsShape:
+      - - {x: -29, y: 23.560661}
+        - {x: -29, y: -11.439339}
+        - {x: -27, y: -13.439339}
+        - {x: 27, y: -13.439339}
+        - {x: 29, y: -11.439339}
+        - {x: 29, y: 23.560661}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56332cc9bc164fc1b9571cbe3c2e315b
+      internalID: 21300000
+      vertices:
+      - {x: 0, y: 4.853554}
+      - {x: 58, y: -0.14644623}
+      - {x: 58, y: 4.853554}
+      - {x: 0, y: -0.14644623}
+      - {x: 0, y: 47.853554}
+      - {x: 58, y: 5.853554}
+      - {x: 58, y: 47.853554}
+      - {x: 0, y: 5.853554}
+      indices: 070000000400000005000000060000000500000004000000030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hire_board10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104.29289
+        width: 58
+        height: 46.707108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45847872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: -19.939339}
+        - {x: -29, y: -17.939339}
+        - {x: -29, y: 22.060661}
+        - {x: 29, y: 22.060661}
+        - {x: 29, y: -19.939339}
+        - {x: 29, y: -24.939339}
+        - {x: -29, y: -24.939339}
+        - {x: -29, y: -19.939339}
+      physicsShape:
+      - - {x: -29, y: 22.060661}
+        - {x: -29, y: -12.939339}
+        - {x: -27, y: -14.939339}
+        - {x: 27, y: -14.939339}
+        - {x: 29, y: -12.939339}
+        - {x: 29, y: 22.060661}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2d75b78dc54240a9b98adc7414a38c
+      internalID: 21300002
+      vertices:
+      - {x: 2, y: 5.353554}
+      - {x: 58, y: 0.35355377}
+      - {x: 58, y: 5.353554}
+      - {x: 0, y: 5.353554}
+      - {x: 0, y: 0.35355377}
+      - {x: 58, y: 47.353554}
+      - {x: 0, y: 47.353554}
+      - {x: 0, y: 7.353554}
+      indices: 070000000600000000000000050000000000000006000000020000000000000005000000040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hire_board02
+      rect:
+        serializedVersion: 2
+        x: 0.076120496
+        y: 202.07613
+        width: 57.847755
+        height: 36.92388
+      alignment: 9
+      pivot: {x: 0.4986842, y: 0.05004239}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.076117, y: -29.614182}
+        - {x: -29.076117, y: -27.614182}
+        - {x: -29.076117, y: 7.3858185}
+        - {x: 28.923883, y: 7.3858185}
+        - {x: 28.923883, y: -27.614182}
+        - {x: 26.923883, y: -29.614182}
+      physicsShape:
+      - - {x: -29.076117, y: 7.3858185}
+        - {x: -29.076117, y: -27.614182}
+        - {x: -27.076117, y: -29.614182}
+        - {x: 26.923883, y: -29.614182}
+        - {x: 28.923883, y: -27.614182}
+        - {x: 28.923883, y: 7.3858185}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80255c5b398342658216522089d0e34b
+      internalID: 21300004
+      vertices:
+      - {x: 57.923878, y: 42.46194}
+      - {x: 55.923878, y: 5.461941}
+      - {x: 57.923878, y: 7.461941}
+      - {x: 1.9238777, y: 5.461941}
+      - {x: -0.076122284, y: 42.46194}
+      - {x: -0.076122284, y: 7.461941}
+      indices: 050000000400000003000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hire_board04
+      rect:
+        serializedVersion: 2
+        x: 62.076122
+        y: 147.07613
+        width: 57.847755
+        height: 36.92388
+      alignment: 9
+      pivot: {x: 0.4986842, y: 0.05004239}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.076117, y: -29.614182}
+        - {x: -29.076117, y: -27.614182}
+        - {x: -29.076117, y: 7.3858185}
+        - {x: 28.923883, y: 7.3858185}
+        - {x: 28.923883, y: -27.614182}
+        - {x: 26.923883, y: -29.614182}
+      physicsShape:
+      - - {x: -29.076117, y: 7.3858185}
+        - {x: -29.076117, y: -27.614182}
+        - {x: -27.076117, y: -29.614182}
+        - {x: 26.923883, y: -29.614182}
+        - {x: 28.923883, y: -27.614182}
+        - {x: 28.923883, y: 7.3858185}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b6d77a5c88468ca9fc9909696e2774
+      internalID: 21300006
+      vertices:
+      - {x: 57.923878, y: 42.46194}
+      - {x: 55.923878, y: 5.461941}
+      - {x: 57.923878, y: 7.461941}
+      - {x: 1.9238777, y: 5.461941}
+      - {x: -0.076122284, y: 42.46194}
+      - {x: -0.076122284, y: 7.461941}
+      indices: 050000000400000003000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hire_board11
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 52.076122
+        width: 58
+        height: 46.923878
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46560004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -24.61418}
+        - {x: -29, y: -24.61418}
+        - {x: -29, y: 22.38582}
+        - {x: 29, y: 22.38582}
+      physicsShape:
+      - - {x: -29, y: 22.38582}
+        - {x: -29, y: -12.61418}
+        - {x: -27, y: -14.61418}
+        - {x: 27, y: -14.61418}
+        - {x: 29, y: -12.61418}
+        - {x: 29, y: 22.38582}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf35624406904ffd913c7cafa536513e
+      internalID: 21300008
+      vertices:
+      - {x: 0, y: 47.461937}
+      - {x: 58, y: 0.46193886}
+      - {x: 58, y: 47.461937}
+      - {x: 0, y: 0.46193886}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hire_board07
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 103.29289
+        width: 58
+        height: 39.707108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18672258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -28.43934}
+        - {x: -29, y: -28.43934}
+        - {x: -29, y: 11.560659}
+        - {x: 29, y: 11.560659}
+      physicsShape:
+      - - {x: -29, y: 11.560659}
+        - {x: -29, y: -23.43934}
+        - {x: -27, y: -25.43934}
+        - {x: 27, y: -25.43934}
+        - {x: 29, y: -23.43934}
+        - {x: 29, y: 11.560659}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67e6c08a5ca4a9fbef4c27c32efedd0
+      internalID: 21300010
+      vertices:
+      - {x: 0, y: 43.853554}
+      - {x: 58, y: 3.8535538}
+      - {x: 58, y: 43.853554}
+      - {x: 0, y: 3.8535538}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hire_board01
+      rect:
+        serializedVersion: 2
+        x: 62.076122
+        y: 188.07613
+        width: 57.847755
+        height: 36.92388
+      alignment: 9
+      pivot: {x: 0.4986842, y: 0.05004239}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.076117, y: -29.614182}
+        - {x: -29.076117, y: -27.614182}
+        - {x: -29.076117, y: 7.3858185}
+        - {x: 28.923883, y: 7.3858185}
+        - {x: 28.923883, y: -27.614182}
+        - {x: 26.923883, y: -29.614182}
+      physicsShape:
+      - - {x: -29.076117, y: 7.3858185}
+        - {x: -29.076117, y: -27.614182}
+        - {x: -27.076117, y: -29.614182}
+        - {x: 26.923883, y: -29.614182}
+        - {x: 28.923883, y: -27.614182}
+        - {x: 28.923883, y: 7.3858185}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff648aee59b4f1ea641e370d519dd8b
+      internalID: 21300012
+      vertices:
+      - {x: 57.923878, y: 42.46194}
+      - {x: 55.923878, y: 5.461941}
+      - {x: 57.923878, y: 7.461941}
+      - {x: 1.9238777, y: 5.461941}
+      - {x: -0.076122284, y: 42.46194}
+      - {x: -0.076122284, y: 7.461941}
+      indices: 050000000400000003000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hire_board03
+      rect:
+        serializedVersion: 2
+        x: 124.07612
+        y: 0.07612038
+        width: 57.847755
+        height: 36.92388
+      alignment: 9
+      pivot: {x: 0.4986842, y: 0.05004239}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.076117, y: -29.614182}
+        - {x: -29.076117, y: -27.614182}
+        - {x: -29.076117, y: 7.3858185}
+        - {x: 28.923883, y: 7.3858185}
+        - {x: 28.923883, y: -27.614182}
+        - {x: 26.923883, y: -29.614182}
+      physicsShape:
+      - - {x: -29.076117, y: 7.3858185}
+        - {x: -29.076117, y: -27.614182}
+        - {x: -27.076117, y: -29.614182}
+        - {x: 26.923883, y: -29.614182}
+        - {x: 28.923883, y: -27.614182}
+        - {x: 28.923883, y: 7.3858185}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea381296ef6e41bfafada489d0154fe7
+      internalID: 21300014
+      vertices:
+      - {x: 57.923878, y: 42.46194}
+      - {x: 55.923878, y: 5.461941}
+      - {x: 57.923878, y: 7.461941}
+      - {x: 1.9238777, y: 5.461941}
+      - {x: -0.076122284, y: 42.46194}
+      - {x: -0.076122284, y: 7.461941}
+      indices: 050000000400000003000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hire_board05
+      rect:
+        serializedVersion: 2
+        x: 124.07612
+        y: 41.07612
+        width: 57.847755
+        height: 36.92388
+      alignment: 9
+      pivot: {x: 0.4986842, y: 0.05004239}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.076117, y: -29.614182}
+        - {x: -29.076117, y: -27.614182}
+        - {x: -29.076117, y: 7.3858185}
+        - {x: 28.923883, y: 7.3858185}
+        - {x: 28.923883, y: -27.614182}
+        - {x: 26.923883, y: -29.614182}
+      physicsShape:
+      - - {x: -29.076117, y: 7.3858185}
+        - {x: -29.076117, y: -27.614182}
+        - {x: -27.076117, y: -29.614182}
+        - {x: 26.923883, y: -29.614182}
+        - {x: 28.923883, y: -27.614182}
+        - {x: 28.923883, y: 7.3858185}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565fc2f27562491585bdd5dc0056e1ff
+      internalID: 21300016
+      vertices:
+      - {x: 57.923878, y: 42.46194}
+      - {x: 55.923878, y: 5.461941}
+      - {x: 57.923878, y: 7.461941}
+      - {x: 1.9238777, y: 5.461941}
+      - {x: -0.076122284, y: 42.46194}
+      - {x: -0.076122284, y: 7.461941}
+      indices: 050000000400000003000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hire_board08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155.2929
+        width: 58
+        height: 42.707108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31409794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -26.939339}
+        - {x: -29, y: -26.939339}
+        - {x: -29, y: 16.060661}
+        - {x: 29, y: 16.060661}
+      physicsShape:
+      - - {x: -29, y: 16.060661}
+        - {x: -29, y: -18.939339}
+        - {x: -27, y: -20.939339}
+        - {x: 27, y: -20.939339}
+        - {x: 29, y: -18.939339}
+        - {x: 29, y: 16.060661}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d8c41602464cbb9fd74e1b2c336cee
+      internalID: 21300018
+      vertices:
+      - {x: 0, y: 45.353554}
+      - {x: 58, y: 2.3535538}
+      - {x: 58, y: 45.353554}
+      - {x: 0, y: 2.3535538}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hire_board13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 58
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -24}
+        - {x: -29, y: -24}
+        - {x: -29, y: 24}
+        - {x: 29, y: 24}
+      physicsShape:
+      - - {x: -29, y: 24}
+        - {x: -29, y: -11}
+        - {x: -27, y: -13}
+        - {x: 27, y: -13}
+        - {x: 29, y: -11}
+        - {x: 29, y: 24}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3282732921354d1992007b5dc099e725
+      internalID: 21300020
+      vertices:
+      - {x: 0, y: 48}
+      - {x: 58, y: 0}
+      - {x: 58, y: 48}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hire_board06
+      rect:
+        serializedVersion: 2
+        x: 124.07612
+        y: 82.07612
+        width: 57.847755
+        height: 36.92388
+      alignment: 9
+      pivot: {x: 0.4986842, y: 0.05004239}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.076117, y: -29.614182}
+        - {x: -29.076117, y: -27.614182}
+        - {x: -29.076117, y: 7.3858185}
+        - {x: 28.923883, y: 7.3858185}
+        - {x: 28.923883, y: -27.614182}
+        - {x: 26.923883, y: -29.614182}
+      physicsShape:
+      - - {x: -29.076117, y: 7.3858185}
+        - {x: -29.076117, y: -27.614182}
+        - {x: -27.076117, y: -29.614182}
+        - {x: 26.923883, y: -29.614182}
+        - {x: 28.923883, y: -27.614182}
+        - {x: 28.923883, y: 7.3858185}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde8b9ae67a74d359a9b0eec1b2b5521
+      internalID: 21300022
+      vertices:
+      - {x: 57.923878, y: 42.46194}
+      - {x: 55.923878, y: 5.461941}
+      - {x: 57.923878, y: 7.461941}
+      - {x: 1.9238777, y: 5.461941}
+      - {x: -0.076122284, y: 42.46194}
+      - {x: -0.076122284, y: 7.461941}
+      indices: 050000000400000003000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hire_board12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 58
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -24}
+        - {x: -29, y: -24}
+        - {x: -29, y: 24}
+        - {x: 29, y: 24}
+      physicsShape:
+      - - {x: -29, y: 24}
+        - {x: -29, y: -11}
+        - {x: -27, y: -13}
+        - {x: 27, y: -13}
+        - {x: 29, y: -11}
+        - {x: 29, y: 24}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a654e385b84ccbb186b06862fc6ee3
+      internalID: 21300024
+      vertices:
+      - {x: 0, y: 48}
+      - {x: 58, y: 0}
+      - {x: 58, y: 48}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hire_board04: 21300006
+      hire_board08: 21300018
+      hire_board01: 21300012
+      hire_board13: 21300020
+      hire_board02: 21300004
+      hire_board06: 21300022
+      hire_board11: 21300008
+      hire_board07: 21300010
+      hire_board12: 21300024
+      hire_board03: 21300014
+      hire_board10: 21300002
+      hire_board05: 21300016
+      hire_board09: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 83b2cbe6525b3b649abd6d2b92a53c5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: bullet_84_blood_main_2
+  - first:
+      213: 21300002
+    second: portal_center
+  - first:
+      213: 21300004
+    second: portal_particle
+  - first:
+      213: 21300006
+    second: bullet_84_blood_main
+  - first:
+      213: 21300008
+    second: portal_outlight
+  - first:
+      213: 21300010
+    second: portal_particle2
+  - first:
+      213: 21300012
+    second: bossrush_puremode
+  - first:
+      213: 21300014
+    second: portal_inner_mask
+  - first:
+      213: 21300016
+    second: bullet_84_blood_main_4
+  - first:
+      213: 21300018
+    second: relic_entrance_portal_main
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 0
+  flipbookColumns: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bullet_84_blood_main_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 260
+        width: 256
+        height: 1
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -128, y: -0.5}
+        - {x: -128, y: 0.5}
+        - {x: 128, y: 0.5}
+        - {x: 128, y: -0.5}
+      physicsShape:
+      - - {x: -128, y: 0.5}
+        - {x: -128, y: -0.5}
+        - {x: 128, y: -0.5}
+        - {x: 128, y: 0.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d9f30b103147d7ac91abec56feee9f
+      internalID: 21300000
+      vertices:
+      - {x: 0, y: 1}
+      - {x: 256, y: 1}
+      - {x: 0, y: 0}
+      - {x: 256, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_center
+      rect:
+        serializedVersion: 2
+        x: 520.0761
+        y: 0.076120496
+        width: 252.84775
+        height: 252.84775
+      alignment: 9
+      pivot: {x: 0.4898116, y: 0.49772152}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -104.57611, y: -79.57611}
+        - {x: -128.57611, y: -30.576113}
+        - {x: -128.57611, y: 26.423891}
+        - {x: -112.57611, y: 63.42389}
+        - {x: -93.57611, y: 87.42389}
+        - {x: -59.57611, y: 113.42389}
+        - {x: -29.576113, y: 125.42389}
+        - {x: 36.42389, y: 125.42389}
+        - {x: 90.42389, y: 89.42389}
+        - {x: 120.42389, y: 41.42389}
+        - {x: 124.42389, y: 22.42389}
+        - {x: 124.42389, y: -16.57611}
+        - {x: 121.42389, y: -36.57611}
+        - {x: 102.42388, y: -69.57611}
+        - {x: 75.42389, y: -100.57611}
+        - {x: 34.42389, y: -126.57611}
+        - {x: 29.42389, y: -127.57611}
+        - {x: -29.576113, y: -127.57611}
+        - {x: -73.57611, y: -107.57612}
+      physicsShape:
+      - - {x: 65.42389, y: -57.57611}
+        - {x: 74.42389, y: -44.57611}
+        - {x: 81.42389, y: -30.576109}
+        - {x: 85.42389, y: -16.57611}
+        - {x: 85.42389, y: 11.423889}
+        - {x: 82.42389, y: 24.42389}
+        - {x: 75.42389, y: 43.42389}
+        - {x: 66.42389, y: 56.42389}
+        - {x: 41.42389, y: 77.42389}
+        - {x: 28.42389, y: 83.42389}
+        - {x: 7.423888, y: 87.42389}
+        - {x: -16.57611, y: 87.42389}
+        - {x: -38.57611, y: 81.42389}
+        - {x: -51.576107, y: 74.42389}
+        - {x: -71.57611, y: 56.42389}
+        - {x: -79.57611, y: 43.42389}
+        - {x: -86.57611, y: 29.423887}
+        - {x: -90.57611, y: 15.423889}
+        - {x: -90.57611, y: -12.576111}
+        - {x: -87.57611, y: -25.57611}
+        - {x: -80.57611, y: -44.57611}
+        - {x: -71.57611, y: -57.57611}
+        - {x: -46.57611, y: -78.57611}
+        - {x: -32.57611, y: -84.57611}
+        - {x: -18.57611, y: -88.57611}
+        - {x: 9.423889, y: -88.57611}
+        - {x: 12.423888, y: -87.57611}
+        - {x: 28.42389, y: -83.57611}
+        - {x: 46.423885, y: -75.57611}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28f04d60b474bef8fc99b92e8b5d080
+      internalID: 21300002
+      vertices:
+      - {x: 253.42387, y: 149.42387}
+      - {x: 250.42387, y: 90.423874}
+      - {x: 253.42387, y: 110.423874}
+      - {x: 249.42387, y: 168.42387}
+      - {x: 231.42386, y: 57.423874}
+      - {x: 219.42387, y: 216.42387}
+      - {x: 204.42387, y: 26.423874}
+      - {x: 165.42387, y: 252.42387}
+      - {x: 163.42387, y: 0.4238739}
+      - {x: 158.42387, y: -0.5761261}
+      - {x: 99.423874, y: 252.42387}
+      - {x: 99.423874, y: -0.5761261}
+      - {x: 69.423874, y: 240.42387}
+      - {x: 55.423874, y: 19.423866}
+      - {x: 35.423874, y: 214.42387}
+      - {x: 24.423874, y: 47.423874}
+      - {x: 16.423874, y: 190.42387}
+      - {x: 0.4238739, y: 153.42387}
+      - {x: 0.4238739, y: 96.423874}
+      indices: 12000000110000000f000000100000000f000000110000000e0000000f000000100000000d0000000f0000000e0000000c0000000d0000000e0000000b0000000d0000000c0000000a0000000b0000000c000000090000000b0000000a00000007000000090000000a000000080000000900000007000000060000000800000007000000050000000600000007000000040000000600000005000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_particle
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 0
+        width: 175
+        height: 175
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70.5, y: -79.5}
+        - {x: -87.5, y: -66.5}
+        - {x: -87.5, y: 73.5}
+        - {x: -59.500004, y: 87.5}
+        - {x: 47.5, y: 87.5}
+        - {x: 70.5, y: 80.5}
+        - {x: 87.5, y: 62.5}
+        - {x: 87.5, y: -65.5}
+        - {x: 66.5, y: -87.5}
+        - {x: -59.500004, y: -87.5}
+      physicsShape:
+      - - {x: -14.5, y: 16.5}
+        - {x: -16.5, y: 14.5}
+        - {x: -16.5, y: -14.5}
+        - {x: -14.5, y: -16.5}
+        - {x: 14.5, y: -16.5}
+        - {x: 16.5, y: -14.5}
+        - {x: 16.5, y: 14.5}
+        - {x: 14.5, y: 16.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f382c7b45d5a4d138fef86e6536bec63
+      internalID: 21300004
+      vertices:
+      - {x: 158, y: 168}
+      - {x: 175, y: 22}
+      - {x: 175, y: 150}
+      - {x: 154, y: 0}
+      - {x: 135, y: 175}
+      - {x: 27.999996, y: 175}
+      - {x: 27.999996, y: 0}
+      - {x: 17, y: 8}
+      - {x: 0, y: 161}
+      - {x: 0, y: 21}
+      indices: 090000000800000007000000050000000700000008000000060000000700000005000000030000000600000005000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet_84_blood_main
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 265
+        width: 256
+        height: 1
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -128, y: -0.5}
+        - {x: -128, y: 0.5}
+        - {x: 128, y: 0.5}
+        - {x: 128, y: -0.5}
+      physicsShape:
+      - - {x: -128, y: 0.5}
+        - {x: -128, y: -0.5}
+        - {x: 128, y: -0.5}
+        - {x: 128, y: 0.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccffebad299451a938622aa42bee8cf
+      internalID: 21300006
+      vertices:
+      - {x: 0, y: 1}
+      - {x: 256, y: 1}
+      - {x: 0, y: 0}
+      - {x: 256, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_outlight
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: -128}
+        - {x: -128, y: -128}
+        - {x: -128, y: 128}
+        - {x: 128, y: 128}
+      physicsShape:
+      - - {x: -128, y: 128}
+        - {x: -128, y: -128}
+        - {x: 128, y: -128}
+        - {x: 128, y: 128}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236b06012aa841b5a25bac1fed6736bf
+      internalID: 21300008
+      vertices:
+      - {x: 0, y: 256}
+      - {x: 256, y: 0}
+      - {x: 256, y: 256}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_particle2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 175
+        height: 175
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70.5, y: -79.5}
+        - {x: -87.5, y: -66.5}
+        - {x: -87.5, y: 73.5}
+        - {x: -59.500004, y: 87.5}
+        - {x: 47.5, y: 87.5}
+        - {x: 70.5, y: 80.5}
+        - {x: 87.5, y: 62.5}
+        - {x: 87.5, y: -65.5}
+        - {x: 66.5, y: -87.5}
+        - {x: -59.500004, y: -87.5}
+      physicsShape:
+      - - {x: -14.5, y: 16.5}
+        - {x: -16.5, y: 14.5}
+        - {x: -16.5, y: -14.5}
+        - {x: -14.5, y: -16.5}
+        - {x: 14.5, y: -16.5}
+        - {x: 16.5, y: -14.5}
+        - {x: 16.5, y: 14.5}
+        - {x: 14.5, y: 16.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532b96a2e73344e5b0eba4cc2bb44361
+      internalID: 21300010
+      vertices:
+      - {x: 158, y: 168}
+      - {x: 175, y: 22}
+      - {x: 175, y: 150}
+      - {x: 154, y: 0}
+      - {x: 135, y: 175}
+      - {x: 27.999996, y: 175}
+      - {x: 27.999996, y: 0}
+      - {x: 17, y: 8}
+      - {x: 0, y: 161}
+      - {x: 0, y: 21}
+      indices: 090000000800000007000000050000000700000008000000060000000700000005000000030000000600000005000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossrush_puremode
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 270
+        width: 256
+        height: 1
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -128, y: -0.5}
+        - {x: -128, y: 0.5}
+        - {x: 128, y: 0.5}
+        - {x: 128, y: -0.5}
+      physicsShape:
+      - - {x: -128, y: 0.5}
+        - {x: -128, y: -0.5}
+        - {x: 128, y: -0.5}
+        - {x: 128, y: 0.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f48a6c55e894a9a884cb4dd854a67e3
+      internalID: 21300012
+      vertices:
+      - {x: 0, y: 1}
+      - {x: 256, y: 1}
+      - {x: 0, y: 0}
+      - {x: 256, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_inner_mask
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128, y: -128}
+        - {x: -128, y: -128}
+        - {x: -128, y: 128}
+        - {x: 128, y: 128}
+      physicsShape:
+      - - {x: -128, y: 128}
+        - {x: -128, y: -128}
+        - {x: 128, y: -128}
+        - {x: 128, y: 128}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63796c3aa7645e89c8f34fdfa05666c
+      internalID: 21300014
+      vertices:
+      - {x: 0, y: 256}
+      - {x: 256, y: 0}
+      - {x: 256, y: 256}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet_84_blood_main_4
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 275
+        width: 256
+        height: 1
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -128, y: -0.5}
+        - {x: -128, y: 0.5}
+        - {x: 128, y: 0.5}
+        - {x: 128, y: -0.5}
+      physicsShape:
+      - - {x: -128, y: 0.5}
+        - {x: -128, y: -0.5}
+        - {x: 128, y: -0.5}
+        - {x: 128, y: 0.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0604ae8ed734a379efe99dbf54da1a0
+      internalID: 21300016
+      vertices:
+      - {x: 0, y: 1}
+      - {x: 256, y: 1}
+      - {x: 0, y: 0}
+      - {x: 256, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relic_entrance_portal_main
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 280
+        width: 256
+        height: 1
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -128, y: -0.5}
+        - {x: -128, y: 0.5}
+        - {x: 128, y: 0.5}
+        - {x: 128, y: -0.5}
+      physicsShape:
+      - - {x: -128, y: 0.5}
+        - {x: -128, y: -0.5}
+        - {x: 128, y: -0.5}
+        - {x: 128, y: 0.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77ac3c484ae4780aa6fd3917728ddb8
+      internalID: 21300018
+      vertices:
+      - {x: 0, y: 1}
+      - {x: 256, y: 1}
+      - {x: 0, y: 0}
+      - {x: 256, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      portal_particle2: 21300010
+      bullet_84_blood_main_2: 21300000
+      portal_inner_mask: 21300014
+      bossrush_puremode: 21300012
+      bullet_84_blood_main: 21300006
+      portal_outlight: 21300008
+      relic_entrance_portal_main: 21300018
+      bullet_84_blood_main_4: 21300016
+      portal_particle: 21300004
+      portal_center: 21300002
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

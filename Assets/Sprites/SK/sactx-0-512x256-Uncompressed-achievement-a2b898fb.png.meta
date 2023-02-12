@@ -1,0 +1,5024 @@
+fileFormatVersion: 2
+guid: d483f860cb6381b42b470170945e767c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: achievement_flash_master
+  - first:
+      213: 21300002
+    second: achievement_handcut_gold
+  - first:
+      213: 21300004
+    second: achievement_better_null
+  - first:
+      213: 21300006
+    second: achievement_69
+  - first:
+      213: 21300008
+    second: achievement_68
+  - first:
+      213: 21300010
+    second: achievement_18
+  - first:
+      213: 21300012
+    second: achievement_61
+  - first:
+      213: 21300014
+    second: achievement_19
+  - first:
+      213: 21300016
+    second: achievement_60
+  - first:
+      213: 21300018
+    second: achievement_63
+  - first:
+      213: 21300020
+    second: achievement_62
+  - first:
+      213: 21300022
+    second: achievement_14
+  - first:
+      213: 21300024
+    second: achievement_65
+  - first:
+      213: 21300026
+    second: achievement_15
+  - first:
+      213: 21300028
+    second: achievement_64
+  - first:
+      213: 21300030
+    second: achievement_16
+  - first:
+      213: 21300032
+    second: achievement_67
+  - first:
+      213: 21300034
+    second: achievement_17
+  - first:
+      213: 21300036
+    second: achievement_66
+  - first:
+      213: 21300038
+    second: achievement_10
+  - first:
+      213: 21300040
+    second: achievement_11
+  - first:
+      213: 21300042
+    second: achievement_12
+  - first:
+      213: 21300044
+    second: achievement_13
+  - first:
+      213: 21300046
+    second: achievement_5
+  - first:
+      213: 21300048
+    second: achievement_4
+  - first:
+      213: 21300050
+    second: achievement_7
+  - first:
+      213: 21300052
+    second: achievement_6
+  - first:
+      213: 21300054
+    second: achievement_1
+  - first:
+      213: 21300056
+    second: achievement_0
+  - first:
+      213: 21300058
+    second: achievement_3
+  - first:
+      213: 21300060
+    second: achievement_2
+  - first:
+      213: 21300062
+    second: achievement_9
+  - first:
+      213: 21300064
+    second: achievement_8
+  - first:
+      213: 21300066
+    second: achievement_50
+  - first:
+      213: 21300068
+    second: achievement_51
+  - first:
+      213: 21300070
+    second: achievement_52
+  - first:
+      213: 21300072
+    second: achievement_32
+  - first:
+      213: 21300074
+    second: achievement_53
+  - first:
+      213: 21300076
+    second: achievement_43
+  - first:
+      213: 21300078
+    second: achievement_33
+  - first:
+      213: 21300080
+    second: achievement_54
+  - first:
+      213: 21300082
+    second: achievement_42
+  - first:
+      213: 21300084
+    second: achievement_30
+  - first:
+      213: 21300086
+    second: achievement_55
+  - first:
+      213: 21300088
+    second: achievement_41
+  - first:
+      213: 21300090
+    second: achievement_31
+  - first:
+      213: 21300092
+    second: achievement_25
+  - first:
+      213: 21300094
+    second: achievement_56
+  - first:
+      213: 21300096
+    second: achievement_40
+  - first:
+      213: 21300098
+    second: achievement_76
+  - first:
+      213: 21300100
+    second: achievement_36
+  - first:
+      213: 21300102
+    second: achievement_24
+  - first:
+      213: 21300104
+    second: achievement_57
+  - first:
+      213: 21300106
+    second: achievement_47
+  - first:
+      213: 21300108
+    second: achievement_77
+  - first:
+      213: 21300110
+    second: achievement_37
+  - first:
+      213: 21300112
+    second: achievement_27
+  - first:
+      213: 21300114
+    second: achievement_87
+  - first:
+      213: 21300116
+    second: achievement_58
+  - first:
+      213: 21300118
+    second: achievement_46
+  - first:
+      213: 21300120
+    second: achievement_74
+  - first:
+      213: 21300122
+    second: achievement_34
+  - first:
+      213: 21300124
+    second: achievement_26
+  - first:
+      213: 21300126
+    second: achievement_86
+  - first:
+      213: 21300128
+    second: achievement_59
+  - first:
+      213: 21300130
+    second: achievement_45
+  - first:
+      213: 21300132
+    second: achievement_75
+  - first:
+      213: 21300134
+    second: achievement_35
+  - first:
+      213: 21300136
+    second: achievement_21
+  - first:
+      213: 21300138
+    second: achievement_85
+  - first:
+      213: 21300140
+    second: achievement_44
+  - first:
+      213: 21300142
+    second: achievement_72
+  - first:
+      213: 21300144
+    second: achievement_20
+  - first:
+      213: 21300146
+    second: achievement_84
+  - first:
+      213: 21300148
+    second: achievement_73
+  - first:
+      213: 21300150
+    second: achievement_23
+  - first:
+      213: 21300152
+    second: achievement_83
+  - first:
+      213: 21300154
+    second: achievement_70
+  - first:
+      213: 21300156
+    second: achievement_38
+  - first:
+      213: 21300158
+    second: achievement_22
+  - first:
+      213: 21300160
+    second: achievement_82
+  - first:
+      213: 21300162
+    second: achievement_49
+  - first:
+      213: 21300164
+    second: achievement_71
+  - first:
+      213: 21300166
+    second: achievement_39
+  - first:
+      213: 21300168
+    second: achievement_81
+  - first:
+      213: 21300170
+    second: achievement_48
+  - first:
+      213: 21300172
+    second: achievement_80
+  - first:
+      213: 21300174
+    second: achievement_29
+  - first:
+      213: 21300176
+    second: achievement_28
+  - first:
+      213: 21300178
+    second: achievement_78
+  - first:
+      213: 21300180
+    second: achievement_79
+  - first:
+      213: 21300182
+    second: achievement_88
+  - first:
+      213: 21300184
+    second: achievement_seven_steps
+  - first:
+      213: 21300186
+    second: achievement_flash_practicer
+  - first:
+      213: 21300188
+    second: achievement_boss_killer_0
+  - first:
+      213: 21300190
+    second: achievement_mvp_0
+  - first:
+      213: 21300192
+    second: achievement_emoji
+  - first:
+      213: 21300194
+    second: achievement_protect_environment
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 13
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 0
+  flipbookColumns: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: achievement_flash_master
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 149
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: 11}
+        - {x: 7, y: 11}
+        - {x: 16, y: 10}
+        - {x: 16, y: -16}
+        - {x: -16, y: -16}
+      physicsShape:
+      - - {x: 5, y: 11}
+        - {x: 16, y: 11}
+        - {x: 16, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+        - {x: 7, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f8c884727c4a32ad677d169f16c2bc
+      internalID: 21300000
+      vertices:
+      - {x: 23, y: 27}
+      - {x: 32, y: 0}
+      - {x: 32, y: 26}
+      - {x: 21, y: 27}
+      - {x: 0, y: 32}
+      - {x: 0, y: 0}
+      - {x: 32, y: 32}
+      - {x: 32, y: 27}
+      indices: 040000000600000003000000000000000300000006000000070000000000000006000000050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_handcut_gold
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.026751041
+        width: 33
+        height: 35.897125
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45815644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: -19.002064}
+        - {x: -16.5, y: -11.002064}
+        - {x: -16.5, y: 14.997936}
+        - {x: -14.5, y: 16.997936}
+        - {x: 0.5, y: 16.997936}
+        - {x: 14.5, y: 4.9979362}
+        - {x: 16.5, y: 1.9979362}
+        - {x: 16.5, y: -9.002064}
+        - {x: 8.5, y: -19.002064}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3b5c4c1e87473481138cf2a30e53fe
+      internalID: 21300002
+      vertices:
+      - {x: 31, y: 24.448563}
+      - {x: 33, y: 10.448563}
+      - {x: 33, y: 21.448563}
+      - {x: 25, y: 0.44856262}
+      - {x: 17, y: 36.448563}
+      - {x: 7, y: 0.44856262}
+      - {x: 2, y: 36.448563}
+      - {x: 0, y: 34.448563}
+      - {x: 0, y: 8.448563}
+      indices: 080000000700000005000000060000000500000007000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_better_null
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 223.0639
+        width: 32
+        height: 31.936102
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49699885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: -16.095844}
+        - {x: -16, y: -16.095844}
+        - {x: -16, y: 13.904155}
+        - {x: -11, y: 15.904155}
+        - {x: 10, y: 15.904155}
+        - {x: 16, y: 3.9041548}
+        - {x: 16, y: -14.095845}
+      physicsShape:
+      - - {x: 10, y: 15.904155}
+        - {x: -11, y: 15.904155}
+        - {x: -16, y: 13.904155}
+        - {x: -16, y: -16.095844}
+        - {x: 9, y: -16.095844}
+        - {x: 16, y: -14.095845}
+        - {x: 16, y: 3.9041548}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b81b51c7e3b44ffb4558f4f68b3af79
+      internalID: 21300004
+      vertices:
+      - {x: 26, y: 31.968052}
+      - {x: 32, y: 1.968051}
+      - {x: 32, y: 19.968052}
+      - {x: 25, y: -0.031949043}
+      - {x: 5, y: 31.968052}
+      - {x: 0, y: 29.968052}
+      - {x: 0, y: -0.031949043}
+      indices: 060000000500000003000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_69
+      rect:
+        serializedVersion: 2
+        x: 219.02673
+        y: 223.02675
+        width: 31.946497
+        height: 31.946497
+      alignment: 9
+      pivot: {x: 0.4678595, y: 0.46786034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.026776, y: -17.026749}
+        - {x: -17.026775, y: -12.02675}
+        - {x: -17.026775, y: 8.97325}
+        - {x: -14.026776, y: 14.97325}
+        - {x: 10.973224, y: 14.97325}
+        - {x: 14.973224, y: 13.97325}
+        - {x: 14.973224, y: -12.02675}
+        - {x: 6.9732237, y: -17.026749}
+      physicsShape:
+      - - {x: 0.9732237, y: 10.97325}
+        - {x: -1.0267763, y: 8.97325}
+        - {x: -1.0267763, y: 6.9732504}
+        - {x: -1.0267763, y: 8.97325}
+        - {x: -3.0267763, y: 10.97325}
+        - {x: -8.026776, y: 10.97325}
+        - {x: -13.026776, y: 6.9732504}
+        - {x: -13.026776, y: -11.02675}
+        - {x: -9.026776, y: -13.02675}
+        - {x: 7.9732237, y: -13.02675}
+        - {x: 10.973224, y: -6.0267496}
+        - {x: 10.973224, y: 7.9732504}
+        - {x: 6.9732237, y: 10.97325}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e906fd4fc5f640d6b9d771af2da4b09e
+      internalID: 21300006
+      vertices:
+      - {x: 27.973248, y: 31.973248}
+      - {x: 31.973248, y: 4.9732485}
+      - {x: 31.973248, y: 30.973248}
+      - {x: 23.973248, y: -0.026751518}
+      - {x: 4.9732485, y: -0.026751518}
+      - {x: 2.9732485, y: 31.973248}
+      - {x: -0.026751518, y: 25.973248}
+      - {x: -0.026751518, y: 4.9732485}
+      indices: 070000000600000004000000050000000400000006000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_68
+      rect:
+        serializedVersion: 2
+        x: 299.02673
+        y: 34
+        width: 29.946499
+        height: 32.973248
+      alignment: 9
+      pivot: {x: 0.43232006, y: 0.51556945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.0267773, y: -7.4866257}
+        - {x: -2.0267773, y: -8.486626}
+        - {x: -1.0267773, y: -7.4866257}
+      physicsShape:
+      - - {x: 10.973223, y: 11.513374}
+        - {x: 1.9732227, y: 15.513374}
+        - {x: -9.026777, y: 15.513374}
+        - {x: -17.026777, y: 2.5133743}
+        - {x: -17.026777, y: -7.4866257}
+        - {x: -15.026777, y: -11.486626}
+        - {x: -10.026777, y: -16.486626}
+        - {x: 5.9732227, y: -16.486626}
+        - {x: 12.973223, y: -9.486626}
+        - {x: 12.973223, y: 6.5133743}
+      - - {x: -4.0267773, y: -6.4866257}
+        - {x: -4.0267773, y: -7.4866257}
+        - {x: -0.026777267, y: -7.4866257}
+        - {x: -0.026777267, y: -6.4866257}
+        - {x: -3.0267773, y: -9.486626}
+        - {x: -2.0267773, y: -10.486626}
+        - {x: -1.0267773, y: -9.486626}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e041af7acc7d462abf9f6544cb2e9671
+      internalID: 21300008
+      vertices:
+      - {x: 14.973249, y: 7.486624}
+      - {x: 13.973249, y: 8.486624}
+      - {x: 13.973249, y: 6.486624}
+      - {x: 15.973249, y: 8.486624}
+      - {x: 15.973249, y: 6.486624}
+      - {x: 26.97325, y: 32.486626}
+      - {x: 29.97325, y: 2.4866238}
+      - {x: 29.97325, y: 31.486624}
+      - {x: 26.97325, y: -0.51337624}
+      - {x: 4.9732494, y: 32.486626}
+      - {x: 14.973249, y: 5.486624}
+      - {x: 2.9732494, y: -0.51337624}
+      - {x: -0.026750565, y: 21.486624}
+      - {x: -0.026750565, y: 0.48662376}
+      indices: 02000000000000000a000000040000000a000000000000000d0000000c0000000b000000090000000b0000000c000000020000000b000000090000000a0000000b00000002000000080000000b0000000a00000004000000080000000a000000030000000800000004000000050000000100000009000000020000000900000001000000030000000100000005000000080000000300000005000000060000000800000005000000070000000600000005000000040000000000000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_18
+      rect:
+        serializedVersion: 2
+        x: 335.0761
+        y: 136.04291
+        width: 30.91791
+        height: 24.905775
+      alignment: 9
+      pivot: {x: 0.41554436, y: 0.2776137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.611192, y: -17.538704}
+        - {x: -17.61119, y: -12.538703}
+        - {x: -17.61119, y: -7.538703}
+        - {x: -10.611192, y: 4.461297}
+        - {x: -7.6111917, y: 7.461297}
+        - {x: 13.388808, y: 7.461297}
+        - {x: 13.388808, y: -10.538703}
+        - {x: 12.388808, y: -17.538704}
+        - {x: -1.6111917, y: -17.538704}
+        - {x: -3.6111917, y: -15.538703}
+        - {x: -5.6111917, y: -17.538704}
+      physicsShape:
+      - - {x: 13.388808, y: -10.538703}
+        - {x: 13.388808, y: 7.461297}
+        - {x: -7.6111917, y: 7.461297}
+        - {x: -10.611192, y: 4.461297}
+        - {x: -17.61119, y: -7.538703}
+        - {x: -17.61119, y: -12.538703}
+        - {x: -8.611192, y: -17.538704}
+        - {x: -5.6111917, y: -17.538704}
+        - {x: -3.6111917, y: -15.538703}
+        - {x: -1.6111917, y: -17.538704}
+        - {x: 12.388808, y: -17.538704}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e883b0b1fcf94e3abb4e82de8e5ca541
+      internalID: 21300010
+      vertices:
+      - {x: 31.458954, y: 25.452888}
+      - {x: 30.458954, y: 0.45288754}
+      - {x: 31.458954, y: 7.4528875}
+      - {x: 16.458954, y: 0.45288754}
+      - {x: 14.458955, y: 2.4528875}
+      - {x: 12.458955, y: 0.45288754}
+      - {x: 10.458955, y: 25.452888}
+      - {x: 9.458955, y: 0.45288754}
+      - {x: 7.458955, y: 22.452888}
+      - {x: 0.4589548, y: 10.452888}
+      - {x: 0.4589548, y: 5.4528875}
+      indices: 0a0000000900000007000000080000000700000009000000060000000700000008000000050000000700000006000000000000000500000006000000040000000500000000000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_61
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -17}
+        - {x: -17, y: -17}
+        - {x: -17, y: 17}
+        - {x: 17, y: 17}
+      physicsShape:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1b11b8de7b40e4b03b548a84d4d2ac
+      internalID: 21300012
+      vertices:
+      - {x: 0, y: 34}
+      - {x: 34, y: 0}
+      - {x: 34, y: 34}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_19
+      rect:
+        serializedVersion: 2
+        x: 435.02673
+        y: 138.07611
+        width: 25.89713
+        height: 25.84776
+      alignment: 9
+      pivot: {x: 0.19100583, y: 0.34230292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.002062, y: -15.076117}
+        - {x: -19.002062, y: -10.076117}
+        - {x: -19.002062, y: 4.9238834}
+        - {x: -11.002062, y: 8.923883}
+        - {x: -0.0020618439, y: 8.923883}
+        - {x: 3.9979382, y: 6.9238834}
+        - {x: 6.997938, y: 2.9238834}
+        - {x: 6.997938, y: -4.0761166}
+        - {x: 3.9979382, y: -14.076117}
+        - {x: 0.99793816, y: -15.076117}
+        - {x: -10.002062, y: -17.076117}
+        - {x: -16.002062, y: -17.076117}
+      physicsShape:
+      - - {x: 3.9979382, y: 6.9238834}
+        - {x: -0.0020618439, y: 8.923883}
+        - {x: -11.002062, y: 8.923883}
+        - {x: -19.002062, y: 4.9238834}
+        - {x: -19.002062, y: -10.076117}
+        - {x: -17.002062, y: -15.076117}
+        - {x: -16.002062, y: -17.076117}
+        - {x: -10.002062, y: -17.076117}
+        - {x: 0.99793816, y: -15.076117}
+        - {x: 3.9979382, y: -14.076117}
+        - {x: 6.997938, y: -4.0761166}
+        - {x: 6.997938, y: 2.9238834}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd85a78a63c41b0ab51b3480ed011e1
+      internalID: 21300014
+      vertices:
+      - {x: 24.948565, y: 23.92388}
+      - {x: 27.948565, y: 12.92388}
+      - {x: 27.948565, y: 19.92388}
+      - {x: 24.948565, y: 2.9238796}
+      - {x: 21.948565, y: 1.9238796}
+      - {x: 20.948565, y: 25.92388}
+      - {x: 10.948565, y: -0.07612038}
+      - {x: 9.948565, y: 25.92388}
+      - {x: 4.9485645, y: -0.07612038}
+      - {x: 3.9485645, y: 1.9238796}
+      - {x: 1.9485645, y: 21.92388}
+      - {x: 1.9485645, y: 6.9238796}
+      indices: 0b0000000a0000000900000007000000090000000a000000080000000900000007000000060000000800000007000000050000000600000007000000040000000600000005000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_60
+      rect:
+        serializedVersion: 2
+        x: 320.0761
+        y: 194.05133
+        width: 24.84776
+        height: 28.872562
+      alignment: 9
+      pivot: {x: 0.27558938, y: 0.37742993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.576101, y: -17.538912}
+        - {x: -17.576101, y: -11.538912}
+        - {x: -17.576101, y: 0.46108818}
+        - {x: -9.576101, y: 11.461088}
+        - {x: -4.5761013, y: 11.461088}
+        - {x: 7.4238987, y: 2.4610882}
+        - {x: 7.4238987, y: -10.538912}
+        - {x: 0.4238987, y: -17.538912}
+      physicsShape:
+      - - {x: -9.576101, y: 11.461088}
+        - {x: -17.576101, y: 0.46108818}
+        - {x: -17.576101, y: -11.538912}
+        - {x: -13.576101, y: -17.538912}
+        - {x: 0.4238987, y: -17.538912}
+        - {x: 7.4238987, y: -10.538912}
+        - {x: 7.4238987, y: 2.4610882}
+        - {x: -4.5761013, y: 11.461088}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed51800183b04807bab6d93358809712
+      internalID: 21300016
+      vertices:
+      - {x: 25.42388, y: 20.436281}
+      - {x: 18.42388, y: 0.4362812}
+      - {x: 25.42388, y: 7.436281}
+      - {x: 13.42388, y: 29.436281}
+      - {x: 8.42388, y: 29.436281}
+      - {x: 4.4238796, y: 0.4362812}
+      - {x: 0.42387962, y: 18.436281}
+      - {x: 0.42387962, y: 6.436281}
+      indices: 070000000600000005000000040000000500000006000000010000000500000004000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_63
+      rect:
+        serializedVersion: 2
+        x: 435.0761
+        y: 223.07611
+        width: 20.84776
+        height: 21.89713
+      alignment: 9
+      pivot: {x: 0.23253234, y: 0.22138737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.576101, y: -17.100817}
+        - {x: -16.576101, y: -13.100817}
+        - {x: -16.576101, y: -2.1008167}
+        - {x: -13.576101, y: 4.8991833}
+        - {x: 4.4238987, y: 4.8991833}
+        - {x: 4.4238987, y: -15.100817}
+        - {x: 0.4238987, y: -17.100817}
+      physicsShape:
+      - - {x: -13.576101, y: 4.8991833}
+        - {x: -16.576101, y: -2.1008167}
+        - {x: -16.576101, y: -13.100817}
+        - {x: -9.576101, y: -17.100817}
+        - {x: 0.4238987, y: -17.100817}
+        - {x: 4.4238987, y: -15.100817}
+        - {x: 4.4238987, y: 4.8991833}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258efcc1819f4bd69c7b24ae80f43a9d
+      internalID: 21300018
+      vertices:
+      - {x: 20.42388, y: 21.948565}
+      - {x: 16.42388, y: -0.05143547}
+      - {x: 20.42388, y: 1.9485645}
+      - {x: 6.4238796, y: -0.05143547}
+      - {x: 2.4238796, y: 21.948565}
+      - {x: -0.5761204, y: 14.948565}
+      - {x: -0.5761204, y: 3.9485645}
+      indices: 060000000500000003000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_62
+      rect:
+        serializedVersion: 2
+        x: 37.07611
+        y: 223.07613
+        width: 16.84776
+        height: 25.84776
+      alignment: 9
+      pivot: {x: -0.068390206, y: 0.34230277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.576101, y: -17.07612}
+        - {x: -17.576101, y: -16.07612}
+        - {x: -17.576101, y: 7.9238796}
+        - {x: -16.576101, y: 8.92388}
+        - {x: -2.5761013, y: 8.92388}
+        - {x: -0.5761013, y: 7.9238796}
+        - {x: -0.5761013, y: -9.07612}
+        - {x: -1.5761013, y: -14.07612}
+        - {x: -2.5761013, y: -17.07612}
+      physicsShape:
+      - - {x: -2.5761013, y: 8.92388}
+        - {x: -16.576101, y: 8.92388}
+        - {x: -17.576101, y: 7.9238796}
+        - {x: -17.576101, y: -16.07612}
+        - {x: -14.576101, y: -17.07612}
+        - {x: -2.5761013, y: -17.07612}
+        - {x: -1.5761013, y: -14.07612}
+        - {x: -0.5761013, y: -9.07612}
+        - {x: -0.5761013, y: 7.9238796}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9ebd2aa76e4d3babf89dbc6cd1dcc3
+      internalID: 21300020
+      vertices:
+      - {x: 17.42388, y: 24.92388}
+      - {x: 16.42388, y: 2.9238796}
+      - {x: 17.42388, y: 7.9238796}
+      - {x: 15.42388, y: 25.92388}
+      - {x: 15.42388, y: -0.07612038}
+      - {x: 3.4238796, y: -0.07612038}
+      - {x: 1.4238796, y: 25.92388}
+      - {x: 0.42387962, y: 24.92388}
+      - {x: 0.42387962, y: 0.9238796}
+      indices: 080000000700000005000000060000000500000007000000030000000500000006000000040000000500000003000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_14
+      rect:
+        serializedVersion: 2
+        x: 152.07613
+        y: 152.07611
+        width: 33.847755
+        height: 30.89713
+      alignment: 9
+      pivot: {x: 0.49775103, y: 0.48055476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.076122, y: -15.600802}
+        - {x: -17.076122, y: -9.600802}
+        - {x: -17.076122, y: 5.3991976}
+        - {x: -3.0761223, y: 14.399198}
+        - {x: 12.923878, y: 14.399198}
+        - {x: 16.923878, y: 11.399198}
+        - {x: 16.923878, y: -16.600803}
+        - {x: -10.076122, y: -16.600803}
+      physicsShape:
+      - - {x: -3.0761223, y: 14.399198}
+        - {x: -17.076122, y: 5.3991976}
+        - {x: -17.076122, y: -9.600802}
+        - {x: -14.076122, y: -15.600802}
+        - {x: -7.0761223, y: -16.600803}
+        - {x: 14.923878, y: -16.600803}
+        - {x: 16.923878, y: -11.600802}
+        - {x: 16.923878, y: 8.399198}
+        - {x: 12.923878, y: 14.399198}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1bb8c14ed2486196aa79bf75280792
+      internalID: 21300022
+      vertices:
+      - {x: 29.923878, y: 30.448565}
+      - {x: 33.923878, y: -0.5514355}
+      - {x: 33.923878, y: 27.448565}
+      - {x: 13.923878, y: 30.448565}
+      - {x: 6.9238777, y: -0.5514355}
+      - {x: 2.9238777, y: 0.44856453}
+      - {x: -0.076122284, y: 21.448565}
+      - {x: -0.076122284, y: 6.4485645}
+      indices: 070000000600000005000000030000000500000006000000040000000500000003000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_65
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 0
+        width: 34
+        height: 28.97325
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5867481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -14.486625}
+        - {x: -17, y: -3.4866247}
+        - {x: -13, y: 8.513375}
+        - {x: 2, y: 14.513375}
+        - {x: 14, y: 14.513375}
+        - {x: 17, y: 10.513375}
+        - {x: 17, y: -14.486625}
+      physicsShape:
+      - - {x: 2, y: 14.513375}
+        - {x: -13, y: 8.513375}
+        - {x: -17, y: -3.4866247}
+        - {x: -17, y: -14.486625}
+        - {x: 17, y: -14.486625}
+        - {x: 17, y: 10.513375}
+        - {x: 14, y: 14.513375}
+      - - {x: -6, y: -0.48662472}
+        - {x: -2, y: -3.4866247}
+        - {x: -2, y: -7.4866247}
+        - {x: -6, y: -7.4866247}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f9442784ba4bd09f7f33748259bcd4
+      internalID: 21300024
+      vertices:
+      - {x: 19, y: 26.486626}
+      - {x: 11, y: 11.486625}
+      - {x: 15, y: 8.486625}
+      - {x: 4, y: 20.486626}
+      - {x: 11, y: 4.4866247}
+      - {x: 31, y: 26.486626}
+      - {x: 34, y: -2.5133753}
+      - {x: 34, y: 22.486626}
+      - {x: 15, y: 4.4866247}
+      - {x: 0, y: 8.486625}
+      - {x: 0, y: -2.5133753}
+      indices: 09000000040000000a000000060000000a00000004000000030000000400000009000000080000000600000004000000020000000600000008000000000000000600000002000000050000000600000000000000070000000600000005000000000000000100000003000000040000000300000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 36.07611
+        width: 28.92388
+        height: 26.84776
+      alignment: 9
+      pivot: {x: 0.4494556, y: 0.40404725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.461941, y: -15.576117}
+        - {x: -16.46194, y: -7.5761166}
+        - {x: -16.46194, y: 4.4238834}
+        - {x: -15.461941, y: 5.4238834}
+        - {x: -12.461941, y: 5.4238834}
+        - {x: -13.461941, y: 8.423883}
+        - {x: -11.461941, y: 10.423883}
+        - {x: -4.461941, y: 10.423883}
+        - {x: 2.5380592, y: 7.4238834}
+        - {x: 12.538059, y: 1.4238834}
+        - {x: 12.538059, y: -16.576117}
+        - {x: -12.461941, y: -16.576117}
+      physicsShape:
+      - - {x: -4.461941, y: 10.423883}
+        - {x: -11.461941, y: 10.423883}
+        - {x: -13.461941, y: 8.423883}
+        - {x: -12.461941, y: 5.4238834}
+        - {x: -8.461941, y: 5.4238834}
+        - {x: -3.4619408, y: 2.4238834}
+        - {x: -9.461941, y: 5.4238834}
+        - {x: -15.461941, y: 5.4238834}
+        - {x: -16.46194, y: 4.4238834}
+        - {x: -16.46194, y: -7.5761166}
+        - {x: -14.461941, y: -15.576117}
+        - {x: -12.461941, y: -16.576117}
+        - {x: 12.538059, y: -16.576117}
+        - {x: 12.538059, y: 1.4238834}
+        - {x: 2.5380592, y: 7.4238834}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f80d57b7bd24c2baae676d982fa2d18
+      internalID: 21300026
+      vertices:
+      - {x: 11.46194, y: 26.42388}
+      - {x: 12.46194, y: 18.42388}
+      - {x: 18.46194, y: 23.42388}
+      - {x: 7.46194, y: 21.42388}
+      - {x: 6.46194, y: 21.42388}
+      - {x: 4.46194, y: 26.42388}
+      - {x: 3.4619398, y: 21.42388}
+      - {x: 2.4619398, y: 24.42388}
+      - {x: 28.46194, y: -0.5761204}
+      - {x: 28.46194, y: 17.42388}
+      - {x: 3.4619398, y: -0.5761204}
+      - {x: 1.4619398, y: 0.42387962}
+      - {x: 0.4619398, y: 21.42388}
+      - {x: -0.5380602, y: 20.42388}
+      - {x: -0.5380602, y: 8.42388}
+      indices: 0e0000000d0000000b0000000c0000000b0000000d000000060000000b0000000c0000000a0000000b00000006000000080000000a00000006000000040000000800000006000000010000000800000004000000020000000800000001000000090000000800000002000000070000000500000006000000040000000600000005000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_64
+      rect:
+        serializedVersion: 2
+        x: 471.0761
+        y: 179.07611
+        width: 26.84776
+        height: 18.84776
+      alignment: 9
+      pivot: {x: 0.3295537, y: 0.15109211}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.576101, y: -16.576132}
+        - {x: -17.576101, y: -13.576132}
+        - {x: -17.576101, y: 0.42386818}
+        - {x: -15.576101, y: 2.4238682}
+        - {x: 7.4238987, y: 2.4238682}
+        - {x: 9.423899, y: 0.42386818}
+        - {x: 9.423899, y: -11.576132}
+        - {x: 7.4238987, y: -13.576132}
+        - {x: 0.4238987, y: -16.576132}
+      physicsShape:
+      - - {x: 7.4238987, y: 2.4238682}
+        - {x: -15.576101, y: 2.4238682}
+        - {x: -17.576101, y: 0.42386818}
+        - {x: -17.576101, y: -13.576132}
+        - {x: -10.576101, y: -16.576132}
+        - {x: 0.4238987, y: -16.576132}
+        - {x: 7.4238987, y: -13.576132}
+        - {x: 9.423899, y: -11.576132}
+        - {x: 9.423899, y: 0.42386818}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67676a23ea444a1888c07370acf997d4
+      internalID: 21300028
+      vertices:
+      - {x: 25.42388, y: 18.42388}
+      - {x: 27.42388, y: 4.4238796}
+      - {x: 27.42388, y: 16.42388}
+      - {x: 25.42388, y: 2.4238796}
+      - {x: 18.42388, y: -0.5761204}
+      - {x: 7.4238796, y: -0.5761204}
+      - {x: 2.4238796, y: 18.42388}
+      - {x: 0.42387962, y: 16.42388}
+      - {x: 0.42387962, y: 2.4238796}
+      indices: 080000000700000005000000060000000500000007000000000000000500000006000000040000000500000000000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_16
+      rect:
+        serializedVersion: 2
+        x: 405.0363
+        y: 33
+        width: 26.887594
+        height: 33.973248
+      alignment: 9
+      pivot: {x: 0.48079532, y: 0.50039375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.516368, y: -16.986624}
+        - {x: -15.516368, y: -12.986624}
+        - {x: -15.516368, y: 8.013376}
+        - {x: -7.516368, y: 17.013376}
+        - {x: -0.5163679, y: 17.013376}
+        - {x: 6.483632, y: 15.013376}
+        - {x: 11.483632, y: 11.013376}
+        - {x: 11.483632, y: -10.986624}
+        - {x: 8.483632, y: -16.986624}
+      physicsShape:
+      - - {x: -0.5163679, y: 17.013376}
+        - {x: -7.516368, y: 17.013376}
+        - {x: -15.516368, y: 8.013376}
+        - {x: -15.516368, y: -12.986624}
+        - {x: -10.516368, y: -16.986624}
+        - {x: 8.483632, y: -16.986624}
+        - {x: 11.483632, y: -10.986624}
+        - {x: 11.483632, y: 11.013376}
+        - {x: 6.483632, y: 15.013376}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f31c3ee8d0426ca52ada608af3a466
+      internalID: 21300030
+      vertices:
+      - {x: 25.443798, y: 27.986624}
+      - {x: 22.443798, y: -0.013376236}
+      - {x: 25.443798, y: 5.986624}
+      - {x: 20.443798, y: 31.986624}
+      - {x: 13.443797, y: 33.986626}
+      - {x: 6.443797, y: 33.986626}
+      - {x: 3.443797, y: -0.013376236}
+      - {x: -1.5562029, y: 24.986624}
+      - {x: -1.5562029, y: 3.9866238}
+      indices: 080000000700000006000000050000000600000007000000010000000600000005000000040000000100000005000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_67
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 75
+        width: 34
+        height: 32.923878
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5163426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -16.461939}
+        - {x: -17, y: -16.461939}
+        - {x: -17, y: 12.538061}
+        - {x: -10, y: 16.538061}
+        - {x: 17, y: 16.538061}
+      physicsShape:
+      - - {x: -9, y: 16.538061}
+        - {x: -17, y: 7.538061}
+        - {x: -17, y: -16.461939}
+        - {x: 17, y: -16.461939}
+        - {x: 17, y: 16.538061}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117b86c01c5e4da0a7314ff52f0a2013
+      internalID: 21300032
+      vertices:
+      - {x: 7, y: 32.461937}
+      - {x: 34, y: -0.53806114}
+      - {x: 34, y: 32.461937}
+      - {x: 0, y: 28.461939}
+      - {x: 0, y: -0.53806114}
+      indices: 040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_17
+      rect:
+        serializedVersion: 2
+        x: 403.0761
+        y: 138.07611
+        width: 27.84776
+        height: 25.84776
+      alignment: 9
+      pivot: {x: 0.38953796, y: 0.34230292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.07612, y: -17.076117}
+        - {x: -17.07612, y: -11.076117}
+        - {x: -17.07612, y: 6.9238834}
+        - {x: -16.07612, y: 7.9238834}
+        - {x: -9.07612, y: 8.923883}
+        - {x: 10.92388, y: 8.923883}
+        - {x: 10.92388, y: -14.076117}
+        - {x: -0.07612038, y: -17.076117}
+      physicsShape:
+      - - {x: -9.07612, y: 8.923883}
+        - {x: -16.07612, y: 7.9238834}
+        - {x: -17.07612, y: 6.9238834}
+        - {x: -17.07612, y: -11.076117}
+        - {x: -11.07612, y: -17.076117}
+        - {x: -0.07612038, y: -17.076117}
+        - {x: 10.92388, y: -14.076117}
+        - {x: 10.92388, y: 8.923883}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f10e84756d04649a898f81a80341e93
+      internalID: 21300034
+      vertices:
+      - {x: 27.92388, y: 25.92388}
+      - {x: 16.92388, y: -0.07612038}
+      - {x: 27.92388, y: 2.9238796}
+      - {x: 7.9238796, y: 25.92388}
+      - {x: 5.9238796, y: -0.07612038}
+      - {x: 0.9238796, y: 24.92388}
+      - {x: -0.07612038, y: 23.92388}
+      - {x: -0.07612038, y: 5.9238796}
+      indices: 070000000600000004000000050000000400000006000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_66
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 141
+        width: 34
+        height: 28.97325
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5867481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -1.4866247}
+        - {x: -6, y: -0.48662472}
+        - {x: -6, y: -4.4866247}
+      physicsShape:
+      - - {x: -2, y: 14.513375}
+        - {x: -12, y: 7.5133753}
+        - {x: -17, y: -4.4866247}
+        - {x: -17, y: -14.486625}
+        - {x: 17, y: -14.486625}
+        - {x: 17, y: 13.513375}
+        - {x: 13, y: 14.513375}
+      - - {x: -6, y: -0.48662472}
+        - {x: -2, y: -2.4866247}
+        - {x: -3, y: -1.4866247}
+        - {x: -6, y: -4.4866247}
+        - {x: -6, y: -7.4866247}
+        - {x: -5, y: -8.486625}
+        - {x: -6, y: -7.4866247}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff082d0a30764bd5852e99453f885fb4
+      internalID: 21300036
+      vertices:
+      - {x: 11, y: 7.4866247}
+      - {x: 12, y: 3.4866247}
+      - {x: 14, y: 10.486625}
+      - {x: 11, y: 4.4866247}
+      - {x: 15, y: 26.486626}
+      - {x: 14, y: 10.486625}
+      - {x: 15, y: 9.486625}
+      - {x: 11, y: 11.486625}
+      - {x: 5, y: 19.486626}
+      - {x: 30, y: 26.486626}
+      - {x: 34, y: -2.5133753}
+      - {x: 34, y: 25.486626}
+      - {x: 0, y: 7.4866247}
+      - {x: 0, y: -2.5133753}
+      indices: 0200000005000000060000000c000000010000000d0000000a0000000d0000000100000003000000010000000c00000008000000030000000c000000020000000a00000001000000060000000a00000002000000040000000a00000006000000090000000a000000040000000b0000000a00000009000000040000000700000008000000030000000800000007000000000000000300000007000000020000000700000004000000050000000200000004000000060000000500000004000000030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_10
+      rect:
+        serializedVersion: 2
+        x: 370.0761
+        y: 136.07611
+        width: 28.84776
+        height: 25.89713
+      alignment: 9
+      pivot: {x: 0.44536433, y: 0.4188784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.576117, y: -16.100817}
+        - {x: -16.576117, y: -9.100817}
+        - {x: -16.576117, y: 5.8991833}
+        - {x: -13.576117, y: 9.899183}
+        - {x: 9.423883, y: 9.899183}
+        - {x: 12.423883, y: 7.8991833}
+        - {x: 12.423883, y: -14.100817}
+        - {x: 6.4238834, y: -16.100817}
+      physicsShape:
+      - - {x: -10.576117, y: 9.899183}
+        - {x: -16.576117, y: 3.8991833}
+        - {x: -16.576117, y: -9.100817}
+        - {x: -10.576117, y: -16.100817}
+        - {x: 5.4238834, y: -16.100817}
+        - {x: 11.423883, y: -15.100817}
+        - {x: 12.423883, y: -13.100817}
+        - {x: 12.423883, y: 2.8991833}
+        - {x: 7.4238834, y: 9.899183}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0c7d69aff847199bd35df95d7be9f4
+      internalID: 21300038
+      vertices:
+      - {x: 25.42388, y: 24.948565}
+      - {x: 28.42388, y: 0.9485645}
+      - {x: 28.42388, y: 22.948565}
+      - {x: 22.42388, y: -1.0514355}
+      - {x: 6.4238796, y: -1.0514355}
+      - {x: 2.4238796, y: 24.948565}
+      - {x: -0.5761204, y: 20.948565}
+      - {x: -0.5761204, y: 5.9485645}
+      indices: 070000000600000004000000050000000400000006000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_11
+      rect:
+        serializedVersion: 2
+        x: 300.0363
+        y: 165.03629
+        width: 32.963715
+        height: 22.912397
+      alignment: 9
+      pivot: {x: 0.45284426, y: 0.30234414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.554428, y: -14.5287695}
+        - {x: -17.554428, y: -10.5287695}
+        - {x: -17.554428, y: 5.4712305}
+        - {x: -12.554428, y: 6.4712305}
+        - {x: 12.445572, y: 6.4712305}
+        - {x: 15.445572, y: 4.4712305}
+        - {x: 15.445572, y: -16.52877}
+        - {x: -12.554428, y: -16.52877}
+      physicsShape:
+      - - {x: -12.554428, y: 6.4712305}
+        - {x: -17.554428, y: 4.4712305}
+        - {x: -17.554428, y: -7.5287695}
+        - {x: -16.554428, y: -14.5287695}
+        - {x: -12.554428, y: -16.52877}
+        - {x: 15.445572, y: -16.52877}
+        - {x: 15.445572, y: 2.4712305}
+        - {x: 9.445572, y: 6.4712305}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f4331a809b4b6a9bcc8e590331408f
+      internalID: 21300040
+      vertices:
+      - {x: 30.481857, y: 22.4562}
+      - {x: 33.481857, y: -0.5438013}
+      - {x: 33.481857, y: 20.4562}
+      - {x: 5.4818573, y: 22.4562}
+      - {x: 5.4818573, y: -0.5438013}
+      - {x: 1.4818573, y: 1.4561987}
+      - {x: 0.4818573, y: 21.4562}
+      - {x: 0.4818573, y: 5.4561987}
+      indices: 070000000600000005000000030000000500000006000000040000000500000003000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_12
+      rect:
+        serializedVersion: 2
+        x: 265.0761
+        y: 36
+        width: 29.880972
+        height: 33.923878
+      alignment: 9
+      pivot: {x: 0.4968969, y: 0.50112194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.092724, y: -16.961939}
+        - {x: -16.092724, y: -14.961939}
+        - {x: -16.092724, y: 9.038061}
+        - {x: -10.092724, y: 17.038061}
+        - {x: 5.907276, y: 17.038061}
+        - {x: 13.907276, y: 13.038061}
+        - {x: 13.907276, y: -12.961939}
+        - {x: 5.907276, y: -16.961939}
+      physicsShape:
+      - - {x: 1.9072762, y: 17.038061}
+        - {x: -6.092724, y: 17.038061}
+        - {x: -16.092724, y: 8.038061}
+        - {x: -16.092724, y: -14.961939}
+        - {x: -10.092724, y: -16.961939}
+        - {x: 5.907276, y: -16.961939}
+        - {x: 13.907276, y: -12.961939}
+        - {x: 13.907276, y: 4.038061}
+        - {x: 12.907276, y: 10.038061}
+        - {x: 7.907276, y: 16.038061}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748e14293cc148d6825a5799a678e071
+      internalID: 21300042
+      vertices:
+      - {x: 20.940487, y: 33.961937}
+      - {x: 28.940487, y: 3.9619389}
+      - {x: 28.940487, y: 29.961939}
+      - {x: 20.940487, y: -0.038061142}
+      - {x: 4.940486, y: 33.961937}
+      - {x: 4.940486, y: -0.038061142}
+      - {x: -1.059514, y: 25.961939}
+      - {x: -1.059514, y: 1.9619389}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_13
+      rect:
+        serializedVersion: 2
+        x: 403.0761
+        y: 168.07611
+        width: 26.867508
+        height: 25.872562
+      alignment: 9
+      pivot: {x: 0.40375006, y: 0.4965787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.585996, y: -15.088518}
+        - {x: -16.585995, y: -7.088518}
+        - {x: -16.585995, y: 0.91148186}
+        - {x: -14.585996, y: 2.9114819}
+        - {x: -5.5859957, y: 10.911482}
+        - {x: 3.4140043, y: 10.911482}
+        - {x: 7.4140043, y: 7.911482}
+        - {x: 10.414004, y: -4.088518}
+        - {x: 10.414004, y: -13.088518}
+        - {x: -1.5859957, y: -15.088518}
+      physicsShape:
+      - - {x: -14.585996, y: 2.9114819}
+        - {x: -16.585995, y: 0.91148186}
+        - {x: -16.585995, y: -7.088518}
+        - {x: -9.585996, y: -15.088518}
+        - {x: -1.5859957, y: -15.088518}
+        - {x: 10.414004, y: -13.088518}
+        - {x: 10.414004, y: -4.088518}
+        - {x: 7.4140043, y: 7.911482}
+        - {x: 3.4140043, y: 10.911482}
+        - {x: -5.5859957, y: 10.911482}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4074e70273d648209377d275c5925a41
+      internalID: 21300044
+      vertices:
+      - {x: 23.433754, y: 20.936281}
+      - {x: 26.433754, y: -0.063718796}
+      - {x: 26.433754, y: 8.936281}
+      - {x: 19.433754, y: 23.936281}
+      - {x: 14.433754, y: -2.0637188}
+      - {x: 10.433754, y: 23.936281}
+      - {x: 6.433754, y: -2.0637188}
+      - {x: 1.433754, y: 15.936281}
+      - {x: -0.56624603, y: 13.936281}
+      - {x: -0.56624603, y: 5.936281}
+      indices: 090000000800000006000000070000000600000008000000050000000600000007000000040000000600000005000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_5
+      rect:
+        serializedVersion: 2
+        x: 442.05133
+        y: 67.076126
+        width: 31.905775
+        height: 23.84776
+      alignment: 9
+      pivot: {x: 0.4669175, y: 0.37100962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.055523, y: -16.076132}
+        - {x: -17.055523, y: -13.076132}
+        - {x: -17.055523, y: 3.9238682}
+        - {x: -7.055522, y: 7.923868}
+        - {x: 11.944478, y: 7.923868}
+        - {x: 14.944478, y: 0.9238682}
+        - {x: 14.944478, y: -16.076132}
+      physicsShape:
+      - - {x: -7.055522, y: 7.923868}
+        - {x: -17.055523, y: 3.9238682}
+        - {x: -17.055523, y: -13.076132}
+        - {x: -16.055523, y: -16.076132}
+        - {x: 14.944478, y: -16.076132}
+        - {x: 14.944478, y: 0.9238682}
+        - {x: 11.944478, y: 7.923868}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56adb3ca067a4e84901edaeb479d397e
+      internalID: 21300046
+      vertices:
+      - {x: 28.952888, y: 22.92388}
+      - {x: 31.952888, y: -1.0761204}
+      - {x: 31.952888, y: 15.92388}
+      - {x: 9.952888, y: 22.92388}
+      - {x: 0.95288754, y: -1.0761204}
+      - {x: -0.047112465, y: 18.92388}
+      - {x: -0.047112465, y: 1.9238796}
+      indices: 060000000500000004000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_4
+      rect:
+        serializedVersion: 2
+        x: 349.0363
+        y: 195.07611
+        width: 22.887594
+        height: 29.885128
+      alignment: 9
+      pivot: {x: 0.30267176, y: 0.4299044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.516369, y: -7.094816}
+        - {x: -16.516369, y: -2.0948162}
+        - {x: -16.516369, y: 5.905184}
+        - {x: -11.516369, y: 12.905184}
+        - {x: 6.483631, y: 12.905184}
+        - {x: 6.483631, y: -10.094816}
+        - {x: 5.483631, y: -16.094816}
+        - {x: 0.48363113, y: -17.094816}
+        - {x: -3.5163689, y: -17.094816}
+      physicsShape:
+      - - {x: -11.516369, y: 12.905184}
+        - {x: -16.516369, y: 5.905184}
+        - {x: -16.516369, y: -2.0948162}
+        - {x: -13.516369, y: -7.094816}
+        - {x: -3.5163689, y: -17.094816}
+        - {x: 0.48363113, y: -17.094816}
+        - {x: 5.483631, y: -16.094816}
+        - {x: 6.483631, y: -10.094816}
+        - {x: 6.483631, y: 12.905184}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bea3fb1639425aac7ab240468c1c5e
+      internalID: 21300048
+      vertices:
+      - {x: 22.443798, y: 29.942564}
+      - {x: 21.443798, y: 0.942564}
+      - {x: 22.443798, y: 6.942564}
+      - {x: 16.443798, y: -0.05743599}
+      - {x: 12.443797, y: -0.05743599}
+      - {x: 4.443797, y: 29.942564}
+      - {x: 2.443797, y: 9.942564}
+      - {x: -0.5562029, y: 22.942564}
+      - {x: -0.5562029, y: 14.942564}
+      indices: 080000000700000006000000050000000600000007000000040000000600000005000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_7
+      rect:
+        serializedVersion: 2
+        x: 376.0363
+        y: 198.07611
+        width: 28.950802
+        height: 22.872562
+      alignment: 9
+      pivot: {x: 0.30836552, y: 0.299387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.4520283, y: -16.588533}
+        - {x: -18.547972, y: -16.588533}
+        - {x: -18.547972, y: 4.4114666}
+        - {x: -16.547972, y: 6.4114666}
+        - {x: -4.5479717, y: 6.4114666}
+        - {x: 8.452028, y: 4.4114666}
+        - {x: 8.452028, y: -0.5885334}
+        - {x: 5.4520283, y: -2.5885334}
+        - {x: 8.452028, y: -2.5885334}
+        - {x: 9.452028, y: -5.5885334}
+        - {x: 9.452028, y: -7.5885334}
+        - {x: 10.452028, y: -10.588533}
+      physicsShape:
+      - - {x: 8.452028, y: -2.5885334}
+        - {x: 5.4520283, y: -2.5885334}
+        - {x: 8.452028, y: -0.5885334}
+        - {x: 8.452028, y: 4.4114666}
+        - {x: -4.5479717, y: 6.4114666}
+        - {x: -16.547972, y: 6.4114666}
+        - {x: -18.547972, y: 4.4114666}
+        - {x: -18.547972, y: -16.588533}
+        - {x: 5.4520283, y: -16.588533}
+        - {x: 10.452028, y: -10.588533}
+        - {x: 9.452028, y: -7.5885334}
+        - {x: 9.452028, y: -5.5885334}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba12091b73b548f08693264c2046031c
+      internalID: 21300050
+      vertices:
+      - {x: 29.4754, y: 10.436281}
+      - {x: 28.4754, y: 13.436281}
+      - {x: 29.4754, y: 8.436281}
+      - {x: 25.4754, y: 13.436281}
+      - {x: 30.4754, y: 5.436281}
+      - {x: 25.4754, y: -0.5637188}
+      - {x: 28.4754, y: 20.436281}
+      - {x: 28.4754, y: 15.436281}
+      - {x: 15.475401, y: 22.436281}
+      - {x: 3.475401, y: 22.436281}
+      - {x: 1.4754009, y: 20.436281}
+      - {x: 1.4754009, y: -0.5637188}
+      indices: 0b0000000a0000000500000009000000050000000a000000080000000500000009000000030000000500000008000000060000000300000008000000070000000300000006000000050000000300000004000000020000000400000003000000010000000200000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_6
+      rect:
+        serializedVersion: 2
+        x: 449.0761
+        y: 0.0761261
+        width: 29.84776
+        height: 31.872564
+      alignment: 9
+      pivot: {x: 0.5644563, y: 0.46584728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.076124, y: -17.088535}
+        - {x: -15.076124, y: -0.088534355}
+        - {x: -15.076124, y: 13.911466}
+        - {x: -14.076124, y: 14.911466}
+        - {x: 11.923876, y: 14.911466}
+        - {x: 14.923876, y: 2.9114656}
+        - {x: 14.923876, y: -16.088535}
+        - {x: 9.923876, y: -17.088535}
+      physicsShape:
+      - - {x: 8.923876, y: 13.911466}
+        - {x: 4.923876, y: 14.911466}
+        - {x: -13.076124, y: 14.911466}
+        - {x: -15.076124, y: 10.911466}
+        - {x: -15.076124, y: 5.9114656}
+        - {x: -11.076124, y: -0.088534355}
+        - {x: -9.076124, y: -11.088534}
+        - {x: -4.076124, y: -17.088535}
+        - {x: 1.9238758, y: -17.088535}
+        - {x: 13.923876, y: -16.088535}
+        - {x: 14.923876, y: -14.088534}
+        - {x: 14.923876, y: 1.9114656}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95923a5609c6448f81bdf63c1456c70e
+      internalID: 21300052
+      vertices:
+      - {x: 24.92388, y: 31.936283}
+      - {x: 27.92388, y: 0.93628216}
+      - {x: 27.92388, y: 19.936283}
+      - {x: 22.92388, y: -0.06371784}
+      - {x: 6.9238796, y: -0.06371784}
+      - {x: -1.0761204, y: 31.936283}
+      - {x: -2.0761204, y: 30.936283}
+      - {x: -2.0761204, y: 16.936283}
+      indices: 070000000600000004000000050000000400000006000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_1
+      rect:
+        serializedVersion: 2
+        x: 435.0761
+        y: 168.07611
+        width: 22.880972
+        height: 27.84776
+      alignment: 9
+      pivot: {x: 0.21186876, y: 0.38953754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.592723, y: -16.076132}
+        - {x: -17.592724, y: -8.076132}
+        - {x: -17.592724, y: 8.923868}
+        - {x: -13.592723, y: 10.923868}
+        - {x: 0.4072771, y: 10.923868}
+        - {x: 5.407277, y: 6.923868}
+        - {x: 5.407277, y: -14.076132}
+        - {x: 3.407277, y: -15.076132}
+        - {x: -10.592723, y: -17.076132}
+        - {x: -12.592723, y: -17.076132}
+      physicsShape:
+      - - {x: 0.4072771, y: 10.923868}
+        - {x: -13.592723, y: 10.923868}
+        - {x: -17.592724, y: 8.923868}
+        - {x: -17.592724, y: -8.076132}
+        - {x: -15.592723, y: -16.076132}
+        - {x: -12.592723, y: -17.076132}
+        - {x: -10.592723, y: -17.076132}
+        - {x: 3.407277, y: -15.076132}
+        - {x: 5.407277, y: -14.076132}
+        - {x: 5.407277, y: 6.923868}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d3dd084a9f446180d58f239bbf1cac
+      internalID: 21300054
+      vertices:
+      - {x: 23.440487, y: 23.92388}
+      - {x: 21.440487, y: 1.9238796}
+      - {x: 23.440487, y: 2.9238796}
+      - {x: 18.440487, y: 27.92388}
+      - {x: 7.440486, y: -0.07612038}
+      - {x: 5.440486, y: -0.07612038}
+      - {x: 4.440486, y: 27.92388}
+      - {x: 2.440486, y: 0.9238796}
+      - {x: 0.44048595, y: 25.92388}
+      - {x: 0.44048595, y: 8.92388}
+      indices: 090000000800000007000000060000000700000008000000050000000700000006000000030000000500000006000000040000000500000003000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_0
+      rect:
+        serializedVersion: 2
+        x: 301.0761
+        y: 109.07611
+        width: 29.84776
+        height: 29.910967
+      alignment: 9
+      pivot: {x: 0.43044302, y: 0.429533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.07612, y: -17.107735}
+        - {x: -17.07612, y: -11.107736}
+        - {x: -17.07612, y: 4.8922644}
+        - {x: -10.07612, y: 12.892264}
+        - {x: 1.9238796, y: 12.892264}
+        - {x: 10.92388, y: 4.8922644}
+        - {x: 12.92388, y: 0.89226437}
+        - {x: 12.92388, y: -10.107736}
+        - {x: 8.92388, y: -17.107735}
+      physicsShape:
+      - - {x: 3.9238796, y: 10.892264}
+        - {x: 0.9238796, y: 12.892264}
+        - {x: -7.0761204, y: 12.892264}
+        - {x: -17.07612, y: 0.89226437}
+        - {x: -17.07612, y: -9.107736}
+        - {x: -12.07612, y: -16.107735}
+        - {x: -9.07612, y: -17.107735}
+        - {x: 8.92388, y: -17.107735}
+        - {x: 12.92388, y: -9.107736}
+        - {x: 12.92388, y: -0.107735634}
+        - {x: 8.92388, y: 1.8922644}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae33227f8ab4bf58a30ad6c48e3fcf8
+      internalID: 21300056
+      vertices:
+      - {x: 27.92388, y: 21.955482}
+      - {x: 29.92388, y: 6.9554834}
+      - {x: 29.92388, y: 17.955482}
+      - {x: 25.92388, y: -0.044516563}
+      - {x: 18.92388, y: 29.955482}
+      - {x: 6.9238796, y: 29.955482}
+      - {x: 4.9238796, y: -0.044516563}
+      - {x: -0.07612038, y: 21.955482}
+      - {x: -0.07612038, y: 5.9554834}
+      indices: 080000000700000006000000050000000600000007000000030000000600000005000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_3
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 106.07611
+        width: 33.923878
+        height: 24.84776
+      alignment: 9
+      pivot: {x: 0.50112194, y: 0.27558815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.038061, y: -17.576132}
+        - {x: -16.961939, y: -17.576132}
+        - {x: -16.961939, y: -0.57613134}
+        - {x: -15.961939, y: 3.4238687}
+        - {x: -5.961939, y: 7.4238687}
+        - {x: 7.038061, y: 7.4238687}
+        - {x: 17.038061, y: 0.42386866}
+      physicsShape:
+      - - {x: -13.961939, y: 2.4238687}
+        - {x: -16.961939, y: -1.5761313}
+        - {x: -16.961939, y: -15.576132}
+        - {x: -15.961939, y: -17.576132}
+        - {x: 15.038061, y: -17.576132}
+        - {x: 17.038061, y: -16.576132}
+        - {x: 17.038061, y: -0.57613134}
+        - {x: 15.038061, y: 2.4238687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105a8e4ca7b3477e8c652088878db1ad
+      internalID: 21300058
+      vertices:
+      - {x: 23.961939, y: 25.42388}
+      - {x: 33.961937, y: 0.42387962}
+      - {x: 33.961937, y: 18.42388}
+      - {x: 10.961939, y: 25.42388}
+      - {x: 0.96193886, y: 21.42388}
+      - {x: -0.038061142, y: 17.42388}
+      - {x: -0.038061142, y: 0.42387962}
+      indices: 060000000500000001000000040000000100000005000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_2
+      rect:
+        serializedVersion: 2
+        x: 412.02673
+        y: 105.07611
+        width: 25.916878
+        height: 28.887594
+      alignment: 9
+      pivot: {x: 0.34519985, y: 0.30628192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.011936, y: -18.59605}
+        - {x: -17.011936, y: -11.596049}
+        - {x: -17.011936, y: 3.4039507}
+        - {x: -16.011936, y: 7.4039507}
+        - {x: -12.011936, y: 10.403951}
+        - {x: -9.011936, y: 10.403951}
+        - {x: 4.988064, y: 8.403951}
+        - {x: 8.988064, y: 3.4039507}
+        - {x: 8.988064, y: -12.596049}
+        - {x: 6.988064, y: -18.59605}
+      physicsShape:
+      - - {x: -9.011936, y: 10.403951}
+        - {x: -12.011936, y: 10.403951}
+        - {x: -16.011936, y: 7.4039507}
+        - {x: -17.011936, y: 3.4039507}
+        - {x: -17.011936, y: -11.596049}
+        - {x: -8.011936, y: -18.59605}
+        - {x: 6.988064, y: -18.59605}
+        - {x: 8.988064, y: -12.596049}
+        - {x: 8.988064, y: 3.4039507}
+        - {x: 4.988064, y: 8.403951}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989068e41d2e4e7292fe2acae7050263
+      internalID: 21300060
+      vertices:
+      - {x: 25.958439, y: 23.443798}
+      - {x: 23.958439, y: 1.4437971}
+      - {x: 25.958439, y: 7.443797}
+      - {x: 21.958439, y: 28.443798}
+      - {x: 8.958439, y: 1.4437971}
+      - {x: 7.958439, y: 30.443798}
+      - {x: 4.958439, y: 30.443798}
+      - {x: 0.9584389, y: 27.443798}
+      - {x: -0.041561127, y: 23.443798}
+      - {x: -0.041561127, y: 8.443797}
+      indices: 090000000800000004000000070000000400000008000000060000000400000007000000050000000400000006000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_9
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: -1, y: -17}
+        - {x: -17, y: -17}
+        - {x: -17, y: 3}
+        - {x: -4, y: 17}
+        - {x: 17, y: 17}
+        - {x: 17, y: -17}
+        - {x: 7, y: -17}
+        - {x: -1, y: -10}
+        - {x: 0, y: -13}
+      physicsShape:
+      - - {x: 7, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+        - {x: -4, y: 17}
+        - {x: -17, y: 3}
+        - {x: -17, y: -17}
+        - {x: -1, y: -17}
+        - {x: 0, y: -16}
+        - {x: 0, y: -13}
+        - {x: -1, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a02edd79dc47daaa9362e7e7646d2e
+      internalID: 21300062
+      vertices:
+      - {x: 34, y: 34}
+      - {x: 24, y: 0}
+      - {x: 34, y: 0}
+      - {x: 16, y: 7}
+      - {x: 13, y: 34}
+      - {x: 16, y: 0}
+      - {x: 0, y: 20}
+      - {x: 0, y: 0}
+      - {x: 17, y: 1}
+      - {x: 17, y: 4}
+      indices: 050000000300000008000000090000000800000003000000070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_8
+      rect:
+        serializedVersion: 2
+        x: 373.05414
+        y: 33
+        width: 27.869753
+        height: 33.973248
+      alignment: 9
+      pivot: {x: 0.46257153, y: 0.50039375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.0431223, y: -16.986624}
+        - {x: -16.043121, y: -12.986624}
+        - {x: -16.043121, y: 5.013376}
+        - {x: -11.043122, y: 17.013376}
+        - {x: 3.9568777, y: 17.013376}
+        - {x: 11.956878, y: 13.013376}
+        - {x: 11.956878, y: -9.986624}
+        - {x: 4.9568777, y: -16.986624}
+      physicsShape:
+      - - {x: -11.043122, y: 17.013376}
+        - {x: -16.043121, y: 5.013376}
+        - {x: -16.043121, y: -12.986624}
+        - {x: -7.0431223, y: -16.986624}
+        - {x: 4.9568777, y: -16.986624}
+        - {x: 11.956878, y: -9.986624}
+        - {x: 11.956878, y: 13.013376}
+        - {x: 3.9568777, y: 17.013376}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd42e6d27814fe8b997a7b97af61c74
+      internalID: 21300064
+      vertices:
+      - {x: 26.934875, y: 29.986624}
+      - {x: 19.934875, y: -0.013376236}
+      - {x: 26.934875, y: 6.986624}
+      - {x: 18.934875, y: 33.986626}
+      - {x: 7.9348764, y: -0.013376236}
+      - {x: 3.9348764, y: 33.986626}
+      - {x: -1.0651236, y: 21.986624}
+      - {x: -1.0651236, y: 3.9866238}
+      indices: 070000000600000004000000050000000400000006000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_50
+      rect:
+        serializedVersion: 2
+        x: 471.0761
+        y: 202.07611
+        width: 19.84776
+        height: 23.84776
+      alignment: 9
+      pivot: {x: 0.14347956, y: 0.28714427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.076132, y: -17.076132}
+        - {x: -17.076132, y: -15.076132}
+        - {x: -17.076132, y: 4.9238677}
+        - {x: -15.076132, y: 6.9238677}
+        - {x: 0.9238682, y: 6.9238677}
+        - {x: 2.9238682, y: 4.9238677}
+        - {x: 2.9238682, y: -15.076132}
+        - {x: 0.9238682, y: -17.076132}
+      physicsShape:
+      - - {x: -15.076132, y: 6.9238677}
+        - {x: -17.076132, y: 4.9238677}
+        - {x: -17.076132, y: -15.076132}
+        - {x: -15.076132, y: -17.076132}
+        - {x: 0.9238682, y: -17.076132}
+        - {x: 2.9238682, y: -15.076132}
+        - {x: 2.9238682, y: 4.9238677}
+        - {x: 0.9238682, y: 6.9238677}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb39ec56857a4177b1803f393d75c718
+      internalID: 21300066
+      vertices:
+      - {x: 17.92388, y: 23.92388}
+      - {x: 19.92388, y: 1.9238796}
+      - {x: 19.92388, y: 21.92388}
+      - {x: 17.92388, y: -0.07612038}
+      - {x: 1.9238796, y: 23.92388}
+      - {x: 1.9238796, y: -0.07612038}
+      - {x: -0.07612038, y: 21.92388}
+      - {x: -0.07612038, y: 1.9238796}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_51
+      rect:
+        serializedVersion: 2
+        x: 255.02673
+        y: 207.07611
+        width: 28.89713
+        height: 29.89713
+      alignment: 9
+      pivot: {x: 0.44802037, y: 0.42973182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.502062, y: -17.100817}
+        - {x: -16.502062, y: -6.1008167}
+        - {x: -16.502062, y: 9.899183}
+        - {x: -11.502062, y: 12.899183}
+        - {x: 4.497938, y: 12.899183}
+        - {x: 10.497938, y: 11.899183}
+        - {x: 12.497938, y: 9.899183}
+        - {x: 12.497938, y: -11.100817}
+        - {x: 8.497938, y: -17.100817}
+      physicsShape:
+      - - {x: 10.497938, y: 11.899183}
+        - {x: 4.497938, y: 12.899183}
+        - {x: -11.502062, y: 12.899183}
+        - {x: -16.502062, y: 9.899183}
+        - {x: -16.502062, y: -6.1008167}
+        - {x: -11.502062, y: -17.100817}
+        - {x: 8.497938, y: -17.100817}
+        - {x: 12.497938, y: -11.100817}
+        - {x: 12.497938, y: 9.899183}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc9ec4f3b8548f3a799ae5c6c3894f5
+      internalID: 21300068
+      vertices:
+      - {x: 26.448565, y: 28.948565}
+      - {x: 28.448565, y: 5.9485645}
+      - {x: 28.448565, y: 26.948565}
+      - {x: 24.448565, y: -0.05143547}
+      - {x: 20.448565, y: 29.948565}
+      - {x: 4.4485645, y: 29.948565}
+      - {x: 4.4485645, y: -0.05143547}
+      - {x: -0.5514355, y: 26.948565}
+      - {x: -0.5514355, y: 10.948565}
+      indices: 080000000700000006000000050000000600000007000000030000000600000005000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -17}
+        - {x: -17, y: -17}
+        - {x: -17, y: 17}
+        - {x: 17, y: 17}
+      physicsShape:
+      - - {x: 17, y: 17}
+        - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+      - - {x: -9, y: 2}
+        - {x: -12, y: 1}
+        - {x: -6, y: -1}
+        - {x: -6, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a0f9fd07a84affb7d92e55b2fb9ed1
+      internalID: 21300070
+      vertices:
+      - {x: 0, y: 34}
+      - {x: 34, y: 0}
+      - {x: 34, y: 34}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_32
+      rect:
+        serializedVersion: 2
+        x: 468.0761
+        y: 95.07611
+        width: 21.880972
+        height: 23.84776
+      alignment: 9
+      pivot: {x: 0.31295446, y: 0.2871449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.092738, y: -17.076117}
+        - {x: -16.09274, y: -16.076117}
+        - {x: -16.09274, y: 4.923883}
+        - {x: -10.092738, y: 6.923883}
+        - {x: 5.907262, y: 6.923883}
+        - {x: 5.907262, y: -10.076117}
+        - {x: 3.9072618, y: -17.076117}
+      physicsShape:
+      - - {x: -10.092738, y: 6.923883}
+        - {x: -16.09274, y: 4.923883}
+        - {x: -16.09274, y: -16.076117}
+        - {x: -15.092738, y: -17.076117}
+        - {x: 3.9072618, y: -17.076117}
+        - {x: 5.907262, y: -10.076117}
+        - {x: 5.907262, y: 6.923883}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa723e49f6664a0cbe84b865d1230e13
+      internalID: 21300072
+      vertices:
+      - {x: 20.940487, y: 23.92388}
+      - {x: 18.940487, y: -0.07612038}
+      - {x: 20.940487, y: 6.9238796}
+      - {x: 4.940486, y: 23.92388}
+      - {x: -0.059514046, y: -0.07612038}
+      - {x: -1.059514, y: 21.92388}
+      - {x: -1.059514, y: 0.9238796}
+      indices: 060000000500000004000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_53
+      rect:
+        serializedVersion: 2
+        x: 38.07611
+        y: 150.02675
+        width: 33.847755
+        height: 31.960337
+      alignment: 9
+      pivot: {x: 0.49775082, y: 0.46765786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.9238701, y: -2.0336657}
+        - {x: -0.07612991, y: -0.033665657}
+        - {x: -0.07612991, y: -4.0336657}
+        - {x: 2.92387, y: -2.0336657}
+      physicsShape:
+      - - {x: -16.07613, y: 14.966334}
+        - {x: -17.07613, y: 9.966334}
+        - {x: -17.07613, y: 6.9663343}
+        - {x: -14.07613, y: 5.9663343}
+        - {x: -1.0761299, y: 5.9663343}
+        - {x: -0.07612991, y: 4.9663343}
+        - {x: -0.07612991, y: -0.033665657}
+        - {x: 1.9238701, y: -2.0336657}
+        - {x: 4.92387, y: -2.0336657}
+        - {x: 2.92387, y: -2.0336657}
+        - {x: -0.07612991, y: -4.0336657}
+        - {x: -0.07612991, y: 3.9663343}
+        - {x: -2.07613, y: 5.9663343}
+        - {x: -12.07613, y: 5.9663343}
+        - {x: -16.07613, y: 2.9663343}
+        - {x: -17.07613, y: -8.033666}
+        - {x: -17.07613, y: -16.033665}
+        - {x: -16.07613, y: -17.033665}
+        - {x: 15.92387, y: -17.033665}
+        - {x: 16.92387, y: -16.033665}
+        - {x: 16.92387, y: 11.966334}
+        - {x: 13.92387, y: 14.966334}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859daa51b2ce42a2840b949ded72dcb0
+      internalID: 21300074
+      vertices:
+      - {x: 16.923878, y: 20.980167}
+      - {x: 16.923878, y: 12.980168}
+      - {x: 16.923878, y: 16.980167}
+      - {x: 14.923878, y: 22.980167}
+      - {x: 30.923878, y: 31.980167}
+      - {x: 19.923878, y: 14.980168}
+      - {x: 21.923878, y: 14.980168}
+      - {x: 18.923878, y: 14.980168}
+      - {x: 16.923878, y: 21.980167}
+      - {x: 15.923878, y: 22.980167}
+      - {x: 4.9238777, y: 22.980167}
+      - {x: 2.9238777, y: 22.980167}
+      - {x: 0.9238777, y: 31.980167}
+      - {x: -0.076122284, y: 26.980167}
+      - {x: -0.076122284, y: 23.980167}
+      - {x: 33.923878, y: 28.980167}
+      - {x: 32.923878, y: -0.019831657}
+      - {x: 33.923878, y: 0.98016834}
+      - {x: 0.9238777, y: 19.980167}
+      - {x: 0.9238777, y: -0.019831657}
+      - {x: -0.076122284, y: 8.980168}
+      - {x: -0.076122284, y: 0.98016834}
+      indices: 0200000000000000070000000800000007000000000000001500000014000000130000001200000013000000140000001000000013000000120000000100000010000000120000000a000000010000001200000003000000010000000a0000000500000010000000010000000600000010000000050000000400000010000000060000000f000000100000000400000011000000100000000f0000000e0000000d0000000b0000000c0000000b0000000d000000040000000b0000000c0000000a0000000b00000004000000030000000a00000004000000090000000300000004000000080000000900000004000000070000000800000004000000050000000700000004000000060000000500000004000000030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_43
+      rect:
+        serializedVersion: 2
+        x: 263.0761
+        y: 0.042907715
+        width: 31.84776
+        height: 31.957092
+      alignment: 9
+      pivot: {x: 0.52900887, y: 0.40411013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.923868, y: -18.064362}
+        - {x: 1.9238682, y: -15.064362}
+        - {x: 1.9238682, y: -17.064362}
+        - {x: -0.07613182, y: -18.064362}
+        - {x: -16.076132, y: -18.064362}
+        - {x: -16.076132, y: 13.935638}
+        - {x: 5.923868, y: 13.935638}
+        - {x: 15.923868, y: 10.935638}
+        - {x: 15.923868, y: -17.064362}
+        - {x: 11.923868, y: -18.064362}
+      physicsShape:
+      - - {x: 2.9238682, y: -8.064362}
+        - {x: 1.9238682, y: -14.064362}
+        - {x: 3.9238682, y: -18.064362}
+        - {x: 11.923868, y: -18.064362}
+        - {x: 15.923868, y: -17.064362}
+        - {x: 15.923868, y: 13.935638}
+        - {x: -16.076132, y: 13.935638}
+        - {x: -16.076132, y: -7.0643616}
+        - {x: -13.076132, y: -18.064362}
+        - {x: -0.07613182, y: -18.064362}
+        - {x: 1.9238682, y: -17.064362}
+        - {x: 1.9238682, y: -11.064362}
+        - {x: -0.07613182, y: -7.0643616}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890043c371a44d638964825ba3ad49f8
+      internalID: 21300076
+      vertices:
+      - {x: 16.92388, y: 7.978546}
+      - {x: 16.92388, y: 1.9785461}
+      - {x: 16.92388, y: 3.9785461}
+      - {x: 14.92388, y: 11.978546}
+      - {x: 14.92388, y: 0.97854614}
+      - {x: 30.92388, y: 29.978546}
+      - {x: 26.92388, y: 0.97854614}
+      - {x: 30.92388, y: 1.9785461}
+      - {x: 20.92388, y: 32.978546}
+      - {x: 19.92388, y: 0.97854614}
+      - {x: 16.92388, y: 9.978546}
+      - {x: -1.0761204, y: 32.978546}
+      - {x: -1.0761204, y: 0.97854614}
+      indices: 0200000000000000090000000a00000009000000000000000c0000000b0000000400000003000000040000000b00000008000000030000000b0000000a0000000300000008000000090000000a00000008000000060000000900000008000000050000000600000008000000070000000600000005000000040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_33
+      rect:
+        serializedVersion: 2
+        x: 465.0761
+        y: 123.07611
+        width: 21.84776
+        height: 23.84776
+      alignment: 9
+      pivot: {x: 0.31343022, y: 0.2871449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.9238682, y: -17.076117}
+        - {x: -16.076132, y: -17.076117}
+        - {x: -16.076132, y: 5.923883}
+        - {x: -10.076132, y: 6.923883}
+        - {x: 5.923868, y: 6.923883}
+        - {x: 5.923868, y: -1.076117}
+      physicsShape:
+      - - {x: -10.076132, y: 6.923883}
+        - {x: -16.076132, y: 5.923883}
+        - {x: -16.076132, y: -17.076117}
+        - {x: 3.9238682, y: -17.076117}
+        - {x: 5.923868, y: -1.076117}
+        - {x: 5.923868, y: 6.923883}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2eb9f237d447ab9e3d5b1e84212794
+      internalID: 21300078
+      vertices:
+      - {x: 20.92388, y: 23.92388}
+      - {x: 18.92388, y: -0.07612038}
+      - {x: 20.92388, y: 15.92388}
+      - {x: 4.9238796, y: 23.92388}
+      - {x: -1.0761204, y: 22.92388}
+      - {x: -1.0761204, y: -0.07612038}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_54
+      rect:
+        serializedVersion: 2
+        x: 114.07611
+        y: 114.076126
+        width: 33.847755
+        height: 31.897127
+      alignment: 9
+      pivot: {x: 0.49775082, y: 0.4654888}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.07613, y: -17.100807}
+        - {x: -17.07613, y: -4.100808}
+        - {x: -17.07613, y: 7.899192}
+        - {x: -1.0761299, y: 14.899192}
+        - {x: 4.92387, y: 14.899192}
+        - {x: 16.92387, y: 9.899192}
+        - {x: 16.92387, y: -5.100808}
+        - {x: 12.92387, y: -17.100807}
+      physicsShape:
+      - - {x: -1.0761299, y: 14.899192}
+        - {x: -17.07613, y: 7.899192}
+        - {x: -17.07613, y: -4.100808}
+        - {x: -11.07613, y: -17.100807}
+        - {x: 12.92387, y: -17.100807}
+        - {x: 16.92387, y: -5.100808}
+        - {x: 16.92387, y: 9.899192}
+        - {x: 4.92387, y: 14.899192}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2b7512d53b4f55a90012d17f9ae726
+      internalID: 21300080
+      vertices:
+      - {x: 33.923878, y: 26.948563}
+      - {x: 29.923878, y: -0.051436424}
+      - {x: 33.923878, y: 11.948564}
+      - {x: 21.923878, y: 31.948563}
+      - {x: 15.923878, y: 31.948563}
+      - {x: 5.9238777, y: -0.051436424}
+      - {x: -0.076122284, y: 24.948563}
+      - {x: -0.076122284, y: 12.948564}
+      indices: 070000000600000005000000040000000500000006000000010000000500000004000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_42
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 114
+        width: 34
+        height: 31.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5325167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -15.96194}
+        - {x: -17, y: -13.96194}
+        - {x: -17, y: 1.0380602}
+        - {x: -11, y: 12.03806}
+        - {x: -3, y: 16.03806}
+        - {x: 17, y: 16.03806}
+        - {x: 17, y: -15.96194}
+      physicsShape:
+      - - {x: -3, y: 16.03806}
+        - {x: -11, y: 12.03806}
+        - {x: -17, y: 1.0380602}
+        - {x: -17, y: -13.96194}
+        - {x: -15, y: -15.96194}
+        - {x: 17, y: -15.96194}
+        - {x: 17, y: 12.03806}
+        - {x: 14, y: 16.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567d9725c40d41d5b872448db4416d9f
+      internalID: 21300082
+      vertices:
+      - {x: 14, y: 30.96194}
+      - {x: 34, y: -1.0380602}
+      - {x: 34, y: 30.96194}
+      - {x: 6, y: 26.96194}
+      - {x: 2, y: -1.0380602}
+      - {x: 0, y: 15.96194}
+      - {x: 0, y: 0.9619398}
+      indices: 060000000500000004000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_30
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 38
+        width: 33.923878
+        height: 34
+      alignment: 9
+      pivot: {x: 0.50112194, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.961939, y: -17}
+        - {x: -16.961939, y: -15}
+        - {x: -16.961939, y: 17}
+        - {x: 6.038061, y: 17}
+        - {x: 17.038061, y: 2}
+        - {x: 17.038061, y: -7}
+        - {x: 9.038061, y: -17}
+      physicsShape:
+      - - {x: 2.0380611, y: 9}
+        - {x: -3.9619389, y: 17}
+        - {x: -14.961939, y: 17}
+        - {x: -15.961939, y: 13}
+        - {x: -15.961939, y: -7}
+        - {x: -7.961939, y: -16}
+        - {x: 6.038061, y: -16}
+        - {x: 17.038061, y: -7}
+        - {x: 17.038061, y: 2}
+        - {x: 14.038061, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0e530bb90048b181f7d6f4719699ae
+      internalID: 21300084
+      vertices:
+      - {x: 33.961937, y: 19}
+      - {x: 25.961939, y: 0}
+      - {x: 33.961937, y: 10}
+      - {x: 22.961939, y: 34}
+      - {x: 0.96193886, y: 0}
+      - {x: -0.038061142, y: 34}
+      - {x: -0.038061142, y: 2}
+      indices: 060000000500000004000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_55
+      rect:
+        serializedVersion: 2
+        x: 302.0761
+        y: 71.07612
+        width: 29.847757
+        height: 32.847755
+      alignment: 9
+      pivot: {x: 0.36343595, y: 0.5129044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.923869, y: -16.576118}
+        - {x: -18.07613, y: -16.576118}
+        - {x: -18.07613, y: 5.4238815}
+        - {x: -14.076131, y: 16.423882}
+        - {x: 4.923869, y: 16.423882}
+        - {x: 11.923869, y: 13.423882}
+        - {x: 11.923869, y: -15.576118}
+      physicsShape:
+      - - {x: -8.076131, y: 16.423882}
+        - {x: -14.076131, y: 11.423882}
+        - {x: -18.07613, y: -3.5761185}
+        - {x: -18.07613, y: -14.576118}
+        - {x: -16.07613, y: -16.576118}
+        - {x: 8.923869, y: -16.576118}
+        - {x: 11.923869, y: -15.576118}
+        - {x: 11.923869, y: 11.423882}
+        - {x: 3.9238691, y: 16.423882}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc8307c74774427b6b3952c97baf435
+      internalID: 21300086
+      vertices:
+      - {x: 30.923878, y: 29.423878}
+      - {x: 27.923878, y: -0.5761223}
+      - {x: 30.923878, y: 0.42387772}
+      - {x: 23.923878, y: 32.423878}
+      - {x: 4.9238787, y: 32.423878}
+      - {x: 0.92387867, y: 21.423878}
+      - {x: 0.92387867, y: -0.5761223}
+      indices: 060000000500000001000000040000000100000005000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_41
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 38
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -17}
+        - {x: -17, y: -17}
+        - {x: -17, y: 17}
+        - {x: 17, y: 17}
+      physicsShape:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdefc628a73448b8ad4671e7aa21cb1
+      internalID: 21300088
+      vertices:
+      - {x: 0, y: 34}
+      - {x: 34, y: 0}
+      - {x: 34, y: 34}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_31
+      rect:
+        serializedVersion: 2
+        x: 465.0761
+        y: 151.07611
+        width: 21.84776
+        height: 23.84776
+      alignment: 9
+      pivot: {x: 0.22188765, y: 0.2871449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.9238682, y: -17.076117}
+        - {x: -17.076132, y: -17.076117}
+        - {x: -17.076132, y: -2.076117}
+        - {x: -13.076132, y: 6.923883}
+        - {x: 1.9238682, y: 6.923883}
+        - {x: 4.923868, y: 4.923883}
+        - {x: 4.923868, y: -1.076117}
+      physicsShape:
+      - - {x: -13.076132, y: 6.923883}
+        - {x: -17.076132, y: -2.076117}
+        - {x: -17.076132, y: -17.076117}
+        - {x: 2.9238682, y: -17.076117}
+        - {x: 4.923868, y: -1.076117}
+        - {x: 4.923868, y: 4.923883}
+        - {x: 1.9238682, y: 6.923883}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90004e101d93410aba545e11a035a0fe
+      internalID: 21300090
+      vertices:
+      - {x: 21.92388, y: 21.92388}
+      - {x: 19.92388, y: -0.07612038}
+      - {x: 21.92388, y: 15.92388}
+      - {x: 18.92388, y: 23.92388}
+      - {x: 3.9238796, y: 23.92388}
+      - {x: -0.07612038, y: 14.92388}
+      - {x: -0.07612038, y: -0.07612038}
+      indices: 060000000500000001000000040000000100000005000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153.07613
+        width: 34
+        height: 31.847757
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46621054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -17.076118}
+        - {x: -17, y: -14.076118}
+        - {x: -17, y: -2.0761185}
+        - {x: -6, y: 14.923882}
+        - {x: 4, y: 14.923882}
+        - {x: 5, y: 13.923882}
+        - {x: 17, y: -3.0761185}
+        - {x: 17, y: -12.076118}
+        - {x: 15, y: -13.076118}
+        - {x: 9, y: -15.076118}
+        - {x: 0, y: -17.076118}
+      physicsShape:
+      - - {x: 5, y: 13.923882}
+        - {x: 4, y: 14.923882}
+        - {x: -6, y: 14.923882}
+        - {x: -17, y: -2.0761185}
+        - {x: -17, y: -14.076118}
+        - {x: -11, y: -17.076118}
+        - {x: 0, y: -17.076118}
+        - {x: 9, y: -15.076118}
+        - {x: 15, y: -13.076118}
+        - {x: 17, y: -12.076118}
+        - {x: 17, y: -3.0761185}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4988d4d988c4717a8b6aba036615182
+      internalID: 21300092
+      vertices:
+      - {x: 34, y: 13.923879}
+      - {x: 32, y: 3.9238787}
+      - {x: 34, y: 4.9238787}
+      - {x: 26, y: 1.9238787}
+      - {x: 22, y: 30.923878}
+      - {x: 21, y: 31.923878}
+      - {x: 17, y: -0.07612133}
+      - {x: 11, y: 31.923878}
+      - {x: 6, y: -0.07612133}
+      - {x: 0, y: 14.923879}
+      - {x: 0, y: 2.9238787}
+      indices: 0a0000000900000008000000070000000800000009000000060000000800000007000000050000000600000007000000030000000600000005000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_56
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0.0761261
+        width: 34
+        height: 29.847757
+      alignment: 9
+      pivot: {x: 0.5, y: 0.36343595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -18.07613}
+        - {x: -17, y: -18.07613}
+        - {x: -17, y: 7.923869}
+        - {x: -10, y: 11.923869}
+        - {x: 2, y: 11.923869}
+        - {x: 3, y: 5.923869}
+        - {x: 1, y: -0.07613087}
+        - {x: -2, y: -3.0761309}
+        - {x: 0, y: -3.0761309}
+        - {x: 0, y: -2.0761309}
+        - {x: 1, y: -0.07613087}
+        - {x: 2, y: 1.9238691}
+        - {x: 8, y: 8.923869}
+        - {x: 17, y: 5.923869}
+      physicsShape:
+      - - {x: 2, y: 1.9238691}
+        - {x: 0, y: -2.0761309}
+        - {x: 0, y: -3.0761309}
+        - {x: -2, y: -3.0761309}
+        - {x: 1, y: -0.07613087}
+        - {x: 3, y: 5.923869}
+        - {x: 2, y: 11.923869}
+        - {x: -10, y: 11.923869}
+        - {x: -17, y: 7.923869}
+        - {x: -17, y: -18.07613}
+        - {x: 17, y: -18.07613}
+        - {x: 17, y: 5.923869}
+        - {x: 8, y: 8.923869}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b491eb99944a4a1d960a99602b3bdb12
+      internalID: 21300094
+      vertices:
+      - {x: 19, y: 30.923878}
+      - {x: 18, y: 18.923878}
+      - {x: 20, y: 24.923878}
+      - {x: 15, y: 15.923879}
+      - {x: 7, y: 30.923878}
+      - {x: 25, y: 27.923878}
+      - {x: 34, y: 0.92387867}
+      - {x: 34, y: 24.923878}
+      - {x: 19, y: 20.923878}
+      - {x: 17, y: 16.923878}
+      - {x: 17, y: 15.923879}
+      - {x: 0, y: 26.923878}
+      - {x: 0, y: 0.92387867}
+      indices: 0c0000000b0000000600000003000000060000000b00000004000000030000000b0000000a000000060000000300000009000000060000000a000000010000000600000009000000080000000600000001000000050000000600000008000000070000000600000005000000040000000000000003000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_40
+      rect:
+        serializedVersion: 2
+        x: 374.0761
+        y: 71.01291
+        width: 29.84776
+        height: 30.910967
+      alignment: 9
+      pivot: {x: 0.43044263, y: 0.48442918}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.076132, y: -16.481308}
+        - {x: -17.076132, y: -0.48130894}
+        - {x: -17.076132, y: 7.518691}
+        - {x: -15.076132, y: 14.518691}
+        - {x: 3.9238682, y: 14.518691}
+        - {x: 11.923868, y: 8.518691}
+        - {x: 12.923868, y: -1.4813089}
+        - {x: 12.923868, y: -13.481309}
+        - {x: 6.923868, y: -16.481308}
+      physicsShape:
+      - - {x: 11.923868, y: 8.518691}
+        - {x: 3.9238682, y: 14.518691}
+        - {x: -15.076132, y: 14.518691}
+        - {x: -17.076132, y: 7.518691}
+        - {x: -17.076132, y: -0.48130894}
+        - {x: -13.076132, y: -16.481308}
+        - {x: 6.923868, y: -16.481308}
+        - {x: 12.923868, y: -13.481309}
+        - {x: 12.923868, y: -1.4813089}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b21b45032254ea3ac76f6841ed6a90e
+      internalID: 21300096
+      vertices:
+      - {x: 28.92388, y: 24.455482}
+      - {x: 29.92388, y: 2.4554834}
+      - {x: 29.92388, y: 14.455483}
+      - {x: 23.92388, y: -0.54451656}
+      - {x: 20.92388, y: 30.455482}
+      - {x: 3.9238796, y: -0.54451656}
+      - {x: 1.9238796, y: 30.455482}
+      - {x: -0.07612038, y: 23.455482}
+      - {x: -0.07612038, y: 15.455483}
+      indices: 080000000700000005000000060000000500000007000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_76
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 150
+        width: 34
+        height: 30.97325
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5488607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -15.486625}
+        - {x: -17, y: -15.486625}
+        - {x: -17, y: 15.513375}
+        - {x: 12, y: 15.513375}
+        - {x: 17, y: 12.513375}
+        - {x: 17, y: -9.486625}
+      physicsShape:
+      - - {x: 5, y: 15.513375}
+        - {x: -14, y: 15.513375}
+        - {x: -17, y: 13.513375}
+        - {x: -17, y: -15.486625}
+        - {x: 13, y: -15.486625}
+        - {x: 17, y: -8.486625}
+        - {x: 17, y: 7.5133753}
+        - {x: 12, y: 14.513375}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ce350d33434d4a98926dbfbb0a87c3
+      internalID: 21300098
+      vertices:
+      - {x: 34, y: 26.486626}
+      - {x: 31, y: -1.5133753}
+      - {x: 34, y: 4.4866247}
+      - {x: 29, y: 29.486626}
+      - {x: 0, y: 29.486626}
+      - {x: 0, y: -1.5133753}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_36
+      rect:
+        serializedVersion: 2
+        x: 228.07611
+        y: 71.076126
+        width: 31.847757
+        height: 31.847757
+      alignment: 9
+      pivot: {x: 0.46621016, y: 0.46621016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.076131, y: -17.07613}
+        - {x: -17.07613, y: -15.076131}
+        - {x: -17.07613, y: 12.923869}
+        - {x: -15.076131, y: 14.923869}
+        - {x: 14.923869, y: 14.923869}
+        - {x: 14.923869, y: -17.07613}
+      physicsShape:
+      - - {x: -15.076131, y: 14.923869}
+        - {x: -17.07613, y: 12.923869}
+        - {x: -17.07613, y: -15.076131}
+        - {x: -15.076131, y: -17.07613}
+        - {x: 14.923869, y: -17.07613}
+        - {x: 14.923869, y: 14.923869}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9c9223d30e4b4e9ddd38c5928268e5
+      internalID: 21300100
+      vertices:
+      - {x: 1.9238787, y: 31.923878}
+      - {x: 31.923878, y: -0.07612133}
+      - {x: 31.923878, y: 31.923878}
+      - {x: 1.9238787, y: -0.07612133}
+      - {x: -0.07612133, y: 29.923878}
+      - {x: -0.07612133, y: 1.9238787}
+      indices: 050000000400000003000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_24
+      rect:
+        serializedVersion: 2
+        x: 435.0761
+        y: 200.07611
+        width: 31.847757
+        height: 18.84776
+      alignment: 9
+      pivot: {x: 0.46621066, y: 0.15109293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.076115, y: -11.576117}
+        - {x: -17.076115, y: -8.576117}
+        - {x: -17.076115, y: -4.5761166}
+        - {x: -12.076115, y: 2.4238834}
+        - {x: 12.923885, y: 2.4238834}
+        - {x: 14.923885, y: -0.57611656}
+        - {x: 14.923885, y: -14.576117}
+        - {x: 10.923885, y: -16.576117}
+        - {x: -11.076115, y: -16.576117}
+      physicsShape:
+      - - {x: -12.076115, y: 2.4238834}
+        - {x: -17.076115, y: -4.5761166}
+        - {x: -17.076115, y: -8.576117}
+        - {x: -15.076115, y: -11.576117}
+        - {x: -11.076115, y: -16.576117}
+        - {x: 10.923885, y: -16.576117}
+        - {x: 14.923885, y: -14.576117}
+        - {x: 14.923885, y: -0.57611656}
+        - {x: 12.923885, y: 2.4238834}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded690eec1744826b793b870793b35ca
+      internalID: 21300102
+      vertices:
+      - {x: 29.923878, y: 18.42388}
+      - {x: 31.923878, y: 1.4238796}
+      - {x: 31.923878, y: 15.42388}
+      - {x: 27.923878, y: -0.5761204}
+      - {x: 5.9238787, y: -0.5761204}
+      - {x: 4.9238787, y: 18.42388}
+      - {x: 1.9238787, y: 4.4238796}
+      - {x: -0.07612133, y: 11.42388}
+      - {x: -0.07612133, y: 7.4238796}
+      indices: 080000000700000006000000050000000600000007000000040000000600000005000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_57
+      rect:
+        serializedVersion: 2
+        x: 333.02673
+        y: 35.076126
+        width: 30.897127
+        height: 31.847757
+      alignment: 9
+      pivot: {x: 0.41901863, y: 0.46621016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.497909, y: -17.07613}
+        - {x: -17.50209, y: -17.07613}
+        - {x: -17.50209, y: 14.923869}
+        - {x: 5.4979086, y: 14.923869}
+        - {x: 13.497909, y: 12.923869}
+      physicsShape:
+      - - {x: 2.4979086, y: 14.923869}
+        - {x: -13.502091, y: 14.923869}
+        - {x: -17.50209, y: 12.923869}
+        - {x: -17.50209, y: -13.076131}
+        - {x: -15.502091, y: -17.07613}
+        - {x: 12.497909, y: -17.07613}
+        - {x: 13.497909, y: -15.076131}
+        - {x: 13.497909, y: 9.923869}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a75559bdee4e77b02d3afba67e2e9e
+      internalID: 21300104
+      vertices:
+      - {x: 23.448563, y: 31.923878}
+      - {x: 31.448563, y: -0.07612133}
+      - {x: 31.448563, y: 29.923878}
+      - {x: 0.44856358, y: 31.923878}
+      - {x: 0.44856358, y: -0.07612133}
+      indices: 040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_47
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 114.07611
+        width: 33.923878
+        height: 30.847757
+      alignment: 9
+      pivot: {x: 0.50112194, y: 0.35165483}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.038061, y: -18.576115}
+        - {x: -16.961939, y: -18.576115}
+        - {x: -16.961939, y: 5.4238844}
+        - {x: -7.961939, y: 12.423884}
+        - {x: 7.038061, y: 12.423884}
+        - {x: 15.038061, y: 7.4238844}
+        - {x: 17.038061, y: 2.4238844}
+        - {x: 17.038061, y: -13.576116}
+      physicsShape:
+      - - {x: 15.038061, y: 3.4238844}
+        - {x: 14.038061, y: 7.4238844}
+        - {x: 1.0380611, y: 11.423884}
+        - {x: -5.961939, y: 11.423884}
+        - {x: -6.961939, y: 8.423884}
+        - {x: -6.961939, y: 5.4238844}
+        - {x: -10.961939, y: 3.4238844}
+        - {x: -16.961939, y: -2.5761156}
+        - {x: -16.961939, y: -18.576115}
+        - {x: 12.038061, y: -18.576115}
+        - {x: 17.038061, y: -13.576116}
+        - {x: 17.038061, y: -7.5761156}
+        - {x: 15.038061, y: -2.5761156}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886c8518d572491490c580c8c8d662b3
+      internalID: 21300106
+      vertices:
+      - {x: 31.961939, y: 27.423878}
+      - {x: 33.961937, y: 6.4238787}
+      - {x: 33.961937, y: 22.423878}
+      - {x: 30.961939, y: 1.4238787}
+      - {x: 23.961939, y: 32.423878}
+      - {x: 8.961939, y: 32.423878}
+      - {x: -0.038061142, y: 25.423878}
+      - {x: -0.038061142, y: 1.4238787}
+      indices: 070000000600000003000000050000000300000006000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_77
+      rect:
+        serializedVersion: 2
+        x: 370.05133
+        y: 166.07611
+        width: 28.872562
+        height: 24.84776
+      alignment: 9
+      pivot: {x: 0.4466988, y: 0.27558815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.538941, y: -17.576132}
+        - {x: -16.53894, y: -16.576132}
+        - {x: -16.53894, y: 1.4238687}
+        - {x: -14.538941, y: 7.4238687}
+        - {x: 9.461059, y: 7.4238687}
+        - {x: 12.461059, y: -2.5761313}
+        - {x: 12.461059, y: -17.576132}
+      physicsShape:
+      - - {x: -14.538941, y: 7.4238687}
+        - {x: -16.53894, y: 1.4238687}
+        - {x: -16.53894, y: -16.576132}
+        - {x: -15.538941, y: -17.576132}
+        - {x: 12.461059, y: -17.576132}
+        - {x: 12.461059, y: -2.5761313}
+        - {x: 9.461059, y: 7.4238687}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c181d3a0da6488ba80a1ef3e31fdf3c
+      internalID: 21300108
+      vertices:
+      - {x: 25.436281, y: 25.42388}
+      - {x: 28.436281, y: 0.42387962}
+      - {x: 28.436281, y: 15.42388}
+      - {x: 1.4362812, y: 25.42388}
+      - {x: 0.4362812, y: 0.42387962}
+      - {x: -0.5637188, y: 19.42388}
+      - {x: -0.5637188, y: 1.4238796}
+      indices: 060000000500000004000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_37
+      rect:
+        serializedVersion: 2
+        x: 114.01291
+        y: 76.076126
+        width: 33.910965
+        height: 33.897125
+      alignment: 9
+      pivot: {x: 0.50055146, y: 0.49702585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.018702, y: -17.100815}
+        - {x: -16.981298, y: -17.100815}
+        - {x: -16.981298, y: 15.899185}
+        - {x: -13.981298, y: 16.899185}
+        - {x: 17.018702, y: 16.899185}
+        - {x: 17.018702, y: -16.100815}
+      physicsShape:
+      - - {x: 17.018702, y: 3.8991852}
+        - {x: 16.018702, y: 4.899185}
+        - {x: 12.018702, y: 5.899185}
+        - {x: 17.018702, y: 8.899185}
+        - {x: 17.018702, y: 13.899185}
+        - {x: 16.018702, y: 16.899185}
+        - {x: -13.981298, y: 16.899185}
+        - {x: -16.981298, y: 15.899185}
+        - {x: -16.981298, y: -17.100815}
+        - {x: 7.0187016, y: -17.100815}
+        - {x: 14.018702, y: -15.100815}
+        - {x: 17.018702, y: -12.100815}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0f81878ae440b693a435d648592233
+      internalID: 21300110
+      vertices:
+      - {x: 33.955482, y: 33.948563}
+      - {x: 30.955482, y: -0.051437378}
+      - {x: 33.955482, y: 0.9485626}
+      - {x: 2.9554825, y: 33.948563}
+      - {x: -0.044517517, y: 32.948563}
+      - {x: -0.044517517, y: -0.051437378}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_27
+      rect:
+        serializedVersion: 2
+        x: 288.0129
+        y: 206.03629
+        width: 27.960337
+        height: 28.887594
+      alignment: 9
+      pivot: {x: 0.32096115, y: 0.44750807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.005986, y: -16.516365}
+        - {x: -18.005985, y: -12.516366}
+        - {x: -18.005985, y: 10.483634}
+        - {x: -17.005985, y: 12.483634}
+        - {x: -11.005986, y: 12.483634}
+        - {x: -1.0059862, y: 10.483634}
+        - {x: 9.994014, y: 4.483634}
+        - {x: 9.994014, y: -16.516365}
+      physicsShape:
+      - - {x: -1.0059862, y: 10.483634}
+        - {x: -11.005986, y: 12.483634}
+        - {x: -17.005985, y: 12.483634}
+        - {x: -18.005985, y: 10.483634}
+        - {x: -18.005985, y: 3.483634}
+        - {x: -17.005985, y: -6.516366}
+        - {x: -13.005986, y: -15.516366}
+        - {x: -7.005986, y: -16.516365}
+        - {x: 9.994014, y: -16.516365}
+        - {x: 9.994014, y: 4.483634}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f12481a058e465bb7a2496218bc4bf4
+      internalID: 21300112
+      vertices:
+      - {x: 17.980167, y: 26.443798}
+      - {x: 28.980167, y: -0.5562029}
+      - {x: 28.980167, y: 20.443798}
+      - {x: 7.9801683, y: 28.443798}
+      - {x: 6.9801683, y: -0.5562029}
+      - {x: 1.9801683, y: 28.443798}
+      - {x: 0.98016834, y: 26.443798}
+      - {x: 0.98016834, y: 3.443797}
+      indices: 070000000600000004000000050000000400000006000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_87
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 38
+        width: 34
+        height: 32.971653
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5155944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -16.485826}
+        - {x: -17, y: -16.485826}
+        - {x: -17, y: 4.5141735}
+        - {x: -7, y: 16.514174}
+        - {x: 4, y: 16.514174}
+        - {x: 17, y: 6.5141735}
+      physicsShape:
+      - - {x: -2, y: 16.514174}
+        - {x: -17, y: 3.5141735}
+        - {x: -17, y: -16.485826}
+        - {x: 13, y: -16.485826}
+        - {x: 17, y: -15.4858265}
+        - {x: 17, y: 3.5141735}
+        - {x: 5, y: 16.514174}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c493d82babff4e8e840f1d333f5fbc1c
+      internalID: 21300114
+      vertices:
+      - {x: 21, y: 32.485825}
+      - {x: 34, y: -0.5141735}
+      - {x: 34, y: 22.485826}
+      - {x: 10, y: 32.485825}
+      - {x: 0, y: 20.485826}
+      - {x: 0, y: -0.5141735}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_58
+      rect:
+        serializedVersion: 2
+        x: 152.01291
+        y: 76
+        width: 32.974174
+        height: 34
+      alignment: 9
+      pivot: {x: 0.4541185, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.487095, y: -17}
+        - {x: -17.512905, y: -17}
+        - {x: -17.512905, y: 17}
+        - {x: 15.487095, y: 17}
+        - {x: 15.487095, y: -15}
+      physicsShape:
+      - - {x: 6.487095, y: 15}
+        - {x: -2.5129051, y: 15}
+        - {x: -8.512905, y: 14}
+        - {x: -15.512905, y: 8}
+        - {x: -15.512905, y: -7}
+        - {x: -14.512905, y: -13}
+        - {x: -13.512905, y: -14}
+        - {x: 8.487095, y: -14}
+        - {x: 11.487095, y: -8}
+        - {x: 11.487095, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b1667614e24d84a81865cad84d69d7
+      internalID: 21300116
+      vertices:
+      - {x: 33.487087, y: 34}
+      - {x: 28.487087, y: 0}
+      - {x: 33.487087, y: 2}
+      - {x: 0.48708725, y: 34}
+      - {x: 0.48708725, y: 0}
+      indices: 040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_46
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 38
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -17}
+        - {x: -17, y: -16}
+        - {x: -17, y: 15}
+        - {x: -15, y: 17}
+        - {x: 17, y: 17}
+        - {x: 17, y: -17}
+      physicsShape:
+      - - {x: -9, y: -13}
+        - {x: 8, y: -13}
+        - {x: 13, y: -9}
+        - {x: 13, y: 11}
+        - {x: 11, y: 13}
+        - {x: -10, y: 13}
+        - {x: -13, y: 9}
+        - {x: -13, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28415fa2ab3f422bbb5cb730efb21861
+      internalID: 21300118
+      vertices:
+      - {x: 2, y: 34}
+      - {x: 34, y: 0}
+      - {x: 34, y: 34}
+      - {x: 1, y: 0}
+      - {x: 0, y: 32}
+      - {x: 0, y: 1}
+      indices: 050000000400000003000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_74
+      rect:
+        serializedVersion: 2
+        x: 76.07611
+        y: 150
+        width: 33.847755
+        height: 31.92388
+      alignment: 9
+      pivot: {x: 0.4977517, y: 0.5325167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.076099, y: -15.96194}
+        - {x: -17.0761, y: -9.96194}
+        - {x: -17.0761, y: 9.03806}
+        - {x: -3.0760994, y: 16.03806}
+        - {x: 9.923901, y: 16.03806}
+        - {x: 16.9239, y: 8.03806}
+        - {x: 16.9239, y: -6.96194}
+        - {x: 14.923901, y: -12.96194}
+        - {x: 11.923901, y: -15.96194}
+      physicsShape:
+      - - {x: -7.0760994, y: 14.03806}
+        - {x: -17.0761, y: 9.03806}
+        - {x: -17.0761, y: -13.96194}
+        - {x: -16.0761, y: -15.96194}
+        - {x: 13.923901, y: -15.96194}
+        - {x: 16.9239, y: -5.96194}
+        - {x: 16.9239, y: 7.03806}
+        - {x: 11.923901, y: 14.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7e7c86b9ea4a2a8c9753729d7942d5
+      internalID: 21300120
+      vertices:
+      - {x: 33.923878, y: 22.96194}
+      - {x: 31.923878, y: 1.9619398}
+      - {x: 33.923878, y: 7.96194}
+      - {x: 28.923878, y: -1.0380602}
+      - {x: 26.923878, y: 30.96194}
+      - {x: 13.923878, y: 30.96194}
+      - {x: 4.9238777, y: -1.0380602}
+      - {x: -0.076122284, y: 23.96194}
+      - {x: -0.076122284, y: 4.96194}
+      indices: 080000000700000006000000050000000600000007000000030000000600000005000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_34
+      rect:
+        serializedVersion: 2
+        x: 442.0761
+        y: 95.07612
+        width: 21.89713
+        height: 23.84776
+      alignment: 9
+      pivot: {x: 0.31272355, y: 0.28714478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.100817, y: -17.07612}
+        - {x: -16.100817, y: -16.07612}
+        - {x: -16.100817, y: 4.92388}
+        - {x: -10.100817, y: 6.92388}
+        - {x: 5.8991833, y: 6.92388}
+        - {x: 5.8991833, y: -9.07612}
+        - {x: 3.8991833, y: -17.07612}
+      physicsShape:
+      - - {x: -10.100817, y: 6.92388}
+        - {x: -16.100817, y: 4.92388}
+        - {x: -16.100817, y: -16.07612}
+        - {x: -15.100817, y: -17.07612}
+        - {x: 3.8991833, y: -17.07612}
+        - {x: 5.8991833, y: -9.07612}
+        - {x: 5.8991833, y: 6.92388}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cc0bed07f14bc49e2c433ace2a6a66
+      internalID: 21300122
+      vertices:
+      - {x: 20.948565, y: 23.92388}
+      - {x: 18.948565, y: -0.07612038}
+      - {x: 20.948565, y: 7.9238796}
+      - {x: 4.9485645, y: 23.92388}
+      - {x: -0.05143547, y: -0.07612038}
+      - {x: -1.0514355, y: 21.92388}
+      - {x: -1.0514355, y: 0.9238796}
+      indices: 060000000500000004000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_26
+      rect:
+        serializedVersion: 2
+        x: 264.0335
+        y: 145.05132
+        width: 31.906773
+        height: 23.905775
+      alignment: 9
+      pivot: {x: 0.46801972, y: 0.45584658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.020388, y: -15.055522}
+        - {x: -17.020388, y: -11.055522}
+        - {x: -17.020388, y: -1.055522}
+        - {x: -10.020388, y: 8.944478}
+        - {x: 6.9796124, y: 8.944478}
+        - {x: 14.979612, y: -4.055522}
+        - {x: 14.979612, y: -10.055522}
+        - {x: 13.979612, y: -12.055522}
+        - {x: 0.97961235, y: -15.055522}
+      physicsShape:
+      - - {x: 6.9796124, y: 8.944478}
+        - {x: -10.020388, y: 8.944478}
+        - {x: -17.020388, y: -1.055522}
+        - {x: -17.020388, y: -11.055522}
+        - {x: -15.020388, y: -15.055522}
+        - {x: 0.97961235, y: -15.055522}
+        - {x: 13.979612, y: -12.055522}
+        - {x: 14.979612, y: -10.055522}
+        - {x: 14.979612, y: -4.055522}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2826241e0d9141888d9a3898f77406de
+      internalID: 21300124
+      vertices:
+      - {x: 31.953386, y: 8.952888}
+      - {x: 30.953386, y: 0.95288754}
+      - {x: 31.953386, y: 2.9528875}
+      - {x: 23.953386, y: 21.952888}
+      - {x: 17.953386, y: -2.0471125}
+      - {x: 6.9533863, y: 21.952888}
+      - {x: 1.9533863, y: -2.0471125}
+      - {x: -0.046613693, y: 11.952888}
+      - {x: -0.046613693, y: 1.9528875}
+      indices: 080000000700000006000000050000000600000007000000040000000600000005000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_86
+      rect:
+        serializedVersion: 2
+        x: 336.0761
+        y: 71.02675
+        width: 33.847755
+        height: 28.89713
+      alignment: 9
+      pivot: {x: 0.4977517, y: 0.44802037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.0760994, y: -16.502062}
+        - {x: -17.0761, y: -8.502062}
+        - {x: -17.0761, y: 2.4979382}
+        - {x: -10.076099, y: 12.497938}
+        - {x: 10.923901, y: 12.497938}
+        - {x: 16.9239, y: 1.4979382}
+        - {x: 16.9239, y: -6.502062}
+        - {x: 5.9239006, y: -16.502062}
+      physicsShape:
+      - - {x: -10.076099, y: 12.497938}
+        - {x: -17.0761, y: 2.4979382}
+        - {x: -17.0761, y: -8.502062}
+        - {x: -6.0760994, y: -16.502062}
+        - {x: 5.9239006, y: -16.502062}
+        - {x: 16.9239, y: -6.502062}
+        - {x: 16.9239, y: 1.4979382}
+        - {x: 10.923901, y: 12.497938}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ecb3e0c8e94f7a9c3bb6023487bb9b
+      internalID: 21300126
+      vertices:
+      - {x: 27.923878, y: 28.448565}
+      - {x: 33.923878, y: 9.448565}
+      - {x: 33.923878, y: 17.448565}
+      - {x: 22.923878, y: -0.5514355}
+      - {x: 10.923878, y: -0.5514355}
+      - {x: 6.9238777, y: 28.448565}
+      - {x: -0.076122284, y: 18.448565}
+      - {x: -0.076122284, y: 7.4485645}
+      indices: 070000000600000004000000050000000400000006000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_59
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 0.07611847
+        width: 34
+        height: 28.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44536433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -16.576117}
+        - {x: -17, y: -16.576117}
+        - {x: -17, y: 12.423883}
+        - {x: 16, y: 12.423883}
+        - {x: 17, y: 11.423883}
+        - {x: 17, y: -15.576117}
+      physicsShape:
+      - - {x: -17, y: 12.423883}
+        - {x: -17, y: -16.576117}
+        - {x: 16, y: -16.576117}
+        - {x: 17, y: -15.576117}
+        - {x: 17, y: 11.423883}
+        - {x: 16, y: 12.423883}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf404f18fe8143e08c8d5b075bf9573a
+      internalID: 21300128
+      vertices:
+      - {x: 33, y: 28.42388}
+      - {x: 34, y: 0.42387962}
+      - {x: 34, y: 27.42388}
+      - {x: 33, y: -0.5761204}
+      - {x: 0, y: 28.42388}
+      - {x: 0, y: -0.5761204}
+      indices: 050000000400000003000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_45
+      rect:
+        serializedVersion: 2
+        x: 228.07611
+        y: 107.07611
+        width: 33.847755
+        height: 29.84776
+      alignment: 9
+      pivot: {x: 0.49775082, y: 0.5644565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.07613, y: -15.076117}
+        - {x: -17.07613, y: -14.076117}
+        - {x: -17.07613, y: 3.9238834}
+        - {x: -10.07613, y: 14.923883}
+        - {x: 12.92387, y: 14.923883}
+        - {x: 16.92387, y: 7.9238834}
+        - {x: 16.92387, y: -15.076117}
+      physicsShape:
+      - - {x: -10.07613, y: 14.923883}
+        - {x: -17.07613, y: 3.9238834}
+        - {x: -17.07613, y: -14.076117}
+        - {x: -15.07613, y: -15.076117}
+        - {x: 16.92387, y: -15.076117}
+        - {x: 16.92387, y: 7.9238834}
+        - {x: 12.92387, y: 14.923883}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abb81c963964ab49b97706967477b28
+      internalID: 21300130
+      vertices:
+      - {x: 29.923878, y: 27.92388}
+      - {x: 33.923878, y: -2.0761204}
+      - {x: 33.923878, y: 20.92388}
+      - {x: 6.9238777, y: 27.92388}
+      - {x: 1.9238777, y: -2.0761204}
+      - {x: -0.076122284, y: 16.92388}
+      - {x: -0.076122284, y: -1.0761204}
+      indices: 060000000500000004000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -17}
+        - {x: -17, y: -12}
+        - {x: -17, y: 15}
+        - {x: -15, y: 17}
+        - {x: 14, y: 17}
+        - {x: 17, y: 14}
+        - {x: 17, y: -14}
+        - {x: 16, y: -17}
+      physicsShape:
+      - - {x: -12, y: 15}
+        - {x: -15, y: 7}
+        - {x: -15, y: -12}
+        - {x: -11, y: -17}
+        - {x: 12, y: -17}
+        - {x: 15, y: -14}
+        - {x: 15, y: 9}
+        - {x: 11, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128abb24dae549bfab43f0544148d387
+      internalID: 21300132
+      vertices:
+      - {x: 34, y: 31}
+      - {x: 33, y: 0}
+      - {x: 34, y: 3}
+      - {x: 31, y: 34}
+      - {x: 2, y: 34}
+      - {x: 2, y: 0}
+      - {x: 0, y: 32}
+      - {x: 0, y: 5}
+      indices: 070000000600000005000000040000000500000006000000010000000500000004000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_35
+      rect:
+        serializedVersion: 2
+        x: 226.05133
+        y: 174.01291
+        width: 30.921932
+        height: 28.960337
+      alignment: 9
+      pivot: {x: 0.4656038, y: 0.37893835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.436403, y: -17.505985}
+        - {x: -11.563597, y: -17.505985}
+        - {x: -16.563597, y: -7.505986}
+        - {x: -16.563597, y: 3.4940138}
+        - {x: -6.5635967, y: 11.494014}
+        - {x: 7.4364033, y: 11.494014}
+        - {x: 14.436403, y: 2.4940138}
+        - {x: 14.436403, y: -13.505986}
+      physicsShape:
+      - - {x: -6.5635967, y: 11.494014}
+        - {x: -16.563597, y: 3.4940138}
+        - {x: -16.563597, y: -7.505986}
+        - {x: -11.563597, y: -17.505985}
+        - {x: 8.436403, y: -17.505985}
+        - {x: 14.436403, y: -13.505986}
+        - {x: 14.436403, y: 2.4940138}
+        - {x: 7.4364033, y: 11.494014}
+      - - {x: -6.5635967, y: -7.505986}
+        - {x: -6.5635967, y: -8.505986}
+        - {x: -3.5635967, y: -5.505986}
+        - {x: -3.5635967, y: -0.5059862}
+        - {x: -0.5635967, y: 2.4940138}
+        - {x: -1.5635967, y: 3.4940138}
+        - {x: -2.5635967, y: 2.4940138}
+        - {x: 0.43640327, y: -0.5059862}
+        - {x: 2.4364033, y: -0.5059862}
+        - {x: 4.4364033, y: -1.5059862}
+        - {x: 3.4364033, y: -3.5059862}
+        - {x: 6.4364033, y: -6.505986}
+        - {x: 3.4364033, y: -4.505986}
+        - {x: -0.5635967, y: -8.505986}
+        - {x: -2.5635967, y: -7.505986}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a421b88d3f224fd78bce8cbd15ebc76a
+      internalID: 21300134
+      vertices:
+      - {x: 14.960966, y: 19.480167}
+      - {x: 13.960966, y: 20.480167}
+      - {x: 12.960966, y: 17.480167}
+      - {x: 14.960966, y: 21.480167}
+      - {x: 15.960966, y: 20.480167}
+      - {x: 23.960966, y: 29.480167}
+      - {x: 20.960966, y: 16.480167}
+      - {x: 22.960966, y: 11.480168}
+      - {x: 18.960966, y: 17.480167}
+      - {x: 16.960966, y: 17.480167}
+      - {x: 10.960966, y: 10.480168}
+      - {x: 12.960966, y: 12.480168}
+      - {x: 9.960966, y: 29.480167}
+      - {x: 9.960966, y: 10.480168}
+      - {x: 9.960966, y: 9.480168}
+      - {x: 4.960966, y: 0.48016834}
+      - {x: -0.03903389, y: 21.480167}
+      - {x: -0.03903389, y: 10.480168}
+      - {x: 30.960966, y: 20.480167}
+      - {x: 24.960966, y: 0.48016834}
+      - {x: 30.960966, y: 4.4801683}
+      - {x: 19.960966, y: 13.480168}
+      - {x: 15.960966, y: 9.480168}
+      - {x: 13.960966, y: 10.480168}
+      - {x: 19.960966, y: 14.480168}
+      indices: 0e0000000d0000000a0000000000000004000000090000001800000006000000070000000f0000000e000000130000000a000000130000000e00000017000000130000000a00000016000000130000001700000015000000130000001600000007000000130000001500000005000000130000000700000012000000130000000500000014000000130000001200000011000000100000000f0000000c0000000f000000100000000e0000000f0000000c0000000d0000000e0000000c0000000a0000000d0000000c000000020000000a0000000c00000001000000020000000c00000003000000010000000c00000005000000030000000c0000000b0000000a00000002000000040000000300000005000000090000000400000005000000080000000900000005000000060000000800000005000000070000000600000005000000010000000300000000000000040000000000000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_21
+      rect:
+        serializedVersion: 2
+        x: 336.0761
+        y: 104.07611
+        width: 33.923878
+        height: 27.872562
+      alignment: 9
+      pivot: {x: 0.49663424, y: 0.38919145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.11418, y: -17.088518}
+        - {x: -17.11418, y: -15.088518}
+        - {x: -17.11418, y: 5.911482}
+        - {x: -8.11418, y: 10.911482}
+        - {x: 16.88582, y: 10.911482}
+        - {x: 16.88582, y: -15.088518}
+        - {x: 15.88582, y: -15.088518}
+        - {x: 1.8858204, y: -17.088518}
+      physicsShape:
+      - - {x: -8.11418, y: 10.911482}
+        - {x: -17.11418, y: 5.911482}
+        - {x: -17.11418, y: -15.088518}
+        - {x: -16.11418, y: -17.088518}
+        - {x: 1.8858204, y: -17.088518}
+        - {x: 15.88582, y: -15.088518}
+        - {x: 16.88582, y: -15.088518}
+        - {x: 16.88582, y: 10.911482}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a800f54d7b094d49a8de44101ed0141d
+      internalID: 21300136
+      vertices:
+      - {x: 33.961937, y: 27.936281}
+      - {x: 32.961937, y: 1.9362812}
+      - {x: 33.961937, y: 1.9362812}
+      - {x: 18.961939, y: -0.063718796}
+      - {x: 8.961939, y: 27.936281}
+      - {x: 0.96193886, y: -0.063718796}
+      - {x: -0.038061142, y: 22.936281}
+      - {x: -0.038061142, y: 1.9362812}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_85
+      rect:
+        serializedVersion: 2
+        x: 408.01294
+        y: 71.076126
+        width: 29.974174
+        height: 29.84776
+      alignment: 9
+      pivot: {x: 0.43284535, y: 0.43044263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.987095, y: -17.076132}
+        - {x: -17.012905, y: -17.076132}
+        - {x: -17.012905, y: -6.076132}
+        - {x: -13.012905, y: 11.923868}
+        - {x: -12.012905, y: 12.923868}
+        - {x: 3.9870949, y: 12.923868}
+        - {x: 11.987095, y: 1.9238682}
+        - {x: 12.987095, y: -15.076132}
+      physicsShape:
+      - - {x: 3.9870949, y: 12.923868}
+        - {x: -12.012905, y: 12.923868}
+        - {x: -13.012905, y: 11.923868}
+        - {x: -17.012905, y: -6.076132}
+        - {x: -17.012905, y: -17.076132}
+        - {x: 10.987095, y: -17.076132}
+        - {x: 12.987095, y: -15.076132}
+        - {x: 11.987095, y: -8.076132}
+        - {x: 11.987095, y: 1.9238682}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4110d34d7084ef9bf44a450c06ac95b
+      internalID: 21300138
+      vertices:
+      - {x: 28.987087, y: 18.92388}
+      - {x: 27.987087, y: -0.07612038}
+      - {x: 29.987087, y: 1.9238796}
+      - {x: 20.987087, y: 29.92388}
+      - {x: 4.9870872, y: 29.92388}
+      - {x: 3.9870872, y: 28.92388}
+      - {x: -0.01291275, y: 10.92388}
+      - {x: -0.01291275, y: -0.07612038}
+      indices: 070000000600000001000000050000000100000006000000040000000100000005000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_44
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 114.02675
+        width: 34
+        height: 31.946497
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4678605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: -17.026745}
+        - {x: -17, y: -7.026745}
+        - {x: -17, y: 5.973255}
+        - {x: -6, y: 14.973255}
+        - {x: 4, y: 14.973255}
+        - {x: 17, y: 5.973255}
+        - {x: 17, y: -5.026745}
+        - {x: 5, y: -17.026745}
+      physicsShape:
+      - - {x: -6, y: 14.973255}
+        - {x: -17, y: 5.973255}
+        - {x: -17, y: -7.026745}
+        - {x: -1, y: -17.026745}
+        - {x: 5, y: -17.026745}
+        - {x: 17, y: -5.026745}
+        - {x: 17, y: 5.973255}
+        - {x: 4, y: 14.973255}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f4bd8982b64959823c29e4d1c0169a
+      internalID: 21300140
+      vertices:
+      - {x: 34, y: 22.973248}
+      - {x: 22, y: -0.026751518}
+      - {x: 34, y: 11.9732485}
+      - {x: 21, y: 31.973248}
+      - {x: 16, y: -0.026751518}
+      - {x: 11, y: 31.973248}
+      - {x: 0, y: 22.973248}
+      - {x: 0, y: 9.9732485}
+      indices: 070000000600000004000000050000000400000006000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_72
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 76
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -17}
+        - {x: -17, y: -17}
+        - {x: -17, y: 8}
+        - {x: -4, y: 17}
+        - {x: 17, y: 17}
+      physicsShape:
+      - - {x: 0, y: 17}
+        - {x: -17, y: -3}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 9}
+        - {x: 16, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf90a3327e2c4da6ae305bafabc2ba7c
+      internalID: 21300142
+      vertices:
+      - {x: 13, y: 34}
+      - {x: 34, y: 0}
+      - {x: 34, y: 34}
+      - {x: 0, y: 25}
+      - {x: 0, y: 0}
+      indices: 040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_20
+      rect:
+        serializedVersion: 2
+        x: 152.07611
+        y: 114
+        width: 30.84776
+        height: 33.973248
+      alignment: 9
+      pivot: {x: 0.54615843, y: 0.50039375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5761166, y: -16.986624}
+        - {x: -15.576117, y: -9.986624}
+        - {x: -15.576117, y: 4.013376}
+        - {x: -6.5761166, y: 17.013376}
+        - {x: 5.4238834, y: 17.013376}
+        - {x: 15.423883, y: 12.013376}
+        - {x: 15.423883, y: -11.986624}
+        - {x: 5.4238834, y: -16.986624}
+      physicsShape:
+      - - {x: -6.5761166, y: 17.013376}
+        - {x: -15.576117, y: 4.013376}
+        - {x: -15.576117, y: -9.986624}
+        - {x: -5.5761166, y: -16.986624}
+        - {x: 5.4238834, y: -16.986624}
+        - {x: 15.423883, y: -11.986624}
+        - {x: 15.423883, y: 12.013376}
+        - {x: 5.4238834, y: 17.013376}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8b9926acdf474cb5142e832094c21f
+      internalID: 21300144
+      vertices:
+      - {x: 19.42388, y: 33.986626}
+      - {x: 29.42388, y: 4.986624}
+      - {x: 29.42388, y: 28.986624}
+      - {x: 19.42388, y: -0.013376236}
+      - {x: 8.42388, y: -0.013376236}
+      - {x: 7.4238796, y: 33.986626}
+      - {x: -1.5761204, y: 20.986624}
+      - {x: -1.5761204, y: 6.986624}
+      indices: 070000000600000004000000050000000400000006000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_84
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 76
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -17}
+        - {x: -17, y: -9}
+        - {x: -17, y: 17}
+        - {x: 17, y: 17}
+        - {x: 17, y: -17}
+      physicsShape:
+      - - {x: 15, y: 17}
+        - {x: -17, y: 17}
+        - {x: -17, y: -5}
+        - {x: -10, y: -11}
+        - {x: -4, y: -17}
+        - {x: 5, y: -17}
+        - {x: 9, y: -16}
+        - {x: 10, y: -8}
+        - {x: 17, y: -4}
+        - {x: 17, y: 14}
+      - - {x: -7, y: 1}
+        - {x: -5, y: 3}
+        - {x: -4, y: 2}
+        - {x: 4, y: 2}
+        - {x: 6, y: 4}
+        - {x: 5, y: 3}
+        - {x: 7, y: 1}
+        - {x: 3, y: -3}
+        - {x: 4, y: -3}
+        - {x: 2, y: -1}
+        - {x: 0, y: -1}
+        - {x: -2, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3ee01f6eb841198f2a520affffa430
+      internalID: 21300146
+      vertices:
+      - {x: 34, y: 34}
+      - {x: 10, y: 0}
+      - {x: 34, y: 0}
+      - {x: 0, y: 34}
+      - {x: 0, y: 8}
+      indices: 040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 34
+        height: 32.923878
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5163426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -16.461939}
+        - {x: -17, y: -16.461939}
+        - {x: -17, y: 2.5380611}
+        - {x: -4, y: 16.538061}
+        - {x: 1, y: 16.538061}
+        - {x: 17, y: -0.46193886}
+      physicsShape:
+      - - {x: -4, y: 16.538061}
+        - {x: -17, y: 2.5380611}
+        - {x: -17, y: -16.461939}
+        - {x: 17, y: -16.461939}
+        - {x: 17, y: -0.46193886}
+        - {x: 1, y: 16.538061}
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd52a9aaece4528a27b540fbd19a718
+      internalID: 21300148
+      vertices:
+      - {x: 18, y: 32.461937}
+      - {x: 34, y: -0.53806114}
+      - {x: 34, y: 15.461939}
+      - {x: 13, y: 32.461937}
+      - {x: 0, y: 18.461939}
+      - {x: 0, y: -0.53806114}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225.03629
+        width: 32.923878
+        height: 22.887594
+      alignment: 9
+      pivot: {x: 0.5163426, y: 0.30267176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.538061, y: -16.516369}
+        - {x: -16.461939, y: -16.516369}
+        - {x: -16.461939, y: -1.5163689}
+        - {x: -0.46193886, y: 6.483631}
+        - {x: 10.538061, y: 6.483631}
+        - {x: 14.538061, y: 4.483631}
+        - {x: 16.538061, y: -2.5163689}
+        - {x: 16.538061, y: -13.516369}
+      physicsShape:
+      - - {x: 10.538061, y: 6.483631}
+        - {x: -0.46193886, y: 6.483631}
+        - {x: -16.461939, y: -1.5163689}
+        - {x: -16.461939, y: -16.516369}
+        - {x: 13.538061, y: -16.516369}
+        - {x: 16.538061, y: -13.516369}
+        - {x: 16.538061, y: -2.5163689}
+        - {x: 14.538061, y: 4.483631}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110c72e6c2654bea84861a3abcff61f3
+      internalID: 21300150
+      vertices:
+      - {x: 30.461939, y: 20.443798}
+      - {x: 32.461937, y: 2.443797}
+      - {x: 32.461937, y: 13.443797}
+      - {x: 29.461939, y: -0.5562029}
+      - {x: 26.461939, y: 22.443798}
+      - {x: 15.461939, y: 22.443798}
+      - {x: -0.53806114, y: 14.443797}
+      - {x: -0.53806114, y: -0.5562029}
+      indices: 070000000600000003000000050000000300000006000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_83
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -17}
+        - {x: -17, y: -17}
+        - {x: -17, y: 17}
+        - {x: 17, y: 17}
+      physicsShape:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -14}
+        - {x: -10, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 16}
+        - {x: 14, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde1786ad0714670a6f9b28399446592
+      internalID: 21300152
+      vertices:
+      - {x: 0, y: 34}
+      - {x: 34, y: 0}
+      - {x: 34, y: 34}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_70
+      rect:
+        serializedVersion: 2
+        x: 183.02673
+        y: 223.02673
+        width: 31.946497
+        height: 31.946499
+      alignment: 9
+      pivot: {x: 0.4678595, y: 0.5304651}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.026776, y: -16.026747}
+        - {x: -17.026775, y: -8.026747}
+        - {x: -17.026775, y: 13.973253}
+        - {x: -10.026776, y: 15.973253}
+        - {x: 10.973224, y: 15.973253}
+        - {x: 14.973224, y: 9.973253}
+        - {x: 14.973224, y: -8.026747}
+        - {x: 8.973224, y: -16.026747}
+      physicsShape:
+      - - {x: 0.9732237, y: 11.973253}
+        - {x: -1.0267763, y: 9.973253}
+        - {x: -1.0267763, y: 7.9732533}
+        - {x: -1.0267763, y: 9.973253}
+        - {x: -3.0267763, y: 11.973253}
+        - {x: -8.026776, y: 11.973253}
+        - {x: -13.026776, y: 7.9732533}
+        - {x: -13.026776, y: -3.0267467}
+        - {x: -12.026776, y: -8.026747}
+        - {x: -9.026776, y: -12.026747}
+        - {x: 4.9732237, y: -12.026747}
+        - {x: 10.973224, y: -10.026747}
+        - {x: 10.973224, y: 7.9732533}
+        - {x: 5.9732237, y: 11.973253}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c05dbb69ea41a0b0432a9e0ef9b419
+      internalID: 21300154
+      vertices:
+      - {x: 27.973248, y: 30.97325}
+      - {x: 31.973248, y: 6.9732494}
+      - {x: 31.973248, y: 24.97325}
+      - {x: 25.973248, y: -1.0267506}
+      - {x: 6.9732485, y: 30.97325}
+      - {x: 5.9732485, y: -1.0267506}
+      - {x: -0.026751518, y: 28.97325}
+      - {x: -0.026751518, y: 6.9732494}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_38
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 38
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -17}
+        - {x: -17, y: -17}
+        - {x: -17, y: 17}
+        - {x: 17, y: 17}
+      physicsShape:
+      - - {x: -17, y: 17}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732503e2dd534a9db6f13fa764fbb404
+      internalID: 21300156
+      vertices:
+      - {x: 0, y: 34}
+      - {x: 34, y: 0}
+      - {x: 34, y: 34}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_22
+      rect:
+        serializedVersion: 2
+        x: 337.0761
+        y: 165.07611
+        width: 28.917908
+        height: 24.872562
+      alignment: 9
+      pivot: {x: 0.44428402, y: 0.27531394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.61119, y: -17.588518}
+        - {x: -16.61119, y: -11.588518}
+        - {x: -16.61119, y: -6.588518}
+        - {x: -14.61119, y: -0.58851814}
+        - {x: -8.61119, y: 7.411482}
+        - {x: 2.3888102, y: 7.411482}
+        - {x: 12.38881, y: 5.411482}
+        - {x: 12.38881, y: -10.588518}
+        - {x: 10.38881, y: -17.588518}
+      physicsShape:
+      - - {x: -8.61119, y: 7.411482}
+        - {x: -14.61119, y: -0.58851814}
+        - {x: -16.61119, y: -6.588518}
+        - {x: -16.61119, y: -11.588518}
+        - {x: -6.61119, y: -17.588518}
+        - {x: 10.38881, y: -17.588518}
+        - {x: 12.38881, y: -10.588518}
+        - {x: 12.38881, y: 5.411482}
+        - {x: 2.3888102, y: 7.411482}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdce4c7eeee248359e07f37c473a2058
+      internalID: 21300158
+      vertices:
+      - {x: 28.458954, y: 23.436281}
+      - {x: 26.458954, y: 0.4362812}
+      - {x: 28.458954, y: 7.436281}
+      - {x: 18.458954, y: 25.436281}
+      - {x: 9.458954, y: 0.4362812}
+      - {x: 7.458954, y: 25.436281}
+      - {x: 1.4589539, y: 17.436281}
+      - {x: -0.54104614, y: 11.436281}
+      - {x: -0.54104614, y: 6.436281}
+      indices: 080000000700000004000000060000000400000007000000050000000400000006000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_82
+      rect:
+        serializedVersion: 2
+        x: 469.0761
+        y: 36.07612
+        width: 25.84776
+        height: 25.84776
+      alignment: 9
+      pivot: {x: 0.34230348, y: 0.34230277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.923899, y: -17.07612}
+        - {x: -17.076101, y: -17.07612}
+        - {x: -17.076101, y: 8.92388}
+        - {x: 8.923899, y: 8.92388}
+      physicsShape:
+      - - {x: -17.076101, y: 8.92388}
+        - {x: -17.076101, y: -17.07612}
+        - {x: 8.923899, y: -17.07612}
+        - {x: 8.923899, y: 8.92388}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f1aeb9126c448084d0ad06b1c6374b
+      internalID: 21300160
+      vertices:
+      - {x: -0.07612038, y: 25.92388}
+      - {x: 25.92388, y: -0.07612038}
+      - {x: 25.92388, y: 25.92388}
+      - {x: -0.07612038, y: -0.07612038}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_49
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 185.02673
+        width: 34
+        height: 30.97325
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35341796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: -18.540123}
+        - {x: -12, y: -18.540123}
+        - {x: -17, y: -13.540122}
+        - {x: -17, y: 12.459878}
+        - {x: 1, y: 12.459878}
+        - {x: 14, y: 10.459878}
+        - {x: 17, y: 6.459878}
+        - {x: 17, y: -4.540122}
+      physicsShape:
+      - - {x: 1, y: 12.459878}
+        - {x: -17, y: 12.459878}
+        - {x: -17, y: -13.540122}
+        - {x: -12, y: -18.540123}
+        - {x: 10, y: -18.540123}
+        - {x: 17, y: -4.540122}
+        - {x: 17, y: 6.459878}
+        - {x: 14, y: 10.459878}
+      - - {x: -6, y: 3.459878}
+        - {x: -5, y: 2.459878}
+        - {x: -5, y: 3.459878}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782afd84926b454b9a0c43a35f296ce8
+      internalID: 21300162
+      vertices:
+      - {x: 18, y: 32.486626}
+      - {x: 11, y: 23.486626}
+      - {x: 12, y: 23.486626}
+      - {x: 0, y: 32.486626}
+      - {x: 5, y: 1.4866247}
+      - {x: 0, y: 6.4866247}
+      - {x: 31, y: 30.486626}
+      - {x: 34, y: 15.486625}
+      - {x: 34, y: 26.486626}
+      - {x: 27, y: 1.4866247}
+      - {x: 12, y: 22.486626}
+      indices: 0a00000001000000020000000400000001000000090000000a000000090000000100000002000000090000000a000000000000000900000002000000060000000900000000000000070000000900000006000000080000000700000006000000050000000300000004000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_71
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -17}
+        - {x: -17, y: -17}
+        - {x: -17, y: 16}
+        - {x: -15, y: 17}
+        - {x: 17, y: 17}
+        - {x: 17, y: -15}
+      physicsShape:
+      - - {x: -13, y: 17}
+        - {x: -17, y: 13}
+        - {x: -17, y: 1}
+        - {x: -15, y: -3}
+        - {x: -17, y: -7}
+        - {x: -17, y: -17}
+        - {x: 14, y: -17}
+        - {x: 17, y: -15}
+        - {x: 17, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255612f1b2454898ba5b5f4bfc802253
+      internalID: 21300164
+      vertices:
+      - {x: 34, y: 34}
+      - {x: 31, y: 0}
+      - {x: 34, y: 2}
+      - {x: 2, y: 34}
+      - {x: 0, y: 33}
+      - {x: 0, y: 0}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_39
+      rect:
+        serializedVersion: 2
+        x: 228.01291
+        y: 36.01291
+        width: 32.910965
+        height: 30.910965
+      alignment: 9
+      pivot: {x: 0.45499068, y: 0.4197275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.4813, y: -17.4813}
+        - {x: -17.4813, y: -15.4813}
+        - {x: -17.4813, y: 13.5187}
+        - {x: 13.5187, y: 13.5187}
+        - {x: 14.5187, y: 9.5187}
+        - {x: 15.5187, y: 4.5186996}
+        - {x: 15.5187, y: -14.4813}
+        - {x: 12.5187, y: -17.4813}
+      physicsShape:
+      - - {x: 8.5187, y: 13.5187}
+        - {x: -13.4813, y: 13.5187}
+        - {x: -17.4813, y: 10.5187}
+        - {x: -17.4813, y: -7.4813004}
+        - {x: -16.4813, y: -17.4813}
+        - {x: 12.5187, y: -17.4813}
+        - {x: 15.5187, y: -14.4813}
+        - {x: 15.5187, y: 4.5186996}
+        - {x: 14.5187, y: 9.5187}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593e739fba26443a856ae55a148a53f7
+      internalID: 21300166
+      vertices:
+      - {x: 32.455482, y: 27.455482}
+      - {x: 33.455482, y: 3.4554825}
+      - {x: 33.455482, y: 22.455482}
+      - {x: 31.455482, y: 31.455482}
+      - {x: 30.455482, y: 0.45548248}
+      - {x: 1.4554825, y: 0.45548248}
+      - {x: 0.45548248, y: 31.455482}
+      - {x: 0.45548248, y: 2.4554825}
+      indices: 070000000600000005000000030000000500000006000000040000000500000003000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_81
+      rect:
+        serializedVersion: 2
+        x: 337.01294
+        y: 0
+        width: 31.987087
+        height: 30.9665
+      alignment: 9
+      pivot: {x: 0.40560687, y: 0.54898036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.0193615, y: -15.48325}
+        - {x: -18.019361, y: 2.5167503}
+        - {x: -18.019361, y: 15.51675}
+        - {x: -3.0193615, y: 15.51675}
+        - {x: 13.9806385, y: 6.5167503}
+        - {x: 13.9806385, y: -15.48325}
+      physicsShape:
+      - - {x: -15.0193615, y: 15.51675}
+        - {x: -17.019361, y: 12.51675}
+        - {x: -18.019361, y: 9.51675}
+        - {x: -13.0193615, y: -5.4832497}
+        - {x: 3.9806385, y: -15.48325}
+        - {x: 13.9806385, y: -15.48325}
+        - {x: 13.9806385, y: -2.4832497}
+        - {x: -11.0193615, y: 15.51675}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282fe511914f404a810bf690dd4a93f0
+      internalID: 21300168
+      vertices:
+      - {x: 15.993544, y: 29.48325}
+      - {x: 32.993546, y: -1.5167503}
+      - {x: 32.993546, y: 20.48325}
+      - {x: 13.993544, y: -1.5167503}
+      - {x: 0.9935436, y: 29.48325}
+      - {x: 0.9935436, y: 16.48325}
+      indices: 050000000400000003000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_48
+      rect:
+        serializedVersion: 2
+        x: 227.01901
+        y: 0.026751041
+        width: 31.938082
+        height: 31.930342
+      alignment: 9
+      pivot: {x: 0.46846822, y: 0.46809706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.007065, y: -11.018672}
+        - {x: -17.007065, y: -5.018672}
+        - {x: -17.007065, y: 13.981328}
+        - {x: -12.007065, y: 14.981328}
+        - {x: 14.992935, y: 14.981328}
+        - {x: 14.992935, y: -14.018672}
+        - {x: 13.992935, y: -17.018673}
+        - {x: -8.007065, y: -17.018673}
+      physicsShape:
+      - - {x: -12.007065, y: 14.981328}
+        - {x: -17.007065, y: 13.981328}
+        - {x: -17.007065, y: -5.018672}
+        - {x: -16.007065, y: -11.018672}
+        - {x: -8.007065, y: -17.018673}
+        - {x: 13.992935, y: -17.018673}
+        - {x: 14.992935, y: -14.018672}
+        - {x: 14.992935, y: 14.981328}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9383a312ee46c8976d3c51ba950ad7
+      internalID: 21300170
+      vertices:
+      - {x: 31.96904, y: 31.965172}
+      - {x: 30.96904, y: -0.03482914}
+      - {x: 31.96904, y: 2.9651709}
+      - {x: 8.969041, y: -0.03482914}
+      - {x: 4.969041, y: 31.965172}
+      - {x: 0.9690409, y: 5.965171}
+      - {x: -0.03095913, y: 30.965172}
+      - {x: -0.03095913, y: 11.965171}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_80
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -17}
+        - {x: -17, y: -17}
+        - {x: -17, y: 15}
+        - {x: -12, y: 17}
+        - {x: 12, y: 17}
+        - {x: 17, y: 12}
+      physicsShape:
+      - - {x: -12, y: 17}
+        - {x: -17, y: 15}
+        - {x: -17, y: -17}
+        - {x: 17, y: -17}
+        - {x: 17, y: 12}
+        - {x: 12, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc74454a0ae40b580c3f21866b4b0f6
+      internalID: 21300172
+      vertices:
+      - {x: 29, y: 34}
+      - {x: 34, y: 0}
+      - {x: 34, y: 29}
+      - {x: 5, y: 34}
+      - {x: 0, y: 32}
+      - {x: 0, y: 0}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_29
+      rect:
+        serializedVersion: 2
+        x: 38.076126
+        y: 186.02673
+        width: 32.847755
+        height: 32.897125
+      alignment: 9
+      pivot: {x: 0.45201713, y: 0.4543407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.57613, y: -17.50206}
+        - {x: -17.57613, y: -6.50206}
+        - {x: -17.57613, y: 7.49794}
+        - {x: -15.57613, y: 15.49794}
+        - {x: -0.5761299, y: 15.49794}
+        - {x: 12.42387, y: 4.49794}
+        - {x: 15.42387, y: -0.50205994}
+        - {x: 15.42387, y: -13.50206}
+        - {x: 5.42387, y: -17.50206}
+      physicsShape:
+      - - {x: -0.5761299, y: 15.49794}
+        - {x: -15.57613, y: 15.49794}
+        - {x: -17.57613, y: 7.49794}
+        - {x: -17.57613, y: -6.50206}
+        - {x: -8.57613, y: -17.50206}
+        - {x: 5.42387, y: -17.50206}
+        - {x: 15.42387, y: -13.50206}
+        - {x: 15.42387, y: -0.50205994}
+        - {x: 12.42387, y: 4.49794}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bf6ebc339343b8b3836df9f8488466
+      internalID: 21300174
+      vertices:
+      - {x: 30.423878, y: 22.448563}
+      - {x: 33.423878, y: 4.4485626}
+      - {x: 33.423878, y: 17.448563}
+      - {x: 23.423878, y: 0.44856262}
+      - {x: 17.423878, y: 33.448563}
+      - {x: 9.423878, y: 0.44856262}
+      - {x: 2.4238777, y: 33.448563}
+      - {x: 0.42387772, y: 25.448563}
+      - {x: 0.42387772, y: 11.448563}
+      indices: 080000000700000005000000060000000500000007000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_28
+      rect:
+        serializedVersion: 2
+        x: 460.0761
+        y: 230.07613
+        width: 17.84776
+        height: 22.84776
+      alignment: 9
+      pivot: {x: 0.04749969, y: 0.2997125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.076117, y: -16.57612}
+        - {x: -17.076117, y: -14.57612}
+        - {x: -17.076117, y: -1.5761204}
+        - {x: -11.076117, y: 6.4238796}
+        - {x: -1.0761166, y: 6.4238796}
+        - {x: 0.92388344, y: -3.5761204}
+        - {x: 0.92388344, y: -15.57612}
+        - {x: -0.07611656, y: -16.57612}
+      physicsShape:
+      - - {x: -11.076117, y: 6.4238796}
+        - {x: -17.076117, y: -1.5761204}
+        - {x: -17.076117, y: -14.57612}
+        - {x: -13.076117, y: -16.57612}
+        - {x: -0.07611656, y: -16.57612}
+        - {x: 0.92388344, y: -15.57612}
+        - {x: 0.92388344, y: -3.5761204}
+        - {x: -1.0761166, y: 6.4238796}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6c58b5731c49adb5a19ef15f775507
+      internalID: 21300176
+      vertices:
+      - {x: 17.92388, y: 12.42388}
+      - {x: 16.92388, y: -0.5761204}
+      - {x: 17.92388, y: 0.42387962}
+      - {x: 15.92388, y: 22.42388}
+      - {x: 5.9238796, y: 22.42388}
+      - {x: 3.9238796, y: -0.5761204}
+      - {x: -0.07612038, y: 14.42388}
+      - {x: -0.07612038, y: 1.4238796}
+      indices: 070000000600000005000000040000000500000006000000010000000500000004000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_78
+      rect:
+        serializedVersion: 2
+        x: 0.026763916
+        y: 189.02673
+        width: 30.946499
+        height: 31.897127
+      alignment: 9
+      pivot: {x: 0.4829778, y: 0.4685846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.526777, y: -17.00206}
+        - {x: -16.526777, y: -10.002061}
+        - {x: -16.526777, y: 8.997939}
+        - {x: -10.526777, y: 13.997939}
+        - {x: -4.5267773, y: 14.997939}
+        - {x: 5.4732227, y: 14.997939}
+        - {x: 14.473223, y: 5.997939}
+        - {x: 14.473223, y: -9.002061}
+        - {x: 7.4732227, y: -17.00206}
+      physicsShape:
+      - - {x: -6.5267773, y: 10.997939}
+        - {x: -11.526777, y: 3.997939}
+        - {x: -12.526777, y: 0.9979391}
+        - {x: -12.526777, y: -7.002061}
+        - {x: -7.5267773, y: -13.002061}
+        - {x: 4.4732227, y: -13.002061}
+        - {x: 10.473223, y: -7.002061}
+        - {x: 10.473223, y: 6.997939}
+        - {x: 2.4732227, y: 10.997939}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3676d94f89124392bbd660d4b7df2936
+      internalID: 21300178
+      vertices:
+      - {x: 30.47325, y: 22.948563}
+      - {x: 23.47325, y: -0.051436424}
+      - {x: 30.47325, y: 7.9485636}
+      - {x: 21.47325, y: 31.948563}
+      - {x: 11.473249, y: 31.948563}
+      - {x: 5.4732494, y: 30.948563}
+      - {x: 2.4732494, y: -0.051436424}
+      - {x: -0.52675056, y: 25.948563}
+      - {x: -0.52675056, y: 6.9485636}
+      indices: 080000000700000006000000050000000600000007000000010000000600000005000000040000000100000005000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_79
+      rect:
+        serializedVersion: 2
+        x: 266.02673
+        y: 109.02675
+        width: 30.946499
+        height: 31.897127
+      alignment: 9
+      pivot: {x: 0.4829778, y: 0.4685846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.526777, y: -17.00206}
+        - {x: -16.526777, y: -10.002061}
+        - {x: -16.526777, y: 8.997939}
+        - {x: -10.526777, y: 13.997939}
+        - {x: -4.5267773, y: 14.997939}
+        - {x: 5.4732227, y: 14.997939}
+        - {x: 14.473223, y: 5.997939}
+        - {x: 14.473223, y: -9.002061}
+        - {x: 7.4732227, y: -17.00206}
+      physicsShape:
+      - - {x: -6.5267773, y: 10.997939}
+        - {x: -11.526777, y: 3.997939}
+        - {x: -12.526777, y: 0.9979391}
+        - {x: -12.526777, y: -7.002061}
+        - {x: -7.5267773, y: -13.002061}
+        - {x: 4.4732227, y: -13.002061}
+        - {x: 10.473223, y: -7.002061}
+        - {x: 10.473223, y: 6.997939}
+        - {x: 2.4732227, y: 10.997939}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003a57ef83de4ef8ac5ba0e9770188e5
+      internalID: 21300180
+      vertices:
+      - {x: 30.47325, y: 22.948563}
+      - {x: 23.47325, y: -0.051436424}
+      - {x: 30.47325, y: 7.9485636}
+      - {x: 21.47325, y: 31.948563}
+      - {x: 11.473249, y: 31.948563}
+      - {x: 5.4732494, y: 30.948563}
+      - {x: 2.4732494, y: -0.051436424}
+      - {x: -0.52675056, y: 25.948563}
+      - {x: -0.52675056, y: 6.9485636}
+      indices: 080000000700000006000000050000000600000007000000010000000600000005000000040000000100000005000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_88
+      rect:
+        serializedVersion: 2
+        x: 409.0761
+        y: 198.07611
+        width: 21.84776
+        height: 29.92388
+      alignment: 9
+      pivot: {x: 0.22188903, y: 0.29567567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.076101, y: -19.114178}
+        - {x: -17.076101, y: -17.114178}
+        - {x: -17.076101, y: -0.11417675}
+        - {x: -12.076101, y: 10.885823}
+        - {x: 1.9238987, y: 10.885823}
+        - {x: 4.9238987, y: -1.1141768}
+        - {x: 4.9238987, y: -19.114178}
+      physicsShape:
+      - - {x: -8.076101, y: -2.1141768}
+        - {x: -13.076101, y: -6.1141768}
+        - {x: -17.076101, y: -11.114177}
+        - {x: -17.076101, y: -17.114178}
+        - {x: -15.076101, y: -19.114178}
+        - {x: 0.9238987, y: -19.114178}
+        - {x: 4.9238987, y: -18.114178}
+        - {x: 4.9238987, y: -4.1141768}
+        - {x: 1.9238987, y: -2.1141768}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992413acbf5545759d98b3e17f638602
+      internalID: 21300182
+      vertices:
+      - {x: 18.92388, y: 31.96194}
+      - {x: 21.92388, y: 1.9619398}
+      - {x: 21.92388, y: 19.96194}
+      - {x: 4.9238796, y: 31.96194}
+      - {x: 0.9238796, y: 1.9619398}
+      - {x: -0.07612038, y: 20.96194}
+      - {x: -0.07612038, y: 3.9619398}
+      indices: 060000000500000004000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_seven_steps
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 187
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -16}
+        - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -15}
+      physicsShape:
+      - - {x: -14, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6853e0d508466e997bfd6962861f6d
+      internalID: 21300184
+      vertices:
+      - {x: 32, y: 32}
+      - {x: 30, y: 0}
+      - {x: 32, y: 1}
+      - {x: 0, y: 32}
+      - {x: 0, y: 0}
+      indices: 040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_flash_practicer
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 187
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -16}
+        - {x: -16, y: -10}
+        - {x: -16, y: -1}
+        - {x: -13, y: 7}
+        - {x: -11, y: 6}
+        - {x: -10, y: 5}
+        - {x: -11, y: 8}
+        - {x: -9, y: 10}
+        - {x: -13, y: 10}
+        - {x: -16, y: 11}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: 11}
+        - {x: 7, y: 11}
+        - {x: 16, y: 10}
+        - {x: 16, y: 5}
+        - {x: 16, y: -16}
+      physicsShape:
+      - - {x: 8, y: 5}
+        - {x: 16, y: 5}
+        - {x: 16, y: 10}
+        - {x: 7, y: 11}
+        - {x: 5, y: 11}
+        - {x: 16, y: 11}
+        - {x: 16, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: 11}
+        - {x: -13, y: 10}
+        - {x: -9, y: 10}
+        - {x: -11, y: 8}
+        - {x: -10, y: 5}
+        - {x: -11, y: 6}
+        - {x: -13, y: 7}
+        - {x: -16, y: -1}
+        - {x: -16, y: -10}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba84aec90d84493aaf1459dc341740d2
+      internalID: 21300186
+      vertices:
+      - {x: 32, y: 26}
+      - {x: 24, y: 21}
+      - {x: 32, y: 21}
+      - {x: 23, y: 27}
+      - {x: 7, y: 26}
+      - {x: 5, y: 24}
+      - {x: 6, y: 21}
+      - {x: 32, y: 32}
+      - {x: 32, y: 27}
+      - {x: 21, y: 27}
+      - {x: 3, y: 26}
+      - {x: 0, y: 32}
+      - {x: 0, y: 27}
+      - {x: 32, y: 0}
+      - {x: 3, y: 23}
+      - {x: 5, y: 22}
+      - {x: 1, y: 0}
+      - {x: 0, y: 15}
+      - {x: 0, y: 6}
+      indices: 1200000011000000100000000e00000010000000110000000d000000100000000e000000060000000d0000000e0000000f000000060000000e000000040000000d00000006000000090000000d00000004000000010000000d00000009000000030000000100000009000000020000000d000000010000000c0000000b0000000a000000070000000a0000000b000000040000000a00000007000000090000000400000007000000030000000900000007000000080000000300000007000000060000000500000004000000030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_boss_killer_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 186
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -16}
+        - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab073526e134694971984067df64594
+      internalID: 21300188
+      vertices:
+      - {x: 0, y: 32}
+      - {x: 32, y: 0}
+      - {x: 32, y: 32}
+      - {x: 0, y: 0}
+      indices: 030000000000000001000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_mvp_0
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 74
+        width: 32
+        height: 30.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5173995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -15.46194}
+        - {x: -16, y: -15.46194}
+        - {x: -16, y: 12.53806}
+        - {x: -7, y: 15.53806}
+        - {x: 10, y: 15.53806}
+        - {x: 16, y: 6.53806}
+      physicsShape:
+      - - {x: -7, y: 15.53806}
+        - {x: -16, y: 12.53806}
+        - {x: -16, y: -15.46194}
+        - {x: 16, y: -15.46194}
+        - {x: 16, y: 6.53806}
+        - {x: 10, y: 15.53806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d7014044b343d8a1f3db06775ec1f9
+      internalID: 21300190
+      vertices:
+      - {x: 26, y: 30.46194}
+      - {x: 32, y: -0.5380602}
+      - {x: 32, y: 21.46194}
+      - {x: 9, y: 30.46194}
+      - {x: 0, y: 27.46194}
+      - {x: 0, y: -0.5380602}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_emoji
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 220
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -6}
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 0, y: -16}
+        - {x: 16, y: -6}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4ade6865c74256a96b6dcfa38783a8
+      internalID: 21300192
+      vertices:
+      - {x: 32, y: 32}
+      - {x: 16, y: 0}
+      - {x: 32, y: 10}
+      - {x: 0, y: 32}
+      - {x: 0, y: 0}
+      indices: 040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: achievement_protect_environment
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 174.07613
+        width: 32
+        height: 27.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5690856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -14.076121}
+        - {x: -16, y: -14.076121}
+        - {x: -16, y: 2.9238787}
+        - {x: 0, y: 13.923879}
+        - {x: 8, y: 13.923879}
+        - {x: 12, y: 11.923879}
+        - {x: 16, y: 0.92387867}
+      physicsShape:
+      - - {x: 16, y: 0.92387867}
+        - {x: 12, y: 11.923879}
+        - {x: 8, y: 13.923879}
+        - {x: 0, y: 13.923879}
+        - {x: -16, y: 2.9238787}
+        - {x: -16, y: -7.0761213}
+        - {x: -15, y: -14.076121}
+        - {x: 7, y: -14.076121}
+        - {x: 12, y: -13.076121}
+        - {x: 15, y: -14.076121}
+        - {x: 16, y: -14.076121}
+      - - {x: 3, y: 0.92387867}
+        - {x: 2, y: 1.9238787}
+        - {x: 4, y: -0.07612133}
+        - {x: 4, y: 0.92387867}
+        - {x: 1, y: -3.0761213}
+        - {x: 3, y: -2.0761213}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3431c3c40f9344b38f1bf183ec5807fc
+      internalID: 21300194
+      vertices:
+      - {x: 28, y: 23.92388}
+      - {x: 32, y: -2.0761204}
+      - {x: 32, y: 12.92388}
+      - {x: 24, y: 25.92388}
+      - {x: 16, y: 25.92388}
+      - {x: 0, y: 14.92388}
+      - {x: 0, y: -2.0761204}
+      indices: 060000000500000001000000040000000100000005000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      achievement_mvp_0: 21300190
+      achievement_50: 21300066
+      achievement_63: 21300018
+      achievement_15: 21300026
+      achievement_13: 21300044
+      achievement_0: 21300056
+      achievement_22: 21300158
+      achievement_25: 21300092
+      achievement_73: 21300148
+      achievement_18: 21300010
+      achievement_75: 21300132
+      achievement_72: 21300142
+      achievement_flash_practicer: 21300186
+      achievement_66: 21300036
+      achievement_86: 21300126
+      achievement_88: 21300182
+      achievement_84: 21300146
+      achievement_5: 21300046
+      achievement_26: 21300124
+      achievement_7: 21300050
+      achievement_60: 21300016
+      achievement_11: 21300040
+      achievement_27: 21300112
+      achievement_43: 21300076
+      achievement_39: 21300166
+      achievement_59: 21300128
+      achievement_10: 21300038
+      achievement_41: 21300088
+      achievement_70: 21300154
+      achievement_38: 21300156
+      achievement_23: 21300150
+      achievement_54: 21300080
+      achievement_48: 21300170
+      achievement_82: 21300160
+      achievement_87: 21300114
+      achievement_35: 21300134
+      achievement_30: 21300084
+      achievement_3: 21300058
+      achievement_53: 21300074
+      achievement_emoji: 21300192
+      achievement_1: 21300054
+      achievement_handcut_gold: 21300002
+      achievement_seven_steps: 21300184
+      achievement_protect_environment: 21300194
+      achievement_8: 21300064
+      achievement_16: 21300030
+      achievement_45: 21300130
+      achievement_79: 21300180
+      achievement_49: 21300162
+      achievement_68: 21300008
+      achievement_28: 21300176
+      achievement_77: 21300108
+      achievement_56: 21300094
+      achievement_80: 21300172
+      achievement_58: 21300116
+      achievement_boss_killer_0: 21300188
+      achievement_85: 21300138
+      achievement_36: 21300100
+      achievement_51: 21300068
+      achievement_40: 21300096
+      achievement_42: 21300082
+      achievement_32: 21300072
+      achievement_69: 21300006
+      achievement_flash_master: 21300000
+      achievement_6: 21300052
+      achievement_37: 21300110
+      achievement_74: 21300120
+      achievement_78: 21300178
+      achievement_24: 21300102
+      achievement_71: 21300164
+      achievement_67: 21300032
+      achievement_47: 21300106
+      achievement_4: 21300048
+      achievement_34: 21300122
+      achievement_64: 21300028
+      achievement_29: 21300174
+      achievement_65: 21300024
+      achievement_52: 21300070
+      achievement_44: 21300140
+      achievement_better_null: 21300004
+      achievement_33: 21300078
+      achievement_57: 21300104
+      achievement_55: 21300086
+      achievement_14: 21300022
+      achievement_76: 21300098
+      achievement_20: 21300144
+      achievement_46: 21300118
+      achievement_19: 21300014
+      achievement_9: 21300062
+      achievement_17: 21300034
+      achievement_83: 21300152
+      achievement_62: 21300020
+      achievement_12: 21300042
+      achievement_2: 21300060
+      achievement_31: 21300090
+      achievement_81: 21300168
+      achievement_61: 21300012
+      achievement_21: 21300136
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1098 @@
+fileFormatVersion: 2
+guid: 7d8e5583851c19f4fbe46274303eda38
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: spray_4
+  - first:
+      213: 21300002
+    second: spray_3
+  - first:
+      213: 21300004
+    second: spray_2
+  - first:
+      213: 21300006
+    second: spray_1
+  - first:
+      213: 21300008
+    second: spray_0
+  - first:
+      213: 21300010
+    second: fishing_spot_lava
+  - first:
+      213: 21300012
+    second: hook_joycon
+  - first:
+      213: 21300014
+    second: hook
+  - first:
+      213: 21300016
+    second: keypanel_fishing_button
+  - first:
+      213: 21300018
+    second: fising_indicator_shadow_7
+  - first:
+      213: 21300020
+    second: fising_indicator_shadow_6
+  - first:
+      213: 21300022
+    second: fising_indicator_shadow_5
+  - first:
+      213: 21300024
+    second: fising_indicator_shadow_4
+  - first:
+      213: 21300026
+    second: fising_indicator_shadow_3
+  - first:
+      213: 21300028
+    second: fising_indicator_shadow_2
+  - first:
+      213: 21300030
+    second: fising_indicator_shadow_1
+  - first:
+      213: 21300032
+    second: fising_indicator_shadow_0
+  - first:
+      213: 21300034
+    second: fishing_spot_icecave
+  - first:
+      213: 21300036
+    second: fishing_harvest_pet_speedy
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 13
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 0
+  flipbookColumns: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spray_4
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 39
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: -14}
+        - {x: -19.5, y: 14}
+        - {x: 19.5, y: 14}
+        - {x: 19.5, y: -14}
+      physicsShape:
+      - - {x: -12.5, y: 13.000001}
+        - {x: -17.5, y: 10}
+        - {x: -17.5, y: -7}
+        - {x: -15.500001, y: -13.000001}
+        - {x: 10.500001, y: -13.000001}
+        - {x: 17.5, y: -10}
+        - {x: 17.5, y: 7}
+        - {x: 15.500001, y: 13.000001}
+      - - {x: -8.5, y: -2}
+        - {x: -9.5, y: 1}
+        - {x: -3.5, y: 4}
+        - {x: 2.5, y: 5}
+        - {x: 3.5, y: 4}
+        - {x: 8.5, y: 2}
+        - {x: 9.5, y: -1}
+        - {x: 3.5, y: -4}
+        - {x: -2.5, y: -5}
+        - {x: -3.5, y: -4}
+      - - {x: 3.5, y: -3}
+        - {x: 3.5, y: 1}
+        - {x: 2.5, y: 3}
+        - {x: -0.5, y: 3}
+        - {x: -3.5, y: 1}
+        - {x: -3.5, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702d807634234c85a948be27be2d23c3
+      internalID: 21300000
+      vertices:
+      - {x: 0, y: 28}
+      - {x: 39, y: 28}
+      - {x: 0, y: 0}
+      - {x: 39, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spray_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 93
+        width: 39
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: -14}
+        - {x: -19.5, y: 14}
+        - {x: 19.5, y: 14}
+        - {x: 19.5, y: -14}
+      physicsShape:
+      - - {x: -7.5, y: 8}
+        - {x: -11.5, y: 5}
+        - {x: -11.5, y: -4}
+        - {x: -6.5000005, y: -8}
+        - {x: 8.5, y: -8}
+        - {x: 11.5, y: -5}
+        - {x: 11.5, y: 2}
+        - {x: 9.5, y: 8}
+      - - {x: -4.5, y: 0}
+        - {x: -2.5, y: 1}
+        - {x: 2.5, y: 1}
+        - {x: 4.5, y: 0}
+        - {x: 2.5, y: -1}
+        - {x: -2.5, y: -1}
+        - {x: -2.5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982a99b8754944fdb3fdf6b67319f477
+      internalID: 21300002
+      vertices:
+      - {x: 0, y: 28}
+      - {x: 39, y: 28}
+      - {x: 0, y: 0}
+      - {x: 39, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spray_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 32
+        width: 39
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: -14}
+        - {x: -19.5, y: 14}
+        - {x: 19.5, y: 14}
+        - {x: 19.5, y: -14}
+      physicsShape:
+      - - {x: -6.5000005, y: 6}
+        - {x: -8.5, y: 2}
+        - {x: -8.5, y: -2}
+        - {x: -6.5000005, y: -6}
+        - {x: 3.5, y: -6}
+        - {x: 8.5, y: -5}
+        - {x: 8.5, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fff41e72d274f6986dd13a3b04a3eec
+      internalID: 21300004
+      vertices:
+      - {x: 0, y: 28}
+      - {x: 39, y: 28}
+      - {x: 0, y: 0}
+      - {x: 39, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spray_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 150
+        width: 39
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: -14}
+        - {x: -19.5, y: 14}
+        - {x: 19.5, y: 14}
+        - {x: 19.5, y: -14}
+      physicsShape:
+      - - {x: -2.5, y: 4}
+        - {x: -5.5, y: 1}
+        - {x: -5.5, y: -1}
+        - {x: -2.5, y: -4}
+        - {x: 2.5, y: -4}
+        - {x: 5.5, y: -1}
+        - {x: 5.5, y: 1}
+        - {x: 2.5, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f79a0fe4814b9d8fb35a5f84c3ae0e
+      internalID: 21300006
+      vertices:
+      - {x: 0, y: 28}
+      - {x: 39, y: 28}
+      - {x: 0, y: 0}
+      - {x: 39, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spray_0
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 125
+        width: 39
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: -14}
+        - {x: -19.5, y: 14}
+        - {x: 19.5, y: 14}
+        - {x: 19.5, y: -14}
+      physicsShape:
+      - - {x: -15.500001, y: 14}
+        - {x: -19.5, y: 11}
+        - {x: -19.5, y: -12}
+        - {x: -18.5, y: -14}
+        - {x: 19.5, y: -14}
+        - {x: 19.5, y: 9}
+        - {x: 16.5, y: 14}
+      - - {x: -10.500001, y: -3}
+        - {x: -11.5, y: 1}
+        - {x: -9.5, y: 3}
+        - {x: -4.5, y: 5}
+        - {x: -3.5, y: 6}
+        - {x: 3.5, y: 6}
+        - {x: 10.500001, y: 2}
+        - {x: 11.5, y: -2}
+        - {x: 9.5, y: -4}
+        - {x: 4.5, y: -6}
+        - {x: -3.5, y: -7}
+        - {x: -4.5, y: -6}
+      - - {x: -2.5, y: 3}
+        - {x: -4.5, y: 0}
+        - {x: -4.5, y: -3}
+        - {x: 4.5, y: -3}
+        - {x: 4.5, y: 1}
+        - {x: 1.5, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f588733ce16545deba4f48d225ec8dcc
+      internalID: 21300008
+      vertices:
+      - {x: 0, y: 28}
+      - {x: 39, y: 28}
+      - {x: 0, y: 0}
+      - {x: 39, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fishing_spot_lava
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 49
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: -18}
+        - {x: -24.5, y: -18}
+        - {x: -24.5, y: 15.000001}
+        - {x: -23.5, y: 18}
+        - {x: 15.5, y: 18}
+        - {x: 24.5, y: 4}
+        - {x: 24.5, y: -16}
+      physicsShape:
+      - - {x: -16.5, y: 18}
+        - {x: -24.499998, y: 9}
+        - {x: -24.499998, y: -9.999999}
+        - {x: -13.499999, y: -18}
+        - {x: 16.5, y: -18}
+        - {x: 24.499998, y: -9}
+        - {x: 24.499998, y: 3}
+        - {x: 11.499999, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc568925c2774515881e4d525677b8f4
+      internalID: 21300010
+      vertices:
+      - {x: 49, y: 22}
+      - {x: 48, y: 0}
+      - {x: 49, y: 2}
+      - {x: 40, y: 36}
+      - {x: 1, y: 36}
+      - {x: 0, y: 33}
+      - {x: 0, y: 0}
+      indices: 060000000500000001000000040000000100000005000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hook_joycon
+      rect:
+        serializedVersion: 2
+        x: 136.02675
+        y: 43.02675
+        width: 41.916878
+        height: 45.936966
+      alignment: 9
+      pivot: {x: 0.094150595, y: 0.17298701}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.01194, y: -38.021984}
+        - {x: -38.01194, y: -35.021984}
+        - {x: -38.01194, y: -10.021984}
+        - {x: -16.01194, y: 6.978016}
+        - {x: -12.01194, y: 7.978016}
+        - {x: 3.98806, y: 7.978016}
+        - {x: 3.98806, y: -14.021984}
+        - {x: -9.01194, y: -33.021984}
+        - {x: -16.01194, y: -38.021984}
+      physicsShape:
+      - - {x: -2.011941, y: 6.978016}
+        - {x: -10.01194, y: 6.978016}
+        - {x: -12.01194, y: 1.9780159}
+        - {x: -18.01194, y: -24.021984}
+        - {x: -22.01194, y: -22.021984}
+        - {x: -30.01194, y: -1.0219841}
+        - {x: -34.01194, y: -11.021984}
+        - {x: -38.01194, y: -22.021984}
+        - {x: -38.01194, y: -31.021984}
+        - {x: -31.01194, y: -37.021984}
+        - {x: -14.01194, y: -37.021984}
+        - {x: -9.01194, y: -30.021984}
+        - {x: 2.988058, y: -5.021985}
+        - {x: 2.988058, y: 3.978016}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8c2aab92124dc89f2f76a2e72f0369
+      internalID: 21300012
+      vertices:
+      - {x: 41.95844, y: 45.968483}
+      - {x: 28.958439, y: 4.968483}
+      - {x: 41.95844, y: 23.968483}
+      - {x: 25.958439, y: 45.968483}
+      - {x: 21.958439, y: 44.968483}
+      - {x: 21.958439, y: -0.03151703}
+      - {x: 1.9584389, y: -0.03151703}
+      - {x: -0.041561127, y: 27.968483}
+      - {x: -0.041561127, y: 2.968483}
+      indices: 080000000700000006000000040000000600000007000000050000000600000004000000010000000500000004000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hook
+      rect:
+        serializedVersion: 2
+        x: 0.11832619
+        y: 0.07612038
+        width: 131.80554
+        height: 145.84775
+      alignment: 9
+      pivot: {x: 0.2713342, y: 0.43776995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81.13942, y: -81.07611}
+        - {x: -88.13942, y: -74.07611}
+        - {x: -88.13942, y: -15.076111}
+        - {x: -80.13942, y: 20.923891}
+        - {x: -5.1394196, y: 50.923893}
+        - {x: 0.86058044, y: 64.92389}
+        - {x: 22.860577, y: 64.92389}
+        - {x: 41.86058, y: 59.92389}
+        - {x: 43.86058, y: 56.92389}
+        - {x: 43.86058, y: 8.923889}
+        - {x: 8.86058, y: -73.07611}
+        - {x: -11.13942, y: -81.07611}
+      physicsShape:
+      - - {x: 16.86058, y: 1.9238892}
+        - {x: 15.860577, y: 3.9238892}
+        - {x: 17.86058, y: 2.9238892}
+        - {x: 21.86058, y: 2.9238892}
+        - {x: 23.860577, y: 4.923889}
+        - {x: 23.860577, y: 11.923889}
+        - {x: 21.86058, y: 13.923887}
+        - {x: 19.86058, y: 13.923887}
+        - {x: 19.86058, y: 21.92389}
+        - {x: 17.86058, y: 23.92389}
+        - {x: 19.86058, y: 22.92389}
+        - {x: 19.86058, y: 18.92389}
+        - {x: 24.86058, y: 13.923887}
+        - {x: 28.860577, y: 13.923887}
+        - {x: 30.86058, y: 14.923889}
+        - {x: 30.86058, y: 57.92388}
+        - {x: 18.860577, y: 60.92389}
+        - {x: 2.8605804, y: 60.92389}
+        - {x: 2.8605804, y: 51.92389}
+        - {x: 13.86058, y: 42.92389}
+        - {x: 4.8605804, y: 29.92389}
+        - {x: 4.8605804, y: 20.923887}
+        - {x: 9.860577, y: 18.92389}
+        - {x: 9.860577, y: 15.923889}
+        - {x: 11.86058, y: 13.923887}
+        - {x: 9.860577, y: 14.923889}
+        - {x: 9.860577, y: 15.923889}
+        - {x: 8.86058, y: 18.92389}
+        - {x: -2.1394196, y: 16.92389}
+        - {x: -12.13942, y: -7.076111}
+        - {x: -17.13942, y: -44.07611}
+        - {x: -30.13942, y: -62.076107}
+        - {x: -52.13942, y: -64.07611}
+        - {x: -74.13942, y: -52.076107}
+        - {x: -60.13942, y: -35.07611}
+        - {x: -59.13942, y: -27.07611}
+        - {x: -64.13942, y: -0.07611084}
+        - {x: -68.13942, y: 5.923888}
+        - {x: -76.13942, y: 2.9238892}
+        - {x: -86.13942, y: -24.07611}
+        - {x: -88.13942, y: -38.07611}
+        - {x: -88.13942, y: -56.07611}
+        - {x: -84.13942, y: -61.07611}
+        - {x: -73.13942, y: -71.07611}
+        - {x: -60.13942, y: -77.07611}
+        - {x: -12.13942, y: -77.07611}
+        - {x: -1.1394196, y: -56.07611}
+        - {x: 7.8605804, y: -5.076111}
+        - {x: 16.86058, y: -10.076111}
+      - - {x: 29.860577, y: 50.923885}
+        - {x: 26.86058, y: 47.92389}
+        - {x: 26.86058, y: 29.92389}
+        - {x: 36.860573, y: 29.92389}
+        - {x: 40.86058, y: 33.923885}
+        - {x: 40.86058, y: 50.923885}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4167626c47934ff9aed38c51cf116d6c
+      internalID: 21300014
+      vertices:
+      - {x: 137.90277, y: 141.92387}
+      - {x: 139.90277, y: 90.923874}
+      - {x: 139.90277, y: 138.92387}
+      - {x: 118.90277, y: 146.92387}
+      - {x: 104.90277, y: 8.923874}
+      - {x: 96.90277, y: 146.92387}
+      - {x: 90.90277, y: 132.92387}
+      - {x: 84.90277, y: 0.9238739}
+      - {x: 15.902771, y: 102.923874}
+      - {x: 14.902771, y: 0.9238739}
+      - {x: 7.902771, y: 66.923874}
+      - {x: 7.902771, y: 7.923874}
+      indices: 0b0000000a0000000900000008000000090000000a000000070000000900000008000000060000000700000008000000040000000700000006000000050000000400000006000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keypanel_fishing_button
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.000001, y: -15.000001}
+        - {x: -15.000001, y: 15.000001}
+        - {x: 15.000001, y: 15.000001}
+        - {x: 15.000001, y: -15.000001}
+      physicsShape:
+      - - {x: 2, y: 9.999999}
+        - {x: -14.999999, y: -3}
+        - {x: -14.999999, y: -12}
+        - {x: -11, y: -12}
+        - {x: 11, y: -2}
+        - {x: 14.999999, y: 2}
+        - {x: 14.999999, y: 9.999999}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761ed45b6591445a8765378908a2902d
+      internalID: 21300016
+      vertices:
+      - {x: -0.0000009536743, y: 30}
+      - {x: 30, y: 30}
+      - {x: -0.0000009536743, y: -0.0000009536743}
+      - {x: 30, y: -0.0000009536743}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fising_indicator_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 96.07611
+        y: 150.07613
+        width: 14.897129
+        height: 30.84776
+      alignment: 9
+      pivot: {x: -0.14447327, y: 0.77307916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.600801, y: -15.57612}
+        - {x: -16.600801, y: -14.57612}
+        - {x: -16.600801, y: 15.42388}
+        - {x: -5.6008015, y: 15.42388}
+        - {x: -1.6008015, y: 6.4238796}
+        - {x: -1.6008015, y: -1.5761204}
+        - {x: -2.6008015, y: -3.5761204}
+        - {x: -8.600801, y: -12.57612}
+        - {x: -11.600801, y: -15.57612}
+      physicsShape:
+      - - {x: -1.6008015, y: 6.4238796}
+        - {x: -5.6008015, y: 15.42388}
+        - {x: -16.600801, y: 15.42388}
+        - {x: -16.600801, y: -14.57612}
+        - {x: -15.600801, y: -15.57612}
+        - {x: -11.600801, y: -15.57612}
+        - {x: -8.600801, y: -12.57612}
+        - {x: -2.6008015, y: -3.5761204}
+        - {x: -1.6008015, y: -1.5761204}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dce7e5948d4d42bf21e2ad689f88f8
+      internalID: 21300018
+      vertices:
+      - {x: 15.448565, y: 13.42388}
+      - {x: 14.448565, y: 3.4238796}
+      - {x: 15.448565, y: 5.4238796}
+      - {x: 11.448565, y: 22.42388}
+      - {x: 8.448565, y: -5.5761204}
+      - {x: 5.4485645, y: -8.57612}
+      - {x: 1.4485645, y: -8.57612}
+      - {x: 0.44856453, y: 22.42388}
+      - {x: 0.44856453, y: -7.5761204}
+      indices: 080000000700000006000000030000000600000007000000050000000600000003000000040000000500000003000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fising_indicator_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 73.07611
+        y: 182.07613
+        width: 14.897129
+        height: 30.84776
+      alignment: 9
+      pivot: {x: -0.14447327, y: 0.77307916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.6008015, y: -15.57612}
+        - {x: -16.600801, y: -15.57612}
+        - {x: -16.600801, y: 13.42388}
+        - {x: -14.600801, y: 14.42388}
+        - {x: -11.600801, y: 15.42388}
+        - {x: -3.6008015, y: 15.42388}
+        - {x: -1.6008015, y: 14.42388}
+        - {x: -1.6008015, y: -10.57612}
+      physicsShape:
+      - - {x: -11.600801, y: 15.42388}
+        - {x: -14.600801, y: 14.42388}
+        - {x: -16.600801, y: 13.42388}
+        - {x: -16.600801, y: -15.57612}
+        - {x: -2.6008015, y: -15.57612}
+        - {x: -1.6008015, y: -10.57612}
+        - {x: -1.6008015, y: 14.42388}
+        - {x: -3.6008015, y: 15.42388}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ac8982c0214b9a93ef85bffee47ea2
+      internalID: 21300020
+      vertices:
+      - {x: 15.448565, y: 21.42388}
+      - {x: 14.448565, y: -8.57612}
+      - {x: 15.448565, y: -3.5761204}
+      - {x: 13.448565, y: 22.42388}
+      - {x: 5.4485645, y: 22.42388}
+      - {x: 2.4485645, y: 21.42388}
+      - {x: 0.44856453, y: 20.42388}
+      - {x: 0.44856453, y: -8.57612}
+      indices: 070000000600000001000000050000000100000006000000040000000100000005000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fising_indicator_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 182.04291
+        y: 64.07612
+        width: 15.94418
+        height: 30.84776
+      alignment: 9
+      pivot: {x: -0.13081987, y: 0.77307916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.057905, y: -15.57612}
+        - {x: -17.057905, y: -1.5761204}
+        - {x: -17.057905, y: 1.4238796}
+        - {x: -16.057905, y: 10.42388}
+        - {x: -14.057905, y: 15.42388}
+        - {x: -8.057905, y: 15.42388}
+        - {x: -2.0579052, y: 12.42388}
+        - {x: -1.0579052, y: 7.4238796}
+        - {x: -1.0579052, y: -4.5761204}
+        - {x: -3.0579052, y: -14.57612}
+        - {x: -5.057905, y: -15.57612}
+      physicsShape:
+      - - {x: -8.057905, y: 15.42388}
+        - {x: -14.057905, y: 15.42388}
+        - {x: -16.057905, y: 10.42388}
+        - {x: -17.057905, y: 1.4238796}
+        - {x: -17.057905, y: -1.5761204}
+        - {x: -10.057905, y: -15.57612}
+        - {x: -5.057905, y: -15.57612}
+        - {x: -3.0579052, y: -14.57612}
+        - {x: -1.0579052, y: -4.5761204}
+        - {x: -1.0579052, y: 7.4238796}
+        - {x: -2.0579052, y: 12.42388}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dad2a047994bbaa2bc640fb8683b2d
+      internalID: 21300022
+      vertices:
+      - {x: 15.97209, y: 19.42388}
+      - {x: 16.97209, y: 2.4238796}
+      - {x: 16.97209, y: 14.42388}
+      - {x: 14.97209, y: -7.5761204}
+      - {x: 12.97209, y: -8.57612}
+      - {x: 9.97209, y: 22.42388}
+      - {x: 7.97209, y: -8.57612}
+      - {x: 3.9720898, y: 22.42388}
+      - {x: 1.9720898, y: 17.42388}
+      - {x: 0.97208977, y: 8.42388}
+      - {x: 0.97208977, y: 5.4238796}
+      indices: 0a0000000900000006000000080000000600000009000000070000000600000008000000050000000600000007000000040000000600000005000000000000000400000005000000030000000400000000000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fising_indicator_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 34.07612
+        y: 190.07613
+        width: 14.872562
+        height: 30.84776
+      alignment: 9
+      pivot: {x: -0.27918798, y: 0.77307916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.588522, y: -15.57612}
+        - {x: -17.588522, y: -3.5761204}
+        - {x: -17.588522, y: 14.42388}
+        - {x: -15.588522, y: 15.42388}
+        - {x: -6.588522, y: 15.42388}
+        - {x: -2.588522, y: 8.42388}
+        - {x: -2.588522, y: -15.57612}
+      physicsShape:
+      - - {x: -15.588522, y: 15.42388}
+        - {x: -17.588522, y: 14.42388}
+        - {x: -17.588522, y: -3.5761204}
+        - {x: -7.588522, y: -15.57612}
+        - {x: -2.588522, y: -15.57612}
+        - {x: -2.588522, y: 8.42388}
+        - {x: -6.588522, y: 15.42388}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d828437f494a4055a61204b8d8bed1a2
+      internalID: 21300024
+      vertices:
+      - {x: 12.436281, y: 22.42388}
+      - {x: 16.436281, y: -8.57612}
+      - {x: 16.436281, y: 15.42388}
+      - {x: 11.436281, y: -8.57612}
+      - {x: 3.4362812, y: 22.42388}
+      - {x: 1.4362812, y: 21.42388}
+      - {x: 1.4362812, y: 3.4238796}
+      indices: 060000000500000003000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fising_indicator_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 115.101685
+        y: 150.07613
+        width: 14.822195
+        height: 30.84776
+      alignment: 9
+      pivot: {x: -0.14865336, y: 0.77307904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.614467, y: -15.576124}
+        - {x: -16.614468, y: -2.5761242}
+        - {x: -16.614468, y: 14.423876}
+        - {x: -14.614467, y: 15.423876}
+        - {x: -7.6144667, y: 15.423876}
+        - {x: -1.6144667, y: 12.423876}
+        - {x: -1.6144667, y: -15.576124}
+      physicsShape:
+      - - {x: -14.614467, y: 15.423876}
+        - {x: -16.614468, y: 14.423876}
+        - {x: -16.614468, y: -2.5761242}
+        - {x: -14.614467, y: -15.576124}
+        - {x: -1.6144667, y: -15.576124}
+        - {x: -1.6144667, y: 12.423876}
+        - {x: -7.6144667, y: 15.423876}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e65d20138b436aa8bced4592edf279
+      internalID: 21300026
+      vertices:
+      - {x: 9.411098, y: 22.42388}
+      - {x: 15.411098, y: -8.57612}
+      - {x: 15.411098, y: 19.42388}
+      - {x: 2.4110975, y: 22.42388}
+      - {x: 2.4110975, y: -8.57612}
+      - {x: 0.41109753, y: 21.42388}
+      - {x: 0.41109753, y: 4.4238796}
+      indices: 060000000500000004000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fising_indicator_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 202.10168
+        y: 64.076126
+        width: 14.822195
+        height: 30.84776
+      alignment: 9
+      pivot: {x: -0.14865336, y: 0.77307904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.614467, y: -14.576124}
+        - {x: -16.614468, y: -4.576124}
+        - {x: -16.614468, y: 13.423876}
+        - {x: -13.614467, y: 15.423876}
+        - {x: -7.6144667, y: 15.423876}
+        - {x: -1.6144667, y: 13.423876}
+        - {x: -1.6144667, y: -15.576124}
+        - {x: -12.614467, y: -15.576124}
+      physicsShape:
+      - - {x: -13.614467, y: 15.423876}
+        - {x: -16.614468, y: 13.423876}
+        - {x: -16.614468, y: -4.576124}
+        - {x: -15.614467, y: -14.576124}
+        - {x: -12.614467, y: -15.576124}
+        - {x: -1.6144667, y: -15.576124}
+        - {x: -1.6144667, y: 13.423876}
+        - {x: -7.6144667, y: 15.423876}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106647ecac0a4d11939475adaa1618bb
+      internalID: 21300028
+      vertices:
+      - {x: 9.411098, y: 22.42388}
+      - {x: 15.411098, y: -8.57612}
+      - {x: 15.411098, y: 20.42388}
+      - {x: 4.4110975, y: -8.57612}
+      - {x: 3.4110975, y: 22.42388}
+      - {x: 1.4110975, y: -7.5761204}
+      - {x: 0.41109753, y: 20.42388}
+      - {x: 0.41109753, y: 2.4238796}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fising_indicator_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 53.036285
+        y: 182.07613
+        width: 15.920807
+        height: 30.84776
+      alignment: 9
+      pivot: {x: -0.004558266, y: 0.77307904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.032974, y: -14.576124}
+        - {x: -16.032974, y: -12.576124}
+        - {x: -16.032974, y: 5.423876}
+        - {x: -11.032974, y: 15.423876}
+        - {x: -2.0329742, y: 15.423876}
+        - {x: -0.032974243, y: 9.423876}
+        - {x: -0.032974243, y: -7.576124}
+        - {x: -7.0329742, y: -15.576124}
+        - {x: -13.032974, y: -15.576124}
+      physicsShape:
+      - - {x: -11.032974, y: 15.423876}
+        - {x: -16.032974, y: 5.423876}
+        - {x: -16.032974, y: -12.576124}
+        - {x: -15.032974, y: -14.576124}
+        - {x: -13.032974, y: -15.576124}
+        - {x: -7.0329742, y: -15.576124}
+        - {x: -0.032974243, y: -7.576124}
+        - {x: -0.032974243, y: 9.423876}
+        - {x: -2.0329742, y: 15.423876}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b856a3f9a594463283859596452cf596
+      internalID: 21300030
+      vertices:
+      - {x: 13.960403, y: 22.42388}
+      - {x: 15.960403, y: -0.5761204}
+      - {x: 15.960403, y: 16.42388}
+      - {x: 8.960403, y: -8.57612}
+      - {x: 4.9604034, y: 22.42388}
+      - {x: 2.9604034, y: -8.57612}
+      - {x: 0.96040344, y: -7.5761204}
+      - {x: -0.039596558, y: 12.42388}
+      - {x: -0.039596558, y: -5.5761204}
+      indices: 080000000700000006000000040000000600000007000000050000000600000004000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fising_indicator_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 179.07613
+        y: 99.076126
+        width: 14.847759
+        height: 30.84776
+      alignment: 9
+      pivot: {x: -0.010253417, y: 0.77307904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.57612, y: -15.576124}
+        - {x: -15.57612, y: -14.576124}
+        - {x: -15.57612, y: 3.4238758}
+        - {x: -11.57612, y: 15.423876}
+        - {x: -4.57612, y: 15.423876}
+        - {x: -0.5761199, y: 13.423876}
+        - {x: -0.5761199, y: -4.576124}
+        - {x: -8.57612, y: -15.576124}
+      physicsShape:
+      - - {x: -11.57612, y: 15.423876}
+        - {x: -15.57612, y: 3.4238758}
+        - {x: -15.57612, y: -14.576124}
+        - {x: -14.57612, y: -15.576124}
+        - {x: -8.57612, y: -15.576124}
+        - {x: -0.5761199, y: -4.576124}
+        - {x: -0.5761199, y: 13.423876}
+        - {x: -4.57612, y: 15.423876}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05bf016a7af4593b839f26c41470e56
+      internalID: 21300032
+      vertices:
+      - {x: 10.42388, y: 22.42388}
+      - {x: 14.42388, y: 2.4238796}
+      - {x: 14.42388, y: 20.42388}
+      - {x: 6.4238796, y: -8.57612}
+      - {x: 3.4238796, y: 22.42388}
+      - {x: 0.42387962, y: -8.57612}
+      - {x: -0.5761204, y: 10.42388}
+      - {x: -0.5761204, y: -7.5761204}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fishing_spot_icecave
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 50
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -19.5}
+        - {x: -25, y: -19.5}
+        - {x: -25, y: 19.5}
+        - {x: 22, y: 19.5}
+        - {x: 25, y: 18.5}
+      physicsShape:
+      - - {x: -22, y: 19.5}
+        - {x: -25, y: 16.5}
+        - {x: -25, y: -10.5}
+        - {x: -19.999998, y: -18.5}
+        - {x: -18, y: -19.5}
+        - {x: 16, y: -19.5}
+        - {x: 25, y: -10.5}
+        - {x: 25, y: 8.5}
+        - {x: 19.999998, y: 19.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52aaf8402c046c685b86bbfd3ea6e91
+      internalID: 21300034
+      vertices:
+      - {x: 47, y: 39}
+      - {x: 50, y: 0}
+      - {x: 50, y: 38}
+      - {x: 0, y: 39}
+      - {x: 0, y: 0}
+      indices: 040000000300000001000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fishing_harvest_pet_speedy
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 134
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -5.5}
+        - {x: -12, y: 5.5}
+        - {x: 12, y: 5.5}
+        - {x: 12, y: -5.5}
+      physicsShape:
+      - - {x: -11, y: 5.5}
+        - {x: -12, y: 4.5}
+        - {x: -12, y: -5.5}
+        - {x: 12, y: -5.5}
+        - {x: 12, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09d2248ee104d19b2dd4bf9e6bfe66b
+      internalID: 21300036
+      vertices:
+      - {x: 0, y: 11}
+      - {x: 24, y: 11}
+      - {x: 0, y: 0}
+      - {x: 24, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spray_4: 21300000
+      spray_2: 21300004
+      fising_indicator_shadow_0: 21300032
+      fishing_spot_lava: 21300010
+      fising_indicator_shadow_7: 21300018
+      fishing_harvest_pet_speedy: 21300036
+      spray_1: 21300006
+      keypanel_fishing_button: 21300016
+      hook: 21300014
+      fising_indicator_shadow_5: 21300022
+      hook_joycon: 21300012
+      fising_indicator_shadow_4: 21300024
+      fising_indicator_shadow_1: 21300030
+      fishing_spot_icecave: 21300034
+      fising_indicator_shadow_2: 21300028
+      fising_indicator_shadow_3: 21300026
+      spray_0: 21300008
+      spray_3: 21300002
+      fising_indicator_shadow_6: 21300020
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
