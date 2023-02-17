@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace CraftsmanHero {
     public class Entity : MonoBehaviour {
@@ -23,8 +24,10 @@ namespace CraftsmanHero {
         [Header("移动")] public bool isStatic;
         public float MoveSpeed = 10f;
 
-        [Header("影子")] public Sprite ShadowSprite;
-        public Sprite ShadowLockSprite;
+        [Header("影子")] public Sprite shadowSprite;
+        public Sprite shadowLockSprite;
+        GameObject shadowLock;
+        
         FloatingText currentDamageText;
         FloatingText currentRecoverText;
         BoxCollider2D damageCollider;
@@ -89,6 +92,7 @@ namespace CraftsmanHero {
         public event EntityEventHandler OnHealthChanged;
         public event EntityEventHandler OnGoldChanged;
         public event EntityEventHandler OnExperienceChanged;
+        public event EntityEventHandler OnDead;
 
         // 创建伤害碰撞体
         void CreateDamageCollider() {
@@ -103,19 +107,20 @@ namespace CraftsmanHero {
 
         // 创建影子
         public void CreateShadow() {
-            if (ShadowSprite != null) {
+            if (shadowSprite != null) {
                 var shadow = new GameObject("shadow");
                 shadow.transform.SetParent(transform, false);
                 var shadow_sr = shadow.AddComponent<SpriteRenderer>();
                 shadow_sr.sortingLayerName = SortingLayerConst.SHADOW;
-                shadow_sr.sprite = ShadowSprite;
+                shadow_sr.sprite = shadowSprite;
             }
 
-            var shadowLock = new GameObject("shadow_lock");
+            shadowLock = new GameObject("shadow_lock");
             shadowLock.transform.SetParent(transform, false);
             shadowLockRenderer = shadowLock.AddComponent<SpriteRenderer>();
             shadowLockRenderer.sortingLayerName = SortingLayerConst.SHADOW;
-            shadowLockRenderer.sprite = ShadowLockSprite;
+            shadowLockRenderer.sprite = shadowLockSprite;
+            shadowLock.SetActive(false);
         }
 
         // 受伤
@@ -175,22 +180,17 @@ namespace CraftsmanHero {
             // Player Get Money
             var dropGold = Random.Range(0, Gold);
             GameManager.Instance.CurrentPlayer.ObtainGold(dropGold);
+            
+            OnDead?.Invoke();
+        }
+        
+        // 被选中
+        public void Lock() {
+            shadowLock.SetActive(true);
+        }
 
-            // Drop Items
-            foreach (var inventoryItemInfo in inventory) {
-                var dropAmount = inventoryItemInfo.Amount;
-
-                if (inventoryItemInfo.randomDrop) {
-                    dropAmount = Random.Range(0, inventoryItemInfo.Amount);
-                }
-
-                for (var i = 0; i < dropAmount; i++) {
-                    var item = Instantiate(GameManager.Instance.gameItemPrefab);
-                    item.transform.position = transform.position;
-                    var itemDisplay = item.GetComponent<GameItemDisplay>();
-                    itemDisplay.GameItemToDisplay = inventoryItemInfo.gameItem;
-                }
-            }
+        public void Release() {
+            shadowLock.SetActive(false);
         }
     }
 }

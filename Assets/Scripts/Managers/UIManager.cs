@@ -1,9 +1,12 @@
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace CraftsmanHero {
+    public delegate void EventHandler();
+    
     public class UIManager : Singleton<UIManager> {
         Player currentPlayer;
         InputManager inputManager;
@@ -12,6 +15,7 @@ namespace CraftsmanHero {
         public TextMeshProUGUI HealthAmount;
 
         [Header("游戏货币相关")] public TextMeshProUGUI GoldAmount;
+        public TextMeshProUGUI PositionText;
 
         [Header("背包和物品栏相关")] public GameObject hotbarSlots;
         Image[] hotbarSlotsImages;
@@ -25,6 +29,8 @@ namespace CraftsmanHero {
         [Header("界面开关相关")] public GameObject settingPanel;
         public GameObject inventoryPanel;
         Stack<GameObject> currentOpenedPanel;
+
+        [Header("对话框")] public MessageBox messageBox;
 
         protected override void Awake() {
             base.Awake();
@@ -124,6 +130,11 @@ namespace CraftsmanHero {
                     slot.Count = currentInventoryItem.Amount;
                 }
             }
+        }
+
+        void LateUpdate() {
+            var playerPosition = currentPlayer.transform.position;
+            PositionText.text = $"({Math.Round(playerPosition.x)}, {Math.Round(playerPosition.y)})";
         }
     }
 }

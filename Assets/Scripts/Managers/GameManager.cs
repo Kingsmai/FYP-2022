@@ -9,6 +9,9 @@ public class GameManager : Singleton<GameManager> {
 
     [Header("Game Item Stuffs")] public GameObject gameItemPrefab;
 
+    [Header("Default Sprite Stuffs")] public Sprite shadow;
+    public Sprite shadowLock;
+
     protected override void Awake() {
         base.Awake();
 
