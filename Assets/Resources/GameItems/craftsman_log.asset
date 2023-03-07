@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21c69f75aefd21041a4f92498d3e694c, type: 3}
+  m_Name: craftsman_log
+  m_EditorClassIdentifier: 
+  itemId: craftsman_log
+  itemName: Log
+  itemIcon: {fileID: 21300000, guid: 755c1640974bace4e9d0061b0f10735d, type: 3}
+  itemPrefab: {fileID: 0}
+  itemPrice: 1
+  description: Chopped down from tree

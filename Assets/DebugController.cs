@@ -7,13 +7,9 @@ using UnityEngine.InputSystem;
 
 namespace CraftsmanHero {
     public class DebugController : MonoBehaviour {
-        bool showConsole;
+        GameItemScriptableObject[] gameItems;
 
-        public static DebugCommand HELLO_WORLD;
-        public static DebugCommand ROSEBUD;
-        public static DebugCommand<string> SET_GOLD;
-        public static DebugCommand<string, string> GOLD;
-        public static DebugCommand HELP;
+        bool showConsole;
 
         public List<object> commandList;
 
@@ -38,57 +34,98 @@ namespace CraftsmanHero {
         }
 
         void Awake() {
-            HELLO_WORLD = new DebugCommand("hello_world", "The first command of this game.", "hello_world", () => { Log("Hello, world"); });
-
-            ROSEBUD = new DebugCommand("rosebud", "Adds 1000 gold.", "rosebud", () => { Log("Added 1000 gold."); });
-
-            SET_GOLD = new DebugCommand<string>("set_gold", "Sets the amounts of gold.", "set_gold <gold_amount>", prop => {
-                if (!int.TryParse(prop, out var goldAmount)) {
-                    Log($"Unable to recognize gold amount [{prop}]");
-                    return;
-                }
-
-                Log($"Set money to {prop}.");
-            });
-
-            GOLD = new DebugCommand<string, string>("gold", "Modify Gold", "gold <opt> <prop>", (opt, prop) => {
-                if (!int.TryParse(prop, out var goldAmount)) {
-                    Log($"Unable to recognize gold amount [{prop}]");
-                    return;
-                }
-
-                switch (opt) {
-                    case "set":
-                        Log($"Set money to {goldAmount}");
-                        GameManager.Instance.SetGold(goldAmount);
-                        break;
-                    case "add":
-                        Log($"Add {goldAmount} money");
-                        GameManager.Instance.AddGold(goldAmount);
-                        break;
-                    case "sub":
-                        Log($"Decreased {goldAmount} money");
-                        GameManager.Instance.SubGold(goldAmount);
-                        break;
-                    default:
-                        Log($"Invalid option [{goldAmount}]");
-                        break;
-                }
-            });
-
-            HELP = new DebugCommand("help", "Show a list of commands", "help", () => {
-                for (int i = 0; i < commandList.Count; i++) {
-                    var command = commandList[i] as DebugCommandBase;
-                    Log($"{command.CommandFormat} - {command.CommandDescription}", "");
-                }
-            });
+            // Initialize game items
+            gameItems = Resources.LoadAll<GameItemScriptableObject>("GameItems/");
 
             commandList = new List<object>() {
-                HELLO_WORLD,
-                ROSEBUD,
-                SET_GOLD,
-                GOLD,
-                HELP
+                // Hello world
+                new DebugCommand("hello_world", "The first command of this game.", "hello_world", () => { Log("Hello, world"); }),
+
+                // Modify Player Gold
+                new DebugCommand<string[]>("gold", "Modify Gold", "gold <opt> <prop>", (props) => {
+                    var option = props[1];
+                    var prop = props[2];
+
+                    if (!int.TryParse(prop, out var goldAmount)) {
+                        var errorMsg = $"Unable to recognize gold amount [{prop}] to [{option}]";
+                        Log(errorMsg, "ERROR");
+                        Debug.LogError(errorMsg);
+                        return;
+                    }
+
+                    switch (option) {
+                        case "set":
+                            Log($"Set money to {goldAmount}");
+                            GameManager.Instance.SetGold(goldAmount);
+                            break;
+                        case "add":
+                            Log($"Add {goldAmount} money");
+                            GameManager.Instance.AddGold(goldAmount);
+                            break;
+                        case "sub":
+                            Log($"Decreased {goldAmount} money");
+                            GameManager.Instance.SubGold(goldAmount);
+                            break;
+                        default:
+                            var errorMsg = $"Invalid option [{option}]";
+                            Log(errorMsg);
+                            Debug.LogError(errorMsg);
+                            break;
+                    }
+                }),
+
+                // Command Help
+                new DebugCommand("help", "Show a list of commands", "help", () => {
+                    for (int i = 0; i < commandList.Count; i++) {
+                        var command = commandList[i] as DebugCommandBase;
+                        Log($"{command.CommandFormat} - {command.CommandDescription}", "");
+                    }
+                }),
+
+                // 20230307 Give Player items
+                new DebugCommand<string[]>("give", "Give player specific item", "give <item_id> [amount]", props => {
+                    var itemId = props[1];
+                    // give 1 item by default
+                    var amount = props[2] == null ? "1" : props[2];
+                    int amt;
+
+                    if (!int.TryParse(amount, out amt)) {
+                        var errorMsg = $"Invalid amount properties [{amount}], expected integer";
+                        Log(errorMsg, "ERROR");
+                        Debug.LogError(errorMsg);
+                        return;
+                    }
+
+                    var hasFound = false;
+
+                    foreach (var gameItem in gameItems) {
+                        if (gameItem.itemId.Equals(itemId)) {
+                            hasFound = true;
+                            break;
+                        }
+                    }
+
+                    if (hasFound) {
+                        Log($"Given {amount}x {itemId} to player.");
+                    }
+                    else {
+                        var errorMsg = $"Unable to find game item with itemId: {itemId}.";
+                        Log(errorMsg, "ERROR");
+                        Debug.LogError(errorMsg);
+                    }
+                }),
+                
+                // 20230308 Modify Player Stats
+                new DebugCommand<string[]>("stats", "Modify player stats", "stats <stat> <option> <properties>", props => {
+                    if (props.Length < 4) {
+                        var errorMsg = $"Insufficient arguments: stats requires 3 arguments, but only {props.Length - 1} were provided";
+                        Log(errorMsg, "ERROR");
+                        Debug.LogError(errorMsg);
+                    }
+                    var stat = props[1];
+                    var option = props[2];
+                    var properties = props[3];
+                })
             };
 
             inputField = console.GetComponentInChildren<TMP_InputField>();
@@ -109,11 +146,8 @@ namespace CraftsmanHero {
                         if ((command = commandList[i] as DebugCommand) != null) {
                             (command as DebugCommand).Invoke();
                         }
-                        else if ((command = commandList[i] as DebugCommand<string>) != null) {
-                            (command as DebugCommand<string>).Invoke(properties[1]);
-                        }
-                        else if ((command = commandList[i] as DebugCommand<string, string>) != null) {
-                            (command as DebugCommand<string, string>).Invoke(properties[1], properties[2]);
+                        else if ((command = commandList[i] as DebugCommand<string[]>) != null) {
+                            (command as DebugCommand<string[]>).Invoke(properties);
                         }
 
                         Debug.Log(command);

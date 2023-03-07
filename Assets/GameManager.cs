@@ -9,7 +9,7 @@ namespace CraftsmanHero {
         public TextMeshProUGUI coinText;
 
         int playerGold;
-
+        
         public int PlayerGold {
             get => playerGold;
             private set {
