@@ -47,9 +47,7 @@ namespace CraftsmanHero {
                     var prop = props[2];
 
                     if (!int.TryParse(prop, out var goldAmount)) {
-                        var errorMsg = $"Unable to recognize gold amount [{prop}] to [{option}]";
-                        Log(errorMsg, "ERROR");
-                        Debug.LogError(errorMsg);
+                        Log($"Unable to recognize gold amount [{prop}] to [{option}]", "ERROR");
                         return;
                     }
 
@@ -67,9 +65,7 @@ namespace CraftsmanHero {
                             GameManager.Instance.SubGold(goldAmount);
                             break;
                         default:
-                            var errorMsg = $"Invalid option [{option}]";
-                            Log(errorMsg);
-                            Debug.LogError(errorMsg);
+                            Log($"Invalid option [{option}]", "ERROR");
                             break;
                     }
                 }),
@@ -90,9 +86,7 @@ namespace CraftsmanHero {
                     int amt;
 
                     if (!int.TryParse(amount, out amt)) {
-                        var errorMsg = $"Invalid amount properties [{amount}], expected integer";
-                        Log(errorMsg, "ERROR");
-                        Debug.LogError(errorMsg);
+                        Log($"Invalid amount properties [{amount}], expected integer", "ERROR");
                         return;
                     }
 
@@ -109,22 +103,83 @@ namespace CraftsmanHero {
                         Log($"Given {amount}x {itemId} to player.");
                     }
                     else {
-                        var errorMsg = $"Unable to find game item with itemId: {itemId}.";
-                        Log(errorMsg, "ERROR");
-                        Debug.LogError(errorMsg);
+                        Log($"Unable to find game item with itemId: {itemId}.", "ERROR");
                     }
                 }),
-                
+
                 // 20230308 Modify Player Stats
                 new DebugCommand<string[]>("stats", "Modify player stats", "stats <stat> <option> <properties>", props => {
                     if (props.Length < 4) {
-                        var errorMsg = $"Insufficient arguments: stats requires 3 arguments, but only {props.Length - 1} were provided";
-                        Log(errorMsg, "ERROR");
-                        Debug.LogError(errorMsg);
+                        Log($"Insufficient arguments: stats requires 3 arguments, but only {props.Length - 1} were provided", "ERROR");
                     }
+
                     var stat = props[1];
                     var option = props[2];
                     var properties = props[3];
+
+                    switch (stat) {
+                        case "health":
+                            if (!int.TryParse(properties, out var healthAmount)) {
+                                Log($"Invalid amount properties [{healthAmount}], expected integer", "ERROR");
+                                return;
+                            }
+
+                            switch (option) {
+                                case "max":
+                                    GameManager.Instance.SetMaxHealth(healthAmount);
+                                    Log($"Set player max health to {healthAmount}");
+                                    break;
+                                case "set":
+                                    GameManager.Instance.SetHealth(healthAmount);
+                                    Log($"Set player health to {healthAmount}");
+                                    break;
+                                case "regen":
+                                    GameManager.Instance.RegenerateHealth(healthAmount);
+                                    Log($"Regenerate {healthAmount} health");
+                                    break;
+                                case "damage":
+                                    GameManager.Instance.TakeDamage(healthAmount);
+                                    Log($"Take {healthAmount} damage");
+                                    break;
+                                default:
+                                    Log($"Invalid option [{option}]");
+                                    break;
+                            }
+
+                            break;
+                        case "mana":
+                            if (!int.TryParse(properties, out var manaAmount)) {
+                                Log($"Invalid amount properties [{manaAmount}], expected integer", "ERROR");
+                                return;
+                            }
+
+                            switch (option) {
+                                case "max":
+                                    GameManager.Instance.SetMaxMana(manaAmount);
+                                    Log($"Set player max mana to {manaAmount}");
+                                    break;
+                                case "set":
+                                    GameManager.Instance.SetMana(manaAmount);
+                                    Log($"Set player mana to {manaAmount}");
+                                    break;
+                                case "regen":
+                                    GameManager.Instance.RegenerateMana(manaAmount);
+                                    Log($"Regenerate {manaAmount} mana");
+                                    break;
+                                case "damage":
+                                    GameManager.Instance.SpendMana(manaAmount);
+                                    Log($"Spend {manaAmount} mana");
+                                    break;
+                                default:
+                                    Log($"Invalid option [{option}]");
+                                    break;
+                            }
+
+                            break;
+                        default:
+                            Log($"Invalid stat [{stat}]");
+                            break;
+                    }
                 })
             };
 
@@ -166,9 +221,14 @@ namespace CraftsmanHero {
 
             if (speaker != "") {
                 outputField.text += $"[{speaker}]: {msg}";
+                Debug.Log(msg);
+            }
+            else if (speaker == "ERROR") {
+                Debug.LogError(msg);
             }
             else {
                 outputField.text += msg;
+                Debug.Log(msg);
             }
         }
     }
