@@ -1,11 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace CraftsmanHero
-{
+namespace CraftsmanHero {
     public class HotBarSlot : MonoBehaviour {
         public GameObject selectIndicator;
         public Image gameItemIcon;

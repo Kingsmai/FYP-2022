@@ -1,8 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace CraftsmanHero {
@@ -13,15 +11,15 @@ namespace CraftsmanHero {
 
         public PlayerController player;
 
-        // Player properties
-        int playerGold;
-        int playerMaxHealth;
-        int playerHealth;
-        int playerMaxMana;
-        int playerMana;
-
         // Player Inventory
         public List<GameItemAmount> inventory;
+
+        // Player properties
+        int playerGold;
+        int playerHealth;
+        int playerMana;
+        int playerMaxHealth;
+        int playerMaxMana;
 
         public int PlayerGold {
             get => playerGold;
@@ -123,7 +121,7 @@ namespace CraftsmanHero {
             var amountLeft = amount % gameItem.maxStackCount;
 
             // 尝试照看物品栏里有没有这个 gameItem
-            for (var i = 0; i < inventory.Count; i++) {
+            for (var i = 0; i < inventory.Count; i++)
                 if (stackCount > 0 && inventory[i].GameItem == null) {
                     inventory[i] = new GameItemAmount {
                         GameItem = gameItem,
@@ -143,10 +141,9 @@ namespace CraftsmanHero {
                         amountLeft -= spaceLeft;
                     }
                 }
-            }
 
             // 把剩下的放进空栏里
-            for (var i = 0; amountLeft > 0 && i < inventory.Count; i++) {
+            for (var i = 0; amountLeft > 0 && i < inventory.Count; i++)
                 if (inventory[i].GameItem == null) {
                     inventory[i] = new GameItemAmount {
                         GameItem = gameItem,
@@ -154,7 +151,6 @@ namespace CraftsmanHero {
                     };
                     break;
                 }
-            }
         }
     }
 }

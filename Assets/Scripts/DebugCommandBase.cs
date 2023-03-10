@@ -1,19 +1,16 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
 namespace CraftsmanHero {
     public class DebugCommandBase {
-        public string CommandId { get; }
-        public string CommandDescription { get; }
-        public string CommandFormat { get; }
-
         public DebugCommandBase(string commandId, string commandDescription, string commandFormat) {
             CommandId = commandId;
             CommandDescription = commandDescription;
             CommandFormat = commandFormat;
         }
+
+        public string CommandId { get; }
+        public string CommandDescription { get; }
+        public string CommandFormat { get; }
 
         public override string ToString() {
             return $"{CommandId} - {CommandFormat}: {CommandDescription}";
@@ -21,7 +18,7 @@ namespace CraftsmanHero {
     }
 
     public class DebugCommand : DebugCommandBase {
-        Action command;
+        readonly Action command;
 
         public DebugCommand(string commandId, string commandDescription, string commandFormat, Action command) : base(commandId, commandDescription, commandFormat) {
             this.command = command;
@@ -33,7 +30,7 @@ namespace CraftsmanHero {
     }
 
     public class DebugCommand<T1> : DebugCommandBase {
-        Action<T1> command;
+        readonly Action<T1> command;
 
         public DebugCommand(string commandId, string commandDescription, string commandFormat, Action<T1> command) : base(commandId, commandDescription, commandFormat) {
             this.command = command;

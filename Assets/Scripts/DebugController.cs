@@ -1,25 +1,13 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Serialization;
 
 namespace CraftsmanHero {
     public class DebugController : MonoBehaviour {
+        List<object> commandList;
         GameItemScriptableObject[] gameItems;
 
         UIController ui;
-
-        List<object> commandList;
-
-        public void OnReturn(InputValue value) {
-            if (ui.consoleOpened) {
-                HandleInput(ui.consoleInputField.text);
-                ui.consoleInputField.text = "";
-            }
-        }
 
         void Awake() {
             ui = GetComponent<UIController>();
@@ -27,12 +15,12 @@ namespace CraftsmanHero {
             // Initialize game items
             gameItems = Resources.LoadAll<GameItemScriptableObject>("GameItems/");
 
-            commandList = new List<object>() {
+            commandList = new List<object> {
                 // Hello world
                 new DebugCommand("hello_world", "The first command of this game.", "hello_world", () => { Log("Hello, world"); }),
 
                 // Modify Player Gold
-                new DebugCommand<string[]>("gold", "Modify Gold", "gold <opt> <prop>", (props) => {
+                new DebugCommand<string[]>("gold", "Modify Gold", "gold <opt> <prop>", props => {
                     var option = props[1];
                     var prop = props[2];
 
@@ -62,7 +50,7 @@ namespace CraftsmanHero {
 
                 // Command Help
                 new DebugCommand("help", "Show a list of commands", "help", () => {
-                    for (int i = 0; i < commandList.Count; i++) {
+                    for (var i = 0; i < commandList.Count; i++) {
                         var command = commandList[i] as DebugCommandBase;
                         Log($"{command.CommandFormat} - {command.CommandDescription}", "");
                     }
@@ -82,13 +70,12 @@ namespace CraftsmanHero {
 
                     var hasFound = false;
 
-                    foreach (var gameItem in gameItems) {
+                    foreach (var gameItem in gameItems)
                         if (gameItem.itemId.Equals(itemId)) {
                             GameManager.Instance.ObtainItem(gameItem, amt);
                             hasFound = true;
                             break;
                         }
-                    }
 
                     if (hasFound) {
                         Log($"Given {amt}x {itemId} to player.");
@@ -172,19 +159,24 @@ namespace CraftsmanHero {
                             break;
                     }
                 }),
-                new DebugCommand("revive", "Revive the player", "revive", () => {
-                    GameManager.Instance.player.Revive();
-                }),
+                new DebugCommand("revive", "Revive the player", "revive", () => { GameManager.Instance.player.Revive(); })
             };
+        }
+
+        public void OnReturn(InputValue value) {
+            if (ui.consoleOpened) {
+                HandleInput(ui.consoleInputField.text);
+                ui.consoleInputField.text = "";
+            }
         }
 
         void HandleInput(string input) {
             if (input.Trim().StartsWith('/')) {
-                string[] properties = input.Split(' ');
+                var properties = input.Split(' ');
 
                 // Command
-                for (int i = 0; i < commandList.Count; i++) {
-                    DebugCommandBase commandBase = commandList[i] as DebugCommandBase;
+                for (var i = 0; i < commandList.Count; i++) {
+                    var commandBase = commandList[i] as DebugCommandBase;
 
                     if (input.Contains(commandBase.CommandId)) {
                         DebugCommandBase command;

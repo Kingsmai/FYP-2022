@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -11,12 +9,10 @@ namespace CraftsmanHero {
         [FormerlySerializedAs("hotBarSlots")] public GameObject hotBarSlotsParents;
         public List<HotBarSlot> hotBarSlots;
 
-        [SerializeField] int currentSelectedSlot = 0;
+        [SerializeField] int currentSelectedSlot;
 
         void Awake() {
-            for (var i = 0; i < 9; i++) {
-                hotBarSlots.Add(Instantiate(hotBarSlotPrefab, hotBarSlotsParents.transform, false).GetComponent<HotBarSlot>());
-            }
+            for (var i = 0; i < 9; i++) hotBarSlots.Add(Instantiate(hotBarSlotPrefab, hotBarSlotsParents.transform, false).GetComponent<HotBarSlot>());
 
             hotBarSlots[currentSelectedSlot].Select();
         }
@@ -24,7 +20,9 @@ namespace CraftsmanHero {
         public void OnSelectHotBar(InputValue value) {
             var v = value.Get<float>();
 
-            if (v == 0) return;
+            if (v == 0) {
+                return;
+            }
 
             if (v < 120) {
                 hotBarSlots[currentSelectedSlot].Deselect();
@@ -36,7 +34,7 @@ namespace CraftsmanHero {
                 currentSelectedSlot = (currentSelectedSlot - 1 + hotBarSlots.Count) % hotBarSlots.Count;
                 hotBarSlots[currentSelectedSlot].Select();
             }
-            
+
             //TODO: Update player handheld
         }
     }

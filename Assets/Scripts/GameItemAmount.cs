@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using System;
 
 namespace CraftsmanHero {
-    [System.Serializable]
+    [Serializable]
     public class GameItemAmount {
         public GameItemScriptableObject GameItem;
         public int Amount;

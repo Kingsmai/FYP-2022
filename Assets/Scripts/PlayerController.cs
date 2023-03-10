@@ -1,19 +1,12 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace CraftsmanHero {
     public class PlayerController : MonoBehaviour {
-        Rigidbody2D rb2d;
         Animator anim;
 
-        float movementSpeed = 7.5f;
+        Rigidbody2D rb2d;
 
-        public float MovementSpeed {
-            get => movementSpeed;
-            set { movementSpeed = value; }
-        }
+        public float MovementSpeed { get; set; } = 7.5f;
 
         void Awake() {
             rb2d = GetComponent<Rigidbody2D>();
@@ -22,7 +15,7 @@ namespace CraftsmanHero {
 
         public void Move(Vector2 dir) {
             // Debug.Log($"Move player towards direction: {dir * movementSpeed}");
-            rb2d.velocity = dir * movementSpeed;
+            rb2d.velocity = dir * MovementSpeed;
 
             // Play animation
             anim.SetBool("running", rb2d.velocity != Vector2.zero);

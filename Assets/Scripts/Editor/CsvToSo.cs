@@ -1,15 +1,12 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
 
 namespace CraftsmanHero {
     public class CsvToSo {
-        static string gameItemCsvPath = "/Editor/csv/game_item.csv";
+        static readonly string gameItemCsvPath = "/Editor/csv/game_item.csv";
 
-        static string gameItemSoPath = "Assets/Resources/GameItems/";
+        static readonly string gameItemSoPath = "Assets/Resources/GameItems/";
 
         [MenuItem("Utilities/Generate Game Items")]
         public static void GenerateGameItems() {
@@ -20,11 +17,9 @@ namespace CraftsmanHero {
 
             Debug.Log($"{gameItemCsvPath} contains these columns:");
 
-            foreach (var header in headers) {
-                Debug.Log(header);
-            }
-            
-            for (int i = 1; i < allLines.Length; i++) {
+            foreach (var header in headers) Debug.Log(header);
+
+            for (var i = 1; i < allLines.Length; i++) {
                 var fields = allLines[i].Split(',');
 
                 if (fields.Length != headers.Length) {
@@ -32,7 +27,7 @@ namespace CraftsmanHero {
                     return;
                 }
 
-                GameItemScriptableObject gameItem = ScriptableObject.CreateInstance<GameItemScriptableObject>();
+                var gameItem = ScriptableObject.CreateInstance<GameItemScriptableObject>();
                 gameItem.itemId = fields[0];
                 gameItem.itemName = fields[1];
                 gameItem.itemIcon = Resources.Load<Sprite>($"Icons/{gameItem.itemId}");
