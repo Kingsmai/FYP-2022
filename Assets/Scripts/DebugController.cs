@@ -4,36 +4,26 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
 namespace CraftsmanHero {
     public class DebugController : MonoBehaviour {
         GameItemScriptableObject[] gameItems;
 
-        bool showConsole;
+        UIController ui;
 
-        public List<object> commandList;
-
-        public GameObject console;
-        TMP_InputField inputField;
-        TextMeshProUGUI outputField;
-
-        public void OnToggleChatBox(InputValue value) {
-            showConsole = !showConsole;
-            console.SetActive(showConsole);
-
-            if (showConsole) {
-                inputField.Select();
-            }
-        }
+        List<object> commandList;
 
         public void OnReturn(InputValue value) {
-            if (showConsole) {
-                HandleInput(inputField.text);
-                inputField.text = "";
+            if (ui.consoleOpened) {
+                HandleInput(ui.consoleInputField.text);
+                ui.consoleInputField.text = "";
             }
         }
 
         void Awake() {
+            ui = GetComponent<UIController>();
+
             // Initialize game items
             gameItems = Resources.LoadAll<GameItemScriptableObject>("GameItems/");
 
@@ -82,7 +72,7 @@ namespace CraftsmanHero {
                 new DebugCommand<string[]>("give", "Give player specific item", "give <item_id> [amount]", props => {
                     var itemId = props[1];
                     // give 1 item by default
-                    var amount = props[2] == null ? "1" : props[2];
+                    var amount = props.Length == 3 ? props[2] : "1";
                     int amt;
 
                     if (!int.TryParse(amount, out amt)) {
@@ -94,13 +84,14 @@ namespace CraftsmanHero {
 
                     foreach (var gameItem in gameItems) {
                         if (gameItem.itemId.Equals(itemId)) {
+                            GameManager.Instance.ObtainItem(gameItem, amt);
                             hasFound = true;
                             break;
                         }
                     }
 
                     if (hasFound) {
-                        Log($"Given {amount}x {itemId} to player.");
+                        Log($"Given {amt}x {itemId} to player.");
                     }
                     else {
                         Log($"Unable to find game item with itemId: {itemId}.", "ERROR");
@@ -180,11 +171,11 @@ namespace CraftsmanHero {
                             Log($"Invalid stat [{stat}]");
                             break;
                     }
-                })
+                }),
+                new DebugCommand("revive", "Revive the player", "revive", () => {
+                    GameManager.Instance.player.Revive();
+                }),
             };
-
-            inputField = console.GetComponentInChildren<TMP_InputField>();
-            outputField = console.GetComponentsInChildren<TextMeshProUGUI>()[0];
         }
 
         void HandleInput(string input) {
@@ -204,8 +195,7 @@ namespace CraftsmanHero {
                         else if ((command = commandList[i] as DebugCommand<string[]>) != null) {
                             (command as DebugCommand<string[]>).Invoke(properties);
                         }
-
-                        Debug.Log(command);
+                        // Debug.Log(command);
                     }
                 }
             }
@@ -217,19 +207,7 @@ namespace CraftsmanHero {
         }
 
         void Log(string msg, string speaker = "SYSTEM") {
-            outputField.text += "\n";
-
-            if (speaker != "") {
-                outputField.text += $"[{speaker}]: {msg}";
-                Debug.Log(msg);
-            }
-            else if (speaker == "ERROR") {
-                Debug.LogError(msg);
-            }
-            else {
-                outputField.text += msg;
-                Debug.Log(msg);
-            }
+            ui.ConsoleLog(msg, speaker);
         }
     }
 }

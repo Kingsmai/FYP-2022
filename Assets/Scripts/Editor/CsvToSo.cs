@@ -38,6 +38,7 @@ namespace CraftsmanHero {
                 gameItem.itemIcon = Resources.Load<Sprite>($"Icons/{gameItem.itemId}");
                 gameItem.itemPrice = int.Parse(fields[3]);
                 gameItem.description = fields[4];
+                gameItem.maxStackCount = fields[5].Equals("") ? 64 : int.Parse(fields[5]);
 
                 AssetDatabase.CreateAsset(gameItem, gameItemSoPath + gameItem.itemId + ".asset");
             }

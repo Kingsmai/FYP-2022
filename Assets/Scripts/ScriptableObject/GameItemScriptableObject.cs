@@ -10,7 +10,7 @@ namespace CraftsmanHero {
         public Sprite itemIcon;
         public GameObject itemPrefab;
         public int itemPrice;
-        [TextArea]
-        public string description;
+        [TextArea] public string description;
+        public int maxStackCount;
     }
 }

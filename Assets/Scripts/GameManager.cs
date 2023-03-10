@@ -11,11 +11,17 @@ namespace CraftsmanHero {
         public Slider playerHealthBar;
         public Slider playerManaBar;
 
+        public PlayerController player;
+
+        // Player properties
         int playerGold;
         int playerMaxHealth;
         int playerHealth;
         int playerMaxMana;
         int playerMana;
+
+        // Player Inventory
+        public List<GameItemAmount> inventory;
 
         public int PlayerGold {
             get => playerGold;
@@ -36,6 +42,11 @@ namespace CraftsmanHero {
         public int PlayerHealth {
             get => playerHealth;
             private set {
+                if (playerHealth <= 0) {
+                    playerHealth = 0;
+                    player.Dead();
+                }
+
                 playerHealth = value;
                 playerHealthBar.value = playerHealth;
             }
@@ -55,6 +66,11 @@ namespace CraftsmanHero {
                 playerMana = value;
                 playerManaBar.value = playerMana;
             }
+        }
+
+        protected override void Awake() {
+            base.Awake();
+            player = GameObject.Find("Player").GetComponent<PlayerController>();
         }
 
         public void SetGold(int amount) {
@@ -99,6 +115,46 @@ namespace CraftsmanHero {
 
         public void SpendMana(int castCost) {
             PlayerMana = PlayerMana - castCost > 0 ? PlayerMana - castCost : 0;
+        }
+
+        public void ObtainItem(GameItemScriptableObject gameItem, int amount = 1) {
+            // 可以凑几个满堆，并剩下多少
+            var stackCount = amount / gameItem.maxStackCount;
+            var amountLeft = amount % gameItem.maxStackCount;
+
+            // 尝试照看物品栏里有没有这个 gameItem
+            for (var i = 0; i < inventory.Count; i++) {
+                if (stackCount > 0 && inventory[i].GameItem == null) {
+                    inventory[i] = new GameItemAmount {
+                        GameItem = gameItem,
+                        Amount = gameItem.maxStackCount
+                    };
+                    stackCount--;
+                }
+                else if (amountLeft > 0 && inventory[i].GameItem != null && inventory[i].GameItem.Equals(gameItem) && inventory[i].Amount < gameItem.maxStackCount) {
+                    var spaceLeft = gameItem.maxStackCount - inventory[i].Amount;
+
+                    if (spaceLeft > amountLeft) {
+                        inventory[i].Amount += amountLeft;
+                        amountLeft = 0;
+                    }
+                    else {
+                        inventory[i].Amount = gameItem.maxStackCount;
+                        amountLeft -= spaceLeft;
+                    }
+                }
+            }
+
+            // 把剩下的放进空栏里
+            for (var i = 0; amountLeft > 0 && i < inventory.Count; i++) {
+                if (inventory[i].GameItem == null) {
+                    inventory[i] = new GameItemAmount {
+                        GameItem = gameItem,
+                        Amount = amountLeft
+                    };
+                    break;
+                }
+            }
         }
     }
 }

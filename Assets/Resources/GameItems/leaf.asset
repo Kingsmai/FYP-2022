@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21c69f75aefd21041a4f92498d3e694c, type: 3}
-  m_Name: craftsman_stick
+  m_Name: leaf
   m_EditorClassIdentifier: 
-  itemId: craftsman_stick
-  itemName: Stick
-  itemIcon: {fileID: 21300000, guid: 60299ca0085d0a741a1dc269d67f2ec6, type: 3}
+  itemId: leaf
+  itemName: Leaf
+  itemIcon: {fileID: 21300000, guid: 76a3b1e97c36d0e418f46672d1aaaf58, type: 3}
   itemPrefab: {fileID: 0}
   itemPrice: 1
-  description: Chopped down from tree and crafted with log
+  description: Gather from plants
+  maxStackCount: 64

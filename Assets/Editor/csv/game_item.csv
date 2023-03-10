@@ -1,4 +1,4 @@
-﻿item_id,item_name,prefab_path,price,description
-craftsman_log,Log,,1,Chopped down from tree
-craftsman_stick,Stick,,1,Chopped down from tree and crafted with log
-craftsman_leaf,Leaf,,1,Gather from plants
+﻿item_id,item_name,prefab_path,price,description,max_stack
+log,Log,,1,Chopped down from tree,
+stick,Stick,,1,Chopped down from tree and crafted with log,
+leaf,Leaf,,1,Gather from plants,

@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21c69f75aefd21041a4f92498d3e694c, type: 3}
-  m_Name: craftsman_leaf
+  m_Name: log
   m_EditorClassIdentifier: 
-  itemId: craftsman_leaf
-  itemName: Leaf
-  itemIcon: {fileID: 21300000, guid: 76a3b1e97c36d0e418f46672d1aaaf58, type: 3}
+  itemId: log
+  itemName: Log
+  itemIcon: {fileID: 21300000, guid: 755c1640974bace4e9d0061b0f10735d, type: 3}
   itemPrefab: {fileID: 0}
   itemPrice: 1
-  description: Gather from plants
+  description: Chopped down from tree
+  maxStackCount: 64
